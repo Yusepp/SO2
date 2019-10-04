@@ -1,20 +1,129 @@
+/**
+ *
+ * Main file 
+ * 
+ * This file is an example that uses the red-black-tree.c functions.
+ *
+ * Lluis Garrido, July 2019.
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <time.h>
 
-int main(void){
-  char *str1 = "Ab";
-  char *str2 = "abb";
-  int result;
+#include "red-black-tree.h"
 
-  result = strcasecmp(str1, str2);
+#define MAXVALUE 10
+#define MAXCHAR 100
 
-  if (result == 0)
-    printf("Strings compared equal.\n");
-  else if (result < 0)
-    printf("\"%s\" is less than \"%s\".\n", str1, str2);
-  else
-    printf("\"%s\" is greater than \"%s\".\n", str1, str2);
+/**
+ *
+ *  Main function. This function is an example that shows
+ *  how the binary tree works.
+ *
+ */
+
+int main(int argc, char **argv){
+  int a, ct;
+
+  rb_tree *tree;
+  node_data *n_data;
+
+  printf("Test with red-black-tree\n");
+
+  /* Random seed */
+  srand(time(NULL));
+
+  /* Allocate memory for tree */
+  tree = (rb_tree *) malloc(sizeof(rb_tree));
+/*
+* TODO: obtenir array
+*/
+  /* Initialize the tree */
+  init_tree(tree);
+
+  for (ct = 0; ct < maxnum; ct++) {
+    /* Generate random key to be inserted in the tree */
+    a = rand() % MAXVALUE + 1;
+
+    /* Search if the key is in the tree */
+    n_data = find_node(tree, a); 
+
+    if (n_data != NULL) {
+
+      /* If the key is in the tree increment 'num' */
+      n_data->num_times++;
+    } else {
+
+      /* If the key is not in the tree, allocate memory for the data
+       * and insert in the tree */
+
+      n_data = malloc(sizeof(node_data));
+      
+      /* This is the key by which the node is indexed in the tree */
+      n_data->key = a;
+      
+      /* This is additional information that is stored in the tree */
+      n_data->num_times = 1;
+
+      /* We insert the node in the tree */
+      insert_node(tree, n_data);
+    }
+  }
+  
+  /* We now dump the information of the tree to screen */
+
+  ct = 0;
+
+  for(a = 1; a <= MAXVALUE; a++)
+  {
+    n_data = find_node(tree, a);
+
+    if (n_data) { 
+      printf("El numero %d apareix %d cops a l'arbre.\n", a, n_data->num_times);
+      ct += n_data->num_times;
+    }
+  }
+
+  printf("Nombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
+  
+  /* Delete the tree */
+  delete_tree(tree);
+  free(tree);
 
   return 0;
 }
+
+char **getDicWords(void){
+	FILE *fp;
+	int count,i;
+  	char word[MAXCHAR];
+
+  	count = 0;
+	fp = fopen("words", "r");
+	if (!fp) {
+		printf("Could not open file\n");
+		exit(1);
+	}
+	while (fgets(word, MAXCHAR, fp)){
+		count++;
+	}
+	char **dicwords;
+	dicwords = malloc(sizeof(char **)*count);
+	for (i = 0; i < count; ++i){
+		dicwords[i] = malloc(sizeof(char*)*MAXCHAR);
+	}
+
+	rewind(fp);
+	i = 0;
+	while (fgets(word, MAXCHAR, fp)){
+		dicwords[i] = word;
+		i++;
+	}
+
+	fclose(fp);
+	return dicwords;
+}
+
+
