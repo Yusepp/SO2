@@ -15,7 +15,6 @@ void process_line(char *line)
 {
     int i, j, is_word, len_line;
     char paraula[MAXCHAR];
-
     i = 0;
 
     len_line = strlen(line);
