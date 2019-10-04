@@ -23,6 +23,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdarg.h>
+#include <string.h>
 
 #include "red-black-tree.h"
 
@@ -47,16 +48,12 @@ void free_node_data(node_data *data)
  *
  */
 
-int compare_key1_less_than_key2(int key1, int key2)
+int compare_key1_less_than_key2(char *key1, char *key2)
 {
     int rc;
-
-    rc = 0;
-
-    if (key1 < key2)
-        rc = 1;
-
-    return rc;
+    rc = strcasecmp(str1, str2)//We use this function provided by string.h library
+    if(rc < 0) return 1;
+    else return 0;
 }
 
 /**
@@ -69,13 +66,9 @@ int compare_key1_less_than_key2(int key1, int key2)
 int compare_key1_equal_to_key2(int key1, int key2)
 {
     int rc;
-
-    rc = 0;
-
-    if (key1 == key2)
-        rc = 1;
-
-    return rc;
+    rc = strcasecmp(str1, str2)//We use this function provided by string.h library
+    if(rc ==  0) return 1;
+    else return 0;
 }
 
 /**
@@ -104,7 +97,7 @@ void init_tree(rb_tree *tree)
  *
  */
 
-node_data *find_node(rb_tree *tree, int key) {
+node_data *find_node(rb_tree *tree, char *key) {
 
     node *current = tree->root;
     while(current != NIL)

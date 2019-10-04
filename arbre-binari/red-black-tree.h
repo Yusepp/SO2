@@ -20,7 +20,7 @@
 typedef struct node_data_
 {
     // The variable used to index the tree has to be called "key".
-    int key;     
+    char *key;     
 
     // This is the additional information that will be stored
     // within the structure. You may adapt it to your needs:
@@ -76,6 +76,6 @@ typedef struct rb_tree_ {
 
 void init_tree(rb_tree *tree);
 void insert_node(rb_tree *tree, node_data *d);
-node_data *find_node(rb_tree *tree, int key); 
+node_data *find_node(rb_tree *tree, char *key); 
 void delete_tree(rb_tree *tree);
 
