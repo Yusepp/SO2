@@ -2,7 +2,7 @@
  *
  * Red-black tree implementation. 
  * 
- * Binary search trees work best when they are balanced or the path length from
+ * Binary search trees work best when they are balanced or the path length from 
  * root to any leaf is within some bounds. The red-black tree algorithm is a
  * method for balancing trees. The name derives from the fact that each node is
  * colored red or black, and the color of the node is instrumental in
@@ -50,9 +50,9 @@ void free_node_data(node_data *data)
 int compare_key1_less_than_key2(char *key1, char *key2)
 {
     int rc;
-    rc = strcasecmp(str1, str2)//We use this function provided by string.h library
-    if(rc < 0) return 1;
-    else return 0;
+    rc = strcasecmp(key1, key2);//We use this function provided by string.h library
+    if(rc < 0){return 1;}
+    else {return 0;}
 }
 
 /**
@@ -62,12 +62,12 @@ int compare_key1_less_than_key2(char *key1, char *key2)
  *
  */
 
-int compare_key1_equal_to_key2(int key1, int key2)
+int compare_key1_equal_to_key2(char *key1, char *key2)
 {
     int rc;
-    rc = strcasecmp(str1, str2)//We use this function provided by string.h library
-    if(rc ==  0) return 1;
-    else return 0;
+    rc = strcasecmp(key1, key2);//We use this function provided by string.h library
+    if(rc ==  0){return 1;}
+    else {return 0;}
 }
 
 /**

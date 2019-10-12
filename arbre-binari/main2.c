@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#include "./arbre-binari/red-black-tree.h"
+#include "red-black-tree.h"
 
 #define MAXVALUE 10
 #define MAXCHAR 100
@@ -31,8 +31,9 @@ void deletedict(char **dict,int num_words);
 
 
 int main(int argc, char **argv){
-  int a, ct,maxnum;
+  int  ct,maxnum;
   char **words;
+  char *a;
   rb_tree *tree;
   node_data *n_data;
 
@@ -46,14 +47,14 @@ int main(int argc, char **argv){
 
   //We load a file as pointer.
   maxnum = 0;
-  maxnum = countFileWords("./diccionari/words");
-  words = getWords("./diccionari/words",maxnum);//
+  maxnum = countFileWords("/home/yusepp/Documentos/SO2/P2/diccionari/words");
+  words = getWords("/home/yusepp/Documentos/SO2/P2/diccionari/words",maxnum);//
   /* Initialize the tree */
   init_tree(tree);
 
   for (ct = 0; ct < maxnum; ct++) {
     /* Key from dictionary */
-    a = words[0];
+    a = words[ct];
 
     /* Search if the key is in the tree */
     n_data = find_node(tree, a); 
@@ -83,13 +84,15 @@ int main(int argc, char **argv){
   /* We now dump the information of the tree to screen */
 
   ct = 0;
+  int i = 0;
 
-  for(a = 1; a <= MAXVALUE; a++)
+  for(i = 0; i <= maxnum; i++)
   {
+  	a = words[i];
     n_data = find_node(tree, a);
 
     if (n_data) { 
-      printf("La paraula %d apareix %d cops a l'arbre.\n", a, n_data->num_times);
+      printf("La paraula %s apareix %d cops a l'arbre.\n", a,n_data->num_times);
       ct += n_data->num_times;
     }
   }
@@ -99,6 +102,7 @@ int main(int argc, char **argv){
   /* Delete the tree */
   delete_tree(tree);
   free(tree);
+  free(a);
   deletedict(words,maxnum);
 
   return 0;
@@ -122,7 +126,7 @@ int countFileWords(char *file){
 	}
 	free(word);
 	fclose(fp);
-	return counter;
+	return counter-1;
 
 }
 
