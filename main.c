@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "red-black-tree.h"
+#include "./arbre-binari/red-black-tree.h"
 
 #define MAXVALUE 10
 #define MAXCHAR 100
@@ -101,7 +101,7 @@ char **getDicWords(void){
   	char word[MAXCHAR];
 
   	count = 0;
-	fp = fopen("words", "r");
+	fp = fopen("./diccionari/words", "r");
 	if (!fp) {
 		printf("Could not open file\n");
 		exit(1);
@@ -124,6 +124,15 @@ char **getDicWords(void){
 
 	fclose(fp);
 	return dicwords;
+}
+
+void showdict(char **dict){
+	int i;
+	i = 0;
+	while(dict[i]){
+		printf("%s\n",char[i]);
+		i++;
+	}
 }
 
 
