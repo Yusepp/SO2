@@ -1,18 +1,13 @@
-/**
- *
- * Main file 
- * 
- * This file is an example that uses the red-black-tree.c functions.
- *
- * Lluis Garrido, July 2019.
- *
- */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
+#include <ctype.h>  
+
 #include "red-black-tree.h"
+
+
 
 #define MAXVALUE 10
 #define MAXCHAR 100
@@ -26,13 +21,14 @@
 
 int countFileWords(char *file);
 char **getWords(char * file,int num_words);
-void showdict(char **dict,int num_words);
-void deletedict(char **dict,int num_words);
+void showPointer(char **pointer,int num_words);
+void deletepointers(char **pointer,int num_words);
+void process_line(char *line);
 
 
 int main(int argc, char **argv){
-  int  ct,maxnum;
-  char **words;
+  int  ct,dic_size;
+  char **dic;
   char *a;
   rb_tree *tree;
   node_data *n_data;
@@ -45,10 +41,10 @@ int main(int argc, char **argv){
   /* Allocate memory for tree */
   tree = (rb_tree *) malloc(sizeof(rb_tree));
 
-  //We load a file as pointer.
-  maxnum = 0;
-  maxnum = countFileWords("/home/yusepp/Documentos/SO2/P2/diccionari/words");
-  words = getWords("/home/yusepp/Documentos/SO2/P2/diccionari/words",maxnum);//
+  //We load a dic as a pointer.
+  dic_size = 0;
+  dic_size = countFileWords("/home/yusepp/Documentos/SO2/P2/diccionari/words");
+  dic = getWords("/home/yusepp/Documentos/SO2/P2/diccionari/words",maxnum);//
   /* Initialize the tree */
   init_tree(tree);
 
@@ -135,7 +131,6 @@ char **getWords(char * file,int num_words){
 	char ** getDicWords;
 	char *tmp;
 	FILE *fp;
-	char *word;
 	int i;
 
 	fp = fopen(file,"r");//read file
@@ -166,14 +161,14 @@ char **getWords(char * file,int num_words){
 
 }
 
-void showdict(char **dict,int num_words){
+void showPointer(char **pointer,int num_words){
 	int i;
 	for(i = 0; i< num_words; i++){
 		printf("%s\n",dict[i]);
 	}
 }
 
-void deletedict(char **dict,int num_words){
+void deletepointers(char **pointer,int num_words){
 	int i;
 	for(i = 0; i< num_words; i++){
 		free(dict[i]);
@@ -181,5 +176,57 @@ void deletedict(char **dict,int num_words){
 	free(dict);
 }
 
+
+void process_line(char *line){
+
+    int i, j, is_word, len_line;
+    char paraula[MAXCHAR];
+    i = 0;
+
+    len_line = strlen(line);
+
+    /* Search for the beginning of a candidate word */
+
+    while ((i < len_line) && (isspace(line[i]) || (ispunct(line[i])))) i++; 
+
+    /* This is the main loop that extracts all the words */
+
+    while (i < len_line){
+
+        j = 0;
+        is_word = 1;
+
+        /* Extract the candidate word including digits if they are present */
+
+        do {
+
+            if (isalpha(line[i]))
+                paraula[j] = line[i];
+            else 
+                is_word = 0;
+
+            j++; i++;
+
+            /* Check if we arrive to an end of word: space or punctuation character */
+
+        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i])));
+
+        /* If word insert in list */
+
+        if (is_word) {
+
+            /* Put a '\0' (end-of-word) at the end of the string*/
+            paraula[j] = 0;
+
+            /* Print found word */
+            printf("%s\n", paraula);
+        }
+
+        /* Search for the beginning of a candidate word */
+
+        while ((i < len_line) && (isspace(line[i]) || (ispunct(line[i])))) i++; 
+
+    } /* while (i < len_line) */
+}
 
 

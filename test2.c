@@ -1,100 +1,166 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 #include <string.h>
+#include <stdlib.h>
+#include <ctype.h>  
 
-
-#define MAXVALUE 10
 #define MAXCHAR 100
 
-int countFileWords(char *file);
-char **getWords(char * file,int num_words);
-void showdict(char **dict,int num_words);
-void deletedict(char **dict,int num_words);
+/**
+ * 
+ * Given a line, extract the words it contains and print them to screen
+ * 
+ */ 
 
+void showFile(char **words,int total_words){
+    for(int i = 0; i < total_words; i++){
+        printf("%s\n",words[i]);
+    }
+}
 
-int main(int argc, char const *argv[])
+int count_line_words(char *line)
 {
-	char ** dict;
-	int num_words = 0;
-	num_words = countFileWords("./diccionari/words");
-	dict = getWords("./diccionari/words",num_words);
-	showdict(dict,num_words);
-	deletedict(dict,num_words);
-	
-	return 0;
+    int i, j, is_word, len_line,words_found;
+    char *paraula;
+    i = 0;
+    paraula = malloc(MAXCHAR*sizeof(*paraula));
+    len_line = strlen(line);
+
+    /* Search for the beginning of a candidate word */
+
+    while ((i < len_line) && (isspace(line[i]) || (ispunct(line[i])))) i++; 
+
+    /* This is the main loop that extracts all the words */
+
+    while (i < len_line)
+    {
+        j = 0;
+        is_word = 1;
+
+        /* Extract the candidate word including digits if they are present */
+
+        do {
+            if (isalpha(line[i])){
+                paraula[j] = line[i];
+            }
+            else{ 
+                is_word = 0;
+            }
+            j++; i++;
+
+            /* Check if we arrive to an end of word: space or punctuation character */
+
+        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i])));
+
+        /* If word insert in list */
+
+        if (is_word) {
+            /* Put a '\0' (end-of-word) at the end of the string*/
+            paraula[j] = 0;
+            words_found++;
+        }
+
+        /* Search for the beginning of a candidate word */
+
+        while ((i < len_line) && (isspace(line[i]) || (ispunct(line[i])))) i++; 
+
+    } /* while (i < len_line) */
+    free(paraula);
+    return words_found;
+}
+
+int process_line(char **words,char *line,int index)
+{
+    int i, j, is_word, len_line,words_found;
+    char *paraula;
+    i = 0;
+    paraula = malloc(MAXCHAR*sizeof(*paraula));
+    len_line = strlen(line);
+
+    /* Search for the beginning of a candidate word */
+
+    while ((i < len_line) && (isspace(line[i]) || (ispunct(line[i])))) i++; 
+
+    /* This is the main loop that extracts all the words */
+
+    while (i < len_line)
+    {
+        j = 0;
+        is_word = 1;
+
+        /* Extract the candidate word including digits if they are present */
+
+        do {
+            if (isalpha(line[i])){
+                paraula[j] = line[i];
+            }
+            else{ 
+                is_word = 0;
+            }
+            j++; i++;
+
+            /* Check if we arrive to an end of word: space or punctuation character */
+
+        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i])));
+
+        /* If word insert in list */
+
+        if (is_word) {
+            /* Put a '\0' (end-of-word) at the end of the string*/
+            paraula[j] = 0;
+            words[index] = paraula;
+            printf("%s\n",words[index]);
+            index++;
+        }
+
+        /* Search for the beginning of a candidate word */
+
+        while ((i < len_line) && (isspace(line[i]) || (ispunct(line[i])))) i++; 
+
+    } /* while (i < len_line) */
+    free(paraula);
+    return index;
+}
+
+char **process_file(char *file){
+    FILE *fp;
+    char **words;
+    char *tmp;
+    int index = 0,i;
+    int total_words = 0;
+    
+    fp = fopen(file, "r");
+    if (!fp) {
+        printf("Could not open file\n");
+        exit(1);
+    }
+    
+    tmp = malloc(MAXCHAR*sizeof(*tmp));
+
+    while (fgets(tmp, MAXCHAR, fp))
+        total_words += count_line_words(tmp);
+
+    words = malloc(total_words*sizeof(*words));
+    //and in the subpointers
+    for(i = 0; i < total_words; i++){
+        words[i] = malloc((MAXCHAR + 1) * sizeof(**words));
+    }
+
+    i = 0;
+    rewind(fp);
+
+    while (fgets(tmp, MAXCHAR, fp))
+        index = process_line(words,tmp,index);
+    
+    showFile(words,total_words);
+    fclose(fp);
+    return words;
 }
 
 
-int countFileWords(char *file){
-	FILE *fp;
-	char *word;
-	int counter;
-	fp = fopen(file, "r");
-	if(fp == NULL){
-		printf("Error opening file\n");
-		exit(1);
-	}
 
-	//Counting how many words we gonna read.
-	counter = 0;
-	word = malloc(sizeof(char) * MAXCHAR);
-	while (fgets(word, MAXCHAR, fp)){
-		counter++;
-	}
-	free(word);
-	fclose(fp);
-	return counter;
-
-}
-
-char **getWords(char * file,int num_words){
-	//Initialize variables
-	char ** getDicWords;
-	char *tmp;
-	FILE *fp;
-	char *word;
-	int i;
-
-	fp = fopen(file,"r");//read file
-	//checking for errors at reading
-	if(fp == NULL){
-		printf("Error opening file\n");
-		exit(1);
-	}
-	tmp = malloc(sizeof(char) * MAXCHAR);
-	//Now we can malloc our main pointer
-	getDicWords = malloc(num_words*sizeof(*getDicWords));
-	//and in the subpointers
-	for(i = 0; i < num_words; i++){
-		getDicWords[i] = malloc((MAXCHAR + 1) * sizeof(**getDicWords));
-	}
-	i = 0;
-	//we now must start reading
-	while (fgets(tmp, MAXCHAR, fp)){
-		//printf("%s\n",tmp);
-		getDicWords[i] = strdup(tmp);
-		i++;
-	}
-	fclose(fp);
-	//return pointer
-	return getDicWords;
-
-
-
-}
-
-void showdict(char **dict,int num_words){
-	int i;
-	for(i = 0; i< num_words; i++){
-		printf("%s\n",dict[i]);
-	}
-}
-
-void deletedict(char **dict,int num_words){
-	int i;
-	for(i = 0; i< num_words; i++){
-		free(dict[i]);
-	}
-	free(dict);
+int main(int argc, char **argv)
+{
+    char ** file;
+    file = process_file("/home/yusepp/Documentos/SO2/P2/extraccio-paraules/file");
+    return 0;
 }
