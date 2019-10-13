@@ -200,7 +200,7 @@ void process_line(char *line){
 
         do {
 
-            if (isalpha(line[i]))
+            if (isalpha(line[i]) || isdigit(line[i]) || ispunct(line[i])){
                 paraula[j] = line[i];
             else 
                 is_word = 0;
@@ -209,7 +209,7 @@ void process_line(char *line){
 
             /* Check if we arrive to an end of word: space or punctuation character */
 
-        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i])));
+        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i]) || (line[i] == '\'') || (line[i] == '-')));
 
         /* If word insert in list */
 
