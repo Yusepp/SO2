@@ -23,13 +23,18 @@ int countFileWords(char *file);
 char **getWords(char * file,int num_words);
 void showPointer(char **pointer,int num_words);
 void deletepointers(char **pointer,int num_words);
-void process_line(char *line);
+int count_line_words(char *line);
+int process_line(char **words,char *line,int index);
+char **process_file(char *file,int *file_words);
 
 
 int main(int argc, char **argv){
   int  ct,dic_size;
+  int *file_words = 0;
   char **dic;
   char *a;
+  char **file;
+  char **list;
   rb_tree *tree;
   node_data *n_data;
 
@@ -44,37 +49,46 @@ int main(int argc, char **argv){
   //We load a dic as a pointer.
   dic_size = 0;
   dic_size = countFileWords("/home/yusepp/Documentos/SO2/P2/diccionari/words");
-  dic = getWords("/home/yusepp/Documentos/SO2/P2/diccionari/words",maxnum);//
+  dic = getWords("/home/yusepp/Documentos/SO2/P2/diccionari/words",dic_size);
+
+  //We load a file as a pointer.
+  file_words = malloc(sizeof(int));
+  file = process_file("/home/yusepp/Documentos/SO2/P2/base_dades/etext03/8ataw11.txt",file_words);
   /* Initialize the tree */
   init_tree(tree);
-
-  for (ct = 0; ct < maxnum; ct++) {
+  for (ct = 0; ct < *file_words; ct++) {
     /* Key from dictionary */
-    a = words[ct];
+    for(int j = 0; j < dic_size; j++){
+      if(strcasecmp(strdup(file[ct]), strdup(dic[j])) == 0){
+          /* Search if the key is in the tree */
+        a = strdup(dic[j]);
+        n_data = find_node(tree, a); 
+        if (n_data != NULL) {
 
-    /* Search if the key is in the tree */
-    n_data = find_node(tree, a); 
+          /* If the key is in the tree increment 'num' */
+          n_data->num_times++;
+        } else {
 
-    if (n_data != NULL) {
+          /* If the key is not in the tree, allocate memory for the data
+           * and insert in the tree */
 
-      /* If the key is in the tree increment 'num' */
-      n_data->num_times++;
-    } else {
+          n_data = malloc(sizeof(node_data));
+          
+          /* This is the key by which the node is indexed in the tree */
+          n_data->key = a;
+          
+          /* This is additional information that is stored in the tree */
+          n_data->num_times = 1;
 
-      /* If the key is not in the tree, allocate memory for the data
-       * and insert in the tree */
+          /* We insert the node in the tree */
+          insert_node(tree, n_data);
+        }
 
-      n_data = malloc(sizeof(node_data));
+
+      }
       
-      /* This is the key by which the node is indexed in the tree */
-      n_data->key = a;
-      
-      /* This is additional information that is stored in the tree */
-      n_data->num_times = 1;
-
-      /* We insert the node in the tree */
-      insert_node(tree, n_data);
     }
+
   }
   
   /* We now dump the information of the tree to screen */
@@ -82,9 +96,9 @@ int main(int argc, char **argv){
   ct = 0;
   int i = 0;
 
-  for(i = 0; i <= maxnum; i++)
+  for(i = 0; i <= dic_size; i++)
   {
-  	a = words[i];
+  	a = strdup(dic[i]);
     n_data = find_node(tree, a);
 
     if (n_data) { 
@@ -96,10 +110,13 @@ int main(int argc, char **argv){
   printf("Nombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
   
   /* Delete the tree */
+  deletepointers(dic,dic_size);
+  deletepointers(file,*file_words);
   delete_tree(tree);
   free(tree);
   free(a);
-  deletedict(words,maxnum);
+  free(file_words);
+  free(n_data);
 
   return 0;
 }
@@ -150,6 +167,7 @@ char **getWords(char * file,int num_words){
 	//we now must start reading
 	while (fgets(tmp, MAXCHAR, fp)){
 		//printf("%s\n",tmp);
+    tmp[strlen(tmp)-1] = '\0';
 		getDicWords[i] = strdup(tmp);
 		i++;
 	}
@@ -164,25 +182,25 @@ char **getWords(char * file,int num_words){
 void showPointer(char **pointer,int num_words){
 	int i;
 	for(i = 0; i< num_words; i++){
-		printf("%s\n",dict[i]);
+		printf("%s\n",pointer[i]);
 	}
 }
 
 void deletepointers(char **pointer,int num_words){
 	int i;
 	for(i = 0; i< num_words; i++){
-		free(dict[i]);
+		free(pointer[i]);
 	}
-	free(dict);
+	free(pointer);
 }
 
 
-void process_line(char *line){
-
-    int i, j, is_word, len_line;
-    char paraula[MAXCHAR];
+int count_line_words(char *line)
+{
+    int i, j, is_word, len_line,words_found;
+    char *paraula;
     i = 0;
-
+    paraula = malloc(MAXCHAR*sizeof(*paraula));
     len_line = strlen(line);
 
     /* Search for the beginning of a candidate word */
@@ -191,20 +209,20 @@ void process_line(char *line){
 
     /* This is the main loop that extracts all the words */
 
-    while (i < len_line){
-
+    while (i < len_line)
+    {
         j = 0;
         is_word = 1;
 
         /* Extract the candidate word including digits if they are present */
 
         do {
-
-            if (isalpha(line[i]) || isdigit(line[i]) || ispunct(line[i])){
+            if(isalpha(line[i]) || isdigit(line[i]) || ispunct(line[i])){
                 paraula[j] = line[i];
-            else 
+            }
+            else{ 
                 is_word = 0;
-
+            }
             j++; i++;
 
             /* Check if we arrive to an end of word: space or punctuation character */
@@ -214,12 +232,9 @@ void process_line(char *line){
         /* If word insert in list */
 
         if (is_word) {
-
             /* Put a '\0' (end-of-word) at the end of the string*/
-            paraula[j] = 0;
-
-            /* Print found word */
-            printf("%s\n", paraula);
+            paraula[j] = '\0';
+            words_found++;
         }
 
         /* Search for the beginning of a candidate word */
@@ -227,6 +242,99 @@ void process_line(char *line){
         while ((i < len_line) && (isspace(line[i]) || (ispunct(line[i])))) i++; 
 
     } /* while (i < len_line) */
+    free(paraula);
+    return words_found;
 }
+
+
+int process_line(char **words,char *line,int index){
+
+    int i, j, is_word, len_line,words_found;
+    char *paraula;
+    i = 0;
+    paraula = malloc(MAXCHAR*sizeof(*paraula));
+    len_line = strlen(line);
+
+    /* Search for the beginning of a candidate word */
+
+    while ((i < len_line) && (isspace(line[i]) || (ispunct(line[i])))) i++; 
+
+    /* This is the main loop that extracts all the words */
+
+    while (i < len_line)
+    {
+        j = 0;
+        is_word = 1;
+
+        /* Extract the candidate word including digits if they are present */
+
+        do {
+            if(isalpha(line[i]) || isdigit(line[i]) || ispunct(line[i])){
+                paraula[j] = line[i];
+            }
+            else{ 
+                is_word = 0;
+            }
+            j++; i++;
+
+            /* Check if we arrive to an end of word: space or punctuation character */
+
+        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i]) || (line[i] == '\'') || (line[i] == '-')));
+
+        /* If word insert in list */
+
+        if (is_word) {
+            /* Put a '\0' (end-of-word) at the end of the string*/
+            paraula[j] = '\0';
+            words[index] = strdup(paraula);
+            //printf("%s\n",words[index]);
+            index++;
+        }
+
+        /* Search for the beginning of a candidate word */
+
+        while ((i < len_line) && (isspace(line[i]) || (ispunct(line[i])))) i++; 
+
+    } /* while (i < len_line) */
+    free(paraula);
+    return index;
+}
+
+
+char **process_file(char *file,int *file_words){
+    FILE *fp;
+    char **words;
+    char *tmp;
+    int index = 0,i;
+    int total_words = 0;
+    
+    fp = fopen(file, "r");
+    if (!fp) {
+        printf("Could not open file\n");
+        exit(1);
+    }
+    
+    tmp = malloc(MAXCHAR*sizeof(*tmp));
+
+    while (fgets(tmp, MAXCHAR, fp))
+        total_words += count_line_words(tmp);
+
+    words = malloc(total_words*sizeof(*words));
+    //and in the subpointers
+    for(i = 0; i < total_words; i++){
+        words[i] = malloc((MAXCHAR + 1) * sizeof(**words));
+    }
+
+    i = 0;
+    rewind(fp);
+
+    while (fgets(tmp, MAXCHAR, fp))
+        index = process_line(words,tmp,index);
+    
+    *file_words = total_words;
+    fclose(fp);
+    return words;
+}
+
 
 

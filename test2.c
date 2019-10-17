@@ -39,7 +39,7 @@ int count_line_words(char *line)
         /* Extract the candidate word including digits if they are present */
 
         do {
-            if (isalpha(line[i])){
+            if(isalpha(line[i]) || isdigit(line[i]) || ispunct(line[i])){
                 paraula[j] = line[i];
             }
             else{ 
@@ -49,7 +49,7 @@ int count_line_words(char *line)
 
             /* Check if we arrive to an end of word: space or punctuation character */
 
-        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i])));
+        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i]) || (line[i] == '\'') || (line[i] == '-')));
 
         /* If word insert in list */
 
@@ -90,7 +90,7 @@ int process_line(char **words,char *line,int index)
         /* Extract the candidate word including digits if they are present */
 
         do {
-            if (isalpha(line[i])){
+            if(isalpha(line[i]) || isdigit(line[i]) || ispunct(line[i])){
                 paraula[j] = line[i];
             }
             else{ 
@@ -100,15 +100,15 @@ int process_line(char **words,char *line,int index)
 
             /* Check if we arrive to an end of word: space or punctuation character */
 
-        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i])));
+        } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i]) || (line[i] == '\'') || (line[i] == '-')));
 
         /* If word insert in list */
 
         if (is_word) {
             /* Put a '\0' (end-of-word) at the end of the string*/
             paraula[j] = 0;
-            words[index] = paraula;
-            printf("%s\n",words[index]);
+            words[index] = strdup(paraula);
+            //printf("%s\n",words[index]);
             index++;
         }
 
@@ -156,11 +156,20 @@ char **process_file(char *file){
     return words;
 }
 
-
+void change(int * a){
+    int b = 5;
+    b++;
+    *a = b;
+}
 
 int main(int argc, char **argv)
 {
-    char ** file;
-    file = process_file("/home/yusepp/Documentos/SO2/P2/extraccio-paraules/file");
+    //char ** file;
+    //file = process_file("/home/yusepp/Documentos/SO2/P2/extraccio-paraules/file");
+    int *a = NULL;
+    printf("%d\n",*a);
+    change(a);
+    printf("%d\n",*a);
+    free(a);
     return 0;
 }
