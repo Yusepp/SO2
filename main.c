@@ -1,21 +1,16 @@
-/**
- *
- * Main file 
- * 
- * This file is an example that uses the red-black-tree.c functions.
- *
- * Lluis Garrido, July 2019.
- *
- */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#include "./arbre-binari/red-black-tree.h"
+#include <ctype.h>  
 
-#define MAXVALUE 10
+#include "red-black-tree.h"
+#include "read_tools.h"
+
 #define MAXCHAR 100
+#define DATABASE "./base_dades/"
+#define DICTIONARY "./diccionari/words"
 
 /**
  *
@@ -24,158 +19,117 @@
  *
  */
 
-int countFileWords(char *file);
-char **getWords(char * file,int num_words);
-void showdict(char **dict,int num_words);
-void deletedict(char **dict,int num_words);
+
+char * createPath(char *start,char *subpath);
+void createTree(char *path,char **dic,int dic_size);
 
 
 int main(int argc, char **argv){
-  int a, ct,maxnum;
-  char **words;
-  rb_tree *tree;
-  node_data *n_data;
+  int dic_size;//indexes for dic
+  char **dic;//contains dictionary
+  char *filepath;
 
-  printf("Test with red-black-tree\n");
+  //We load a dic as a pointer.
+  dic_size = 0;
+  dic_size = countDicWords(DICTIONARY);
+  dic = getDictionary(DICTIONARY,dic_size);
+  
+  //creating path for file 
+  filepath = createPath(DATABASE,"words");
+  createTree(filepath,dic,dic_size);
+  deletepointers(dic,dic_size);
+  free(filepath);
 
-  /* Random seed */
-  srand(time(NULL));
+  return 0;
+}
+
+//Creates path for opening files
+char * createPath(char *start,char *subpath){
+  char *tmp = malloc(sizeof(char)*(strlen(start)+strlen(subpath)+1));
+  strcpy(tmp,start);
+  strcat(tmp,subpath);
+  return tmp;
+}
+
+//Creates the tree of the file
+void createTree(char *path,char **dic,int dic_size){
+  int *file_words = 0;//how many words in file
+  char **file;//contains words in file
+  char *a;//auxiliar for node key
+  int  ct;//counter of nodes
+
+  //We load a file as a pointer.
+  file_words = malloc(sizeof(int));
+  file = process_file(path,file_words);
+
+  rb_tree *tree;//tree
+  node_data *n_data;//node
 
   /* Allocate memory for tree */
   tree = (rb_tree *) malloc(sizeof(rb_tree));
-
-  //We load a file as pointer.
-  maxnum = 0;
-  maxnum = countFileWords("./diccionari/words");
-  words = getWords("./diccionari/words",maxnum);//
   /* Initialize the tree */
   init_tree(tree);
+  printf("Creating: %s Tree\n",path);
 
-  for (ct = 0; ct < maxnum; ct++) {
-    /* Key from dictionary */
-    a = words[0];
+  //We start filling the tree
+  for (ct = 0; ct < *file_words; ct++) {//every word in file
+    for(int j = 0; j < dic_size; j++){//every word in dic
 
-    /* Search if the key is in the tree */
-    n_data = find_node(tree, a); 
+      if(strcasecmp(file[ct], dic[j]) == 0){//compare each other
+        //if a the word its in dic we add it
+        a = dic[j];
+        n_data = find_node(tree, a); 
 
-    if (n_data != NULL) {
+        if (n_data != NULL) {
 
-      /* If the key is in the tree increment 'num' */
-      n_data->num_times++;
-    } else {
+          /* If the key is in the tree increment 'num' */
+          n_data->num_times++;
+        } else {
 
-      /* If the key is not in the tree, allocate memory for the data
-       * and insert in the tree */
+          /* If the key is not in the tree, allocate memory for the data
+           * and insert in the tree */
 
-      n_data = malloc(sizeof(node_data));
+          n_data = malloc(sizeof(node_data));
+          
+          /* This is the key by which the node is indexed in the tree */
+          n_data->key = a;
+          
+          /* This is additional information that is stored in the tree */
+          n_data->num_times = 1;
+
+          /* We insert the node in the tree */
+          insert_node(tree, n_data);
+        }
+
+
+      }
       
-      /* This is the key by which the node is indexed in the tree */
-      n_data->key = a;
-      
-      /* This is additional information that is stored in the tree */
-      n_data->num_times = 1;
-
-      /* We insert the node in the tree */
-      insert_node(tree, n_data);
     }
+
   }
   
-  /* We now dump the information of the tree to screen */
-
+  //We show the tree
   ct = 0;
+  int i = 0;
 
-  for(a = 1; a <= MAXVALUE; a++)
+  for(i = 0; i <= dic_size; i++)
   {
+  	a = dic[i];
     n_data = find_node(tree, a);
 
     if (n_data) { 
-      printf("La paraula %d apareix %d cops a l'arbre.\n", a, n_data->num_times);
+      printf("La paraula %s apareix %d cops a l'arbre.\n", a,n_data->num_times);
       ct += n_data->num_times;
     }
   }
 
   printf("Nombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
-  
-  /* Delete the tree */
+
+  //delete tree
+  deletepointers(file,*file_words);
   delete_tree(tree);
   free(tree);
-  deletedict(words,maxnum);
-
-  return 0;
+  free(a);
+  free(n_data);
+  free(file_words);
 }
-
-int countFileWords(char *file){
-	FILE *fp;
-	char *word;
-	int counter;
-	fp = fopen(file, "r");
-	if(fp == NULL){
-		printf("Error opening file\n");
-		exit(1);
-	}
-
-	//Counting how many words we gonna read.
-	counter = 0;
-	word = malloc(sizeof(char) * MAXCHAR);
-	while (fgets(word, MAXCHAR, fp)){
-		counter++;
-	}
-	free(word);
-	fclose(fp);
-	return counter;
-
-}
-
-char **getWords(char * file,int num_words){
-	//Initialize variables
-	char ** getDicWords;
-	char *tmp;
-	FILE *fp;
-	char *word;
-	int i;
-
-	fp = fopen(file,"r");//read file
-	//checking for errors at reading
-	if(fp == NULL){
-		printf("Error opening file\n");
-		exit(1);
-	}
-	tmp = malloc(sizeof(char) * MAXCHAR);
-	//Now we can malloc our main pointer
-	getDicWords = malloc(num_words*sizeof(*getDicWords));
-	//and in the subpointers
-	for(i = 0; i < num_words; i++){
-		getDicWords[i] = malloc((MAXCHAR + 1) * sizeof(**getDicWords));
-	}
-	i = 0;
-	//we now must start reading
-	while (fgets(tmp, MAXCHAR, fp)){
-		//printf("%s\n",tmp);
-		getDicWords[i] = strdup(tmp);
-		i++;
-	}
-	fclose(fp);
-	//return pointer
-	return getDicWords;
-
-
-
-}
-
-void showdict(char **dict,int num_words){
-	int i;
-	for(i = 0; i< num_words; i++){
-		printf("%s\n",dict[i]);
-	}
-}
-
-void deletedict(char **dict,int num_words){
-	int i;
-	for(i = 0; i< num_words; i++){
-		free(dict[i]);
-	}
-	free(dict);
-}
-
-
-
