@@ -26,42 +26,53 @@ void deletepointers(char **pointer,int num_words);
 int count_line_words(char *line);
 int process_line(char **words,char *line,int index);
 char **process_file(char *file,int *file_words);
+void createTree(char *path,char **dic,int dic_size);
 
 
 int main(int argc, char **argv){
-  int  ct,dic_size;
-  int *file_words = 0;
-  char **dic;
-  char *a;
-  char **file;
-  char **list;
-  rb_tree *tree;
-  node_data *n_data;
-
-  printf("Test with red-black-tree\n");
-
-
-  /* Allocate memory for tree */
-  tree = (rb_tree *) malloc(sizeof(rb_tree));
+  int dic_size;//indexes for dic
+  char **dic;//contains dictionary
 
   //We load a dic as a pointer.
   dic_size = 0;
   dic_size = countFileWords("/home/yusepp/Documentos/SO2/diccionari/words");
   dic = getWords("/home/yusepp/Documentos/SO2/diccionari/words",dic_size);
 
+  createTree("file",dic,dic_size);
+  /* Delete the tree */
+  deletepointers(dic,dic_size);
+
+  return 0;
+}
+
+void createTree(char *path,char **dic,int dic_size){
+  int *file_words = 0;//how many words in file
+  char **file;//contains words in file
+  char *a;//auxiliar for node key
+  int  ct;//counter of nodes
+
   //We load a file as a pointer.
   file_words = malloc(sizeof(int));
-  //file = process_file("/home/yusepp/Documentos/SO2/base_dades/etext03/8ataw11.txt",file_words);
-  file = process_file("file",file_words);
+  file = process_file(path,file_words);
+
+  rb_tree *tree;//tree
+  node_data *n_data;//node
+
+  /* Allocate memory for tree */
+  tree = (rb_tree *) malloc(sizeof(rb_tree));
   /* Initialize the tree */
   init_tree(tree);
-  for (ct = 0; ct < *file_words; ct++) {
-    /* Key from dictionary */
-    for(int j = 0; j < dic_size; j++){
-      if(strcasecmp(file[ct], dic[j]) == 0){
-          /* Search if the key is in the tree */
+  printf("Creating: %s Tree\n",path);
+
+  //We start filling the tree
+  for (ct = 0; ct < *file_words; ct++) {//every word in file
+    for(int j = 0; j < dic_size; j++){//every word in dic
+
+      if(strcasecmp(file[ct], dic[j]) == 0){//compare each other
+        //if a the word its in dic we add it
         a = dic[j];
         n_data = find_node(tree, a); 
+
         if (n_data != NULL) {
 
           /* If the key is in the tree increment 'num' */
@@ -90,8 +101,7 @@ int main(int argc, char **argv){
 
   }
   
-  /* We now dump the information of the tree to screen */
-
+  //We show the tree
   ct = 0;
   int i = 0;
 
@@ -107,17 +117,14 @@ int main(int argc, char **argv){
   }
 
   printf("Nombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
-  
-  /* Delete the tree */
-  deletepointers(dic,dic_size);
+
+  //delete tree
   deletepointers(file,*file_words);
   delete_tree(tree);
   free(tree);
   free(a);
-  free(file_words);
   free(n_data);
-
-  return 0;
+  free(file_words);
 }
 
 int countFileWords(char *file){
@@ -323,7 +330,9 @@ char **process_file(char *file,int *file_words){
         
 
     words = malloc(total_words*sizeof(tmp));
-
+    //and in the subpointers
+  
+    i = 0;
     rewind(fp);
 
     while (fgets(tmp, MAXCHAR, fp)){
@@ -332,6 +341,7 @@ char **process_file(char *file,int *file_words){
       }
     }
         
+    
     *file_words = total_words;
     free(tmp);
     fclose(fp);
