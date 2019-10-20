@@ -263,6 +263,80 @@ char **process_file(char *file,int *file_words){
     return words;
 }
 
+/*
+    FUNCTIONS FOR LISTS
+*/
+
+//Count how many items in list
+int countItems(char *file){
+	FILE *fp;
+	char *item;
+	int counter;
+    //open file
+	fp = fopen(file, "r");
+	if(fp == NULL){//check for error
+		printf("Error opening: %s\n",file);
+		exit(1);
+	}
+	//Counting how many words we gonna read.
+	counter = 0;
+	item = malloc(sizeof(char) * MAXCHAR);//maximum 100 chars
+    if(item == NULL){//check for error
+		printf("Cannot allocate memory for item\n");
+		exit(2);
+	}
+	while (fgets(item, MAXCHAR, fp)){//every line contain a word so let's count lines
+        if(strlen(item) > 4){//its not initial number
+            counter++;
+        }
+	}
+    //we free memory
+	free(item);
+	fclose(fp);
+
+	return counter;//reads 1 empty lane.
+
+}
+
+//Saves every word creating an array of char *.
+char **getListItems(char * file,int num_items){
+	//Initialize variables
+	char ** items;
+	char *item;
+	FILE *fp;
+	int i;
+
+	fp = fopen(file,"r");//read list
+	//checking for errors at reading
+	if(fp == NULL){//check for error
+		printf("Error opening: %s\n",file);
+		exit(1);
+	}
+    //for item
+	item = malloc(sizeof(char) * MAXCHAR);
+	//Now we can malloc our main pointer
+	items = malloc(num_items*sizeof(item));
+	if(items == NULL || item == NULL){//check for errors
+		printf("Cannot allocate memory for items list\n");
+		exit(2);
+	}
+	i = 0;
+	//we now must start reading
+	while (fgets(item, MAXCHAR, fp)){
+        if(strlen(item) > 4){//its not initial number
+            item[strlen(item)-1] = '\0';//adding the 0 to the last position for strlen
+            items[i] = strdup(item);//create a copy of the pointer
+            i++;
+        }
+	}
+    //free memory
+    free(item);
+	fclose(fp);
+	//return pointer
+	return items;
+}
+
+
 //DELETE ARRAY OF POINTERS
 void deletepointers(char **pointer,int num_words){
 	int i;

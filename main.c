@@ -21,24 +21,41 @@
 
 
 char * createPath(char *start,char *subpath);
-void createTree(char *path,char **dic,int dic_size);
+void createTree(char *path,char **dic,int dic_size,int list_size,int count);
 
 
 int main(int argc, char **argv){
-  int dic_size;//indexes for dic
-  char **dic;//contains dictionary
-  char *filepath;
+  int dic_size,list_size;//indexes for dictionary and list
+  char **dic,**list;//contains dictionary/list
+  char *filepath;//path from the file
+
+  //check for arguments
+  if (strlen(argv[1]) == 0){
+    printf("Select list first!\n");
+    exit(0);
+  }
 
   //We load a dic as a pointer.
   dic_size = 0;
   dic_size = countDicWords(DICTIONARY);
   dic = getDictionary(DICTIONARY,dic_size);
-  
-  //creating path for file 
-  filepath = createPath(DATABASE,"words");
-  createTree(filepath,dic,dic_size);
-  deletepointers(dic,dic_size);
+  //load list
+  filepath = createPath(DATABASE,argv[1]);
+  list_size = countItems(filepath);
+  list = getListItems(filepath,list_size);
   free(filepath);
+  
+  //start tree for every item in list
+  for (int i = 0; i < list_size; i++){
+    //creating path for file 
+    filepath = createPath(DATABASE,list[i]);
+    createTree(filepath,dic,dic_size,list_size,i+1);//create tree
+    free(filepath);
+  }
+
+  //free memory
+  deletepointers(dic,dic_size);
+  deletepointers(list,list_size);
 
   return 0;
 }
@@ -52,7 +69,7 @@ char * createPath(char *start,char *subpath){
 }
 
 //Creates the tree of the file
-void createTree(char *path,char **dic,int dic_size){
+void createTree(char *path,char **dic,int dic_size,int list_size,int count){
   int *file_words = 0;//how many words in file
   char **file;//contains words in file
   char *a;//auxiliar for node key
@@ -69,7 +86,7 @@ void createTree(char *path,char **dic,int dic_size){
   tree = (rb_tree *) malloc(sizeof(rb_tree));
   /* Initialize the tree */
   init_tree(tree);
-  printf("Creating: %s Tree\n",path);
+  printf("Creating: %s Tree\n \n",path);
 
   //We start filling the tree
   for (ct = 0; ct < *file_words; ct++) {//every word in file
@@ -123,13 +140,15 @@ void createTree(char *path,char **dic,int dic_size){
     }
   }
 
-  printf("Nombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
+  printf("\nNombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
 
   //delete tree
   deletepointers(file,*file_words);
   delete_tree(tree);
   free(tree);
-  free(a);
+  if(list_size == count){
+    free(a);
+  }
   free(n_data);
   free(file_words);
 }
