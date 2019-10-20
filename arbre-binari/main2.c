@@ -40,28 +40,27 @@ int main(int argc, char **argv){
 
   printf("Test with red-black-tree\n");
 
-  /* Random seed */
-  srand(time(NULL));
 
   /* Allocate memory for tree */
   tree = (rb_tree *) malloc(sizeof(rb_tree));
 
   //We load a dic as a pointer.
   dic_size = 0;
-  dic_size = countFileWords("/home/yusepp/Documentos/SO2/P2/diccionari/words");
-  dic = getWords("/home/yusepp/Documentos/SO2/P2/diccionari/words",dic_size);
+  dic_size = countFileWords("/home/yusepp/Documentos/SO2/diccionari/words");
+  dic = getWords("/home/yusepp/Documentos/SO2/diccionari/words",dic_size);
 
   //We load a file as a pointer.
   file_words = malloc(sizeof(int));
-  file = process_file("/home/yusepp/Documentos/SO2/P2/base_dades/etext03/8ataw11.txt",file_words);
+  //file = process_file("/home/yusepp/Documentos/SO2/base_dades/etext03/8ataw11.txt",file_words);
+  file = process_file("file",file_words);
   /* Initialize the tree */
   init_tree(tree);
   for (ct = 0; ct < *file_words; ct++) {
     /* Key from dictionary */
     for(int j = 0; j < dic_size; j++){
-      if(strcasecmp(strdup(file[ct]), strdup(dic[j])) == 0){
+      if(strcasecmp(file[ct], dic[j]) == 0){
           /* Search if the key is in the tree */
-        a = strdup(dic[j]);
+        a = dic[j];
         n_data = find_node(tree, a); 
         if (n_data != NULL) {
 
@@ -98,7 +97,7 @@ int main(int argc, char **argv){
 
   for(i = 0; i <= dic_size; i++)
   {
-  	a = strdup(dic[i]);
+  	a = dic[i];
     n_data = find_node(tree, a);
 
     if (n_data) { 
@@ -158,19 +157,20 @@ char **getWords(char * file,int num_words){
 	}
 	tmp = malloc(sizeof(char) * MAXCHAR);
 	//Now we can malloc our main pointer
-	getDicWords = malloc(num_words*sizeof(*getDicWords));
+	getDicWords = malloc(num_words*sizeof(tmp));
 	//and in the subpointers
-	for(i = 0; i < num_words; i++){
-		getDicWords[i] = malloc((MAXCHAR + 1) * sizeof(**getDicWords));
-	}
 	i = 0;
 	//we now must start reading
 	while (fgets(tmp, MAXCHAR, fp)){
 		//printf("%s\n",tmp);
-    tmp[strlen(tmp)-1] = '\0';
-		getDicWords[i] = strdup(tmp);
-		i++;
+    if(tmp != NULL){
+      tmp[strlen(tmp)-1] = '\0';
+		  getDicWords[i] = strdup(tmp);
+		  i++;
+    }
+   
 	}
+  free(tmp);
 	fclose(fp);
 	//return pointer
 	return getDicWords;
@@ -198,9 +198,9 @@ void deletepointers(char **pointer,int num_words){
 int count_line_words(char *line)
 {
     int i, j, is_word, len_line,words_found;
-    char *paraula;
     i = 0;
-    paraula = malloc(MAXCHAR*sizeof(*paraula));
+    char *paraula;
+    paraula = malloc(MAXCHAR * sizeof(char));
     len_line = strlen(line);
 
     /* Search for the beginning of a candidate word */
@@ -225,6 +225,7 @@ int count_line_words(char *line)
             }
             j++; i++;
 
+
             /* Check if we arrive to an end of word: space or punctuation character */
 
         } while ((i < len_line) && (!isspace(line[i])) && (!ispunct(line[i]) || (line[i] == '\'') || (line[i] == '-')));
@@ -232,8 +233,6 @@ int count_line_words(char *line)
         /* If word insert in list */
 
         if (is_word) {
-            /* Put a '\0' (end-of-word) at the end of the string*/
-            paraula[j] = '\0';
             words_found++;
         }
 
@@ -252,7 +251,7 @@ int process_line(char **words,char *line,int index){
     int i, j, is_word, len_line,words_found;
     char *paraula;
     i = 0;
-    paraula = malloc(MAXCHAR*sizeof(*paraula));
+    paraula = malloc(MAXCHAR*sizeof(char));
     len_line = strlen(line);
 
     /* Search for the beginning of a candidate word */
@@ -314,24 +313,27 @@ char **process_file(char *file,int *file_words){
         exit(1);
     }
     
-    tmp = malloc(MAXCHAR*sizeof(*tmp));
+    tmp = malloc(MAXCHAR*sizeof(char));
 
-    while (fgets(tmp, MAXCHAR, fp))
+    while (fgets(tmp, MAXCHAR, fp)){
+      if(tmp != NULL){
         total_words += count_line_words(tmp);
-
-    words = malloc(total_words*sizeof(*words));
-    //and in the subpointers
-    for(i = 0; i < total_words; i++){
-        words[i] = malloc((MAXCHAR + 1) * sizeof(**words));
+      }
     }
+        
 
-    i = 0;
+    words = malloc(total_words*sizeof(tmp));
+
     rewind(fp);
 
-    while (fgets(tmp, MAXCHAR, fp))
+    while (fgets(tmp, MAXCHAR, fp)){
+      if(tmp != NULL){
         index = process_line(words,tmp,index);
-    
+      }
+    }
+        
     *file_words = total_words;
+    free(tmp);
     fclose(fp);
     return words;
 }
