@@ -21,7 +21,7 @@
 
 
 char * createPath(char *start,char *subpath);
-void createTree(char *path,char **dic,int dic_size,int list_size,int count);
+void createTree(char *path,char **dic,int dic_size,int list_size,int count,char* mode);
 
 
 int main(int argc, char **argv){
@@ -49,7 +49,7 @@ int main(int argc, char **argv){
   for (int i = 0; i < list_size; i++){
     //creating path for file 
     filepath = createPath(DATABASE,list[i]);
-    createTree(filepath,dic,dic_size,list_size,i+1);//create tree
+    createTree(filepath,dic,dic_size,list_size,i+1,argv[2]);//create tree
     free(filepath);
   }
 
@@ -69,7 +69,7 @@ char * createPath(char *start,char *subpath){
 }
 
 //Creates the tree of the file
-void createTree(char *path,char **dic,int dic_size,int list_size,int count){
+void createTree(char *path,char **dic,int dic_size,int list_size,int count,char *mode){
   int *file_words = 0;//how many words in file
   char **file;//contains words in file
   char *a;//auxiliar for node key
@@ -115,9 +115,15 @@ void createTree(char *path,char **dic,int dic_size,int list_size,int count){
   	a = dic[i];
     n_data = find_node(tree, a);
 
-    if (n_data) { 
+    if (n_data && strcmp("all",mode) == 0) { 
       printf("La paraula %s apareix %d cops a l'arbre.\n", a,n_data->num_times);
       ct += n_data->num_times;
+    }
+    else if(n_data && strcmp("inserted",mode) == 0){
+      if(n_data->num_times != 0){
+        printf("La paraula %s apareix %d cops a l'arbre.\n", a,n_data->num_times);
+        ct += n_data->num_times;
+      }
     }
   }
 
