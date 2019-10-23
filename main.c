@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#include <ctype.h>  
+#include <ctype.h>
 
 #include "red-black-tree.h"
 #include "read_tools.h"
@@ -11,6 +11,8 @@
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
 #define DICTIONARY "./diccionari/words"
+
+
 
 /**
  *
@@ -22,9 +24,10 @@
 
 char * createPath(char *start,char *subpath);
 void createTree(char *path,char **dic,int dic_size,int list_size,int count);
-
+int countWord;
 
 int main(int argc, char **argv){
+
   int dic_size,list_size;//indexes for dictionary and list
   char **dic,**list;//contains dictionary/list
   char *filepath;//path from the file
@@ -44,10 +47,10 @@ int main(int argc, char **argv){
   list_size = countItems(filepath);
   list = getListItems(filepath,list_size);
   free(filepath);
-  
+
   //start tree for every item in list
   for (int i = 0; i < list_size; i++){
-    //creating path for file 
+    //creating path for file
     filepath = createPath(DATABASE,list[i]);
     createTree(filepath,dic,dic_size,list_size,i+1);//create tree
     free(filepath);
@@ -67,6 +70,23 @@ char * createPath(char *start,char *subpath){
   strcat(tmp,subpath);
   return tmp;
 }
+
+//Inorder method to extract the words to put in array
+void inordre(node* n, node_data* words, int *i){
+	if(n->left !=NIL)
+	  inordre(n->left,words, i);
+	words[(*i)++] = *n->data;
+
+	if(n->right !=NIL)
+	  inordre(n->right,words, i);
+
+
+}
+//Auxiliar method for the qsort to put the words in order from highest to lowest.
+int compareWords(const void *wordA, const void *wordB){
+	return((node_data*) wordB)->num_times - ((node_data*) wordB)->num_times;
+}
+
 
 //Creates the tree of the file
 void createTree(char *path,char **dic,int dic_size,int list_size,int count){
@@ -105,7 +125,7 @@ void createTree(char *path,char **dic,int dic_size,int list_size,int count){
       n_data->num_times++;
     }
   }
-  
+
   //We show the tree
   ct = 0;
   int i = 0;
@@ -115,13 +135,33 @@ void createTree(char *path,char **dic,int dic_size,int list_size,int count){
   	a = dic[i];
     n_data = find_node(tree, a);
 
-    if (n_data) { 
+    if (n_data) {
       printf("La paraula %s apareix %d cops a l'arbre.\n", a,n_data->num_times);
       ct += n_data->num_times;
-    }
-  }
+
+
+
+}
+}
+
+
+      inordre(tree->root,n_data,&i);
+
+      qsort(n_data, countWord, sizeof(node_data),compareWords);
+
+      for(int i = 0;i< countWord && (!20 || i<20);i++){
+        printf("\"%s\" : %d\n", n_data[i].key, n_data[i].num_times);
+      }
+      free(n_data);
+
+
+
+
+
+
 
   printf("\nNombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
+
 
   //delete tree
   deletepointers(file,*file_words);
