@@ -29,12 +29,6 @@ int main(int argc, char **argv){
   char **dic,**list;//contains dictionary/list
   char *filepath;//path from the file
 
-  //check for arguments
-  if (strlen(argv[1]) == 0){
-    printf("Select list first!\n");
-    exit(0);
-  }
-
   //We load a dic as a pointer.
   dic_size = 0;
   dic_size = countDicWords(DICTIONARY);
@@ -86,7 +80,9 @@ void createTree(char *path,char **dic,int dic_size,int list_size,int count,char 
   tree = (rb_tree *) malloc(sizeof(rb_tree));
   /* Initialize the tree */
   init_tree(tree);
-  printf("Creating: %s Tree\n \n",path);
+  if(strcmp("top10",mode)!=0){
+    printf("Creating: %s Tree\n \n",path);
+  }
 
   //Insert dic to Tree
   for(int j = 0; j < dic_size; j++){
@@ -125,9 +121,16 @@ void createTree(char *path,char **dic,int dic_size,int list_size,int count,char 
         ct += n_data->num_times;
       }
     }
+    else if(n_data && strcmp("top10",mode) == 0){
+      if(n_data->num_times != 0){
+        printf("%d %s\n", n_data->num_times,a);
+        ct += n_data->num_times;
+      }
+    }
   }
-
-  printf("\nNombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
+  if(strcmp("top10",mode) != 0){
+    printf("\nNombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
+  }
 
   //delete tree
   deletepointers(file,*file_words);
