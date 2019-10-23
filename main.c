@@ -88,41 +88,22 @@ void createTree(char *path,char **dic,int dic_size,int list_size,int count){
   init_tree(tree);
   printf("Creating: %s Tree\n \n",path);
 
-  //We start filling the tree
-  for (ct = 0; ct < *file_words; ct++) {//every word in file
-    for(int j = 0; j < dic_size; j++){//every word in dic
+  //Insert dic to Tree
+  for(int j = 0; j < dic_size; j++){
+    a = dic[j];
+    n_data = malloc(sizeof(node_data));
+    n_data->key = a;
+    n_data->num_times = 0;
+    insert_node(tree, n_data);
+  }
+  //Increase dic words from file if they are in the tree.
+  for (ct = 0; ct < *file_words; ct++) {
+    a = file[ct];
+    n_data = find_node(tree,a);
 
-      if(strcasecmp(file[ct], dic[j]) == 0){//compare each other
-        //if a the word its in dic we add it
-        a = dic[j];
-        n_data = find_node(tree, a); 
-
-        if (n_data != NULL) {
-
-          /* If the key is in the tree increment 'num' */
-          n_data->num_times++;
-        } else {
-
-          /* If the key is not in the tree, allocate memory for the data
-           * and insert in the tree */
-
-          n_data = malloc(sizeof(node_data));
-          
-          /* This is the key by which the node is indexed in the tree */
-          n_data->key = a;
-          
-          /* This is additional information that is stored in the tree */
-          n_data->num_times = 1;
-
-          /* We insert the node in the tree */
-          insert_node(tree, n_data);
-        }
-
-
-      }
-      
+    if(n_data != NULL){
+      n_data->num_times++;
     }
-
   }
   
   //We show the tree
