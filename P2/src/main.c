@@ -25,6 +25,31 @@ void createTree(char *path,char **dic,int dic_size,int list_size,int count,char*
 
 
 int main(int argc, char **argv){
+
+  if (argc == 1){
+    printf("Select the desired .cfg(optional select execute mode)\n");
+    exit(1);
+  }
+  else if (argc == 2){
+    printf("Operating with default mode: inserted\n");
+    argv[2] = "inserted";
+  }
+  else if (argc == 3){
+    if (strcmp("all",argv[2]) == 0 || strcmp("inserted",argv[2]) == 0 || 
+                                          strcmp("top10",argv[2]) == 0){
+      
+      printf("Operating with %s mode\n",argv[2]);
+    }
+    else{
+      printf("Choose a correct operation mode(inserted/all/top10)\n");
+      exit(1);
+    }
+  }
+  else{
+    printf("Too many arguments\n");
+    exit(1);
+  }
+
   int dic_size,list_size;//indexes for dictionary and list
   char **dic,**list;//contains dictionary/list
   char *filepath;//path from the file

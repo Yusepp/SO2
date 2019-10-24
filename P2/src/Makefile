@@ -4,7 +4,7 @@
 FILES_C = main.c red-black-tree.c read_tools.c
 
 # Exectuable to generate
-TARGET = main
+TARGET = practica2
 
 
 
