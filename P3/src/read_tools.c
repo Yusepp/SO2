@@ -9,7 +9,7 @@
 
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
-#define DICTIONARY "./diccionari/words"
+#define DICTIONARY "./diccionari/"
 
 /*
 

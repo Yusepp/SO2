@@ -18,7 +18,7 @@ We create separate them from main for better code comprehesion.
 
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
-#define DICTIONARY "./diccionari/words"
+#define DICTIONARY "./diccionari/"
 
 //Header for import functions
 

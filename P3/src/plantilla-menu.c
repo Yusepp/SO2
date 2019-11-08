@@ -7,7 +7,11 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include <string.h>
+#include <ctype.h>  
+#include "red-black-tree.h"
+#include "tree_operations.h"
 
 #define MAXCHAR      100
 #define MAGIC_NUMBER 0x01234567
@@ -47,6 +51,7 @@ int main(int argc, char **argv)
 {
     char str1[MAXCHAR], str2[MAXCHAR];
     int opcio;
+    rb_tree *tree;
 
     if (argc != 1)
         printf("Opcions de la linia de comandes ignorades\n");
@@ -66,9 +71,8 @@ int main(int argc, char **argv)
                 printf("Fitxer de base de dades: ");
                 fgets(str2, MAXCHAR, stdin);
                 str2[strlen(str2)-1]=0;
-
-                /* Falta codi */
-
+                tree = createTree(str1,str2);
+                printf("the: %d",find_node(tree,"the")->num_times);
                 break;
 
             case 2:

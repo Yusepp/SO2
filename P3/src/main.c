@@ -88,7 +88,7 @@ char * createPath(char *start,char *subpath){
 }
 
 //Creates the tree of the file
-void createTree(char *path,char **dic,int dic_size,int list_size,int count,char *mode){
+void createTree(char *path,char **dic,int dic_size,int list_size){
   int *file_words = 0;//how many words in file
   char **file;//contains words in file
   char *a;//auxiliar for node key
@@ -105,9 +105,6 @@ void createTree(char *path,char **dic,int dic_size,int list_size,int count,char 
   tree = (rb_tree *) malloc(sizeof(rb_tree));
   /* Initialize the tree */
   init_tree(tree);
-  if(strcmp("top10",mode)!=0){
-    printf("Creating: %s Tree\n \n",path);
-  }
 
   //Insert dic to Tree
   for(int j = 0; j < dic_size; j++){
@@ -131,39 +128,20 @@ void createTree(char *path,char **dic,int dic_size,int list_size,int count,char 
   ct = 0;
   int i = 0;
 
-  for(i = 0; i <= dic_size; i++)
-  {
+  for(i = 0; i <= dic_size; i++){
   	a = dic[i];
     n_data = find_node(tree, a);
-
-    if (n_data && strcmp("all",mode) == 0) { 
+    if(n_data->num_times != 0){
       printf("La paraula %s apareix %d cops a l'arbre.\n", a,n_data->num_times);
       ct += n_data->num_times;
     }
-    else if(n_data && strcmp("inserted",mode) == 0){
-      if(n_data->num_times != 0){
-        printf("La paraula %s apareix %d cops a l'arbre.\n", a,n_data->num_times);
-        ct += n_data->num_times;
-      }
-    }
-    else if(n_data && strcmp("top10",mode) == 0){
-      if(n_data->num_times != 0){
-        printf("%d %s\n", n_data->num_times,a);
-        ct += n_data->num_times;
-      }
-    }
-  }
-  if(strcmp("top10",mode) != 0){
-    printf("\nNombre total que vegades que s'ha accedit a l'arbre: %d\n", ct);
   }
 
-  //delete tree
+  //delete
   deletepointers(file,*file_words);
-  delete_tree(tree);
-  free(tree);
-  if(list_size == count){
-    free(a);
-  }
+  free(a);
   free(n_data);
   free(file_words);
+  
+  return tree;
 }
