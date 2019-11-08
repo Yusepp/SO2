@@ -1,0 +1,839 @@
+Project Gutenberg's A few Figs from Thistles, by Edna St. Vincent Millay
+#4 in our series by Edna St. Vincent Millay
+
+Copyright laws are changing all over the world. Be sure to check the
+copyright laws for your country before distributing this or any other
+Project Gutenberg file.
+
+We encourage you to keep this file, exactly as it is, on your
+own disk, thereby keeping an electronic path open for future
+readers.  Please do not remove this.
+
+This header should be the first thing seen when anyone starts to
+view the etext. Do not change or edit it without written permission.
+The words are carefully chosen to provide users with the
+information they need to understand what they may and may not
+do with the etext.
+
+
+**Welcome To The World of Free Plain Vanilla Electronic Texts**
+
+**Etexts Readable By Both Humans and By Computers, Since 1971**
+
+*****These Etexts Are Prepared By Thousands of Volunteers!*****
+
+Information on contacting Project Gutenberg to get etexts, and
+further information, is included below.  We need your donations.
+
+The Project Gutenberg Literary Archive Foundation is a 501(c)(3)
+organization with EIN [Employee Identification Number] 64-6221541
+
+
+
+Title: A few Figs from Thistles
+
+Author: Edna St. Vincent Millay
+
+Release Date: August, 2003 [Etext# 4399]
+[Yes, we are more than one year ahead of schedule]
+[This file was first posted on January 26, 2002]
+
+Edition: 10
+
+Language: English
+
+Character set encoding: ASCII
+
+Project Gutenberg's A few Figs from Thistles, by Edna St. Vincent Millay
+**********This file should be named fgths10.txt or fgths10.zip**********
+
+Corrected EDITIONS of our etexts get a new NUMBER, fgths11.txt
+VERSIONS based on separate sources get new LETTER, fgths10a.txt
+
+This etext produced by David Starner.
+
+
+Project Gutenberg Etexts are often created from several printed
+editions, all of which are confirmed as Public Domain in the US
+unless a copyright notice is included.  Thus, we usually do not
+keep etexts in compliance with any particular paper edition.
+
+We are now trying to release all our etexts one year in advance
+of the official release dates, leaving time for better editing.
+Please be encouraged to tell us about any error or corrections,
+even years after the official publication date.
+
+Please note neither this listing nor its contents are final til
+midnight of the last day of the month of any such announcement.
+The official release date of all Project Gutenberg Etexts is at
+Midnight, Central Time, of the last day of the stated month.  A
+preliminary version may often be posted for suggestion, comment
+and editing by those who wish to do so.
+
+Most people start at our sites at:
+http://gutenberg.net or
+http://promo.net/pg
+
+These Web sites include award-winning information about Project
+Gutenberg, including how to donate, how to help produce our new
+etexts, and how to subscribe to our email newsletter (free!).
+
+
+Those of you who want to download any Etext before announcement
+can get to them as follows, and just download by date.  This is
+also a good way to get them instantly upon announcement, as the
+indexes our cataloguers produce obviously take a while after an
+announcement goes out in the Project Gutenberg Newsletter.
+
+http://www.ibiblio.org/gutenberg/etext03 or
+ftp://ftp.ibiblio.org/pub/docs/books/gutenberg/etext03
+
+Or /etext02, 01, 00, 99, 98, 97, 96, 95, 94, 93, 92, 92, 91 or 90
+
+Just search by the first five letters of the filename you want,
+as it appears in our Newsletters.
+
+
+Information about Project Gutenberg (one page)
+
+We produce about two million dollars for each hour we work.  The
+time it takes us, a rather conservative estimate, is fifty hours
+to get any etext selected, entered, proofread, edited, copyright
+searched and analyzed, the copyright letters written, etc.   Our
+projected audience is one hundred million readers.  If the value
+per text is nominally estimated at one dollar then we produce $2
+million dollars per hour in 2001 as we release over 50 new Etext
+files per month, or 500 more Etexts in 2000 for a total of 4000+
+If they reach just 1-2% of the world's population then the total
+should reach over 300 billion Etexts given away by year's end.
+
+The Goal of Project Gutenberg is to Give Away One Trillion Etext
+Files by December 31, 2001.  [10,000 x 100,000,000 = 1 Trillion]
+This is ten thousand titles each to one hundred million readers,
+which is only about 4% of the present number of computer users.
+
+At our revised rates of production, we will reach only one-third
+of that goal by the end of 2001, or about 4,000 Etexts.  We need
+funding, as well as continued efforts by volunteers, to maintain
+or increase our production and reach our goals.
+
+The Project Gutenberg Literary Archive Foundation has been created
+to secure a future for Project Gutenberg into the next millennium.
+
+We need your donations more than ever!
+
+As of January, 2002, contributions are being solicited from people
+and organizations in: Alabama, Alaska, Arkansas, Connecticut, Delaware,
+Florida, Georgia, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky,
+Louisiana, Maine, Michigan, Missouri, Montana, Nebraska, Nevada, New
+Jersey, New Mexico, New York, North Carolina, Oklahoma, Oregon,
+Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee,
+Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin,
+and Wyoming.
+
+*In Progress
+
+We have filed in about 45 states now, but these are the only ones
+that have responded.
+
+As the requirements for other states are met, additions to this list
+will be made and fund raising will begin in the additional states.
+Please feel free to ask to check the status of your state.
+
+In answer to various questions we have received on this:
+
+We are constantly working on finishing the paperwork to legally
+request donations in all 50 states.  If your state is not listed and
+you would like to know if we have added it since the list you have,
+just ask.
+
+While we cannot solicit donations from people in states where we are
+not yet registered, we know of no prohibition against accepting
+donations from donors in these states who approach us with an offer to
+donate.
+
+International donations are accepted, but we don't know ANYTHING about
+how to make them tax-deductible, or even if they CAN be made
+deductible, and don't have the staff to handle it even if there are
+ways.
+
+All donations should be made to:
+
+Project Gutenberg Literary Archive Foundation
+PMB 113
+1739 University Ave.
+Oxford, MS 38655-4109
+
+Contact us if you want to arrange for a wire transfer or payment
+method other than by check or money order.
+
+
+The Project Gutenberg Literary Archive Foundation has been approved by
+the US Internal Revenue Service as a 501(c)(3) organization with EIN
+[Employee Identification Number] 64-622154.  Donations are
+tax-deductible to the maximum extent permitted by law.  As fundraising
+requirements for other states are met, additions to this list will be
+made and fundraising will begin in the additional states.
+
+We need your donations more than ever!
+
+You can get up to date donation information at:
+
+http://www.gutenberg.net/donation.html
+
+
+***
+
+If you can't reach Project Gutenberg,
+you can always email directly to:
+
+Michael S. Hart <hart@pobox.com>
+
+Prof. Hart will answer or forward your message.
+
+We would prefer to send you information by email.
+
+
+**The Legal Small Print**
+
+
+(Three Pages)
+
+***START**THE SMALL PRINT!**FOR PUBLIC DOMAIN ETEXTS**START***
+Why is this "Small Print!" statement here? You know: lawyers.
+They tell us you might sue us if there is something wrong with
+your copy of this etext, even if you got it for free from
+someone other than us, and even if what's wrong is not our
+fault. So, among other things, this "Small Print!" statement
+disclaims most of our liability to you. It also tells you how
+you may distribute copies of this etext if you want to.
+
+*BEFORE!* YOU USE OR READ THIS ETEXT
+By using or reading any part of this PROJECT GUTENBERG-tm
+etext, you indicate that you understand, agree to and accept
+this "Small Print!" statement. If you do not, you can receive
+a refund of the money (if any) you paid for this etext by
+sending a request within 30 days of receiving it to the person
+you got it from. If you received this etext on a physical
+medium (such as a disk), you must return it with your request.
+
+ABOUT PROJECT GUTENBERG-TM ETEXTS
+This PROJECT GUTENBERG-tm etext, like most PROJECT GUTENBERG-tm etexts,
+is a "public domain" work distributed by Professor Michael S. Hart
+through the Project Gutenberg Association (the "Project").
+Among other things, this means that no one owns a United States copyright
+on or for this work, so the Project (and you!) can copy and
+distribute it in the United States without permission and
+without paying copyright royalties. Special rules, set forth
+below, apply if you wish to copy and distribute this etext
+under the "PROJECT GUTENBERG" trademark.
+
+Please do not use the "PROJECT GUTENBERG" trademark to market
+any commercial products without permission.
+
+To create these etexts, the Project expends considerable
+efforts to identify, transcribe and proofread public domain
+works. Despite these efforts, the Project's etexts and any
+medium they may be on may contain "Defects". Among other
+things, Defects may take the form of incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged
+disk or other etext medium, a computer virus, or computer
+codes that damage or cannot be read by your equipment.
+
+LIMITED WARRANTY; DISCLAIMER OF DAMAGES
+But for the "Right of Replacement or Refund" described below,
+[1] Michael Hart and the Foundation (and any other party you may
+receive this etext from as a PROJECT GUTENBERG-tm etext) disclaims
+all liability to you for damages, costs and expenses, including
+legal fees, and [2] YOU HAVE NO REMEDIES FOR NEGLIGENCE OR
+UNDER STRICT LIABILITY, OR FOR BREACH OF WARRANTY OR CONTRACT,
+INCLUDING BUT NOT LIMITED TO INDIRECT, CONSEQUENTIAL, PUNITIVE
+OR INCIDENTAL DAMAGES, EVEN IF YOU GIVE NOTICE OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+If you discover a Defect in this etext within 90 days of
+receiving it, you can receive a refund of the money (if any)
+you paid for it by sending an explanatory note within that
+time to the person you received it from. If you received it
+on a physical medium, you must return it with your note, and
+such person may choose to alternatively give you a replacement
+copy. If you received it electronically, such person may
+choose to alternatively give you a second opportunity to
+receive it electronically.
+
+THIS ETEXT IS OTHERWISE PROVIDED TO YOU "AS-IS". NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, ARE MADE TO YOU AS
+TO THE ETEXT OR ANY MEDIUM IT MAY BE ON, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
+PARTICULAR PURPOSE.
+
+Some states do not allow disclaimers of implied warranties or
+the exclusion or limitation of consequential damages, so the
+above disclaimers and exclusions may not apply to you, and you
+may have other legal rights.
+
+INDEMNITY
+You will indemnify and hold Michael Hart, the Foundation,
+and its trustees and agents, and any volunteers associated
+with the production and distribution of Project Gutenberg-tm
+texts harmless, from all liability, cost and expense, including
+legal fees, that arise directly or indirectly from any of the
+following that you do or cause:  [1] distribution of this etext,
+[2] alteration, modification, or addition to the etext,
+or [3] any Defect.
+
+DISTRIBUTION UNDER "PROJECT GUTENBERG-tm"
+You may distribute copies of this etext electronically, or by
+disk, book or any other medium if you either delete this
+"Small Print!" and all other references to Project Gutenberg,
+or:
+
+[1]  Only give exact copies of it.  Among other things, this
+     requires that you do not remove, alter or modify the
+     etext or this "small print!" statement.  You may however,
+     if you wish, distribute this etext in machine readable
+     binary, compressed, mark-up, or proprietary form,
+     including any form resulting from conversion by word
+     processing or hypertext software, but only so long as
+     *EITHER*:
+
+     [*]  The etext, when displayed, is clearly readable, and
+          does *not* contain characters other than those
+          intended by the author of the work, although tilde
+          (~), asterisk (*) and underline (_) characters may
+          be used to convey punctuation intended by the
+          author, and additional characters may be used to
+          indicate hypertext links; OR
+
+     [*]  The etext may be readily converted by the reader at
+          no expense into plain ASCII, EBCDIC or equivalent
+          form by the program that displays the etext (as is
+          the case, for instance, with most word processors);
+          OR
+
+     [*]  You provide, or agree to also provide on request at
+          no additional cost, fee or expense, a copy of the
+          etext in its original plain ASCII form (or in EBCDIC
+          or other equivalent proprietary form).
+
+[2]  Honor the etext refund and replacement provisions of this
+     "Small Print!" statement.
+
+[3]  Pay a trademark license fee to the Foundation of 20% of the
+     gross profits you derive calculated using the method you
+     already use to calculate your applicable taxes.  If you
+     don't derive profits, no royalty is due.  Royalties are
+     payable to "Project Gutenberg Literary Archive Foundation"
+     the 60 days following each date you prepare (or were
+     legally required to prepare) your annual (or equivalent
+     periodic) tax return.  Please contact us beforehand to
+     let us know your plans and to work out the details.
+
+WHAT IF YOU *WANT* TO SEND MONEY EVEN IF YOU DON'T HAVE TO?
+Project Gutenberg is dedicated to increasing the number of
+public domain and licensed works that can be freely distributed
+in machine readable form.
+
+The Project gratefully accepts contributions of money, time,
+public domain materials, or royalty free copyright licenses.
+Money should be paid to the:
+"Project Gutenberg Literary Archive Foundation."
+
+If you are interested in contributing scanning equipment or
+software or other items, please contact Michael Hart at:
+hart@pobox.com
+
+[Portions of this header are copyright (C) 2001 by Michael S. Hart
+and may be reprinted only when these Etexts are free of all fees.]
+[Project Gutenberg is a TradeMark and may not be used in any sales
+of Project Gutenberg Etexts or other materials be they hardware or
+software or any other related product without express permission.]
+
+*END THE SMALL PRINT! FOR PUBLIC DOMAIN ETEXTS*Ver.10/04/01*END*
+
+
+
+
+
+
+This etext produced by David Starner.
+
+
+
+
+A Few Figs from Thistles
+
+Poems and Sonnets 
+
+by
+
+Edna St. Vincent Millay 
+
+
+
+
+Thanks are due to the editors of Ainslie's, The Dial, Pearson's 
+Poetry, Reedy's Mirror, and Vanity Fair, for their kind permission
+to republish various of these poems.
+
+This edition of "A Few Figs from Thistles" contains several poems 
+not included in earlier editions.
+
+First Fig
+
+My candle burns at both ends;
+  It will not last the night ;
+But ah, my foes, and oh, my friends--
+  It gives a lovely light!
+
+
+Second Fig
+
+Safe upon the solid rock the ugly houses stand:
+Come and see my shining palace built upon the sand!
+
+
+Recuerdo
+
+We were very tired, we were very merry--
+We had gone back and forth all night on the ferry.
+It was bare and bright, and smelled like a stable--
+But we looked into a fire, we leaned across a table,
+We lay on a hill-top underneath the moon;
+And the whistles kept blowing, and the dawn came soon.
+
+We were very tired, we were very merry--
+We had gone back and forth all night on the ferry;
+And you ate an apple, and I ate a pear,
+From a dozen of each we had bought somewhere;
+And the sky went wan, and the wind came cold,
+And the sun rose dripping, a bucketful of gold.
+
+We were very tired, we were very merry,
+We had gone back and forth all night on the ferry.
+We hailed, "Good morrow, mother!" to a shawl-covered head,
+And bought a morning paper, which neither of us read;
+And she wept, "God bless you!" for the apples and pears,
+And we gave her all our money but our subway fares.
+
+
+Thursday
+
+And if I loved you Wednesday,
+  Well, what is that to you?
+I do not love you Thursday--
+  So much is true.
+
+And why you come complaining
+  Is more than I can see.
+I loved you Wednesday,--yes--but what
+  Is that to me?
+
+
+To the Not Impossible Him
+
+How shall I know, unless I go
+  To Cairo and Cathay,
+Whether or not this blessed spot
+  Is blest in every way?
+
+Now it may be, the flower for me
+  Is this beneath my nose;
+How shall I tell, unless I smell
+  The Carthaginian rose?
+
+The fabric of my faithful love
+  No power shall dim or ravel
+Whilst I stay here,--but oh, my dear,
+  If I should ever travel!
+
+
+Macdougal Street
+
+As I went walking up and down to take the evening air,
+  (Sweet to meet upon the street, why must I be so shy?)
+I saw him lay his hand upon her torn black hair;
+  ("Little dirty Latin child, let the lady by!")
+
+The women squatting on the stoops were slovenly and fat,
+  (Lay me out in organdie, lay me out in lawn!)
+And everywhere I stepped there was a baby or a cat;
+  (Lord God in Heaven, will it never be dawn?)
+
+The fruit-carts and clam-carts were ribald as a fair,
+  (Pink nets and wet shells trodden under heel)
+She had haggled from the fruit-man of his rotting ware;
+  (I shall never get to sleep, the way I feel!)
+
+He walked like a king through the filth and the clutter,
+  (Sweet to meet upon the street, why did you glance me by?)
+But he caught the quaint Italian quip she flung him from the gutter;
+  (What can there be to cry about that I should lie and cry?)
+
+He laid his darling hand upon her little black head,
+  (I wish I were a ragged child with ear-rings in my ears!)
+And he said she was a baggage to have said what she had said;
+  (Truly I shall be ill unless I stop these tears!)
+
+
+The Singing-Woman from the Wood's Edge
+
+What should I be but a prophet and a liar,
+Whose mother was a leprechaun, whose father was a friar?
+Teethed on a crucifix and cradled under water,
+What should I be but the fiend's god-daughter?
+
+And who should be my playmates but the adder and the frog,
+That was got beneath a furze-bush and born in a bog?
+And what should be my singing, that was christened at an altar,
+But Aves and Credos and Psalms out of the Psalter?
+
+You will see such webs on the wet grass, maybe,
+As a pixie-mother weaves for her baby,
+You will find such flame at the wave's weedy ebb
+As flashes in the meshes of a mer-mother's web,
+
+But there comes to birth no common spawn
+From the love of a priest for a leprechaun,
+And you never have seen and you never will see
+Such things as the things that swaddled me!
+
+After all's said and after all's done,
+What should I be but a harlot and a nun?
+
+In through the bushes, on any foggy day,
+My Da would come a-swishing of the drops away,
+With a prayer for my death and a groan for my birth,
+A-mumbling of his beads for all that he was worth.
+
+And there'd sit my Ma, with her knees beneath her chin,
+A-looking in his face and a-drinking of it in,
+And a-marking in the moss some funny little saying
+That would mean just the opposite of all that he was praying!
+
+He taught me the holy-talk of Vesper and of Matin,
+He heard me my Greek and he heard me my Latin,
+He blessed me and crossed me to keep my soul from evil,
+And we watched him out of sight, and we conjured up the devil!
+
+Oh, the things I haven't seen and the things I haven't known.
+What with hedges and ditches till after I was grown,
+And yanked both ways by my mother and my father,
+With a "Which would you better?" and a "Which would you rather?"
+
+With him for a sire and her for a dam,
+What should I be but just what I am?
+
+
+She Is Overheard Singing
+
+Oh, Prue she has a patient man,
+  And Joan a gentle lover,
+And Agatha's Arth' is a hug-the-hearth,--
+  But my true love's a rover!
+
+Mig, her man's as good as cheese
+  And honest as a briar,
+Sue tells her love what he's thinking of,--
+  But my dear lad's a liar!
+
+Oh, Sue and Prue and Agatha
+  Are thick with Mig and Joan!
+They bite their threads and shake their heads
+  And gnaw my name like a bone;
+
+And Prue says, "Mine's a patient man,
+  As never snaps me up,"
+And Agatha, "Arth' is a hug-the-hearth,
+  Could live content in a cup;"
+
+Sue's man's mind is like good jell--
+  All one colour, and clear --
+And Mig's no call to think at all
+  What's to come next year,
+
+While Joan makes boast of a gentle lad,
+  That's troubled with that and this;--
+But they all would give the life they live
+  For a look from the man I kiss!
+
+Cold he slants his eyes about,
+  And few enough's his choice,--
+Though he'd slip me clean for a nun, or a queen,
+  Or a beggar with knots in her voice,--
+
+And Agatha will turn awake
+  While her good man sleeps sound,
+And Mig and Sue and Joan and Prue
+  Will hear the clock strike round,
+
+For Prue she has a patient man,
+  As asks not when or why,
+And Mig and Sue have naught to do
+  But peep who's passing by,
+
+Joan is paired with a putterer
+  That bastes and tastes and salts,
+And Agatha's Arth' is a hug-the-hearth,--
+  But my true love is false!
+
+
+The Prisoner
+
+All right,
+Go ahead!
+What's in a name?
+I guess I'll be locked into
+As much as I'm locked out of!
+
+
+The Unexplorer
+
+There was a road ran past our house
+Too lovely to explore.
+I asked my mother once--she said
+That if you followed where it led
+It brought you to the milk-man's door.
+(That's why I have not traveled more.)
+
+
+Grown-up
+
+Was it for this I uttered prayers,
+And sobbed and cursed and kicked the stairs,
+That now, domestic as a plate,
+I should retire at half-past eight?
+
+
+The Penitent
+
+I had a little Sorrow,
+  Born of a little Sin,
+I found a room all damp with gloom
+  And shut us all within;
+And, "Little Sorrow, weep," said I,
+  "And, Little Sin, pray God to die,
+And I upon the floor will lie
+  And think how bad I've been!"
+
+Alas for pious planning--
+  It mattered not a whit!
+As far as gloom went in that room,
+  The lamp might have been lit!
+My little Sorrow would not weep,
+  My little Sin would go to sleep--
+To save my soul I could not keep
+  My graceless mind on it!
+
+So up I got in anger,
+  And took a book I had,
+And put a ribbon on my hair
+  To please a passing lad,
+And, "One thing there's no getting by--
+I've been a wicked girl," said I;
+"But if I can't be sorry, why,
+  I might as well be glad!"
+
+
+Daphne
+
+Why do you follow me?--
+Any moment I can be
+Nothing but a laurel-tree.
+
+Any moment of the chase
+I can leave you in my place
+A pink bough for your embrace.
+
+Yet if over hill and hollow
+Still it is your will to follow,
+I am off;--to heel, Apollo!
+
+
+Portrait by a Neighbor
+
+Before she has her floor swept
+  Or her dishes done,
+Any day you'll find her
+  A-sunning in the sun!
+
+It's long after midnight
+  Her key's in the lock,
+And you never see her chimney smoke
+  Till past ten o'clock!
+
+She digs in her garden
+  With a shovel and a spoon,
+She weeds her lazy lettuce
+  By the light of the moon,
+
+She walks up the walk
+  Like a woman in a dream,
+She forgets she borrowed butter
+  And pays you back cream!
+
+Her lawn looks like a meadow,
+  And if she mows the place
+She leaves the clover standing
+  And the Queen Anne's lace!
+
+
+Midnight Oil
+
+Cut if you will, with Sleep's dull knife,
+  Each day to half its length, my friend,--
+The years that Time takes off _my_ life,
+  He'll take from off the other end!
+
+
+The Merry Maid
+
+Oh, I am grown so free from care
+  Since my heart broke!
+I set my throat against the air,
+  I laugh at simple folk!
+
+There's little kind and little fair
+  Is worth its weight in smoke
+To me, that's grown so free from care
+  Since my heart broke!
+
+Lass, if to sleep you would repair
+  As peaceful as you woke,
+Best not besiege your lover there
+  For just the words he spoke
+To me, that's grown so free from care
+  Since my heart broke!
+
+
+To Kathleen
+
+Still must the poet as of old,
+In barren attic bleak and cold,
+Starve, freeze, and fashion verses to
+Such things as flowers and song and you;
+
+Still as of old his being give
+In Beauty's name, while she may live,
+Beauty that may not die as long
+As there are flowers and you and song.
+
+
+To S. M. 
+If he should lie a-dying
+
+I am not willing you should go
+Into the earth, where Helen went;
+She is awake by now, I know.
+Where Cleopatra's anklets rust
+You will not lie with my consent;
+And Sappho is a roving dust;
+Cressid could love again; Dido,
+Rotted in state, is restless still:
+You leave me much against my will.
+
+
+The Philosopher
+
+And what are you that, wanting you
+  I should be kept awake
+As many nights as there are days
+  With weeping for your sake?
+
+And what are you that, missing you,
+  As many days as crawl
+I should be listening to the wind
+  And looking at the wall?
+
+I know a man that's a braver man
+  And twenty men as kind,
+And what are you, that you should be
+  The one man in my mind?
+
+Yet women's ways are witless ways,
+  As any sage will tell,--
+And what am I, that I should love
+  So wisely and so well?
+
+
+Four Sonnets
+
+
+I
+
+Love, though for this you riddle me with darts,
+And drag me at your chariot till I die,--
+Oh, heavy prince! Oh, panderer of hearts!--
+Yet hear me tell how in their throats they lie
+Who shout you mighty: thick about my hair
+Day in, day out, your ominous arrows purr
+Who still am free, unto no querulous care
+A fool, and in no temple worshiper!
+I, that have bared me to your quiver's fire,
+Lifted my face into its puny rain,
+Do wreathe you Impotent to Evoke Desire
+As you are Powerless to Elicit Pain!
+(Now will the god, for blasphemy so brave,
+Punish me, surely, with the shaft I crave!)
+
+
+II
+
+I think I should have loved you presently,
+And given in earnest words I flung in jest;
+And lifted honest eyes for you to see,
+And caught your hand against my cheek and breast;
+And all my pretty follies flung aside
+That won you to me, and beneath your gaze,
+Naked of reticence and shorn of pride,
+Spread like a chart my little wicked ways.
+I, that had been to you, had you remained,
+But one more waking from a recurrent dream,
+Cherish no less the certain stakes I gained,
+And walk your memory's halls, austere, supreme,
+A ghost in marble of a girl you knew
+Who would have loved you in a day or two.
+
+
+III
+
+Oh, think not I am faithful to a vow!
+Faithless am I save to love's self alone.
+Were you not lovely I would leave you now;
+After the feet of beauty fly my own.
+Were you not still my hunger's rarest food,
+And water ever to my wildest thirst,
+I would desert you--think not but I would!--
+And seek another as I sought you first.
+But you are mobile as the veering air,
+And all your charms more changeful than the tide,
+Wherefore to be inconstant is no care:
+I have but to continue at your side.
+So wanton, light and false, my love, are you,
+I am most faithless when I most am true.
+
+
+IV
+
+I shall forget you presently, my dear,
+So make the most of this, your little day,
+Your little month, your little half a year,
+Ere I forget, or die, or move away,
+And we are done forever; by and by
+I shall forget you, as I said, but now,
+If you entreat me with your loveliest lie
+I will protest you with my favorite vow.
+I would indeed that love were longer-lived,
+And oaths were not so brittle as they are,
+But so it is, and nature has contrived
+To struggle on without a break thus far,--
+Whether or not we find what we are seeking
+Is idle, biologically speaking.
+
+
+
+
+End of the Project Gutenberg Etext of A few Figs from Thistles
+by Edna St. Vincent Millay
+

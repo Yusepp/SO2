@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# pg-mkisofs
+# What I used to make the ISO for this CD
+#
+# If you are using Windows, you will need to install Cygwin
+# (or a similar program) to use this script.
+#
+# This program is released to the public domain.  Any suggestions
+# for improvement are welcomed.
+# http://www.ibiblio.org/gutenberg/cdproject/
+
+function usage()
+{
+echo -e "usage:\tpg-mkisofs FILE.ISO FOLDER/"
+}
+
+
+if [ $# -ne 2 ]
+then
+	echo -e "Improper usage"
+	usage
+else
+	mkisofs --joliet -r -L -iso-level 3 -relaxed-filenames \
+	-V PGCD0803 -allow-multidot -allow-lowercase -pad -o $1 $2
+
+fi
+
