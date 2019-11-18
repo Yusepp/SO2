@@ -1,6 +1,6 @@
 /**
  *
- * Practica 3 
+ * Practica 3
  *
  */
 
@@ -8,17 +8,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include "red-black-tree.h"
 #define MAXCHAR      100
 #define MAGIC_NUMBER 0x01234567
 
 /**
- * 
+ *
  *  Menu
- * 
+ *
  */
 
-int menu() 
+int menu()
 {
     char str[5];
     int opcio;
@@ -32,31 +32,25 @@ int menu()
     printf("   Escull opcio: ");
 
     fgets(str, 5, stdin);
-    opcio = atoi(str); 
+    opcio = atoi(str);
 
     return opcio;
 }
 
 /**
- * 
+ *
  *  Main procedure
  *
  */
 
 int main(int argc, char **argv)
 {
-    char * line = NULL;
-    size_t len = 0;
-    size_t read;
-    int magicNumber = MAGIC_NUMBER;
-    unsigned char buffer[10];
     char str1[MAXCHAR], str2[MAXCHAR];
-    int opcio;
-    int num;
-    FILE *fptr;
-    FILE *ptr;    
-    
-    
+    int opcio, magicNumber;
+    FILE *fp;
+    rb_tree *tree;
+    node_data *n_data;
+
     if (argc != 1)
         printf("Opcions de la linia de comandes ignorades\n");
 
@@ -84,38 +78,44 @@ int main(int argc, char **argv)
                 printf("Nom de fitxer en que es desara l'arbre: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
-                ptr = fopen(str1, "w"); // w for write, b for binary
-                if(ptr == NULL){
-                    printf("Error!");   
-                    exit(1);             
+
+                fp = fopen(str1, "w");
+
+                if(!fp){
+                  printf("No es pot guardar el fitxer\n");
+                  exit(0);
                 }
-                fwrite(&magicNumber,sizeof(int), 1,ptr); // write 10 bytes from our buffer
-                fclose(ptr);
+
+                fwrite(&magicNumber,sizeof(int), 1, fp);
+
+
+
                 break;
 
             case 3:
+                //Guardamos memoria para un arbol nuevo
+                tree= (rb_tree *) malloc(sizeof(rb_tree));
+
+                init_tree(tree);
+                if(!tree){
+                  printf("ERROR al crear l'arbre\n");
+                }
                 printf("Nom del fitxer que conte l'arbre: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
 
-                //ptr = fopen("prova.bin","rb");  // r for read, b for binary
-                //fread(buffer,sizeof(buffer),1,ptr); // read 10 bytes to our buffer
+                fp = open(str1, "r");
 
-                
-
-                fp = fopen(str1, "r");
-                if (fp == NULL)
-                    exit(EXIT_FAILURE);
-
-                while ((read = getline(&line, &len, fp)) != -1) {
-                    printf("Retrieved line of length %zu:\n", read);
-                    printf("%s", line);
+                if(!fp){
+                  printf("No es pot obrir el fitxer\n");
+                  exit(0);
                 }
 
-                fclose(fp);
-                if (line)
-                    free(line);
-                exit(EXIT_SUCCESS);
+                fread(&magicNumber, sizeof(int), 1 , fp);
+
+
+
+
                 break;
 
             case 4:
@@ -123,13 +123,19 @@ int main(int argc, char **argv)
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
 
-                /* Falta codi */
+                n_data = findNode(tree, str1);
+
+                if(n_data)
+                  printf("La paraula %s apareix %d vegades a l'arbre.\n", str1, n_data->num_times);
+                else
+                  printf("La paraula no apareix a l'arbre");
 
                 break;
 
             case 5:
-
-                /* Falta codi */
+                //Eliminem l'abre que esta guardat a memoria y alliberem espai.
+                deleteTree(tree);
+                free(tree);
 
                 break;
 
@@ -142,4 +148,3 @@ int main(int argc, char **argv)
 
     return 0;
 }
-
