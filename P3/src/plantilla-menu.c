@@ -12,6 +12,13 @@
 #define MAXCHAR      100
 #define MAGIC_NUMBER 0x01234567
 
+
+void writeTreeData(node_data *n_data, FILE *fp);
+void writeTreeInordre(node *x, FILE *fp);
+void writeTreeInicial(rb_tree *tree, FILE *fp);
+int countWordsTree(node *x);
+
+
 /**
  *
  *  Menu
@@ -46,7 +53,7 @@ int menu()
 int main(int argc, char **argv)
 {
     char str1[MAXCHAR], str2[MAXCHAR];
-    int opcio, magicNumber;
+    int opcio, magicNumber,numVegades;
     FILE *fp;
     rb_tree *tree;
     node_data *n_data;
@@ -90,6 +97,9 @@ int main(int argc, char **argv)
 
 
 
+                writeTreeInicial(tree, fp);
+
+
                 break;
 
             case 3:
@@ -100,11 +110,12 @@ int main(int argc, char **argv)
                 if(!tree){
                   printf("ERROR al crear l'arbre\n");
                 }
+
                 printf("Nom del fitxer que conte l'arbre: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
 
-                fp = open(str1, "r");
+                fp = fopen(str1, "r");
 
                 if(!fp){
                   printf("No es pot obrir el fitxer\n");
@@ -116,14 +127,19 @@ int main(int argc, char **argv)
 
 
 
+
+
                 break;
 
+            /*
+            *Quedaria que si pulsa enter aparezca la palabra que mas salga
+            */
             case 4:
                 printf("Paraula a buscar o polsa enter per saber la paraula que apareix mes vegades: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
 
-                n_data = findNode(tree, str1);
+                n_data = find_node(tree, str1);
 
                 if(n_data)
                   printf("La paraula %s apareix %d vegades a l'arbre.\n", str1, n_data->num_times);
@@ -134,7 +150,7 @@ int main(int argc, char **argv)
 
             case 5:
                 //Eliminem l'abre que esta guardat a memoria y alliberem espai.
-                deleteTree(tree);
+                delete_tree(tree);
                 free(tree);
 
                 break;
@@ -147,4 +163,59 @@ int main(int argc, char **argv)
     while (opcio != 5);
 
     return 0;
+}
+
+
+/*
+*
+*	METODOS PARA INSERIR EN EL ARBOL Y CONTAR RECURSIVAMENTE
+*
+*
+*/
+
+/*
+*Escriu les dades del node al fitxer, tant la key com el numero de vegades que apareix
+*/
+void writeTreeData(node_data *n_data, FILE *fp){
+  fwrite(n_data->key, sizeof(char), strlen(n_data->key), fp);
+  fwrite(&n_data->num_times, sizeof(int), 1, fp);
+}
+
+
+/*
+*Metode que recorre l'arbre en inordre per poder escriure les paraules al fitxer
+*/
+void writeTreeInordre(node *x, FILE *fp){
+  if(x->left != NIL)
+    writeTreeInordre(x->left, fp);
+  writeTreeData(x->data, fp);
+  if(x->right != NIL)
+    writeTreeInordre(x->right, fp);
+}
+
+/*
+*Metode que començara a escriure a l'arbre desde el node inicial.
+* Comprovara que tinguem un arbre i anira al metode d'inserir en inordre
+*/
+void writeTreeInicial(rb_tree *tree, FILE *fp){
+  if(tree->root != NIL)
+    writeTreeInordre(tree->root, fp);
+}
+
+/*
+*Metode per comptar el nombre de nodes que hi ha a l'arbre.
+*
+*/
+int countWordsTree(node *x){
+	int count = 1; // El seu mateix s'ha de comptar
+
+	if(x == NIL){
+		return 0;
+	}
+	else{
+		count += countWordsTree(x->left);
+		count += countWordsTree(x->right);
+		return count;
+	}
+
 }
