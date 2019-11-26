@@ -55,11 +55,14 @@ int menu()
 int main(int argc, char **argv)
 {
     char str1[MAXCHAR], str2[MAXCHAR];
-    int opcio, magicNumber,numNodes;
+    int opcio, *magicNumber,*numNodes;
     FILE *fp;
     rb_tree *tree;
     node_data *n_data;
     char* dic_path;
+    magicNumber = malloc(sizeof(int));
+    *magicNumber = MAGIC_NUMBER;
+    numNodes = malloc(sizeof(int));
 
     if (argc != 1)
         printf("Opcions de la linia de comandes ignorades\n");
@@ -97,11 +100,12 @@ int main(int argc, char **argv)
                 }
 
                 //Escribim el magicNumber a l'inici del fitxer
-                fwrite(&magicNumber, sizeof(int), 1, fp);
+                fwrite(magicNumber, sizeof(int), 1, fp);
 
                 //Escriu el numero de nodes a l'arbre
-                numNodes = countNodesTree(tree->root);
-                fwrite(&numNodes, sizeof(int),1,fp);
+                *numNodes = tree->size;
+                printf("%X\n",*numNodes);
+                fwrite(numNodes, sizeof(int),1,fp);
 
                 //Escriu l'arbre a memoria
                 writeTreeInicial(tree, fp);
