@@ -18,7 +18,7 @@
 void writeTreeData(node_data *n_data, FILE *fp);
 void writeTreeInordre(node *x, FILE *fp);
 void writeTreeInicial(rb_tree *tree, FILE *fp);
-int countWordsTree(node *x);
+int countNodesTree(node *x);
 
 
 /**
@@ -55,7 +55,7 @@ int menu()
 int main(int argc, char **argv)
 {
     char str1[MAXCHAR], str2[MAXCHAR];
-    int opcio, magicNumber,numVegades;
+    int opcio, magicNumber,numNodes;
     FILE *fp;
     rb_tree *tree;
     node_data *n_data;
@@ -75,6 +75,7 @@ int main(int argc, char **argv)
                 printf("Fitxer de diccionari de paraules: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
+
                 printf("Fitxer de base de dades: ");
                 fgets(str2, MAXCHAR, stdin);
                 str2[strlen(str2)-1]=0;
@@ -95,16 +96,16 @@ int main(int argc, char **argv)
                   exit(0);
                 }
 
-                int *a = malloc(sizeof(int));
-                *a = 5;
-                fwrite(a,sizeof(int), 1, fp);
+                //Escribim el magicNumber a l'inici del fitxer
+                fwrite(&magicNumber, sizeof(int), 1, fp);
 
+                //Escriu el numero de nodes a l'arbre
+                numNodes = countNodesTree(tree->root);
+                fwrite(&numNodes, sizeof(int),1,fp);
+
+                //Escriu l'arbre a memoria
+                writeTreeInicial(tree, fp);
                 fclose(fp);
-
-
-
-                //writeTreeInicial(tree, fp);
-
 
                 break;
 
@@ -159,9 +160,7 @@ int main(int argc, char **argv)
                   else
                     printf("La paraula no apareix a l'arbre");
                 }
-                
-                
-                
+
 
                 break;
 
@@ -225,15 +224,15 @@ void writeTreeInicial(rb_tree *tree, FILE *fp){
 *Metode per comptar el nombre de nodes que hi ha a l'arbre.
 *
 */
-int countWordsTree(node *x){
+int countNodesTree(node *x){
 	int count = 1; // El seu mateix s'ha de comptar
 
 	if(x == NIL){
 		return 0;
 	}
 	else{
-		count += countWordsTree(x->left);
-		count += countWordsTree(x->right);
+		count += countNodesTree(x->left);
+		count += countNodesTree(x->right);
 		return count;
 	}
 
