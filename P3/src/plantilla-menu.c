@@ -59,6 +59,7 @@ int main(int argc, char **argv)
     FILE *fp;
     rb_tree *tree;
     node_data *n_data;
+    char* dic_path;
 
     if (argc != 1)
         printf("Opcions de la linia de comandes ignorades\n");
@@ -74,7 +75,6 @@ int main(int argc, char **argv)
                 printf("Fitxer de diccionari de paraules: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
-
                 printf("Fitxer de base de dades: ");
                 fgets(str2, MAXCHAR, stdin);
                 str2[strlen(str2)-1]=0;
@@ -147,14 +147,21 @@ int main(int argc, char **argv)
             case 4:
                 printf("Paraula a buscar o polsa enter per saber la paraula que apareix mes vegades: ");
                 fgets(str1, MAXCHAR, stdin);
-                str1[strlen(str1)-1]=0;
-
-                n_data = find_node(tree, str1);
-
-                if(n_data)
-                  printf("La paraula %s apareix %d vegades a l'arbre.\n", str1, n_data->num_times);
-                else
-                  printf("La paraula no apareix a l'arbre");
+                if(strlen(str1) == 1){
+                  node_data *n_data = topWord(tree);
+                  printf("La paraula %s es la que mes apareix: %d vegades a l'arbre.\n", n_data->key, n_data->num_times);
+                }
+                else{
+                  str1[strlen(str1)-1]=0;
+                  n_data = find_node(tree, str1);
+                  if(n_data)
+                    printf("La paraula %s apareix %d vegades a l'arbre.\n", str1, n_data->num_times);
+                  else
+                    printf("La paraula no apareix a l'arbre");
+                }
+                
+                
+                
 
                 break;
 

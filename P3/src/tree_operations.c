@@ -51,6 +51,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
     n_data->num_times = 0;
     insert_node(tree, n_data);
   }
+  tree->size = dic_size;
   //Increase dic words from file if they are in the tree.
   for (ct = 0; ct < *file_words; ct++) {
     n_data = find_node(tree,file[ct]);
@@ -87,5 +88,27 @@ char * createPath(char *start,char *subpath){
   char *tmp = malloc(sizeof(char)*(strlen(start)+strlen(subpath)+1));
   strcpy(tmp,start);
   strcat(tmp,subpath);
+  return tmp;
+}
+
+node_data * topWord(rb_tree * tree){
+  if (tree->root != NIL)
+    return recursive_search(tree->root,tree->root)->data;
+}
+
+node *recursive_search(node *n,node *best){
+  node *tmp = best;
+  if(n->data->num_times > best->data->num_times){
+    tmp = n;
+  }
+
+  if (n->right != NIL){
+    tmp = recursive_search(n->right,tmp);
+  }
+
+  if (n->left != NIL){
+    tmp = recursive_search(n->left,tmp);   
+  }
+
   return tmp;
 }
