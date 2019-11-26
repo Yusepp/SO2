@@ -93,11 +93,14 @@ int main(int argc, char **argv)
                   exit(0);
                 }
 
+
                 fwrite(&magicNumber,sizeof(int), 1, fp);
 
+                fclose(fp);
 
 
-                writeTreeInicial(tree, fp);
+
+                //writeTreeInicial(tree, fp);
 
 
                 break;
@@ -125,6 +128,9 @@ int main(int argc, char **argv)
                 fread(&magicNumber, sizeof(int), 1 , fp);
 
 
+                fclose(fp);
+
+
 
 
 
@@ -150,8 +156,10 @@ int main(int argc, char **argv)
 
             case 5:
                 //Eliminem l'abre que esta guardat a memoria y alliberem espai.
-                delete_tree(tree);
-                free(tree);
+                if(tree){
+                  delete_tree(tree);
+                  free(tree);
+                }
 
                 break;
 
