@@ -9,6 +9,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include "red-black-tree.h"
+#include "tree_operations.h"
+#include "read_tools.h"
 #define MAXCHAR      100
 #define MAGIC_NUMBER 0x01234567
 
@@ -77,7 +79,7 @@ int main(int argc, char **argv)
                 fgets(str2, MAXCHAR, stdin);
                 str2[strlen(str2)-1]=0;
 
-                /* Falta codi */
+                tree = createTree(str1,str2);
 
                 break;
 
@@ -93,8 +95,9 @@ int main(int argc, char **argv)
                   exit(0);
                 }
 
-
-                fwrite(&magicNumber,sizeof(int), 1, fp);
+                int *a = malloc(sizeof(int));
+                *a = 5;
+                fwrite(a,sizeof(int), 1, fp);
 
                 fclose(fp);
 
@@ -108,7 +111,7 @@ int main(int argc, char **argv)
             case 3:
                 //Guardamos memoria para un arbol nuevo
                 tree= (rb_tree *) malloc(sizeof(rb_tree));
-
+                int *tmp = malloc(sizeof(int));
                 init_tree(tree);
                 if(!tree){
                   printf("ERROR al crear l'arbre\n");
@@ -125,7 +128,8 @@ int main(int argc, char **argv)
                   exit(0);
                 }
 
-                fread(&magicNumber, sizeof(int), 1 , fp);
+                fread(tmp, sizeof(int), 1 , fp);
+                printf("%d \n",*tmp);
 
 
                 fclose(fp);
