@@ -18,7 +18,6 @@
 void writeTreeData(node_data *n_data, FILE *fp);
 void writeTreeInordre(node *x, FILE *fp);
 void writeTreeInicial(rb_tree *tree, FILE *fp);
-int countNodesTree(node *x);
 
 
 /**
@@ -123,7 +122,7 @@ int main(int argc, char **argv)
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
 
-                fp = fopen(str1, "r");
+                fp = fopen(str1, "rb");
 
                 if(!fp){
                   printf("No es pot obrir el fitxer\n");
@@ -131,6 +130,7 @@ int main(int argc, char **argv)
                 }
                 int tmp;
                 fread(&tmp,sizeof(int),1,fp);//read magicnumber
+                node_data *n_data = malloc(sizeof(node_data));
                 printf("%d\n",tmp);
                 if(tmp == magicNumber){
                   fread(&tmp, sizeof(int), 1 , fp);//read size of tree
@@ -143,11 +143,11 @@ int main(int argc, char **argv)
                     printf("%d\n",size);
                     char word[size];
                     fread(&word,sizeof(char),size,fp);
-                    word[strlen(word)-1] = 0;
+                    word[strlen(word)] = 0;
                     int numkeys;
                     fread(&numkeys,sizeof(int),1,fp);
 
-                    node_data *n_data = malloc(sizeof(node_data));
+                    
                     n_data->key = word;
                     n_data->num_times = numkeys;
                     printf("%s\n",n_data->key);
@@ -155,7 +155,7 @@ int main(int argc, char **argv)
                       insert_node(tree,n_data);
                     }
                     
-                    free(n_data);
+
                   }
                 }
 
@@ -249,20 +249,3 @@ void writeTreeInicial(rb_tree *tree, FILE *fp){
     writeTreeInordre(tree->root, fp);
 }
 
-/*
-*Metode per comptar el nombre de nodes que hi ha a l'arbre.
-*
-*/
-int countNodesTree(node *x){
-	int count = 1; // El seu mateix s'ha de comptar
-
-	if(x == NIL){
-		return 0;
-	}
-	else{
-		count += countNodesTree(x->left);
-		count += countNodesTree(x->right);
-		return count;
-	}
-
-}
