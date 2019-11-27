@@ -154,7 +154,6 @@ int main(int argc, char **argv)
                     n_data->key = word;
                     n_data->num_times = numkeys;
                     printf("%s\n",n_data->key);
-                    printf("%d\n", n_data->num_times);
                     if(find_node(tree,word) == NULL)
                       insert_node(tree,n_data);
 
