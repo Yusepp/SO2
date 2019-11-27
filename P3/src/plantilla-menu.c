@@ -53,14 +53,14 @@ int menu()
 
 int main(int argc, char **argv)
 {
-    char str1[MAXCHAR], str2[MAXCHAR];
+    char str1[MAXCHAR], str2[MAXCHAR], *word;
+    int numkeys,size;
     int opcio,magicNumber;
     FILE *fp;
     rb_tree *tree;
     node_data *n_data;
     char* dic_path;
     magicNumber = MAGIC_NUMBER;
- 
 
     if (argc != 1)
         printf("Opcions de la linia de comandes ignorades\n");
@@ -122,59 +122,50 @@ int main(int argc, char **argv)
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
 
-                fp = fopen(str1, "rb");
+                fp = fopen(str1, "r");
 
                 if(!fp){
                   printf("No es pot obrir el fitxer\n");
                   exit(0);
                 }
+                //fread(&magicNumber, sizeof(int), 1, fp);
                 int tmp;
                 fread(&tmp,sizeof(int),1,fp);//read magicnumber
                 node_data *n_data = malloc(sizeof(node_data));
                 printf("%d\n",tmp);
                 if(tmp == magicNumber){
                   fread(&tmp, sizeof(int), 1 , fp);//read size of tree
+
                   /* Initialize the tree */
                   printf("%d\n",tmp);
                   tree->size = tmp;
                   for(int i = 0; i < tmp;i++){
-                    int size;
+
                     fread(&size,sizeof(int),1,fp);
-                    printf("%d\n",size);
-                    char word[size];
-                    fread(&word,sizeof(char),size,fp);
+                    //printf("%d\n",size);
+                    //Reservem memoria per la paraula
+                    word = (char *) malloc(sizeof(char) * (size+1));
+                    fread(word,sizeof(char),size,fp);
                     word[strlen(word)] = 0;
-                    int numkeys;
                     fread(&numkeys,sizeof(int),1,fp);
 
-                    
+
+                    n_data = malloc(sizeof(node_data));
                     n_data->key = word;
                     n_data->num_times = numkeys;
                     printf("%s\n",n_data->key);
-                    if(find_node(tree,word) == NULL){
+                    printf("%d\n", n_data->num_times);
+                    if(find_node(tree,word) == NULL)
                       insert_node(tree,n_data);
-                    }
-                    
 
                   }
                 }
-
-
                 fclose(fp);
-
-
-
-
-
-
                 break;
-
-            /*
-            *Quedaria que si pulsa enter aparezca la palabra que mas salga
-            */
             case 4:
                 printf("Paraula a buscar o polsa enter per saber la paraula que apareix mes vegades: ");
                 fgets(str1, MAXCHAR, stdin);
+
                 if(strlen(str1) == 1){
                   node_data *n_data = topWord(tree);
                   printf("La paraula %s es la que mes apareix: %d vegades a l'arbre.\n", n_data->key, n_data->num_times);
@@ -188,7 +179,6 @@ int main(int argc, char **argv)
                     printf("La paraula no apareix a l'arbre");
                 }
 
-
                 break;
 
             case 5:
@@ -197,7 +187,6 @@ int main(int argc, char **argv)
                   delete_tree(tree);
                   free(tree);
                 }
-
                 break;
 
             default:
@@ -248,4 +237,3 @@ void writeTreeInicial(rb_tree *tree, FILE *fp){
   if(tree->root != NIL)
     writeTreeInordre(tree->root, fp);
 }
-
