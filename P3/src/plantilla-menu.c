@@ -55,14 +55,13 @@ int menu()
 int main(int argc, char **argv)
 {
     char str1[MAXCHAR], str2[MAXCHAR];
-    int opcio, *magicNumber,*numNodes;
+    int opcio,magicNumber;
     FILE *fp;
     rb_tree *tree;
     node_data *n_data;
     char* dic_path;
-    magicNumber = malloc(sizeof(int));
-    *magicNumber = MAGIC_NUMBER;
-    numNodes = malloc(sizeof(int));
+    magicNumber = MAGIC_NUMBER;
+ 
 
     if (argc != 1)
         printf("Opcions de la linia de comandes ignorades\n");
@@ -100,12 +99,11 @@ int main(int argc, char **argv)
                 }
 
                 //Escribim el magicNumber a l'inici del fitxer
-                fwrite(magicNumber, sizeof(int), 1, fp);
+                fwrite(&magicNumber, sizeof(int), 1, fp);
 
                 //Escriu el numero de nodes a l'arbre
-                *numNodes = tree->size;
-                printf("%X\n",*numNodes);
-                fwrite(numNodes, sizeof(int),1,fp);
+
+                fwrite(&(tree->size), sizeof(int),1,fp);
 
                 //Escriu l'arbre a memoria
                 writeTreeInicial(tree, fp);
@@ -116,7 +114,6 @@ int main(int argc, char **argv)
             case 3:
                 //Guardamos memoria para un arbol nuevo
                 tree= (rb_tree *) malloc(sizeof(rb_tree));
-                int *tmp = malloc(sizeof(int));
                 init_tree(tree);
                 if(!tree){
                   printf("ERROR al crear l'arbre\n");
@@ -132,9 +129,35 @@ int main(int argc, char **argv)
                   printf("No es pot obrir el fitxer\n");
                   exit(0);
                 }
+                int tmp;
+                fread(&tmp,sizeof(int),1,fp);//read magicnumber
+                printf("%d\n",tmp);
+                if(tmp == magicNumber){
+                  fread(&tmp, sizeof(int), 1 , fp);//read size of tree
+                  /* Initialize the tree */
+                  printf("%d\n",tmp);
+                  tree->size = tmp;
+                  for(int i = 0; i < tmp;i++){
+                    int size;
+                    fread(&size,sizeof(int),1,fp);
+                    printf("%d\n",size);
+                    char word[size];
+                    fread(&word,sizeof(char),size,fp);
+                    word[strlen(word)-1] = 0;
+                    int numkeys;
+                    fread(&numkeys,sizeof(int),1,fp);
 
-                fread(tmp, sizeof(int), 1 , fp);
-                printf("%d \n",*tmp);
+                    node_data *n_data = malloc(sizeof(node_data));
+                    n_data->key = word;
+                    n_data->num_times = numkeys;
+                    printf("%s\n",n_data->key);
+                    if(find_node(tree,word) == NULL){
+                      insert_node(tree,n_data);
+                    }
+                    
+                    free(n_data);
+                  }
+                }
 
 
                 fclose(fp);
@@ -199,6 +222,8 @@ int main(int argc, char **argv)
 *Escriu les dades del node al fitxer, tant la key com el numero de vegades que apareix
 */
 void writeTreeData(node_data *n_data, FILE *fp){
+  int size = strlen(n_data->key);
+  fwrite(&size, sizeof(int), 1, fp);
   fwrite(n_data->key, sizeof(char), strlen(n_data->key), fp);
   fwrite(&n_data->num_times, sizeof(int), 1, fp);
 }
