@@ -17,7 +17,12 @@
 #define DATABASE "./base_dades/"
 #define DICTIONARY "./diccionari/"
 
+
 rb_tree * createTree(char *pathdic,char *pathfile);//creates tree
 char * createPath(char *start,char *subpath);//creation path
 node_data * topWord(rb_tree * tree);//return the top word of the tree
 node *recursive_search(node *n,node *best);//recursive
+void writeTree(FILE *fp,rb_tree * tree,int magicNumber);
+void writeTreeData(node_data *n_data, FILE *fp);
+void writeTreeInordre(node *x, FILE *fp);
+void writeTreeInicial(rb_tree *tree, FILE *fp);

@@ -60,26 +60,12 @@ rb_tree * createTree(char *pathdic,char *pathfile){
       n_data->num_times++;
     }
   }
-
-  //We show the tree
-  /*ct = 0;
-  int i = 0;
-
-  for(i = 0; i <= dic_size; i++){
-  	a = dic[i];
-    n_data = find_node(tree, a);
-    if(n_data->num_times != 0){
-      printf("La paraula %s apareix %d cops a l'arbre.\n", a,n_data->num_times);
-      ct += n_data->num_times;
-    }
-  }*/
   
   //delete
   deletepointers(file,*file_words);
   free(n_data);
   free(file_words);
   free(filepath);
-  //deletepointers(list,list_size);
 
   return tree;
 }
@@ -111,4 +97,18 @@ node *recursive_search(node *n,node *best){
   }
 
   return tmp;
+}
+
+void writeTree(FILE *fp,rb_tree * tree,int magicNumber){
+  int magic = magicNumber;
+  //Escribim el magicNumber a l'inici del fitxer
+  fwrite(&magic, sizeof(int), 1, fp);
+
+  //Escriu el numero de nodes a l'arbre
+
+  fwrite(&(tree->size), sizeof(int),1,fp);
+
+  //Escriu l'arbre a memoria
+  writeTreeInicial(tree, fp);
+  fclose(fp);
 }

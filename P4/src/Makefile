@@ -1,10 +1,10 @@
 # This is the makefile that generates the executable
 
 # Files to compile
-FILES_C = plantilla-menu.c red-black-tree.c read_tools.c tree_operations.c
+FILES_C = main.c red-black-tree.c read_tools.c tree_operations.c dbfnames-mmap.c tree-to-mmap.c
 
 # Exectuable to generate
-TARGET = practica3
+TARGET = practica4
 
 
 
