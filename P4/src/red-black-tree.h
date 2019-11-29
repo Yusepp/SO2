@@ -28,8 +28,6 @@ typedef struct node_data_
     int num_times;   
 } node_data; 
 
-
-
 /**
  *
  * The node structure. NO ES NECESSARI MODIFICAR EL CODI QUE HI HA SOTA
@@ -50,16 +48,14 @@ typedef struct node_ {
     node_color color;           /* node color (BLACK, RED) */
 } node;
 
-
 /**
  * 
  * Some definitions
  * 
  */
 
-#define NIL &sentinel  /* all leafs are sentinels */
+#define NIL &sentinel
 extern node sentinel;  /* declared in file red-black-tree.c */
-
 
 /**
  *
@@ -71,8 +67,8 @@ extern node sentinel;  /* declared in file red-black-tree.c */
 
 typedef struct rb_tree_ {
     node *root;                   /* root of Red-Black tree */
+    unsigned int size;
 } rb_tree;
-
 
 /*
  * Function headers. Note that not all the functions of
@@ -83,5 +79,4 @@ void init_tree(rb_tree *tree);
 void insert_node(rb_tree *tree, node_data *d);
 node_data *find_node(rb_tree *tree, char *key); 
 void delete_tree(rb_tree *tree);
-void dump_numtimes_words(rb_tree *tree);
 
