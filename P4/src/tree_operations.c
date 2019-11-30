@@ -99,20 +99,18 @@ node *recursive_search(node *n,node *best){
   return tmp;
 }
 
-rb_tree *readTree(FILE * fp,int magicNumber,rb_tree *t){
+rb_tree *readTree(FILE * fp,int magicNumber){
   //Variables
   int tmp,numkeys,length;
   char * word;
   node_data *n_data;//node for insert
+  rb_tree *tree;
 
-  if(t){//deleting old tree
-    delete_tree(t);
-    free(t);
-  }
+
   //creating new tree
-  rb_tree *tree= (rb_tree *) malloc(sizeof(rb_tree));
+  tree = (rb_tree *)malloc(sizeof(rb_tree));
   init_tree(tree);
-  
+ 
 
   fread(&tmp,sizeof(int),1,fp);//read magicnumber
   
@@ -126,15 +124,19 @@ rb_tree *readTree(FILE * fp,int magicNumber,rb_tree *t){
       fread(&length,sizeof(int),1,fp);//length of the node key
       
       //Reservem memoria per la paraula
+
       word = (char *) malloc(sizeof(char) * (length+1));//key + 1(for 0 byte)
       fread(word,sizeof(char),length,fp);//reading the key
       word[strlen(word)] = 0;//insert byte 0
+
       fread(&numkeys,sizeof(int),1,fp);//value of the node
 
       n_data = malloc(sizeof(node_data));//reserve memory for node
       n_data->key = word;//putting key
       n_data->num_times = numkeys;//putting value
+
       printf("%s\n",n_data->key);//showing word read
+      
       if(find_node(tree,word) == NULL)//checking value is not repeate
         insert_node(tree,n_data);//inserting
 

@@ -81,6 +81,11 @@ int main(int argc, char **argv)
                 break;
 
             case 2:
+                if (!tree) {
+                  printf("No hi ha cap arbre creat!\n");
+                  break;
+                }
+
                 printf("Nom de fitxer en que es desara l'arbre: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
@@ -96,6 +101,12 @@ int main(int argc, char **argv)
                 break;
 
             case 3:
+
+                if(tree){//deleting old tree
+                  delete_tree(tree);
+                  free(tree);
+                }
+
                 printf("Nom del fitxer que conte l'arbre: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
@@ -104,7 +115,7 @@ int main(int argc, char **argv)
                   printf("No es pot obrir el fitxer\n");
                   exit(0);
                 }
-                tree = readTree(fp,MAGIC_NUMBER,tree);
+                tree = readTree(fp,MAGIC_NUMBER);
                 fclose(fp);
                 break;
             case 4:
