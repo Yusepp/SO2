@@ -96,53 +96,15 @@ int main(int argc, char **argv)
                 break;
 
             case 3:
-                //Guardamos memoria para un arbol nuevo
-                tree= (rb_tree *) malloc(sizeof(rb_tree));
-                init_tree(tree);
-                if(!tree){
-                  printf("ERROR al crear l'arbre\n");
-                }
-
                 printf("Nom del fitxer que conte l'arbre: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
-
                 fp = fopen(str1, "r");
-
                 if(!fp){
                   printf("No es pot obrir el fitxer\n");
                   exit(0);
                 }
-                //fread(&magicNumber, sizeof(int), 1, fp);
-                int tmp;
-                fread(&tmp,sizeof(int),1,fp);//read magicnumber
-                node_data *n_data = malloc(sizeof(node_data));
-                printf("%d\n",tmp);
-                if(tmp == MAGIC_NUMBER){
-                  fread(&tmp, sizeof(int), 1 , fp);//read size of tree
-
-                  /* Initialize the tree */
-                  printf("%d\n",tmp);
-                  tree->size = tmp;
-                  for(int i = 0; i < tmp;i++){
-
-                    fread(&size,sizeof(int),1,fp);
-                    //printf("%d\n",size);
-                    //Reservem memoria per la paraula
-                    word = (char *) malloc(sizeof(char) * (size+1));
-                    fread(word,sizeof(char),size,fp);
-                    word[strlen(word)] = 0;
-                    fread(&numkeys,sizeof(int),1,fp);
-
-                    n_data = malloc(sizeof(node_data));
-                    n_data->key = word;
-                    n_data->num_times = numkeys;
-                    printf("%s\n",n_data->key);
-                    if(find_node(tree,word) == NULL)
-                      insert_node(tree,n_data);
-
-                  }
-                }
+                tree = readTree(fp,MAGIC_NUMBER,tree);
                 fclose(fp);
                 break;
             case 4:
