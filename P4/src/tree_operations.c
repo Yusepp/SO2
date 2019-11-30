@@ -199,4 +199,18 @@ void writeTreeInicial(rb_tree *tree, FILE *fp){
     writeTreeInordre(tree->root, fp);
 }
 
+void search_word(char *str1,rb_tree *tree){
+  if(strlen(str1) == 1){
+    node_data *n_data = topWord(tree);
+    printf("La paraula %s es la que mes apareix: %d vegades a l'arbre.\n", n_data->key, n_data->num_times);
+  }
+  else{
+    str1[strlen(str1)-1]=0;
+    node_data *n_data = find_node(tree, str1);
+    if(n_data)
+      printf("La paraula %s apareix %d vegades a l'arbre.\n", str1, n_data->num_times);
+    else
+      printf("La paraula no apareix a l'arbre");
+  }
+}
 
