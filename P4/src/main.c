@@ -15,10 +15,6 @@
 #define MAGIC_NUMBER 0x01234567
 
 
-void writeTreeData(node_data *n_data, FILE *fp);
-void writeTreeInordre(node *x, FILE *fp);
-void writeTreeInicial(rb_tree *tree, FILE *fp);
-
 
 /**
  *
@@ -55,12 +51,11 @@ int main(int argc, char **argv)
 {
     char str1[MAXCHAR], str2[MAXCHAR], *word;
     int numkeys,size;
-    int opcio,magicNumber;
+    int opcio;
     FILE *fp;
     rb_tree *tree;
     node_data *n_data;
     char* dic_path;
-    magicNumber = MAGIC_NUMBER;
 
     if (argc != 1)
         printf("Opcions de la linia de comandes ignorades\n");
@@ -96,7 +91,7 @@ int main(int argc, char **argv)
                   printf("No es pot guardar el fitxer\n");
                   exit(0);
                 }
-                writeTree(fp,tree,magicNumber);
+                writeTree(fp,tree,MAGIC_NUMBER);
                 fclose(fp);
                 break;
 
@@ -123,7 +118,7 @@ int main(int argc, char **argv)
                 fread(&tmp,sizeof(int),1,fp);//read magicnumber
                 node_data *n_data = malloc(sizeof(node_data));
                 printf("%d\n",tmp);
-                if(tmp == magicNumber){
+                if(tmp == MAGIC_NUMBER){
                   fread(&tmp, sizeof(int), 1 , fp);//read size of tree
 
                   /* Initialize the tree */

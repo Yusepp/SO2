@@ -112,3 +112,41 @@ void writeTree(FILE *fp,rb_tree * tree,int magicNumber){
   writeTreeInicial(tree, fp);
   fclose(fp);
 }
+
+/*
+*
+*	METODOS PARA INSERIR EN EL ARBOL Y CONTAR RECURSIVAMENTE
+*
+*
+*/
+
+/*
+*Escriu les dades del node al fitxer, tant la key com el numero de vegades que apareix
+*/
+void writeTreeData(node_data *n_data, FILE *fp){
+  int size = strlen(n_data->key);
+  fwrite(&size, sizeof(int), 1, fp);
+  fwrite(n_data->key, sizeof(char), strlen(n_data->key), fp);
+  fwrite(&n_data->num_times, sizeof(int), 1, fp);
+}
+
+
+/*
+*Metode que recorre l'arbre en inordre per poder escriure les paraules al fitxer
+*/
+void writeTreeInordre(node *x, FILE *fp){
+  if(x->left != NIL)
+    writeTreeInordre(x->left, fp);
+  writeTreeData(x->data, fp);
+  if(x->right != NIL)
+    writeTreeInordre(x->right, fp);
+}
+
+/*
+*Metode que començara a escriure a l'arbre desde el node inicial.
+* Comprovara que tinguem un arbre i anira al metode d'inserir en inordre
+*/
+void writeTreeInicial(rb_tree *tree, FILE *fp){
+  if(tree->root != NIL)
+    writeTreeInordre(tree->root, fp);
+}
