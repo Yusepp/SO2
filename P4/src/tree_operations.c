@@ -63,7 +63,6 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   
   //delete
   deletepointers(file,*file_words);
-  free(n_data);
   free(file_words);
   free(filepath);
 
@@ -127,7 +126,7 @@ rb_tree *readTree(FILE * fp,int magicNumber){
 
       word = (char *) malloc(sizeof(char) * (length+1));//key + 1(for 0 byte)
       fread(word,sizeof(char),length,fp);//reading the key
-      word[strlen(word)] = 0;//insert byte 0
+      word[length] = 0;//insert byte 0
 
       fread(&numkeys,sizeof(int),1,fp);//value of the node
 
@@ -137,13 +136,10 @@ rb_tree *readTree(FILE * fp,int magicNumber){
 
       printf("%s\n",n_data->key);//showing word read
       
-      if(find_node(tree,word) == NULL)//checking value is not repeate
-        insert_node(tree,n_data);//inserting
-
+      insert_node(tree,n_data);//inserting
     }
   }
-  free(n_data);
-  free(word);
+
   return tree;
 }
 

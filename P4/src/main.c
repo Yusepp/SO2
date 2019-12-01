@@ -49,13 +49,11 @@ int menu()
 
 int main(int argc, char **argv)
 {
-    char str1[MAXCHAR], str2[MAXCHAR], *word;
-    int numkeys,size;
+    char str1[MAXCHAR], str2[MAXCHAR];
     int opcio;
     FILE *fp;
     rb_tree *tree;
     node_data *n_data;
-    char* dic_path;
 
     if (argc != 1)
         printf("Opcions de la linia de comandes ignorades\n");
@@ -68,6 +66,10 @@ int main(int argc, char **argv)
 
         switch (opcio) {
             case 1:
+                if(tree){//deleting old tree
+                  delete_tree(tree);
+                  free(tree);
+                }
                 printf("Fitxer de diccionari de paraules: ");
                 fgets(str1, MAXCHAR, stdin);
                 str1[strlen(str1)-1]=0;
@@ -122,7 +124,6 @@ int main(int argc, char **argv)
                 printf("Paraula a buscar o polsa enter per saber la paraula que apareix mes vegades: ");
                 fgets(str1, MAXCHAR, stdin);
                 search_word(str1,tree);
-
                 break;
 
             case 5:
