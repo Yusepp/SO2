@@ -8,6 +8,9 @@
 #include "read_tools.h"
 #include "tree_operations.h"
 
+#include "tree-to-mmap.h"
+#include "dbfnames-mmap.h"
+
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
 #define DICTIONARY "./diccionari/"
@@ -20,6 +23,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   int *file_words = 0;//how many words in file
   char **file;//contains words in file
   int  ct;//counter of nodes
+  char *mapped;
 
   //We load a dic as a pointer.
   dic_size = 0;
@@ -29,12 +33,9 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   free(filepath);
   //load list
   filepath = createPath(DATABASE,pathfile);
-  //list_size = countItems(filepath);
-  //list = getListItems(filepath,list_size);
-  
-  //We load a file as a pointer.
-  file_words = malloc(sizeof(int));
-  file = process_file(filepath,file_words);
+  list_size = countItems(filepath);
+  list = getListItems(filepath,list_size);
+  free(filepath);
 
   rb_tree *tree;//tree
   node_data *n_data;//node
@@ -43,30 +44,53 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   tree = (rb_tree *) malloc(sizeof(rb_tree));
   /* Initialize the tree */
   init_tree(tree);
+  indexDict(tree,dic,dic_size);
+  mapped = serialize_node_data_to_mmap(tree);
 
+  process_list(tree,list,list_size);//process list of files
+
+  deserialize_node_data_from_mmap(tree,mapped);
+  
+
+  return tree;
+}
+
+void indexDict(rb_tree *tree,char **dic,int size){
   //Insert dic to Tree
-  for(int j = 0; j < dic_size; j++){
+  node_data *n_data;//node
+  for(int j = 0; j < size; j++){
     n_data = malloc(sizeof(node_data));
     n_data->key = dic[j];
     n_data->num_times = 0;
     insert_node(tree, n_data);
   }
-  tree->size = dic_size;
-  //Increase dic words from file if they are in the tree.
-  for (ct = 0; ct < *file_words; ct++) {
+  tree->size = size;
+}
+
+void process_list(rb_tree *tree,char **list,int size){
+  for (int i = 0; i < size; i++){
+    //creating path for file 
+    char *filepath = createPath(DATABASE,list[i]);
+    //We load a file as a pointer.
+    int *file_words = malloc(sizeof(int));
+    char **file = process_file(filepath,file_words);
+    //Increase dic words from file if they are in the tree.
+    indexFile(tree,file,*file_words);   
+    deletepointers(file,*file_words);
+    free(file_words);
+    free(filepath);
+  }
+}
+
+void indexFile(rb_tree *tree,char **file,int size){
+  node_data *n_data;//node
+  for (int ct = 0; ct < size; ct++) {
     n_data = find_node(tree,file[ct]);
 
     if(n_data != NULL){
       n_data->num_times++;
     }
   }
-  
-  //delete
-  deletepointers(file,*file_words);
-  free(file_words);
-  free(filepath);
-
-  return tree;
 }
 
 char * createPath(char *start,char *subpath){
