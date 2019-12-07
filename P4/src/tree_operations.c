@@ -66,7 +66,6 @@ void indexDict(rb_tree *tree,char **dic,int size){
   }
   tree->size = size;
 }
-
 void process_list(rb_tree *tree,char **list,int size){
   for (int i = 0; i < size; i++){
     //creating path for file 
