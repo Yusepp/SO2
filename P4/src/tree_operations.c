@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#include <ctype.h>  
+#include <ctype.h>
 
 #include "red-black-tree.h"
 #include "read_tools.h"
@@ -24,6 +24,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   char **file;//contains words in file
   int  ct;//counter of nodes
   char *mapped;
+  FILE* fp;
 
   //We load a dic as a pointer.
   dic_size = 0;
@@ -50,7 +51,68 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   process_list(tree,list,list_size);//process list of files
 
   deserialize_node_data_from_mmap(tree,mapped);
-  
+
+  return tree;
+}
+
+
+rb_tree * createTreeTest(char *pathdic,char *pathfile){
+
+  int dic_size,list_size;//indexes for dictionary and list
+  char **dic,**list;//contains dictionary/list
+  char *filepath;//path from the file
+  int *file_words = 0;//how many words in file
+  char **file;//contains words in file
+  int  ct;//counter of nodes
+  char *mapped;
+  FILE* fp;
+  int i;
+  char *files;
+  char * llista;
+
+  //We load a dic as a pointer.
+  dic_size = 0;
+  filepath = createPath(DICTIONARY,pathdic);
+  dic_size = countDicWords(filepath);
+  dic = getDictionary(filepath,dic_size);
+  free(filepath);
+  //load list
+  filepath = createPath(DATABASE,pathfile);
+  list_size = countItems(filepath);
+  list = getListItems(filepath,list_size);
+
+  /*Mapeja els noms dels fitxers a memoria*/
+  fp= fopen(filepath,"r");
+  files = dbfnames_to_mmap(fp);
+
+
+  free(filepath);
+
+
+  rb_tree *tree;//tree
+  node_data *n_data;//node
+
+  /* Allocate memory for tree */
+  tree = (rb_tree *) malloc(sizeof(rb_tree));
+  /* Initialize the tree */
+  init_tree(tree);
+  indexDict(tree,dic,dic_size);
+
+  mapped = serialize_node_data_to_mmap(tree);
+
+
+
+  deserialize_node_data_from_mmap(tree,mapped);
+
+
+  process_list(tree,list,list_size);//process list of files
+
+  for (size_t i = 0; i < list_size; i++) {
+    llista = get_dbfname_from_mmap(files, i);
+    printf("%s\n", llista);
+  }
+  dbfnames_munmmap(files);
+
 
   return tree;
 }
@@ -68,13 +130,13 @@ void indexDict(rb_tree *tree,char **dic,int size){
 }
 void process_list(rb_tree *tree,char **list,int size){
   for (int i = 0; i < size; i++){
-    //creating path for file 
+    //creating path for file
     char *filepath = createPath(DATABASE,list[i]);
     //We load a file as a pointer.
     int *file_words = malloc(sizeof(int));
     char **file = process_file(filepath,file_words);
     //Increase dic words from file if they are in the tree.
-    indexFile(tree,file,*file_words);   
+    indexFile(tree,file,*file_words);
     deletepointers(file,*file_words);
     free(file_words);
     free(filepath);
@@ -115,7 +177,7 @@ node *recursive_search(node *n,node *best){
   }
 
   if (n->left != NIL){
-    tmp = recursive_search(n->left,tmp);   
+    tmp = recursive_search(n->left,tmp);
   }
 
   return tmp;
@@ -132,10 +194,10 @@ rb_tree *readTree(FILE * fp,int magicNumber){
   //creating new tree
   tree = (rb_tree *)malloc(sizeof(rb_tree));
   init_tree(tree);
- 
+
 
   fread(&tmp,sizeof(int),1,fp);//read magicnumber
-  
+
 
   if(tmp == magicNumber){//check that we read the correct magic
     fread(&tmp, sizeof(int), 1 , fp);//read size of tree
@@ -144,7 +206,7 @@ rb_tree *readTree(FILE * fp,int magicNumber){
     for(int i = 0; i < tmp;i++){//make size times the node structure read
 
       fread(&length,sizeof(int),1,fp);//length of the node key
-      
+
       //Reservem memoria per la paraula
 
       word = (char *) malloc(sizeof(char) * (length+1));//key + 1(for 0 byte)
@@ -158,7 +220,7 @@ rb_tree *readTree(FILE * fp,int magicNumber){
       n_data->num_times = numkeys;//putting value
 
       printf("%s\n",n_data->key);//showing word read
-      
+
       insert_node(tree,n_data);//inserting
     }
   }
