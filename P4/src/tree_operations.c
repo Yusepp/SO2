@@ -3,6 +3,8 @@
 #include <time.h>
 #include <string.h>
 #include <ctype.h>
+#include <sys/types.h> 
+#include <unistd.h> 
 
 #include "red-black-tree.h"
 #include "read_tools.h"
@@ -51,17 +53,22 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   
   folder = fopen(filepath,"r");
   mapped_names = dbfnames_to_mmap(folder);//mapping file's names
-
-
-  process_list(tree,mapped_names);//process list of files
+  
+  if(fork() == 0){
+      printf("Child processing file\n");
+      process_list(tree,mapped_names);//process list of files
+      exit(0);
+  }
+  else{
+      printf("Parent waiting\n");
+      wait(NULL);
+      printf("Child finished , parent continues\n");
+  }
+  
 
   deserialize_node_data_from_mmap(tree,mapped_tree);//unmapping
   dbfnames_munmmap(mapped_names);//unmapping
     
-  
-  
-  fclose(folder);
-  free(filepath);
   
   return tree;
 }
@@ -90,8 +97,6 @@ void process_list(rb_tree *tree,char *mapped_names){
     //Increase dic words from file if they are in the tree.
     indexFile(tree,file,*file_words);
     deletepointers(file,*file_words);
-    free(file_words);
-    free(filepath);
     i++;
   }
 }
