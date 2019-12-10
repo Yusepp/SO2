@@ -3,8 +3,8 @@
 #include <time.h>
 #include <string.h>
 #include <ctype.h>
-#include <sys/types.h> 
-#include <unistd.h> 
+#include <sys/types.h>
+#include <unistd.h>
 
 #include "red-black-tree.h"
 #include "read_tools.h"
@@ -39,7 +39,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   filepath = createPath(DATABASE,pathfile);
   //list_size = countItems(filepath);
   //list = getListItems(filepath,list_size);
-  
+
 
   rb_tree *tree;//tree
   node_data *n_data;//node
@@ -50,10 +50,12 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   init_tree(tree);
   indexDict(tree,dic,dic_size);//Dictionary to tree
   mapped_tree = serialize_node_data_to_mmap(tree);//mapping tree(serialize)
-  
+
   folder = fopen(filepath,"r");
   mapped_names = dbfnames_to_mmap(folder);//mapping file's names
-  
+
+
+
   if(fork() == 0){
       printf("Child processing file\n");
       process_list(tree,mapped_names);//process list of files
@@ -63,13 +65,33 @@ rb_tree * createTree(char *pathdic,char *pathfile){
       printf("Parent waiting\n");
       wait(NULL);
       printf("Child finished , parent continues\n");
-  }
+    }
+
   
+
+/*
+pid_t fill1,fill2;
+  if(fill1 = fork() == 0){
+      printf("Child1 processing file\n");
+      process_list(tree,mapped_names);//process list of files
+      exit(0);
+  }
+  else{
+      if(fill2= fork()==0){
+        printf("Child2 processing\n" );
+      }else{
+      printf("Parent waiting\n");
+      wait(NULL);
+      printf("Child finished , parent continues\n");
+  }
+}*/
+
+
 
   deserialize_node_data_from_mmap(tree,mapped_tree);//unmapping
   dbfnames_munmmap(mapped_names);//unmapping
-    
-  
+
+
   return tree;
 }
 
@@ -87,7 +109,7 @@ void indexDict(rb_tree *tree,char **dic,int size){
   tree->size = size;
 }
 void process_list(rb_tree *tree,char *mapped_names){
-    
+
   int i = 0;
   while(get_dbfname_from_mmap(mapped_names,i) != NULL){
     printf("%d : %s\n",i,get_dbfname_from_mmap(mapped_names,i));
@@ -196,7 +218,6 @@ void writeTree(FILE *fp,rb_tree * tree,int magicNumber){
 
   //Escriu l'arbre a memoria
   writeTreeInicial(tree, fp);
-  fclose(fp);
 }
 
 
@@ -252,4 +273,3 @@ void search_word(char *str1,rb_tree *tree){
       printf("La paraula no apareix a l'arbre");
   }
 }
-
