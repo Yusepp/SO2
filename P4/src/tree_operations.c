@@ -23,8 +23,9 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   int *file_words = 0;//how many words in file
   char **file;//contains words in file
   int  ct;//counter of nodes
-  char *mapped;
-  FILE* fp;
+  char *mapped_tree;
+  char *mapped_names;
+  FILE *folder;
 
   //We load a dic as a pointer.
   dic_size = 0;
@@ -34,9 +35,9 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   free(filepath);
   //load list
   filepath = createPath(DATABASE,pathfile);
-  list_size = countItems(filepath);
-  list = getListItems(filepath,list_size);
-  free(filepath);
+  //list_size = countItems(filepath);
+  //list = getListItems(filepath,list_size);
+  
 
   rb_tree *tree;//tree
   node_data *n_data;//node
@@ -45,77 +46,27 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   tree = (rb_tree *) malloc(sizeof(rb_tree));
   /* Initialize the tree */
   init_tree(tree);
-  indexDict(tree,dic,dic_size);
-  mapped = serialize_node_data_to_mmap(tree);
+  indexDict(tree,dic,dic_size);//Dictionary to tree
+  mapped_tree = serialize_node_data_to_mmap(tree);//mapping tree(serialize)
+  
+  folder = fopen(filepath,"r");
+  mapped_names = dbfnames_to_mmap(folder);//mapping file's names
 
-  process_list(tree,list,list_size);//process list of files
 
-  deserialize_node_data_from_mmap(tree,mapped);
+  process_list(tree,mapped_names);//process list of files
 
+  deserialize_node_data_from_mmap(tree,mapped_tree);//unmapping
+  dbfnames_munmmap(mapped_names);//unmapping
+    
+  
+  
+  fclose(folder);
+  free(filepath);
+  
   return tree;
 }
 
 
-rb_tree * createTreeTest(char *pathdic,char *pathfile){
-
-  int dic_size,list_size;//indexes for dictionary and list
-  char **dic,**list;//contains dictionary/list
-  char *filepath;//path from the file
-  int *file_words = 0;//how many words in file
-  char **file;//contains words in file
-  int  ct;//counter of nodes
-  char *mapped;
-  FILE* fp;
-  int i;
-  char *files;
-  char * llista;
-
-  //We load a dic as a pointer.
-  dic_size = 0;
-  filepath = createPath(DICTIONARY,pathdic);
-  dic_size = countDicWords(filepath);
-  dic = getDictionary(filepath,dic_size);
-  free(filepath);
-  //load list
-  filepath = createPath(DATABASE,pathfile);
-  list_size = countItems(filepath);
-  list = getListItems(filepath,list_size);
-
-  /*Mapeja els noms dels fitxers a memoria*/
-  fp= fopen(filepath,"r");
-  files = dbfnames_to_mmap(fp);
-
-
-  free(filepath);
-
-
-  rb_tree *tree;//tree
-  node_data *n_data;//node
-
-  /* Allocate memory for tree */
-  tree = (rb_tree *) malloc(sizeof(rb_tree));
-  /* Initialize the tree */
-  init_tree(tree);
-  indexDict(tree,dic,dic_size);
-
-  mapped = serialize_node_data_to_mmap(tree);
-
-
-
-  deserialize_node_data_from_mmap(tree,mapped);
-
-
-  process_list(tree,list,list_size);//process list of files
-
-  for (size_t i = 0; i < list_size; i++) {
-    llista = get_dbfname_from_mmap(files, i);
-    printf("%s\n", llista);
-  }
-  dbfnames_munmmap(files);
-
-
-  return tree;
-}
 
 void indexDict(rb_tree *tree,char **dic,int size){
   //Insert dic to Tree
@@ -128,11 +79,12 @@ void indexDict(rb_tree *tree,char **dic,int size){
   }
   tree->size = size;
 }
-void process_list(rb_tree *tree,char **list,int size){
-  for (int i = 0; i < size; i++){
-    //creating path for file
-    char *filepath = createPath(DATABASE,list[i]);
-    //We load a file as a pointer.
+void process_list(rb_tree *tree,char *mapped_names){
+    
+  int i = 0;
+  while(get_dbfname_from_mmap(mapped_names,i) != NULL){
+    printf("%d : %s\n",i,get_dbfname_from_mmap(mapped_names,i));
+    char *filepath = createPath(DATABASE,get_dbfname_from_mmap(mapped_names,i));
     int *file_words = malloc(sizeof(int));
     char **file = process_file(filepath,file_words);
     //Increase dic words from file if they are in the tree.
@@ -140,6 +92,7 @@ void process_list(rb_tree *tree,char **list,int size){
     deletepointers(file,*file_words);
     free(file_words);
     free(filepath);
+    i++;
   }
 }
 
