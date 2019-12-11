@@ -5,6 +5,10 @@
 #include <ctype.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <semaphore.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <pthread.h>
 
 #include "red-black-tree.h"
 #include "read_tools.h"
@@ -16,6 +20,10 @@
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
 #define DICTIONARY "./diccionari/"
+#define NUM_PROC  2 
+
+
+sem_t clau;
 
 rb_tree * createTree(char *pathdic,char *pathfile){
 
@@ -54,43 +62,26 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   folder = fopen(filepath,"r");
   mapped_names = dbfnames_to_mmap(folder);//mapping file's names
 
+  sem_init(&clau,0,1);
 
-
-  if(fork() == 0){
-      printf("Child processing file\n");
-      process_list(tree,mapped_names);//process list of files
+  for(int i = 0; i<NUM_PROC; i++){
+    if(fork() == 0){
+      process_list(tree,mapped_names,i);//process list of files
       exit(0);
-  }
-  else{
-      printf("Parent waiting\n");
-      wait(NULL);
-      printf("Child finished , parent continues\n");
     }
-
-  
-
-/*
-pid_t fill1,fill2;
-  if(fill1 = fork() == 0){
-      printf("Child1 processing file\n");
-      process_list(tree,mapped_names);//process list of files
-      exit(0);
+    else{
+      printf("Process %d Created!\n",i);
+    }
   }
-  else{
-      if(fill2= fork()==0){
-        printf("Child2 processing\n" );
-      }else{
-      printf("Parent waiting\n");
-      wait(NULL);
-      printf("Child finished , parent continues\n");
+
+  for(int i = 0; i<NUM_PROC; i++){
+    wait(NULL);
+    printf("Process %d Finished!\n",i);
   }
-}*/
-
-
 
   deserialize_node_data_from_mmap(tree,mapped_tree);//unmapping
   dbfnames_munmmap(mapped_names);//unmapping
-
+  sem_close(&clau);
 
   return tree;
 }
@@ -108,16 +99,18 @@ void indexDict(rb_tree *tree,char **dic,int size){
   }
   tree->size = size;
 }
-void process_list(rb_tree *tree,char *mapped_names){
+void process_list(rb_tree *tree,char *mapped_names,int process){
 
   int i = 0;
   while(get_dbfname_from_mmap(mapped_names,i) != NULL){
-    printf("%d : %s\n",i,get_dbfname_from_mmap(mapped_names,i));
+    printf("`Process %d : %s\n",process,get_dbfname_from_mmap(mapped_names,i));
     char *filepath = createPath(DATABASE,get_dbfname_from_mmap(mapped_names,i));
     int *file_words = malloc(sizeof(int));
     char **file = process_file(filepath,file_words);
     //Increase dic words from file if they are in the tree.
+    sem_wait(&clau);
     indexFile(tree,file,*file_words);
+    sem_post(&clau);
     deletepointers(file,*file_words);
     i++;
   }

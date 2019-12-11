@@ -4,23 +4,12 @@
  * 
  */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <string.h>
-#include <ctype.h>  
 
-#include "red-black-tree.h"
-#include "read_tools.h"
-
-#define MAXCHAR 100
-#define DATABASE "./base_dades/"
-#define DICTIONARY "./diccionari/"
 
 
 rb_tree * createTree(char *pathdic,char *pathfile);//creates tree
 void indexDict(rb_tree *tree,char **dic,int size);
-void process_list(rb_tree *tree,char *mapped_names);
+void process_list(rb_tree *tree,char *mapped_names,int process);
 void indexFile(rb_tree *tree,char **file,int size);
 char * createPath(char *start,char *subpath);//creation path
 node_data * topWord(rb_tree * tree);//return the top word of the tree

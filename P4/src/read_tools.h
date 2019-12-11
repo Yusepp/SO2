@@ -9,16 +9,7 @@ We create separate them from main for better code comprehesion.
 
 */
 
-#include <stdlib.h>
-#include <time.h>
-#include <string.h>
-#include <ctype.h>  
-#include <stdio.h>
-#include <stdarg.h>
 
-#define MAXCHAR 100
-#define DATABASE "./base_dades/"
-#define DICTIONARY "./diccionari/"
 
 //Header for import functions
 
