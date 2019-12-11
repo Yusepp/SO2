@@ -22,8 +22,7 @@
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
 #define DICTIONARY "./diccionari/"
-#define NUM_PROC  2 
-
+#define NUM_PROC  2
 
 sem_t clau;//semaphore
 
@@ -35,39 +34,61 @@ sem_t clau;//semaphore
 *
 */
 
+
 rb_tree * createTree(char *pathdic,char *pathfile){
 
   int dic_size,list_size;//indexes for dictionary and list
-  char **dic,**list,**file;;//contains dictionary/list/file
-  char *filepath;//path from the file
-  int *file_words = 0;//how many words in file
-  char *mapped_tree,*mapped_names;//mapped variables
-  FILE *folder;//folder file pointer
+ char **dic,**list,**file;;//contains dictionary/list/file
+ char *filepath;//path from the file
+ int *file_words = 0;//how many words in file
+ char *mapped_tree,*mapped_names;//mapped variables
+ FILE *folder;//folder file pointer
 
-  //We load a dic as a pointer.
-  dic_size = 0;
-  filepath = createPath(DICTIONARY,pathdic);
-  dic_size = countDicWords(filepath);
-  dic = getDictionary(filepath,dic_size);
-  free(filepath);
+ //We load a dic as a pointer.
+ dic_size = 0;
+ filepath = createPath(DICTIONARY,pathdic);
+ dic_size = countDicWords(filepath);
+ dic = getDictionary(filepath,dic_size);
+ list_size = countItems(filepath);
 
-  rb_tree *tree;//tree
-  node_data *n_data;//node
+ free(filepath);
 
-  /* Allocate memory for tree */
-  tree = (rb_tree *) malloc(sizeof(rb_tree));
-  /* Initialize the tree */
-  init_tree(tree);
-  indexDict(tree,dic,dic_size);//Dictionary to tree
-  mapped_tree = serialize_node_data_to_mmap(tree);//mapping tree(serialize)
-  
-  filepath = createPath(DATABASE,pathfile);//path from list
-  folder = fopen(filepath,"r");//open list
-  mapped_names = dbfnames_to_mmap(folder);//mapping file's names
+ rb_tree *tree;//tree
+ node_data *n_data;//node
 
-  sem_init(&clau,0,1);//start semaphore
+ /* Allocate memory for tree */
+ tree = (rb_tree *) malloc(sizeof(rb_tree));
+ /* Initialize the tree */
+ init_tree(tree);
+ indexDict(tree,dic,dic_size);//Dictionary to tree
+ mapped_tree = serialize_node_data_to_mmap(tree);//mapping tree(serialize)
 
-  for(int i = 0; i<NUM_PROC; i++){//We create N process
+ filepath = createPath(DATABASE,pathfile);//path from list
+ folder = fopen(filepath,"r");//open list
+ mapped_names = dbfnames_to_mmap(folder);//mapping file's names
+
+
+  int pid;
+  sem_init(&clau,1,NUM_PROC);
+
+  for(int i = 0; i<NUM_PROC; i++){
+    pid = fork();
+    if(pid== 0){
+		    for(;i< list_size;i+=NUM_PROC){
+        //process_list(tree,mapped_names,i);//process list of files
+		     process_file1(tree,get_dbfname_from_mmap(mapped_names,i));
+       }
+        exit(0);
+    }
+  }
+  for(int i = 0; i<NUM_PROC; i++){
+      wait(NULL);
+      printf("Process %d Finished!\n",i);
+  }
+
+
+/* Parte josep
+for(int i = 0; i<NUM_PROC; i++){//We create N process
     if(fork() == 0){//Child process
       process_list(tree,mapped_names,i);//Child process file
       exit(0);//finishes
@@ -80,12 +101,12 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   for(int i = 0; i<NUM_PROC; i++){
     wait(NULL);//parent works to every process
     printf("Process %d Finished!\n",i);
-  }
+  }*/
+
 
   deserialize_node_data_from_mmap(tree,mapped_tree);//unmapping
   dbfnames_munmmap(mapped_names);//unmapping
   sem_close(&clau);//closing semaphore
-
   return tree;
 }
 
@@ -131,19 +152,22 @@ void process_list(rb_tree *tree,char *mapped_names,int process){
   }
 }
 
+
+
 /*
 *
 *	COPY WORDS FORM A FILE TO THE TREE
 *
 *
 */
+
 void indexFile(rb_tree *tree,char **file,int size){
   node_data *n_data;//node
   for (int ct = 0; ct < size; ct++) {
     n_data = find_node(tree,file[ct]);
 
     if(n_data != NULL){
-      n_data->num_times++;
+         n_data->num_times++;
     }
   }
 }
@@ -154,6 +178,7 @@ void indexFile(rb_tree *tree,char **file,int size){
 *
 *
 */
+
 char * createPath(char *start,char *subpath){
   char *tmp = malloc(sizeof(char)*(strlen(start)+strlen(subpath)+1));
   strcpy(tmp,start);
@@ -161,4 +186,88 @@ char * createPath(char *start,char *subpath){
   return tmp;
 }
 
+/*
+*
+* FUNCIONES QUE USO PARA PROBAR MI PARTE DEL CODIGO
+*
+*/
 
+void process_file1(rb_tree *tree, char *fname)
+{
+  FILE *fp;
+  char line[MAXCHAR];
+
+  fp = fopen(fname, "r");
+  if (!fp) {
+    printf("Could not open %s\n", fname);
+    exit(1);
+  }
+
+  while (fgets(line, MAXCHAR, fp))
+    index_words_line(tree, line);
+
+  fclose(fp);
+}
+
+
+
+void index_words_line(rb_tree *tree, char *line)
+{
+  node_data *n_data;
+
+  int i, j, is_word, len_line;
+  char paraula[MAXCHAR];
+
+  i = 0;
+
+  len_line = strlen(line);
+
+  /* Search for the beginning of a candidate word */
+
+  while ((i < len_line) && (isspace(line[i]) || ((ispunct(line[i])) && (line[i] != '#')))) i++;
+
+  /* This is the main loop that extracts all the words */
+
+  while (i < len_line)
+  {
+    j = 0;
+    is_word = 1;
+
+    /* Extract the candidate word including digits if they are present */
+
+    do {
+
+      if ((isalpha(line[i])) || (line[i] == '\''))
+        paraula[j] = line[i];
+      else
+        is_word = 0;
+
+      j++; i++;
+
+      /* Check if we arrive to an end of word: space or punctuation character */
+
+    } while ((i < len_line) && (!isspace(line[i])) && (!(ispunct(line[i]) && (line[i]!='\'') && (line[i]!='#'))));
+
+    /* If word insert in list */
+
+    if (is_word) {
+
+      /* Put a '\0' (end-of-word) at the end of the string*/
+      paraula[j] = 0;
+
+      /* Search for the word in the tree */
+      n_data = find_node(tree, paraula);
+
+      if (n_data != NULL){
+		      sem_wait(&clau);
+          n_data->num_times++;
+		      sem_post(&clau);
+	       }
+    }
+
+    /* Search for the beginning of a candidate word */
+
+    while ((i < len_line) && (isspace(line[i]) || ((ispunct(line[i])) && (line[i] != '#')))) i++;
+
+  } /* while (i < len_line) */
+}
