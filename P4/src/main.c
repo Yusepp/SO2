@@ -10,8 +10,10 @@
 #include <string.h>
 
 #include "red-black-tree.h"
-#include "tree_operations.h"
+#include "tree_creation.h"
 #include "read_tools.h"
+#include "search_operations.h"
+#include "write_read.h"
 
 #include "dbfnames-mmap.h"
 #include "tree-to-mmap.h"

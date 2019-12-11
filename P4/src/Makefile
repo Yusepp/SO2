@@ -1,7 +1,7 @@
 # This is the makefile that generates the executable
 
 # Files to compile
-FILES_C = main.c red-black-tree.c read_tools.c tree_operations.c dbfnames-mmap.c tree-to-mmap.c 
+FILES_C = main.c red-black-tree.c read_tools.c tree_creation.c dbfnames-mmap.c tree-to-mmap.c search_operations.c  write_read.c
 
 # Exectuable to generate
 TARGET = practica4
