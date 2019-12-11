@@ -25,6 +25,13 @@
 #define DICTIONARY "./diccionari/"
 #define NUM_PROC  2 
 
+
+/*
+*
+*	We read a binary in a concrete format to recover a saved tree.
+*
+*
+*/
 rb_tree *readTree(FILE * fp,int magicNumber){
   //Variables
   int tmp,numkeys,length;
@@ -70,6 +77,12 @@ rb_tree *readTree(FILE * fp,int magicNumber){
   return tree;
 }
 
+/*
+*
+*	We save a binary in a concrete format.
+*
+*
+*/
 void writeTree(FILE *fp,rb_tree * tree,int magicNumber){
   int magic = magicNumber;
   //Escribim el magicNumber a l'inici del fitxer
@@ -85,13 +98,9 @@ void writeTree(FILE *fp,rb_tree * tree,int magicNumber){
 
 /*
 *
-*	METODOS PARA INSERIR EN EL ARBOL Y CONTAR RECURSIVAMENTE
+*	Writes key length, key and ocurrence.
 *
 *
-*/
-
-/*
-*Escriu les dades del node al fitxer, tant la key com el numero de vegades que apareix
 */
 void writeTreeData(node_data *n_data, FILE *fp){
   int size = strlen(n_data->key);
@@ -102,7 +111,10 @@ void writeTreeData(node_data *n_data, FILE *fp){
 
 
 /*
-*Metode que recorre l'arbre en inordre per poder escriure les paraules al fitxer
+*
+*	Moves through tree.
+*
+*
 */
 void writeTreeInordre(node *x, FILE *fp){
   if(x->left != NIL)
@@ -113,8 +125,10 @@ void writeTreeInordre(node *x, FILE *fp){
 }
 
 /*
-*Metode que començara a escriure a l'arbre desde el node inicial.
-* Comprovara que tinguem un arbre i anira al metode d'inserir en inordre
+*
+*	Starting write method.
+*
+*
 */
 void writeTreeInicial(rb_tree *tree, FILE *fp){
   if(tree->root != NIL)

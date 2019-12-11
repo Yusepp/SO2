@@ -25,19 +25,24 @@
 #define NUM_PROC  2 
 
 
-sem_t clau;
+sem_t clau;//semaphore
+
+
+/*
+*
+*   CREATION OF THE TREE.
+*
+*
+*/
 
 rb_tree * createTree(char *pathdic,char *pathfile){
 
   int dic_size,list_size;//indexes for dictionary and list
-  char **dic,**list;//contains dictionary/list
+  char **dic,**list,**file;;//contains dictionary/list/file
   char *filepath;//path from the file
   int *file_words = 0;//how many words in file
-  char **file;//contains words in file
-  int  ct;//counter of nodes
-  char *mapped_tree;
-  char *mapped_names;
-  FILE *folder;
+  char *mapped_tree,*mapped_names;//mapped variables
+  FILE *folder;//folder file pointer
 
   //We load a dic as a pointer.
   dic_size = 0;
@@ -45,11 +50,6 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   dic_size = countDicWords(filepath);
   dic = getDictionary(filepath,dic_size);
   free(filepath);
-  //load list
-  filepath = createPath(DATABASE,pathfile);
-  //list_size = countItems(filepath);
-  //list = getListItems(filepath,list_size);
-
 
   rb_tree *tree;//tree
   node_data *n_data;//node
@@ -60,36 +60,42 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   init_tree(tree);
   indexDict(tree,dic,dic_size);//Dictionary to tree
   mapped_tree = serialize_node_data_to_mmap(tree);//mapping tree(serialize)
-
-  folder = fopen(filepath,"r");
+  
+  filepath = createPath(DATABASE,pathfile);//path from list
+  folder = fopen(filepath,"r");//open list
   mapped_names = dbfnames_to_mmap(folder);//mapping file's names
 
-  sem_init(&clau,0,1);
+  sem_init(&clau,0,1);//start semaphore
 
-  for(int i = 0; i<NUM_PROC; i++){
-    if(fork() == 0){
-      process_list(tree,mapped_names,i);//process list of files
-      exit(0);
+  for(int i = 0; i<NUM_PROC; i++){//We create N process
+    if(fork() == 0){//Child process
+      process_list(tree,mapped_names,i);//Child process file
+      exit(0);//finishes
     }
-    else{
+    else{//parent
       printf("Process %d Created!\n",i);
     }
   }
 
   for(int i = 0; i<NUM_PROC; i++){
-    wait(NULL);
+    wait(NULL);//parent works to every process
     printf("Process %d Finished!\n",i);
   }
 
   deserialize_node_data_from_mmap(tree,mapped_tree);//unmapping
   dbfnames_munmmap(mapped_names);//unmapping
-  sem_close(&clau);
+  sem_close(&clau);//closing semaphore
 
   return tree;
 }
 
 
-
+/*
+*
+*	COPY DIC WORDS TO TREE.
+*
+*
+*/
 void indexDict(rb_tree *tree,char **dic,int size){
   //Insert dic to Tree
   node_data *n_data;//node
@@ -101,6 +107,13 @@ void indexDict(rb_tree *tree,char **dic,int size){
   }
   tree->size = size;
 }
+
+/*
+*
+*	PROCESS A LIST OF FILES FROM THE DATABASE
+*
+*
+*/
 void process_list(rb_tree *tree,char *mapped_names,int process){
 
   int i = 0;
@@ -118,6 +131,12 @@ void process_list(rb_tree *tree,char *mapped_names,int process){
   }
 }
 
+/*
+*
+*	COPY WORDS FORM A FILE TO THE TREE
+*
+*
+*/
 void indexFile(rb_tree *tree,char **file,int size){
   node_data *n_data;//node
   for (int ct = 0; ct < size; ct++) {
@@ -129,6 +148,12 @@ void indexFile(rb_tree *tree,char **file,int size){
   }
 }
 
+/*
+*
+*	GIVEN A PATH CREATE THE DATABASE OR DIC PATH.
+*
+*
+*/
 char * createPath(char *start,char *subpath){
   char *tmp = malloc(sizeof(char)*(strlen(start)+strlen(subpath)+1));
   strcpy(tmp,start);

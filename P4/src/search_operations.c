@@ -24,11 +24,23 @@
 #define DICTIONARY "./diccionari/"
 #define NUM_PROC  2 
 
+/*
+*
+*	Search recursively the word with most ocurrences.
+*
+*
+*/
 node_data * topWord(rb_tree * tree){
   if (tree->root != NIL)
     return recursive_search(tree->root,tree->root)->data;
 }
 
+/*
+*
+*	Aux Method for search.
+*
+*
+*/
 node *recursive_search(node *n,node *best){
   node *tmp = best;
   if(n->data->num_times > best->data->num_times){
@@ -46,6 +58,12 @@ node *recursive_search(node *n,node *best){
   return tmp;
 }
 
+/*
+*
+*	Main search method.
+*
+*
+*/
 void search_word(char *str1,rb_tree *tree){
   if(strlen(str1) == 1){
     node_data *n_data = topWord(tree);
