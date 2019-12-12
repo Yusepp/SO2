@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #include <string.h>
 #include <ctype.h>
 #include <sys/types.h>
 #include <unistd.h>
 #include <semaphore.h>
-#include <sys/types.h>
 #include <sys/wait.h>
-#include <pthread.h>
 #include <sys/mman.h>
 
 #include "red-black-tree.h"
@@ -23,7 +20,13 @@
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
 #define DICTIONARY "./diccionari/"
-#define NUM_PROC 4
+#define NUM_PROC 2
+
+/*
+ *
+ * STRUCT FOR SEMAPHORE USES
+ *
+*/
 
 typedef struct shared_mem {
     sem_t clau1;
@@ -38,7 +41,6 @@ shared_mem *s;
 /*
 *
 *   CREATION OF THE TREE.
-*
 *
 */
 
@@ -58,7 +60,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
  dic_size = countDicWords(filepath);
  dic = getDictionary(filepath,dic_size);
  list_size = countItems(filepath);
- 
+
 
  free(filepath);
 
@@ -88,13 +90,10 @@ s = mmap(NULL, sizeof(shared_mem), PROT_READ | PROT_WRITE,
     pid = fork();
     if(pid== 0){
 		    for(int j=i; j<list_size;j+=NUM_PROC){
-        //process_list(tree,mapped_names,i);//process list of files
           if(get_dbfname_from_mmap(mapped_names,j) != NULL){
             printf("Process %d processing %s\n",i+1,get_dbfname_from_mmap(mapped_names,j));
             filepath = createPath(DATABASE,get_dbfname_from_mmap(mapped_names,j));
-            //sem_wait(&s->clau1);
 		        process_file1(tree,filepath);
-            //sem_post(&s->clau1);
           }
        }
         exit(0);
@@ -104,24 +103,6 @@ s = mmap(NULL, sizeof(shared_mem), PROT_READ | PROT_WRITE,
       wait(NULL);
       printf("Process %d Finished!\n",i+1);
   }
-
-
-/* Parte josep
-for(int i = 0; i<NUM_PROC; i++){//We create N process
-    if(fork() == 0){//Child process
-      process_list(tree,mapped_names,i);//Child process file
-      exit(0);//finishes
-    }
-    else{//parent
-      printf("Process %d Created!\n",i);
-    }
-  }
-
-  for(int i = 0; i<NUM_PROC; i++){
-    wait(NULL);//parent works to every process
-    printf("Process %d Finished!\n",i);
-  }*/
-
 
   deserialize_node_data_from_mmap(tree,mapped_tree);//unmapping
   dbfnames_munmmap(mapped_names);//unmapping
@@ -135,7 +116,6 @@ for(int i = 0; i<NUM_PROC; i++){//We create N process
 /*
 *
 *	COPY DIC WORDS TO TREE.
-*
 *
 */
 void indexDict(rb_tree *tree,char **dic,int size){
@@ -153,7 +133,6 @@ void indexDict(rb_tree *tree,char **dic,int size){
 /*
 *
 *	PROCESS A LIST OF FILES FROM THE DATABASE
-*
 *
 */
 void process_list(rb_tree *tree,char *mapped_names,int process){
@@ -179,7 +158,6 @@ void process_list(rb_tree *tree,char *mapped_names,int process){
 *
 *	COPY WORDS FORM A FILE TO THE TREE
 *
-*
 */
 
 void indexFile(rb_tree *tree,char **file,int size){
@@ -197,7 +175,6 @@ void indexFile(rb_tree *tree,char **file,int size){
 *
 *	GIVEN A PATH CREATE THE DATABASE OR DIC PATH.
 *
-*
 */
 
 char * createPath(char *start,char *subpath){
@@ -208,11 +185,10 @@ char * createPath(char *start,char *subpath){
 }
 
 /*
-*
-* FUNCIONES QUE USO PARA PROBAR MI PARTE DEL CODIGO
-*
-*/
-
+ *
+ * GIVEN A FILE PROCESS LINES OF FILE
+ *
+ */
 void process_file1(rb_tree *tree, char *fname)
 {
   FILE *fp;
@@ -230,10 +206,13 @@ void process_file1(rb_tree *tree, char *fname)
   fclose(fp);
 }
 
+/**
+ *
+ * GIVEN A LINE WITH WORDS, SEARCH EACH WORD IN THE TREE AND INCRESE IF IT IS FOUND
+ *
+ */
 
-
-void index_words_line(rb_tree *tree, char *line)
-{
+void index_words_line(rb_tree *tree, char *line){
   node_data *n_data;
 
   int i, j, is_word, len_line;
@@ -244,20 +223,15 @@ void index_words_line(rb_tree *tree, char *line)
   len_line = strlen(line);
 
   /* Search for the beginning of a candidate word */
-
   while ((i < len_line) && (isspace(line[i]) || ((ispunct(line[i])) && (line[i] != '#')))) i++;
 
   /* This is the main loop that extracts all the words */
-
-  while (i < len_line)
-  {
+  while (i < len_line)  {
     j = 0;
     is_word = 1;
 
     /* Extract the candidate word including digits if they are present */
-
     do {
-
       if ((isalpha(line[i])) || (line[i] == '\''))
         paraula[j] = line[i];
       else
@@ -266,11 +240,8 @@ void index_words_line(rb_tree *tree, char *line)
       j++; i++;
 
       /* Check if we arrive to an end of word: space or punctuation character */
-
     } while ((i < len_line) && (!isspace(line[i])) && (!(ispunct(line[i]) && (line[i]!='\'') && (line[i]!='#'))));
-
     /* If word insert in list */
-
     if (is_word) {
 
       /* Put a '\0' (end-of-word) at the end of the string*/
@@ -287,7 +258,6 @@ void index_words_line(rb_tree *tree, char *line)
     }
 
     /* Search for the beginning of a candidate word */
-
     while ((i < len_line) && (isspace(line[i]) || ((ispunct(line[i])) && (line[i] != '#')))) i++;
 
   } /* while (i < len_line) */
