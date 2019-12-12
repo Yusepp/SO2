@@ -61,7 +61,6 @@ rb_tree * createTree(char *pathdic,char *pathfile){
  dic = getDictionary(filepath,dic_size);
  list_size = countItems(filepath);
 
-
  free(filepath);
 
  rb_tree *tree;//tree
@@ -76,9 +75,9 @@ rb_tree * createTree(char *pathdic,char *pathfile){
 
  filepath = createPath(DATABASE,pathfile);//path from list
  folder = fopen(filepath,"r");//open list
- mapped_names = dbfnames_to_mmap(folder);//mapping file's names
-
-s = mmap(NULL, sizeof(shared_mem), PROT_READ | PROT_WRITE,
+ mapped_names = dbfnames_to_mmap(folder);//mapping file's
+ fclose(folder);
+ s = mmap(NULL, sizeof(shared_mem), PROT_READ | PROT_WRITE,
       MAP_SHARED | MAP_ANONYMOUS, -1, 0);
 
 
@@ -94,6 +93,7 @@ s = mmap(NULL, sizeof(shared_mem), PROT_READ | PROT_WRITE,
             printf("Process %d processing %s\n",i+1,get_dbfname_from_mmap(mapped_names,j));
             filepath = createPath(DATABASE,get_dbfname_from_mmap(mapped_names,j));
 		        process_file1(tree,filepath);
+
           }
        }
         exit(0);
@@ -109,6 +109,7 @@ s = mmap(NULL, sizeof(shared_mem), PROT_READ | PROT_WRITE,
   sem_close(&s->clau1);//closing semaphore
   sem_close(&s->clau2);//closing semaphore
   munmap(s,sizeof(shared_mem));
+  free(filepath);
   return tree;
 }
 
