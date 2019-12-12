@@ -44,6 +44,7 @@ shared_mem *s;
 *
 */
 
+void process_list(rb_tree *tree,char *mapped_names,int process);
 
 rb_tree * createTree(char *pathdic,char *pathfile){
 
@@ -76,7 +77,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
  filepath = createPath(DATABASE,pathfile);//path from list
  folder = fopen(filepath,"r");//open list
  mapped_names = dbfnames_to_mmap(folder);//mapping file's
- fclose(folder);
+ 
  s = mmap(NULL, sizeof(shared_mem), PROT_READ | PROT_WRITE,
       MAP_SHARED | MAP_ANONYMOUS, -1, 0);
 
@@ -92,7 +93,9 @@ rb_tree * createTree(char *pathdic,char *pathfile){
           if(get_dbfname_from_mmap(mapped_names,j) != NULL){
             printf("Process %d processing %s\n",i+1,get_dbfname_from_mmap(mapped_names,j));
             filepath = createPath(DATABASE,get_dbfname_from_mmap(mapped_names,j));
+            sem_wait(&s->clau1);
 		        process_file1(tree,filepath);
+            sem_post(&s->clau1);
 
           }
        }
@@ -110,6 +113,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   sem_close(&s->clau2);//closing semaphore
   munmap(s,sizeof(shared_mem));
   free(filepath);
+  fclose(folder);   
   return tree;
 }
 
@@ -130,29 +134,6 @@ void indexDict(rb_tree *tree,char **dic,int size){
   }
   tree->size = size;
 }
-
-/*
-*
-*	PROCESS A LIST OF FILES FROM THE DATABASE
-*
-*/
-void process_list(rb_tree *tree,char *mapped_names,int process){
-
-  int i = 0;
-  while(get_dbfname_from_mmap(mapped_names,i) != NULL){
-    printf("`Process %d : %s\n",process,get_dbfname_from_mmap(mapped_names,i));
-    char *filepath = createPath(DATABASE,get_dbfname_from_mmap(mapped_names,i));
-    int *file_words = malloc(sizeof(int));
-    char **file = process_file(filepath,file_words);
-    //Increase dic words from file if they are in the tree.
-    sem_wait(&s->clau1);
-    indexFile(tree,file,*file_words);
-    sem_post(&s->clau1);
-    deletepointers(file,*file_words);
-    i++;
-  }
-}
-
 
 
 /*
@@ -261,5 +242,5 @@ void index_words_line(rb_tree *tree, char *line){
     /* Search for the beginning of a candidate word */
     while ((i < len_line) && (isspace(line[i]) || ((ispunct(line[i])) && (line[i] != '#')))) i++;
 
-  } /* while (i < len_line) */
+  } 
 }
