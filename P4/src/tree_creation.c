@@ -9,6 +9,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <pthread.h>
+#include <sys/mman.h>
 
 #include "red-black-tree.h"
 #include "read_tools.h"
@@ -22,9 +23,16 @@
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
 #define DICTIONARY "./diccionari/"
-#define NUM_PROC  2
+#define NUM_PROC 4
 
-sem_t clau;//semaphore
+typedef struct shared_mem {
+    sem_t clau1;
+    sem_t clau2;
+} shared_mem;
+
+shared_mem *s;
+
+
 
 
 /*
@@ -37,7 +45,7 @@ sem_t clau;//semaphore
 
 rb_tree * createTree(char *pathdic,char *pathfile){
 
-  int dic_size,list_size;//indexes for dictionary and list
+ int dic_size,list_size;//indexes for dictionary and list
  char **dic,**list,**file;;//contains dictionary/list/file
  char *filepath;//path from the file
  int *file_words = 0;//how many words in file
@@ -50,6 +58,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
  dic_size = countDicWords(filepath);
  dic = getDictionary(filepath,dic_size);
  list_size = countItems(filepath);
+ 
 
  free(filepath);
 
@@ -67,23 +76,33 @@ rb_tree * createTree(char *pathdic,char *pathfile){
  folder = fopen(filepath,"r");//open list
  mapped_names = dbfnames_to_mmap(folder);//mapping file's names
 
+s = mmap(NULL, sizeof(shared_mem), PROT_READ | PROT_WRITE,
+      MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+
 
   int pid;
-  sem_init(&clau,1,NUM_PROC);
+  sem_init(&s->clau1,1,1);
+  sem_init(&s->clau2,1,1);
 
   for(int i = 0; i<NUM_PROC; i++){
     pid = fork();
     if(pid== 0){
-		    for(;i< list_size;i+=NUM_PROC){
+		    for(int j=i; j<list_size;j+=NUM_PROC){
         //process_list(tree,mapped_names,i);//process list of files
-		     process_file1(tree,get_dbfname_from_mmap(mapped_names,i));
+          if(get_dbfname_from_mmap(mapped_names,j) != NULL){
+            printf("Process %d processing %s\n",i+1,get_dbfname_from_mmap(mapped_names,j));
+            filepath = createPath(DATABASE,get_dbfname_from_mmap(mapped_names,j));
+            //sem_wait(&s->clau1);
+		        process_file1(tree,filepath);
+            //sem_post(&s->clau1);
+          }
        }
         exit(0);
     }
   }
   for(int i = 0; i<NUM_PROC; i++){
       wait(NULL);
-      printf("Process %d Finished!\n",i);
+      printf("Process %d Finished!\n",i+1);
   }
 
 
@@ -106,7 +125,9 @@ for(int i = 0; i<NUM_PROC; i++){//We create N process
 
   deserialize_node_data_from_mmap(tree,mapped_tree);//unmapping
   dbfnames_munmmap(mapped_names);//unmapping
-  sem_close(&clau);//closing semaphore
+  sem_close(&s->clau1);//closing semaphore
+  sem_close(&s->clau2);//closing semaphore
+  munmap(s,sizeof(shared_mem));
   return tree;
 }
 
@@ -144,9 +165,9 @@ void process_list(rb_tree *tree,char *mapped_names,int process){
     int *file_words = malloc(sizeof(int));
     char **file = process_file(filepath,file_words);
     //Increase dic words from file if they are in the tree.
-    sem_wait(&clau);
+    sem_wait(&s->clau1);
     indexFile(tree,file,*file_words);
-    sem_post(&clau);
+    sem_post(&s->clau1);
     deletepointers(file,*file_words);
     i++;
   }
@@ -259,9 +280,9 @@ void index_words_line(rb_tree *tree, char *line)
       n_data = find_node(tree, paraula);
 
       if (n_data != NULL){
-		      sem_wait(&clau);
+		      sem_wait(&s->clau2);
           n_data->num_times++;
-		      sem_post(&clau);
+		      sem_post(&s->clau2);
 	       }
     }
 
