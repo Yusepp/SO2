@@ -16,8 +16,7 @@
 #include "search_operations.h"
 #include "write_read.h"
 
-#include "tree-to-mmap.h"
-#include "dbfnames-mmap.h"
+
 
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"

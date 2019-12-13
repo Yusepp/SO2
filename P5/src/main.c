@@ -15,8 +15,6 @@
 #include "search_operations.h"
 #include "write_read.h"
 
-#include "dbfnames-mmap.h"
-#include "tree-to-mmap.h"
 
 #define MAXCHAR      100
 #define MAGIC_NUMBER 0x01234567

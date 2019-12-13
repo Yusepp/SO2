@@ -14,106 +14,70 @@
 #include "search_operations.h"
 #include "write_read.h"
 
-#include "tree-to-mmap.h"
-#include "dbfnames-mmap.h"
 
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
 #define DICTIONARY "./diccionari/"
-#define NUM_PROC 2
-
-/*
- *
- * STRUCT FOR SEMAPHORE USES
- *
-*/
-
-typedef struct shared_mem {
-    sem_t clau1;
-    sem_t clau2;
-} shared_mem;
-
-shared_mem *s;
+#define NUM_THREAD 1
 
 
+struct args{
+  int num_thread;
+  rb_tree *local_tree;
+  rb_tree *global_tree;
+  char **files;
+  int files_size;
+};
 
-
-/*
-*
-*   CREATION OF THE TREE.
-*
-*/
-
-void process_list(rb_tree *tree,char *mapped_names,int process);
 
 rb_tree * createTree(char *pathdic,char *pathfile){
 
- int dic_size,list_size;//indexes for dictionary and list
- char **dic,**list,**file;;//contains dictionary/list/file
- char *filepath;//path from the file
- int *file_words = 0;//how many words in file
- char *mapped_tree,*mapped_names;//mapped variables
- FILE *folder;//folder file pointer
-
- //We load a dic as a pointer.
- dic_size = 0;
- filepath = createPath(DICTIONARY,pathdic);
- dic_size = countDicWords(filepath);
- dic = getDictionary(filepath,dic_size);
- list_size = countItems(filepath);
-
- free(filepath);
-
- rb_tree *tree;//tree
- node_data *n_data;//node
-
- /* Allocate memory for tree */
- tree = (rb_tree *) malloc(sizeof(rb_tree));
- /* Initialize the tree */
- init_tree(tree);
- indexDict(tree,dic,dic_size);//Dictionary to tree
- mapped_tree = serialize_node_data_to_mmap(tree);//mapping tree(serialize)
-
- filepath = createPath(DATABASE,pathfile);//path from list
- folder = fopen(filepath,"r");//open list
- mapped_names = dbfnames_to_mmap(folder);//mapping file's
- 
- s = mmap(NULL, sizeof(shared_mem), PROT_READ | PROT_WRITE,
-      MAP_SHARED | MAP_ANONYMOUS, -1, 0);
-
-
-  int pid;
-  sem_init(&s->clau1,1,1);
-  sem_init(&s->clau2,1,1);
-
-  for(int i = 0; i<NUM_PROC; i++){
-    pid = fork();
-    if(pid== 0){
-		    for(int j=i; j<list_size;j+=NUM_PROC){
-          if(get_dbfname_from_mmap(mapped_names,j) != NULL){
-            printf("Process %d processing %s\n",i+1,get_dbfname_from_mmap(mapped_names,j));
-            filepath = createPath(DATABASE,get_dbfname_from_mmap(mapped_names,j));
-            sem_wait(&s->clau1);
-		        process_file1(tree,filepath);
-            sem_post(&s->clau1);
-
-          }
-       }
-        exit(0);
-    }
-  }
-  for(int i = 0; i<NUM_PROC; i++){
-      wait(NULL);
-      printf("Process %d Finished!\n",i+1);
-  }
-
-  deserialize_node_data_from_mmap(tree,mapped_tree);//unmapping
-  dbfnames_munmmap(mapped_names);//unmapping
-  sem_close(&s->clau1);//closing semaphore
-  sem_close(&s->clau2);//closing semaphore
-  munmap(s,sizeof(shared_mem));
+  int dic_size,list_size;//indexes for dictionary and list
+  char **dic,**list,**file;;//contains dictionary/list/file
+  char *filepath;//path from the file
+  int *file_words = 0;//how many words in file
+  pthread_t ntid[NUM_THREAD];
+  struct args *arg;
+  FILE *files;
+  
+  //We load a dic as a pointer.
+  dic_size = 0;
+  filepath = createPath(DICTIONARY,pathdic);
+  dic_size = countDicWords(filepath);
+  dic = getDictionary(filepath,dic_size);
   free(filepath);
-  fclose(folder);   
+
+  rb_tree *tree;//tree
+  node_data *n_data;//node
+
+  /* Allocate memory for tree */
+  /* Initialize the tree */
+  init_tree(tree);
+  indexDict(tree,dic,dic_size);//Dictionary to tree
+  filepath = createPath(DATABASE,pathfile);//path from list
+  /*Getting file names*/
+  files = fopen(filepath,"r");
+  list = getFiles(files,&list_size);
+  fclose(files);
+  
+  for(int i = 0; i<NUM_THREAD; i++){
+    arg = malloc(sizeof(struct args));
+    arg->num_thread = i;
+    arg->local_tree = tree;
+    arg->files = files;
+    arg->files_size = list_size;
+    pthread_create(&(ntid[i]), NULL, thread_fn, (void *) arg);
+    /*Critical section*/
+    
+  }
+  
+  for(int i = 0; i<NUM_THREAD; i++){
+    pthread_join(ntid[i], NULL);
+  }
+
+
+  free(filepath);
+
   return tree;
 }
 
@@ -138,23 +102,6 @@ void indexDict(rb_tree *tree,char **dic,int size){
 
 /*
 *
-*	COPY WORDS FORM A FILE TO THE TREE
-*
-*/
-
-void indexFile(rb_tree *tree,char **file,int size){
-  node_data *n_data;//node
-  for (int ct = 0; ct < size; ct++) {
-    n_data = find_node(tree,file[ct]);
-
-    if(n_data != NULL){
-         n_data->num_times++;
-    }
-  }
-}
-
-/*
-*
 *	GIVEN A PATH CREATE THE DATABASE OR DIC PATH.
 *
 */
@@ -171,6 +118,32 @@ char * createPath(char *start,char *subpath){
  * GIVEN A FILE PROCESS LINES OF FILE
  *
  */
+char **getFiles(FILE *fp_db,int *size){
+  char ** files;
+  char line[MAXCHAR];
+  
+  fgets(line, MAXCHAR, fp_db);
+  *size = atoi(line);
+  if (size <= 0) {
+    printf("Number of files is %d\n", size);
+    exit(1);
+  }
+  
+  files = malloc(sizeof(char *)*(*size));
+  for(int i = 0; i<size; i++){
+    files[i] = malloc(sizeof(char)*MAXCHAR);
+  }
+  
+  /* Read database files */
+  for(int i = 0; i < size; i++) {
+    fgets(files[i], MAXCHAR, fp_db);
+    /* Remove '\n' from line */
+    line[strlen(line)-1] = 0;
+    printf("Processing %s\n", line);
+  }
+  return files;
+}
+
 void process_file1(rb_tree *tree, char *fname)
 {
   FILE *fp;
@@ -187,6 +160,36 @@ void process_file1(rb_tree *tree, char *fname)
 
   fclose(fp);
 }
+
+void thread_fn(void *par){
+  /*Cast of arguments to our struct*/
+  struct args *arg = (struct args *)par;
+  /*Process files assigned to this thread*/
+  for(int j = arg->num_thread; j<arg->files_size; j+=arg->num_thread){
+    if(j < arg->num_thread){
+      printf("Thread %d : %s\n",j+1,arg->files[j]);
+      process_file1(arg->local_tree,arg->files[j]);
+    }
+  }
+  /*Enter to critical Section*/
+  localToGlobal(tree,arg->local_tree);
+  
+}
+
+void localToGlobal(rb_tree *global,rb_tree *local){
+  if(global->root != NIL && local->root != NIL){
+    copyRecursive(global->root,local->root);
+  }
+}
+
+void copyRecursive(node *global,node *local){
+ if(global != NIL && local != NIL){
+   global->data->num_times += local->data->num_times;
+   copyRecursive(global->left,local->left);
+   copyRecursive(global->right,local->right);
+ }
+}
+  
 
 /**
  *
@@ -233,10 +236,8 @@ void index_words_line(rb_tree *tree, char *line){
       n_data = find_node(tree, paraula);
 
       if (n_data != NULL){
-		      sem_wait(&s->clau2);
           n_data->num_times++;
-		      sem_post(&s->clau2);
-	       }
+      }
     }
 
     /* Search for the beginning of a candidate word */
