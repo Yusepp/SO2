@@ -1,0 +1,3912 @@
+The Project Gutenberg Etext of Cartrefi Cymru, by Owen M. Edwards
+#2 in our series by Owen M. Edwards
+
+Copyright laws are changing all over the world, be sure to check
+the laws for your country before redistributing these files!!!
+
+Available in plain text as crtcm10.* and in HTML as crtcm10h.*
+
+Please take a look at the important information in this header.
+We encourage you to keep this file on your own disk, keeping an
+electronic path open for the next readers.
+
+Please do not remove this.
+
+This should be the first thing seen when anyone opens the book.
+Do not change or edit it without written permission.  The words
+are carefully chosen to provide users with the information they
+need about what they can legally do with the texts.
+
+
+**Welcome To The World of Free Plain Vanilla Electronic Texts**
+
+**Etexts Readable By Both Humans and By Computers, Since 1971**
+
+*****These Etexts Are Prepared By Thousands of Volunteers!*****
+
+Information on contacting Project Gutenberg to get Etexts, and
+further information is included below, including for donations.
+
+The Project Gutenberg Literary Archive Foundation is a 501(c)(3)
+organization with EIN [Employee Identification Number] 64-6221541
+
+
+
+Title: Cartrefi Cymru (Welsh Homes)
+
+Author: Owen M. Edwards
+
+Release Date: January, 2003  [Etext #3680]
+[Yes, we are about one year ahead of schedule]
+[The actual date this file first posted = 07/16/01]
+
+Edition: 10
+
+Language: Welsh
+
+The Project Gutenberg Etext of Cartrefi Cymru, by Owen M. Edwards
+*******This file should be named crtcm10.txt or crtcm10.zip******
+
+Corrected EDITIONS of our etexts get a new NUMBER, crtcm11.txt
+VERSIONS based on separate sources get new LETTER, crtcm10a.txt
+
+This etext was produced by Jane Gammie.  Additional proofing by
+David Price, email ccx074@coventry.ac.uk.  The edition is the 1896
+Hughes A'i Fab Swyddfa'r Llenor one.
+
+Project Gutenberg Etexts are usually created from multiple editions,
+all of which are in the Public Domain in the United States, unless a
+copyright notice is included.  Therefore, we usually do NOT keep any
+of these books in compliance with any particular paper edition.
+
+We are now trying to release all our books one year in advance
+of the official release dates, leaving time for better editing.
+Please be encouraged to send us error messages even years after
+the official publication date.
+
+Please note neither this listing nor its contents are final til
+midnight of the last day of the month of any such announcement.
+The official release date of all Project Gutenberg Etexts is at
+Midnight, Central Time, of the last day of the stated month.  A
+preliminary version may often be posted for suggestion, comment
+and editing by those who wish to do so.
+
+Most people start at our sites at:
+http://gutenberg.net
+http://promo.net/pg
+
+
+Those of you who want to download any Etext before announcement
+can surf to them as follows, and just download by date; this is
+also a good way to get them instantly upon announcement, as the
+indexes our cataloguers produce obviously take a while after an
+announcement goes out in the Project Gutenberg Newsletter.
+
+http://www.ibiblio.org/gutenberg/etext03
+or
+ftp://ftp.ibiblio.org/pub/docs/books/gutenberg/etext03
+
+Or /etext02, 01, 00, 99, 98, 97, 96, 95, 94, 93, 92, 92, 91 or 90
+
+Just search by the first five letters of the filename you want,
+as it appears in our Newsletters.
+
+
+Information about Project Gutenberg (one page)
+
+We produce about two million dollars for each hour we work.  The
+time it takes us, a rather conservative estimate, is fifty hours
+to get any etext selected, entered, proofread, edited, copyright
+searched and analyzed, the copyright letters written, etc.  This
+projected audience is one hundred million readers.  If our value
+per text is nominally estimated at one dollar then we produce $2
+million dollars per hour this year as we release fifty new Etext
+files per month, or 500 more Etexts in 2000 for a total of 3000+
+If they reach just 1-2% of the world's population then the total
+should reach over 300 billion Etexts given away by year's end.
+
+The Goal of Project Gutenberg is to Give Away One Trillion Etext
+Files by December 31, 2001.  [10,000 x 100,000,000 = 1 Trillion]
+This is ten thousand titles each to one hundred million readers,
+which is only about 4% of the present number of computer users.
+
+At our revised rates of production, we will reach only one-third
+of that goal by the end of 2001, or about 4,000 Etexts unless we
+manage to get some real funding.
+
+The Project Gutenberg Literary Archive Foundation has been created
+to secure a future for Project Gutenberg into the next millennium.
+
+We need your donations more than ever!
+
+As of June 1, 2001 contributions are only being solicited from people in:
+Arkansas, Colorado, Connecticut, Delaware, Hawaii, Idaho, Indiana,
+Iowa, Kansas, Louisiana, Maine, Massachusetts, Minnesota, Missouri,
+Montana, Nebraska, Nevada, New Jersey, New York, Ohio, Oklahoma,
+Oregon, Rhode Island, South Carolina, South Dakota, Tennessee,
+Texas, Vermont, Virginia, Washington, West Virginia, and Wyoming.
+
+We have filed in about 45 states now, but these are the only ones
+that have responded.
+
+As the requirements for other states are met,
+additions to this list will be made and fund raising
+will begin in the additional states.  Please feel
+free to ask to check the status of your state.
+
+In answer to various questions we have received on this:
+
+We are constantly working on finishing the paperwork
+to legally request donations in all 50 states.  If
+your state is not listed and you would like to know
+if we have added it since the list you have, just ask.
+
+While we cannot solicit donations from people in
+states where we are not yet registered, we know
+of no prohibition against accepting donations
+from donors in these states who approach us with
+an offer to donate.
+
+
+International donations are accepted,
+but we don't know ANYTHING about how
+to make them tax-deductible, or
+even if they CAN be made deductible,
+and don't have the staff to handle it
+even if there are ways.
+
+All donations should be made to:
+
+Project Gutenberg Literary Archive Foundation
+PMB 113
+1739 University Ave.
+Oxford, MS 38655-4109
+
+
+The Project Gutenberg Literary Archive Foundation is a 501(c)(3)
+organization with EIN [Employee Identification Number] 64-6221541,
+and has been approved as a 501(c)(3) organization by the US Internal
+Revenue Service (IRS).  Donations are tax-deductible to the maximum
+extent permitted by law.  As the requirements for other states are met,
+additions to this list will be made and fund raising will begin in the
+additional states.
+
+We need your donations more than ever!
+
+You can get up to date donation information at:
+
+http://www.gutenberg.net/donation.html
+
+
+***
+
+If you can't reach Project Gutenberg,
+you can always email directly to:
+
+Michael S. Hart <hart@pobox.com>
+
+hart@pobox.com forwards to hart@prairienet.org and archive.org
+if your mail bounces from archive.org, I will still see it, if
+it bounces from prairienet.org, better resend later on. . . .
+
+Prof. Hart will answer or forward your message.
+
+We would prefer to send you information by email.
+
+
+***
+
+
+Example command-line FTP session:
+
+ftp ftp.ibiblio.org
+login: anonymous
+password: your@login
+cd pub/docs/books/gutenberg
+cd etext90 through etext99 or etext00 through etext02, etc.
+dir [to see files]
+get or mget [to get files. . .set bin for zip files]
+GET GUTINDEX.??  [to get a year's listing of books, e.g., GUTINDEX.99]
+GET GUTINDEX.ALL [to get a listing of ALL books]
+
+
+**The Legal Small Print**
+
+
+(Three Pages)
+
+***START**THE SMALL PRINT!**FOR PUBLIC DOMAIN ETEXTS**START***
+Why is this "Small Print!" statement here?  You know: lawyers.
+They tell us you might sue us if there is something wrong with
+your copy of this etext, even if you got it for free from
+someone other than us, and even if what's wrong is not our
+fault.  So, among other things, this "Small Print!" statement
+disclaims most of our liability to you.  It also tells you how
+you may distribute copies of this etext if you want to.
+
+*BEFORE!* YOU USE OR READ THIS ETEXT
+By using or reading any part of this PROJECT GUTENBERG-tm
+etext, you indicate that you understand, agree to and accept
+this "Small Print!" statement.  If you do not, you can receive
+a refund of the money (if any) you paid for this etext by
+sending a request within 30 days of receiving it to the person
+you got it from.  If you received this etext on a physical
+medium (such as a disk), you must return it with your request.
+
+ABOUT PROJECT GUTENBERG-TM ETEXTS
+This PROJECT GUTENBERG-tm etext, like most PROJECT GUTENBERG-tm etexts,
+is a "public domain" work distributed by Professor Michael S. Hart
+through the Project Gutenberg Association (the "Project").
+Among other things, this means that no one owns a United States copyright
+on or for this work, so the Project (and you!) can copy and
+distribute it in the United States without permission and
+without paying copyright royalties.  Special rules, set forth
+below, apply if you wish to copy and distribute this etext
+under the "PROJECT GUTENBERG" trademark.
+
+Please do not use the "PROJECT GUTENBERG" trademark to market
+any commercial products without permission.
+
+To create these etexts, the Project expends considerable
+efforts to identify, transcribe and proofread public domain
+works.  Despite these efforts, the Project's etexts and any
+medium they may be on may contain "Defects".  Among other
+things, Defects may take the form of incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged
+disk or other etext medium, a computer virus, or computer
+codes that damage or cannot be read by your equipment.
+
+LIMITED WARRANTY; DISCLAIMER OF DAMAGES
+But for the "Right of Replacement or Refund" described below,
+[1] Michael Hart and the Foundation (and any other party you may
+receive this etext from as a PROJECT GUTENBERG-tm etext) disclaims
+all liability to you for damages, costs and expenses, including
+legal fees, and [2] YOU HAVE NO REMEDIES FOR NEGLIGENCE OR
+UNDER STRICT LIABILITY, OR FOR BREACH OF WARRANTY OR CONTRACT,
+INCLUDING BUT NOT LIMITED TO INDIRECT, CONSEQUENTIAL, PUNITIVE
+OR INCIDENTAL DAMAGES, EVEN IF YOU GIVE NOTICE OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+If you discover a Defect in this etext within 90 days of
+receiving it, you can receive a refund of the money (if any)
+you paid for it by sending an explanatory note within that
+time to the person you received it from.  If you received it
+on a physical medium, you must return it with your note, and
+such person may choose to alternatively give you a replacement
+copy.  If you received it electronically, such person may
+choose to alternatively give you a second opportunity to
+receive it electronically.
+
+THIS ETEXT IS OTHERWISE PROVIDED TO YOU "AS-IS".  NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, ARE MADE TO YOU AS
+TO THE ETEXT OR ANY MEDIUM IT MAY BE ON, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
+PARTICULAR PURPOSE.
+
+Some states do not allow disclaimers of implied warranties or
+the exclusion or limitation of consequential damages, so the
+above disclaimers and exclusions may not apply to you, and you
+may have other legal rights.
+
+INDEMNITY
+You will indemnify and hold Michael Hart, the Foundation,
+and its trustees and agents, and any volunteers associated
+with the production and distribution of Project Gutenberg-tm
+texts harmless, from all liability, cost and expense, including
+legal fees, that arise directly or indirectly from any of the
+following that you do or cause:  [1] distribution of this etext,
+[2] alteration, modification, or addition to the etext,
+or [3] any Defect.
+
+DISTRIBUTION UNDER "PROJECT GUTENBERG-tm"
+You may distribute copies of this etext electronically, or by
+disk, book or any other medium if you either delete this
+"Small Print!" and all other references to Project Gutenberg,
+or:
+
+[1]  Only give exact copies of it.  Among other things, this
+     requires that you do not remove, alter or modify the
+     etext or this "small print!" statement.  You may however,
+     if you wish, distribute this etext in machine readable
+     binary, compressed, mark-up, or proprietary form,
+     including any form resulting from conversion by word
+     processing or hypertext software, but only so long as
+     *EITHER*:
+
+     [*]  The etext, when displayed, is clearly readable, and
+          does *not* contain characters other than those
+          intended by the author of the work, although tilde
+          (~), asterisk (*) and underline (_) characters may
+          be used to convey punctuation intended by the
+          author, and additional characters may be used to
+          indicate hypertext links; OR
+
+     [*]  The etext may be readily converted by the reader at
+          no expense into plain ASCII, EBCDIC or equivalent
+          form by the program that displays the etext (as is
+          the case, for instance, with most word processors);
+          OR
+
+     [*]  You provide, or agree to also provide on request at
+          no additional cost, fee or expense, a copy of the
+          etext in its original plain ASCII form (or in EBCDIC
+          or other equivalent proprietary form).
+
+[2]  Honor the etext refund and replacement provisions of this
+     "Small Print!" statement.
+
+[3]  Pay a trademark license fee to the Foundation of 20% of the
+     gross profits you derive calculated using the method you
+     already use to calculate your applicable taxes.  If you
+     don't derive profits, no royalty is due.  Royalties are
+     payable to "Project Gutenberg Literary Archive Foundation"
+     the 60 days following each date you prepare (or were
+     legally required to prepare) your annual (or equivalent
+     periodic) tax return.  Please contact us beforehand to
+     let us know your plans and to work out the details.
+
+WHAT IF YOU *WANT* TO SEND MONEY EVEN IF YOU DON'T HAVE TO?
+Project Gutenberg is dedicated to increasing the number of
+public domain and licensed works that can be freely distributed
+in machine readable form.
+
+The Project gratefully accepts contributions of money, time,
+public domain materials, or royalty free copyright licenses.
+Money should be paid to the:
+"Project Gutenberg Literary Archive Foundation."
+
+If you are interested in contributing scanning equipment or
+software or other items, please contact Michael Hart at:
+hart@pobox.com
+
+*END THE SMALL PRINT! FOR PUBLIC DOMAIN ETEXTS*Ver.06/12/01*END*
+[Portions of this header are copyright (C) 2001 by Michael S. Hart
+and may be reprinted only when these Etexts are free of all fees.]
+[Project Gutenberg is a TradeMark and may not be used in any sales
+of Project Gutenberg Etexts or other materials be they hardware or
+software or any other related product without express permission.]
+
+
+
+
+
+This etext was produced by Jane Gammie.  Additional proofing by
+David Price, email ccx074@coventry.ac.uk.  The edition is the 1896
+Hughes A'i Fab Swyddfa'r Llenor one.
+
+
+
+
+
+[Project Gutenberg note: some of the spellings used by Mr Edwards in
+this text differ from those in modern usage.  Later editions of
+Cartrefi Cymru did modify some of the spellings.  However, the
+transcription comes from the first edition and the text has been
+reproduced as it appears in that edition.]
+
+
+
+
+
+CARTREFI CYMRU
+
+GAN OWEN M. EDWARDS.
+
+
+
+
+CYNHWYSIAD.
+
+
+
+I.--DOLWAR FECHAN,--CARTREF EMYNYDDES.
+
+Ymysg bryniau Maldwyn y mae Dolwar Fechan, yn un o'r hafannau
+bychain gwyrddion sydd rhwng Llanfihangel yng Ngwynfa a dyffryn y
+Fyrnwy.  Gorsaf Llanfyllin yw'r agosaf.
+
+Ganwyd Ann Griffiths Ebrill 1776, bu farw yn Awst 1805.
+
+II.--TY COCH,--CARTREF PREGETHWR.
+
+Saif yng nghysgod y graig aruthrol goronir gan adfeilion castell
+Carn Dochan ym Mhenanlliw ramantus, yng nghanol Meirion.
+
+Ganwyd Robert Thomas (Ap Vychan) yma, mewn tlodi mawr; a chyn marw,
+Ebrill 23, 1880, yr oedd wedi dod yn bregethwr enwog ac yn athraw
+duwinyddol.
+
+III.--GERDDI BLUOG,--CARTREF BARDD.
+
+Yng nghanol mynyddoedd Meirionnydd, uwchben dyffryn cul a rhamantus,
+y mae'r Gerddi Bluog.  O Harlech neu Lanbedr yr eir yno.
+
+Dyma gartref Edmund Prys, swynwr yn ol cred gwlad, archddiacon
+Meirionnydd wrth ei swydd, a chyfieithydd melodaidd y Salmau.
+Ganwyd ef tua 1541, bu farw tua 1621.  Nid edwyn neb le ei fedd ym
+Maentwrog.
+
+IV.--PANT Y CELYN,--CARTREF PER GANIEDYDD.
+
+Amaethdy ymysg bryniau Caerfyrddin, yn nyffryn Towi, yw Pant y
+Celyn.  O Lanymddyfri yr eir yno.
+
+Ganwyd "per ganiedydd Cymru," gerllaw iddo yn 1717; bu farw yno
+Ionawr 11, 1791.
+
+V.--BRYN TYNORIAD,--CARTREF GWLADGARWR.
+
+Y mae Bryn Tynoriad yn nyffryn yr Wnion, ar ochr y Garneddwen, yn
+agos i orsaf Drws Nant.  Y mae'r Ty Croes ar gyfer yr orsaf agosaf
+yng nhyfeiriad Dolgellau, sef y Bont Newydd.
+
+Ganwyd Ieuan Gwynedd:  Medi 5, 1820, bu farw Chwefrol 23, 1852.
+
+VI.--TREFECA,--CARTREF DIWYGIWR.
+
+Yn rhan brydferthaf Sir Frycheiniog, uwchlaw Talgarth, rhwng
+ffrydiau Wysg ac Wy, y saif coleg a phentref bychan Trefeca,--lle
+wnawd gan Howel Harris yn "gartref" cymundeb o dduwiolion diwyd.
+
+Ganwyd Howel Harris Ionawr 29, 1714; bu farw Gorffennaf 21, 1773.
+
+VII.--CAER GAI.--CARTREF UCHELWYR.
+
+Hen balas Rhufeinig yw Caer Gai, ar fryncyn heulog uwch ben Llyn
+Tegid, yn nyffryn uchaf y Ddyfrdwy.
+
+Yr oedd y Fychaniaid, hen deulu Caer Gai, yn enwog am eu hathrylith.
+Y ddau fwyaf adnabyddus ohonynt ydyw Gwerfyl Fychan a Rowland
+Fychan.  Yn amser y Rhyfel Mawr yr oedd Rowland Fychan yn byw, a
+Gwerfyl dipyn yn gynt.
+
+VIII. --CEFN BRITH,--CARTREF MERTHYR.
+
+Ffermdy ar lethr mynydd Epynt, wedi gweld dyddiau gwell, yw Cefn
+Brith.  O Langamarch yr eir yno hawddaf.
+
+Ganwyd John Penri yn y lle tawel hwn yn 1559; rhoddwyd ef i
+farwolaeth fel bradwr, Mai 29, 1593.
+
+IX. --GLAS YNYS,--CARTREF BARDD CWSG.
+
+Y mae Glas Ynys ar fryn bychan yn codi o'r tipyn gwastadedd sy'n
+gorwedd rhwng mynyddoedd Meirionnydd a'r mor.  O Harlech yr eir yno
+gyntaf.
+
+Mab Glas Ynys oedd Elis Wyn, awdwr Gweledigaethau Bardd Cwsg.
+Treuliodd ei fywyd yma, o'i eni yn 1671, hyd ei gladdu yn 1734, yn
+Llanfair gerllaw.  Y mae ysgriflyfrau o'i waith yn perthyn i eglwys
+Llanfair.
+
+X. --TY'R FICER,--CARTREF BARDD MOES.
+
+Y mae Ty'r Ficer yn hen dref Llanymddyfri.  Y mae'n awr yn
+adfeiliedig iawn.
+
+Ynddo y goleuwyd Canwyll y Cymry gan Rhys Prichard, "yr Hen Ficer,"
+a anwyd yn 1579, ac a fu farw yn 1644.
+
+XI. --Y GARREG WEN,--CARTREF CANWR.
+
+Yn Sir Gaernarfon, rhwng Cricieth a Phorth Madog, y mae amaethdy'r
+Garreg Wen, ar lethr hyfryd, lle tyf blodau lawer mewn cysgod rhag
+gwynt y mor.
+
+Dafydd, mab y Garreg Wen, meddir, yw awdwr yr alawon Codiad yr
+Ehedydd a Dafydd y Garreg Wen.
+
+XII. --TY DDEWI,--CARTREF SANT.
+
+Saif Tyddewi ar lan mor gorllewinol Dyfed, yn eithaf sir Benfro.  Ar
+draed neu mewn cerbyd yr eir yno, dros un bryn ar bymtheg o orsaf
+Hwlffordd.
+
+Cartref Dewi, nawdd sant Cymru, ydyw.  Yn ol pob tebyg, cenhadwr
+dros Grist at baganiaid rhannau gorllewinol Cymru oedd Dewi Sant.
+Yr oedd yn byw rywbryd rhwng 450 a 600.
+
+
+
+DOLWAR FECHAN.
+
+
+
+Yr wyf yn eistedd mewn ystafell hirgul, gyda nenfwd isel, a
+ffenestri yn edrych allan i dri chyfeiriad, yn unig westy
+Llanfihangel yng Ngwynfa.  Dyma brif ystafell y pentre,--yn hon yr
+ymgyferfydd pob pwyllgor gwledig, yn hon y bydd cinio rhent Syr
+Watcyn, yn hon yr ymgyferfydd y clwb, yn hon y traethwyd doethineb
+cenhedlaethau o ffermwyr ar adeg priodas a chynhebrwng.  Ond heddyw
+y mae'n ddigon gwag, nid oes ynddi ond y ddwy res hir o gadeiriau, y
+ddau hen fwrdd derw, a minne deithiwr blin yn ceisio dadluddedu ac
+ymlonni trwy yfed trwyth rhinweddol dail yr Ind.  Trwy'r drws agored
+gwelaf goesau meinion yr hen glochydd sy'n hepian wrth bentan y
+gegin, a thrwy'r tair ffenestr gwelaf y gwlaw yn ymdywallt i lawr
+trwy'r coedydd tewfrig deiliog, trwy'r onnen a'r fasarnen, ac hyd
+gadwyni aur banadlen Ffrainc.  Y mae cerbyd gwlad yn fy nisgwyl, ond
+ni wiw cychwyn trwy wlaw taranau mor drwm,--er byfryted ydyw ar ol
+poethder llethol un o ddyddiau olaf Mehefin.  A thra bo'r gwlaw
+taranau'n peidio, a'r coed yn gorffen dyferu, mi ysgrifennaf hanes
+digyffro taith y dydd.
+
+Yn weddol fore cychwynnais o Lanfyllin i weled gwlad Ann Griffiths,-
+-ei bedd, a'i chartref, os medrwn.  Nid oedd y ffordd yn rhwydd i'w
+cherdded ar ol y gwlaw, a phan ofynnais i hen fforddolyn tal ai
+honno oedd ffordd Llanwddyn, atebodd yn awgrymiadol mai dyna ei
+dechre hi.  Ond yr oedd perarogl y gwrychoedd a'r caeau, a'r lliwiau
+tyner, yn gwneyd iawn am drymder y ffordd.  Wedi cerdded tua thair
+milldir dywedodd bachgennyn arafaidd wrthyf fy mod yn Llawr y Cwm,
+lle gwelwn gapel Methodist bychan yn ymnythu rhwng torlan ac afonig.
+Cyn i mi fyned nepell ymlaen, cyfarwyddodd torrwr cerrig fi i ffordd
+gul oedd yn gadael y ffordd fawr, ac yn dirwyn i fyny hyd ochr y
+bryn.  Toc cyrhaeddais ben y tir, a gwelwn droliau gwaith dwr
+Llanwddyn yn ymlusgo i fyny'r dyffryn hyd ffordd y gwaelod.  Wedi
+gadael cysgod coed, dois i gaeau agored, ar ben y gefnen, a gwelwn
+hen wr rhyngof a'r goleu, yn sefyll, ac fel pe'n disgwyl.  Yr oedd
+yn disgwyl ei fab adre o Loegr, ond buan y trechwyd ei siomedigaeth
+gan gywreinrwydd.  Nid rhyw lawer o son sydd am Ann Griffiths ar
+orarau Maldwyn yn awr, ebe'r hen ffarmwr, ac nid rhyw lawer o ganu
+sydd ar ei hemynnau, dim hanner cymaint a chynt.  Wrth i ni ymgomio
+yr oedd llwyni o goed ar fryncyn o'n blaenau, a gwelwn oddiwrth eu
+duwch fod ywen ymysg y coed.  "Dacw Lanfihangel," ebe'r hen wr, "a
+dacw fur y fynwent lle mae'r hen Ann wedi ei chladdu."  Cerddais o
+amgylch y fynwent i ganol y pentref.  Y mae ar fryn gweddol serth,
+a'r eglwys a'r fynwent yn uchaf man.  O ddrws y fynwent rhed y
+ffordd i lawr rhwng ychydig o dai, siop pob peth, ty tafarn, ysgol
+waddolwyd gan un o Fychaniaid Llwydiarth, a choed ddigon.  Eis i
+mewn i'r fynwent, sychodd pladurwr oedd yn torri gwair y beddau ei
+chwys, a dywedodd,--"Ie, dacw gof-golofn yr hen Ann.  Peth digon
+rhyfedd fod y bobl yn ei galw'n hen Ann, a hithe wedi marw'n saith
+ar hugain oed."  Cyn i mi gael hamdden i sylwi ar y fynwent, gwelwn
+lu o blant yr ysgol, plant iach a llawn bywyd, yn prysuro i edrych
+ar y dyn dieithr.  Byddaf yn hoff iawn o blant gwlad,--nid ydynt yn
+hyfion ac yn dafotrwg fel plant tref,--a bum yn holi plant
+Llanfihangel yng Ngwynfa am hoff ddaearyddiaeth Cymru.  Yr oeddynt
+yn ddeallus, a gwelwn yn eglur fod eu hathraw yn medru Cymraeg ac yn
+meithrin eu meddyliau.  Pan oedd arnaf eisieu cael y fynwent
+drachefn heb neb ynddi ond myfi a'r meirw, gofynnais faint oedd pris
+plant yn y pentref,--plant tewion graenus fel hwy,--a chyda fod y
+cwestiwn dros fy ngwefusau, yr oedd eu cefnau oll tuag ataf, a llu o
+draed bychain yn cyflymu i lawr y llwybr hir sydd rhwng porth yr
+eglwys a drws y fynwent.  A gadawyd fi'n unig ymysg y beddau.
+
+Safle caer yw safle mynwent Llanfihangel yng Ngwynfa,--saif ar
+fryncyn, nid yr uchaf yn y gymydogaeth, ond un o'r rhai uchaf.  O'r
+porth sy'n wynebu ar y pentref rhed llwybr hir rhwng mangoed at
+ddrws yr eglwys,--adeilad newydd.  Wedi cyrraedd hanner y llwybr, os
+edrych y teithiwr ar ei aswy, gwel gofgolofn o wenithfaen,--nid un
+fwy na cholofnau ar filoedd o feddau dinod ym mynwentydd Cymru, ac
+arni'r geiriau, -
+
+ER COF
+AM
+ANN GRIFFITHS,
+DOLWAR FECHAN,
+GANWYD 1776.
+BU FARW 1806.
+
+Nid oes Gymro fedr sefyll ger bedd Ann Griffiths heb deimlo ei fod
+ar ddaear sancteiddiaf ei fynyddoedd.  Ac mor dawel ydyw'r fynwent!
+Ni chlywir swn ond su'r bladur wrth nofio trwy'r glaswellt draw,--y
+mae pob aderyn yn ddistaw ar y bore hafaidd heulog, ni chlywir swn y
+plant sydd yn yr ysgol lwyd gerllaw, prin y medrir clustfeinio digon
+i glywed dwndwr yr aber sydd yn isel odditanodd yn y dyffryn.
+Gorwedd y wlad fel breuddwyd angel oddiamgylch,--yn dawel, dan ei
+blodau, ac yng ngoleuni disglaer haul.  Rhwng y coed sydd gydag ymyl
+y fynwent, gwelwn ddyffrynnoedd a choedydd, a'r mynyddoedd sy'n
+gwahanu Maldwyn a Meirionnydd.  Ac arnynt i gyd gorweddai tangnefedd
+canol haf.  Ac i rai sy'n huno ym mynwent ael y bryn y mae
+tangnefedd mwy.  Wedi ieuenctid nwyfus, wedi pryder priodi a dechreu
+byw a geni, wedi tymhestloedd ac ofnau, wedi cyfarfod Angau ymhell
+cyn i hwyrnos bywyd guddio hagrwydd ei wedd, wedi hyn oll, -
+
+
+O ddedwydd ddydd, tragwyddol orffwys
+ Oddi wrth fy llafur, yn fy rhan,
+Yng nghanol mor o ryfeddodau,
+ Heb waelod, terfyn byth, na glan:
+Mynediad helaeth mwy i bara
+ O fewn trigfannau Tri yn Un.
+Dwfr i nofio heb fynd trwyddo,
+ Dyn yn Dduw, a Duw yn ddyn.
+
+Byw heb wres, na haul yn taro,
+ Byw heb ofni marw mwy;
+Pob rhyw alar wedi darfod,
+ Dim ond canu am farwol glwy';
+Nofio yn afon bur y bywyd,
+ Bythol heddwch sanctaidd Dri,
+Dan dywyniadau digymylau
+ Gwerthfawr angau Calfari.
+
+
+Yn yr unig lythyr o'i heiddo sydd ar gael, llythyr ysgrifennodd wedi
+priodi, a phan oedd ei bywyd byr ymron ar ben, dywed, -
+
+
+"ANWYL CHWAER,--'Rwif yn gweled mwy o angen nac erioed am gael
+treilio y rhan su yn ol dan rhoi fy hyn yn feunyddiol ac yn barhaus,
+gorph ac enaid, i ofal yr hwn su yn abal i gadw yr hyn roddir ato
+erbyn y dydd hwnnw.  Nid rhoi fy hun unwaith, ond byw dan roi fy
+hun, hyd nes ac wrth roi yr tabarnacle hwn heibio.  Anwyl chwaer,
+mae meddwl am i roi o heibio yn felus neillduol weithiau,--nid marw
+ynddo ei hun, ond yr elw mawr sudd yw gael trwyddo."
+
+
+Syrthiodd cysgodion tragwyddoldeb ar ei henaid pan nad oedd eto ond
+ieuanc iawn; daeth y mynyddoedd tywyll i'r golwg pan oedd yn teithio
+rhan rosynaidd heulog ei llwybr, a'i hysbryd yn ysgafn a'i ffurfafen
+heb gwmwl; y mae nwyf a melusder ieuenctid yn ei chan, a mawredd
+tragwyddoldeb hefyd.  Am bob un o'i hemynnau gellir dweyd y geiriau
+sydd ar ddiwedd ei llythyr, -
+
+
+"Hyn oddiwrth eich chwaer yn cyflum deithio trwy fyd o amser i'r byd
+mawr a bery byth."
+
+
+Ac wedi ofni grym pechod, wedi "cario corff o lygredd," wedi
+"wynebu'r afon donnog," aeth heibio i'r byd mawr a bery byth.
+
+O'r fynwent trois tua chartref Ann Griffiths.  I'm cwestiwn parthed
+hyd y ffordd cawn amrywiol atebion,--pedair milldir a hanner ebai
+un, tair milldir ebai un arall, a sicrhai y trydydd fi mai dwy
+filldir a hanner union oedd i Ddolwar Fach.  Cerddais i lawr y bryn,
+croesais afonig red dan goed cysgodfawr, a dringais ochr bryn sydd
+ar gyfer y pentref.  Cefais fy hun ar ffordd fryniog, weithiau'n
+dringo bryn ac yn disgyn yn ebrwydd wedyn, gan syllu ar addfedrwydd
+cyfoethog y wlad, a'r haul yn gwenu drwy gymylau ar y gwlith, -
+
+
+"Gwlad dda, heb wae, gwlad wedi ei rhol dan sel,
+Llifeirio mae ei ffrwyth o laeth a mel;
+Grawn sypiau gwiw i'r anial dir sy'n dod,
+Gwlad nefol yw, uwch law mynegi ei chlod."
+
+
+Toc dois at groesffordd ar waelod cwm; trois ar y dde hyd ffordd a'm
+denai i'w chysgodion.  Ar y naill law yr oedd craig, weithiau'n
+noeth, weithiau'n dwyn baich o goed a blodau; ar yr ochr arall yr
+oedd caeau gwyrddion serth.  Rhedai afonig yn dryloew, dan furmur yn
+ddedwydd.  Uwch ei phen ymblygai bedw a chyll; estynnai y goesgoch
+ei phen dros y lan, i weld ei llun mewn llyn tawel; aml lecyn gwyrdd
+welais ar fin y dwr, llawn o lysiau'r neidr a llafrwyn a'r
+olcheuraid, gyda chwys Mair a'r feidiog las dipyn ymhellach oddi
+wrth y dwr, a rhedyn tal yn edrych ar eu prydferthwch oddiar ochr y
+bryn.  Canai miloedd o adar,--ni wiw i mi ddechre enwi'r cor,--
+oddigerth pan ddistawent tra canai'r gog, yr hon oedd heb weld gwair
+wedi ei dorri yn unlle.  Sylwn yn fanwl ar bopeth, oherwydd gwyddwn
+fod Ann Griffiths wedi cerdded y llwybr hwn filoedd o weithiau;
+gwyddwn mai wrth syllu ar ryw afonig neu fynydd y byddai'n dechreu
+canu, ac yna ehedai ei meddwl ymhellach bellach oddiwrthynt at
+bethau byd a bery byth.  Pwy a wyr nad yn swn yr afon hon y canwyd
+gyntaf, -
+
+
+"Ffrydiau tawel, byw rhedegog,
+  O dan riniog ty fy Nuw,
+ Sydd yn llanw, ac yn llifo
+  O fendithion o bob rhyw;
+ Dyfroedd gloew fel y grisial,
+  I olchi'r euog, nerthu'r gwan,
+ Ac a ganna'r Ethiop duaf
+  Fel yr eira yn y man."
+
+
+Ac ym miwsig yr afon, gyda'i nodau llon a lleddf, dychmygwn glywed
+geneth yn canu o lawenydd ei chalon, -
+
+"Byw i weld yr Anweledig,
+  Fu farw ac sydd eto'n fyw;
+ Bythol, anwahanol undeb,
+  A chymdeithas a fy Nuw."
+
+Yn nes ymlaen y mae'r afon, fel merch ieuanc yn wynebu treialon byd,
+yn disgyn i lawr glynnoedd dyfnach,--weithiau yn y dyrysleoedd, fel
+pe mewn anobaith; weithiau'n llithro'n wyllt dros greigiau, fel
+pechadur afradlon ar ei yrfa; weithiau'n gorffwys mewn llyn tawel,
+dan wenu ar yr haul neu lechu'n wgus dan goed.  Ychydig y mae Ann
+Griffiths wedi ganu am droion yr yrfa,--Williams Pant y Celyn a'u
+darlunia hwy o'u canol, a David Charles Caerfyrddin o fryniau
+Caersalem,--yr oedd ei hiraeth cryf am Dduw yn gwneyd iddi hi
+anghofio blinder ac ofnau'r daith.  Ni sonia hi am demtasiynau, ond
+er mwyn cael canu am goncwest; ni chan am flinder, ond er mwyn cael
+canu am yr Hwn a'i cysurai, -
+
+
+"Digon mewn llifeiriant dyfroedd,
+  Digon yn y fflamau tan."
+
+
+Toc gadawodd yr afonig a minne gwmni ein gilydd; aeth hi trwy gwm
+dwfn tua'r Fyrnwy, dechreuais inne ddringo bryn lled serth, a gwelwn
+Ddolwar Fawr ar y llaw dde i mi, dipyn o'r ffordd.  Yr oedd y
+cymylau erbyn hyn wedi clirio, yr oedd yr hin yn boeth orlethol, ac
+yr oedd tarw mewn cae cyfagos yn beichio dros y wlad ac yn dilyn ar
+fy ol.  Daeth i'm meddwl bennill welais, wedi ei ysgrifennu gan Ann
+Griffiths a'i llaw ei hun, -
+
+
+"Er mai cwbl croes i natur
+  Yw fy llwybur yn y byd,
+ Ei deithio wnaf, a hynny'n dawel,
+  Yng ngwerthfawr wedd dy wyneb pryd;
+ Wrth godi'r groes, ei chyfri'n goron,
+  Mewn gorthrymderau llawen fyw,
+ Ffordd yn uniawn, er mor ddyrus,
+  I ddinas gyfaneddol yw."
+
+
+Ni welwn o'm blaen ddim, cyfannedd nag anghyfannedd, ond y llwybr
+syth yn mynd i fynu'r bryn, a'r gwrychoedd o bobtu'n gwywo yng
+ngwres llethol yr haul poeth.  Ond yn y man, wrth edrych ar hyd y
+llwybr, fel yr oeddwn yn dynesu at ben y rhiw, gwelwn fynyddoedd
+pell, fel breuddwyd gwr ieuanc, yn ymgodi'n brydferth a gwyrdd.
+Cerddais hyd ffordd weddol wastad hyd nes y dois at lidiart y
+mynydd.  Ar yr aswy yr oedd y mynydd rhydd braf, gydag eithin a
+danadl poethion a brigau'r twynau'n tyfu ar hyd-ddo, a bryniau
+Maldwyn yn hanner cylch y tu hwnt iddo.  Ar y dde gwelais lidiart, a
+banadlen Ffrainc, yn holl gyfoeth ei chadwyni aur o flodau, yn crogi
+uwch ei phen.  Eis trwy'r llidiart hon, ac wedi cerdded ychydig
+funudau gwelwn Ddolwar Fechan o'm blaen.  Nid oes dim yn hynafol nac
+yn rhyfedd yn y lle, gwelir ugeiniau o ffermdai tebyg rhwng bryniau
+hyfryd Maldwyn.  Y mae'r ty'n newydd, a golwg lan a chysurus arno
+yng nghanol ei erddi blodau ar lethr y bryn.  Ychydig yn nes i lawr,
+ar waelod y dyffryn bychan, y mae'r adeiladau,--yr ysguboriau, y
+beudai, yr helm drol,--rhai ohonynt fel yr oeddynt pan oedd Ann
+Griffiths yn dysgu cerdded gyda'u muriau.  Yn nes i lawr y mae'r
+cadlesoedd, dan gysgod pinwydd, ac yna gweirgloddiau dan eu gwair.
+
+Prysurais i lawr at yr adeiladau, gan groesi'r ffrwd sy'n rhedeg o'r
+ffynnon,--dyfroedd gloew fel y grisial welodd Ann Griffiths lawer
+blwyddyn cyn darllen hanes y dwfr yn tarddu dan yr allor yn seithfed
+bennod a deugain Eseciel.  Oddiwrth yr adeiladau hyn, dringais i
+fyny at y ty, gan geisio dyfalu pa fath bobl oedd yno.  Eis trwy
+lidiart yr ardd, a phan oeddwn yn edmygu'r blodau, daeth hen wraig
+hardd, a'i gwyneb yn wenau i gyd, i'm croesawu.
+
+"Dyma Ddolwar Fach, ynte?"
+
+"Ie, dowch i fewn o wres yr haul.  Ydech chwi'n dwad o bell, gen mod
+i mor hyf a gofyn?"
+
+"Mi gerddais o Lanfyllin; sawl milldir gerddais i?"
+
+"Wyth.  Y mae arnoch chwi eisio bwyd; dowch at y bwrdd i gymeryd
+tamed o ginio."
+
+Ni fynnwn ginio, ond gofynnais a roddai hi i mi gwpanaid o ddwr oer.
+Daeth a gwydriad o lefrith i mi, a'r hufen melyn yn felus arno.
+Lawer gwaith wedyn, pan yn yfed llefrith a'i hanner yn ddwfr a'i
+hufen wedi ei hel yn ofalus oddiarno, bum y'n hiraethu am y glasiad
+llefrith a gefais yn Nolwar Fechan.  Tra'r oeddym ni'n ysgwrsio,
+clywem droediad ysgafn ar y llofft uwchben.  Gwelodd y wraig fy mod
+yn dyfalu pwy oedd yno, a chododd ei llais i alw, -
+
+"Ann!"
+
+"Ann," ebe finne, "a ydyw teulu Ann Griffiths yn yr hen gartref o
+hyd?"
+
+"O nag ydyw, ar ol ei theulu hi y daethom ni"
+
+"A oes rhai o ddodrefn yr hen deulu wedi aros?"
+
+"Nag oes ddim, ac nid wn i a oes rhai o'r hen deulu yn aros
+ychwaith."
+
+Wedi i mi gael ysgwrs a'r wraig am amaethyddiaeth, ac a'r ferch am
+flodau'r ardd, daeth yr ysgolfeistr, yr hwn a letyai yno, i'r ty.  Y
+mae'n wr deallus, yn sylwedydd craff.  Dywedai am ei anhawsder i
+ddysgu plant Cymreig, oherwydd Sais uniaith yw, a mawr ganmolai
+gyflymder meddwl plant y bryniau rhagor plant Saeson y gwastadeddau.
+Ond ni chlywsai air erioed am Ann Griffiths; ac edrychai'n
+ddrwgdybus arnaf, fel pe bawn un heb arfer dweyd y gwir, pan
+ddywedais wrtho ei fod yn byw yn nhy emynyddes oreu'r byd.
+
+Ni welais erioed liwiau mwy gogoneddus na lliwiau'r blodau y
+prydnawn hwnnw; yr oedd y rhosynau gwylltion, welwn rhyngof ag awyr
+Mehefin ar bennau'r gwrychoedd, yn orlawn o oleuni; yr oedd
+goleuni'r haul yn brydferthach pan adlewyrchid ef o'u gwynder hwy na
+phan yr edrychid ar yr haul ei hun, fel pan yn
+
+
+"Disgleirio mae gogoniant Trindod
+  Yn achubiaeth marwol ddyn."
+
+
+Wedi'r ffordd hir hyfryd oedd cyrraedd mynwent Llanfihangel yng
+Ngwynfa, a gadael y gwres anioddefol, a myned i mewn i'r eglwys
+dywell oer.  Nid oes dim neillduol yn yr eglwys; ond tra yr oeddwn
+ynddi daeth cyfnewidiad dros y diwrnod,--yn sydyn duodd yr awyr,
+ymrwygai taranau dychrynllyd trwyddi, fflachiai mellt nes y byddai'r
+eglwys dywell yn oleu a beddergryff teulu Llwydiarth yn ymddangos,
+fel ysgrif gwledd Belsasar, yn amlwg ar ei mur.  Doi rhyw ddarn emyn
+o waith Ann Griffiths i'm cof o hyd, -
+
+
+"Pan fo Sinai i gyd yn mygu,
+  Sain yr udgorn uchaf radd,
+ Caf fynd i wledda dros y terfyn
+  Yng ngrym yr aberth, heb fy lladd."
+
+
+Rhedais drwy'r gwlaw bras trysfawr i'r hen westy hwn, a dyma fi.  Y
+mae amryw fforddolion fel y finne wedi troi i mewn am nodded ar fy
+ol, ac mewn hwyl ysgwrsio a mi.  Treiais dynnu ysgwrs am ysbrydion a
+rheibio, ond cynnil iawn oedd eu hatebion,--yr oeddwn yn rhy debyg i
+bregethwr.  Yr oedd yno un dyn deallus a llais dwfn mwyn, ffarmwr o
+ardal Pontrobert; nid oedd gan y clochydd air ond ambell i amen yng
+nghanol ysgwrs y lleill; yr oedd yno was ffarm, wedi gorfod ymadael
+o'i le oherwydd yr "wimwimsa," fel y galwai yr influenza.  Efe oedd
+y prif siaradwr yn ein mysg.  Cwynai nad oedd ganddo unlle ar y
+ddaear las i droi iddo, ie, ei bod "wedi mynd yn draed moch ac yn
+botes llo" arno.  Wrth weled cot ddu am danaf, dechreuodd siarad ar
+bwnc dybiai oedd yn gydweddol a'm chwaeth, sef Sian Hughes,
+Pontrobert, glywais unwaith ar stryt y Bala, amser Sasiwn, yn
+pregethu yn erbyn y diafol a sol-ffa.  "Mi fydde'n son am iffern, a
+pheth whithig o bethe, wrth fechgin ifinc," ebai'r gwas ffarm, yr
+hwn a ddychrynasid lawer o weithiau, mae'n debyg, gan bregethau'r
+hen wraig.  Yr oedd y Sian Hughes honno, os nad wyf yn camgymeryd,
+yn ferch i Ruth, morwyn Dolwar Fechan, ar gof yr hon y cadwyd
+emynnau Ann Griffiths.
+
+Ond y mae'r cerbyd wrth y drws yn disgwyl, rhyw fath o drol ysgafn
+gwlad, ac ystyllen ar ei thraws.  Y mae'r awyr yn goleuo, y mae'r
+gwlaw wedi troi'n wlithwlaw tyner, y mae'r aberoedd yn llawn at yr
+ymylon, y mae'r coed yn tyfu i'w gweled wedi'r gwlaw maethlon.  Cyn
+hir bydd dau ar yr ystyllen groes, mewn trol glonciog, ar ffordd
+Llanfyllin; a bydd un o honynt, o leiaf, yn meddwl am emyn, os nad
+yn ei ganu, -
+
+
+"Gwna fi fel pren planedig o fy Nuw!
+  Yn ir ar lan afonydd dyfroedd byw;
+ Yn gwreiddio ar led, a'i ddail heb wywo mwy,
+  Yn ffrwytho dan gawodydd dwyfol glwy."
+
+
+
+TY COCH
+
+
+
+Anaml y bu neb mor hoff o gartref ag Ap Vychan, ac anaml iawn y bu i
+neb gartref tlotach.  Ymysg mawrion gwlad, soniai am gymdeithion
+dinod ei ieuenctyd; ac o balasau ehedai ei ddychymyg i'r ty to brwyn
+yn yr hwn y dioddefodd eisieu bara, ac o'r hwn y gorfod iddo gychwyn
+i gardota aml dro.
+
+Saif y Ty Coch yn agos at aberoedd o ddwfr tryloew, yn ymyl hen
+ffordd Rufeinig, dan gysgod castell rhy hen i neb fedru adrodd ei
+hanes, ar fin mynydd sy'n ymestyn mewn mawredd unig o Lanuwchllyn i
+Draws Fynydd.  Y mae'n anodd cael taith ddifyrrach na'r daith o
+orsaf Llanuwchllyn i Gastell Carn Dochan, os gwneir hi yn yr haf, a
+chan un hoff o dawelwch ac awel iach oddiar eithin a grug y mynydd.
+
+Dyma ni'n gadael yr orsaf, gan syllu ar brydferthwch yr Aran draw.
+Toc trown ar y dde, a cherddwn dan goed sy'n taflu eu cysgodion dros
+y ffordd.  Dyma'r "adwy wynt," a hen gapel y Methodistiaid wedi ei
+droi'n dai.  Wrth y tai hyn, yn enwedig wrth y siop draw, digon
+tebyg y cewch rywun y gellwch dynnu sgwrs ag ef, os ydych yn hoff o
+ymgom.  Hwyrach y tarewch ar hen ddiwinydd a'i bwys ar ei ffon.
+Hwyrach y cyfarfyddwch a rhywun bydol,--hen wr a gwallt fel nadroedd
+sonia wrthych am ddyfais newydd i wneyd cribiniau, neu am ryfeddodau
+gwledydd pell.  Hwyrach y cewch hen hanesydd ddywed wrthych fel y
+byddem ni yn Llanuwchllyn yn byw yn yr hen oesoedd.  Os na fydd neb
+yno, a bydd y lle heb neb yn yr haf weithiau, cerddwch ymlaen ar hyd
+y "Gwaliau, ac wedi croesi'r bont cawn ein hunain yng nghwr y Llan,
+rhwng y fynwent a thai fu unwaith yn dy tafarn.  Yn y fynwent honno,
+y tu hwnt i'r eglwys, gorwedd Ap Vychan hyd ganiad yr udgorn.  Ac yn
+y ty tafarn hwnnw temtiwyd ef, pan yn laslanc tlawd, i yfed ei
+lasied cyntaf o gwrw mewn cyfarfod beirdd.
+
+Wedi gadael y Llan yr ydym yn dod i ffordd y Bala, ac yn cerdded yn
+ein blaenau ar hyd-ddi, hyd nes y down at y Bont Liw a phentref
+bychan Pen y Bont.  Cyn croesi'r bont yr ydym yn troi ar y chwith,
+ac yn cymeryd ffordd drol sydd yn ein harwain i gyfeiriad tarddle'r
+afon Liw.  Ar un ochr i ni y mae gwrych; ac ar yr ochr arall y mae
+dol lydan werdd, a'r afon yn dwndwr gyda'i godreu.  Yr ochr arall
+i'r afon y mae'r Cei, ffordd gul wedi ei chodi'n uwch na'r tir
+gwastad o bobtu iddi.  Ar hyd y cei noethlwm hwn, dyfal gyrcha'r
+pererinion Anibynnol i'r Hen Gapel a welwn draw.  Anodd cael rhodfa
+fwy dymunol na'r Cei yn yr haf, pan fo'r brithylliaid i'w gweled yn
+chwareu yn yr afon, a phan fo awel ysgafn gynnes yn crwydro dros
+laswellt a meillion aroglus.  Ond yn y gauaf, pan fo dwfr oer
+rhewllyd o bobtu, pan chwyth awel lem finiog oddiar fynydd sydd dan
+ei lwydrew, y mae golwg triglyd truenus ar lawer hen Gristion
+ffyddlon yn tynnu yn erbyn y rhew-wynt tua'r cyfarfod gweddi.
+
+Llawer gwaith y clywais fy nhad yn adrodd hanes gwr tyn yn cerdded
+hyd y Cei yn nyfnder gauaf oer.  Er mwyn cynhesrwydd, yr oedd wedi
+gwthio ei ddwylaw i bocedi ei lodrau, ie, i'w gwaelod, oherwydd yr
+oedd yn erchyll o oer.  Pan ar ganol y Cei, llithrodd ei droed ar y
+rhew, a syrthiodd ar ei wyneb ar y llwybr.  Yno yr oedd mewn
+enbydrwydd mawr.  Yr oedd ei ddwylaw'n ddyfnion, fel y dywedwyd, ym
+mhocedau ei lodrau.  Os ymegniai i dynnu y naill law allan, treiglai
+oddiar y llwybr i'r dwfr ar y naill du, oherwydd yr oedd y llwybr yn
+gul iawn.  Os tynnai'r llaw arall, ai drosodd yr ochr aroll, ac yr
+oedd dwfr yr ochr honno hefyd, yr un mor oer, a rhewllyd.  Nid oedd
+dim i'w wneyd ond aros yn llonydd hyd nes y delai rhywun heibio.  Ni
+fedrai neb, fel y Lefiad a'r offeiriad y sonnir am danynt yn yr
+Ysgrythyr, fyned "o'r tu arall heibio" a daeth rhyw Samaritan o'r
+diwedd i fwrw ei anwyd trwy godi'r gwr oedd yn methu tynuu ei
+ddwylaw o'i bocedi.
+
+Ond haf ydyw'n awr; y mae'r, defaid yn y mynydd, nid ydyw Awst wedi
+darfod, y mae'r glaswenwyn a blodau'r taranau hyd y cloddiau, ac y
+mae'r corn carw hyd lethrau'r mynydd.  Dyma'r llwybr yn dod a ni at
+yr afon eto, a dacw'r "Hen Gapel" yr ochr draw,--hen gapel Lewis
+Rhys ac Abraham Tibbott, Dr Lewis a Michael Jones.  O'n blaenau y
+mae craig serth yn ymgodi i'r nefoedd, ac ar ei hael y mae muriau
+toredig Castell Carn Dochan.  Dywedir fod telyn aur wedi ei chuddio
+dan y llawr ar ben y graig uchel acw; ond daw'n fellt a tharanau
+ofnadwy os dechreuwch, gloddio ati.  Nis gwn i sicrwydd a oes telyn
+aur dan lawr yr hen amddiffynfa, ond gwn fod gwallt y forwyn yn tyfu
+yn rhigolau'r muriau, a gellir syllu ar ei bryd-ferthwch heb ofni
+mellt na tharanau na dim.
+
+Ond dyma ni wrth y Deildref, cartref John Parry, athraw barddonol Ap
+Vychan,--"bardd rhagorol, llawn o athrylith a than awenyddol, fu
+farw o'r darfodedigaeth yng nghanol ei ddyddiau."  Ychydig yn uwch i
+fyny dyma'r Deildref Ucha, cartref Cadwaladr Jones Dolgellau, hen
+olygydd y Dysgedydd.  Ar y chwith, rhyw ddau hyd cae o'r ffordd, y
+mae'r Wern Ddu, cartref yr hen Gadwaladr Williams garedig fu'n
+ceisio darbwyllo Ap Vychan pan yn hogyn nad ai plant llygaid
+gleision i'r nefoedd, ac mai Deio'r Graig oedd yn achosi'r taranau
+trwy fynd o ben y castell i lawr y nefoedd, a gyrru olwyn ar hydddo.
+Ymhellach ymlaen, wedi mwynhau golygfeydd rhamantus, dyma ni wrth y
+Ty Mawr lle y daeth Ap Vychan yn hogyn cadw pan yn ddeg oed, a'r lle
+y bu am saith mlynedd, yn mwynhau llawer o fanteision crefyddol, dan
+lywodraeth gref gariadlawn y wraig fwyaf deallus mewn duwinyddiaeth
+a welodd erioed.
+
+Cyn hir, gyda ein bod wrth droed craig y castell, dyma ffordd yn
+croesi ein ffordd ni, ac yn rhedeg ar draws y cwm.  Trown ar y
+chwith ar hyd-ddi, a dyma ni wrth Hafod y Bibell.  Clywodd llawer un
+Ap Vychan yn dweyd mai yn Hafod y Bibell y dymunai fyw, Darluniai'r
+golygfeydd welid o'r hafod honno,--y mynyddoedd, gwaelod dyffryn
+Penanlliw a Llanuwchllyn, a Llyn Tegid hefyd am wn i.  Tybiai pobl
+ddieithr, wrth glywed Ap Vychan yn darlunio'r lle, mai palas y
+gellid ei alw'n Ddymunol, yng ngwlad Beulah, oedd Hafod y Bibell.  A
+dyma'r lle.  Y mae'n dechre adfeilio erbyn hyn,--nid oes yno ond to
+diferllyd a ffenestri gweig ion, fel tyllau llygad ysgerbwd.  Y mae
+das o hen wair yn y gadles yn ymyl, a llwybr glaswelltog i'r caeau,
+llwybr nad oes erbyn hyn fawr o wahaniaeth rhyngddo a'r cae.  Pe
+gwelai Ap Vychan ef yn awr, hawdd fuasai iddo ddweyd geiriau Dafydd
+ab Gwilym am y murddyn welodd mewn lle y buasai unwaith "yn glyd
+uwchben ei fyd mwyn,"-
+
+
+"Yn ddiau mae i'th gongl ddwy-och,
+ Gwely im oedd, nid gwal moch."
+
+
+Oddiyma awn i fyny hyd y caeau, gan adael gwaith aur y Castell ar y
+dde.  Toc croeswn gae, ac y mae'r Ty Coch draw yn ei gwr uchaf.  Y
+mae mawredd gwaith bysedd Duw ar y creigiau sydd y tu cefn i'r Ty
+Coch, ond tlodaidd iawn yw'r olwg ar y ty ei hun.
+
+Gadewch i ni ddynesu ato.  Y mae'n eithaf clyd a glan, er mai bechan
+iawn yw ei ffenestr a phur anwastad ei lawr.  Dyma ddau wr ieuanc yn
+dod o'r ty i'n cyfarfod, ac yn cymeryd dyddordeb mawr ynnom pan
+ddeallant ein bod ar bererindod i wlad Ap Vychan.  Peth digon hawdd
+i bobl ddieithr fel y ni, a ninnau wedi darllen papurau newyddion ac
+yn medru siarad Saesneg, ydyw ei lordio hi dipyn, fel y dywed pobl y
+fro hon, yng ngwydd pobl wledig.  Gwell i chwi beidio mewn cwm fel
+Penanlliw; y mae'r gwr ieuanc gwalltddu yna wedi gweled mwy ond
+odid, nag a welsoch chwi; ac y mae aml un trahaus wedi gwingo dan
+ffrewyll awen chwerw'r llall.
+
+Dan gyfarwyddyd dau nai Ap Vychan awn o amgylch y ty.  Yn y pen
+uchaf iddo yr oedd tad Ap Vychan yn byw, darn sydd eto dan ei do
+brwyn.  Dyma'r drws diaddurn o'r hwn y cerddodd Ap Vychan i'r byd
+gyntaf, i ymdrechu'n galed am ei damaid bara i ddechreu, ac i
+gyfrannu bara'r bywyd i lawer enaid newynog wedyn.  Dacw'r ffenestr
+eto'n aros drwy yr hon y gwelodd oleuni dydd Duw gynta erioed
+rywbryd tua diwedd y flwyddyn 1809.  Dyma'r lle y bu ei dad,--dyn
+duwiol, duwinydd, a llenor da,--yn ymladd yn galed yn erbyn yr
+amseroedd enbytaf welodd y llafurwr Cymreig, efallai, yn holl hanes
+ei wlad.  Dacw'r mynyddoedd, y naill y tu hwnt i'r llall, y
+mynyddoedd sy'n ymddelwi yn enaid pob Cymro.  Bum yn meddwl lawer
+gwaith fod Ap Vychan, wrth ddarlunio ieuenctyd Cadwaladr Jones, yn
+darlunio,--na, nid ei ieuenctyd ei hun,--ond y peth ddymunasai'r
+bachgen tlawd fod.  Yr oedd bywyd Cadwaladr Jones, "mab ffarm," yn
+fywyd yr hiraethai'r "hogyn cadw" am dano.
+
+
+"Gallwn yn hawdd ddychymygu iddo dreulio llawer dydd teg, yn hafau
+dyddiau ei faboed, ar lan y nant sydd yn myned heibio i'r Deildref
+Uchaf, a'r afon Liw, sydd yn golchi un ochr i ddol a berthyn i'r
+tyddyn, yn chwareu, ac yn ceisio dal y pysgod gwylltion a heigient
+ynddynt.  A gallwn farnu, yr un mor naturiol, ei fod yn ddiwyd yn
+ymlithro ar hyd ei rhewogydd yn y gauafau, ac yn cael ei geryddu gan
+ei fam pan ddigwyddai gael codwm, a tharaw ei wegil yn y blymen, neu
+pan wlychai ei draed, oblegid torri o'r rhew o dan ei bwysau, a
+dyfod i'r ty, ati hi, i gwyno oblegid y damweiniau.  Gallwn feddwl
+mai dyddiau pwysig yn ei olwg ef, fel ereill, oedd dyddiau dasu y
+mawn, golchi y defaid a'u cneifio, dyddiau cael y gwair a'r yd,
+ffair Llan yr haf, a dydd cyfarfod blynyddol yr Hen Gapel.  Gallwn
+feddwl y chwareuodd lawer tua 'Chwrt y Person', wrth ddychwelyd yn y
+prydnawniau gydag ereill, o ysgol ddyddiol Rhos y Fedwen; a'i fod yn
+aml yn ofni ac yn petruso wrth geisio myned dros y sarn, pan fyddai
+y llif ychydig dros y cerrig, ac wedi cyflawni y gamp honno, yn
+neidio ac yn llemain o lawenydd am lwyddiant ei wrhydri, yn hynny o
+beth.  Digon tebyg ei fod ef, fel ei gyffelyb o ran oed, yn brysur
+tua Chalanmai yn chwilio am nythod adar, ac ym Medi, yn chwilio am y
+cnau yn y byrgyll.  A hawdd i ni gredu ei fod ar lawer min nos yn
+dyfal wrandaw ar isalaw ddofn Rhaiadr Mwy, ac yn dyfod yn ei ol i'r
+ty yn llawer mwy sobr nag yr aethai allan.  Bu lawer noswaith, mae
+yn debyg, yn cael y fraint o aros ar yr aelwyd, yn lle myned i'w
+wely, pan fyddai cymydogion yn dyfod i gyfarfod nosawl i wau
+hosanau, i dy ei rieni.  Bu yn gwrando eu chwedleuon am amgylchiadau
+yr ardal, y rhyfel a Ffrainc, helwriaeth, ymddanghosiad ysbrydion,
+dewiniaeth, llofruddiaethau, ymladdfeydd rhwng personau unigol, yng
+nghyd ag ychydig o helyntion crefyddol yr Hen Gapel."
+
+
+Y mae'r Ty Coch ar fin y mynydd,--"y ty agosaf i'r mynydd."  Rhwng y
+dwfr glan a'r mynydd-dir iach sydd yn ymyl, y mae'n lle wrth fodd
+Cymro athrylithgar fo'n magu plant.  Ond, yr oedd yr adeg honno'n
+gwasgu'n drwm ar fwthynwyr, yn enwedig rhai'n deulu o ddeuddeg.
+Dyma'r hanes fel yr adroddir ef gan Ap Vychan ei hun, -
+
+
+"Yn fuan wedi terfyniad rhyfel Ffrainc, aeth ein bwthyn bychan ni,
+yr hwn oedd wrth dalcen y Ty Coch, yn rhy gyfyng i'r teulu cynyddol
+a gyfaneddent ynddo, a chafodd fy nhad ganiatad gan oruchwyliwr Syr
+Watcyn i ail adeiladu hen dy adfeiledig yn yr ardal o'r enw Tan y
+Castell.  Yr wyf yn cofio mai ty newydd tlawd iawn oedd ein ty
+newydd ni.  Yr oeddym erbyn hyn yn deulu lluosog; a swllt yn y dydd,
+ar ei fwyd ei hun, oedd cyflog fy nhad yn yr hanner gauafol o'r
+flwyddyn, ac yr oedd hanner pecaid o flawd ceirch yn costio i ni
+ddeg swllt a chwe cheiniog.  Felly, prin y gallem gael bara, neb son
+am enllyn, gan y drudaniaeth.  Buom am un pythefnos heb un tamaid o
+fara, caws, ymenyn, cig, na chloron.  Digwyddodd i ni gael ychydig o
+faip, a berwai ein mam y rhai hynny mewn dwfr, ac a'u rhoddai i ni
+i'w bwyta gyda'r dwfr y berwasid hwynt ynddo, ae nid oedd ganddi
+ddim oedd well iddi ei hun, er fod un bychan yn sugno ei bron ar y
+pryd.  Yr wyf yn cofio ei bod yn wylo am ei bod yn gorfod rhoddi i
+ni ymborth mor wael."
+
+
+Nid un ymffrostiai yn ei dlodi oedd Ap Vychan.  Y mae ymffrost
+ambell un yn ei dlodi mor anerbyniol ag ymffrost un pen ysgafn yn ei
+gyfoeth.  Ond adroddiad diaddurn, diymffrost o dlodi, adroddiad dyn
+ddagrau o lygaid y caletaf, ydyw yr hanes rydd Ap Vychan wrth
+ddarlunio tlodi ei gartref ef.  Dywed haneswyr am ogoniant a bri
+buddugoliaeth y blynyddoedd hynny; yr oedd mawredd yn ymwisgo, fe
+feddylient, ag anrhydedd tragwyddol.  Ond yn nhlodi'r bwthyn wrth
+dalcen y Ty Coch yr oedd dyn gonest yn gorfod edrych ar ei wraig a'i
+blant heb angenrheidiau bywyd, oherwydd uchelgais pechadurus y milwr
+a'r uchelwr.
+
+Ni ddaeth tlodi ei hun, daeth clefyd trwm i Dan y Castell.  Daeth
+mam y penteulu yno, a bu farw dan y clefyd.  Daeth chwaer Dr. Ellis
+Evans i'w gwylio y nos tra'n gweithio yn ei lle y dydd.  Gorfod troi
+at y plwy am gymorth.  Dyma ddernyn o hanes yr amser hwnnw, -
+
+"Yr oedd gan fy rhieni y pryd hwnnw wely pluf da; ond gan ein bod ar
+y pryd yn cael cymorth plwyfol, daeth overseer y plwyf, a'i fab
+gydag ef, i'n ty ni, a thynasant y gwely odditan fy nhad, yr hwn
+oedd i olwg ddynol ar y pryd bron a marw, a'i synhwyrau'n dyrysu'n
+fawr, gan rym tanllyd y clefyd, a gwerthasant y gwely i ddyn o'r
+ardal oedd ar gychwyn i'r America, a gosodwyd fy nhad i orwedd ar
+wellt."
+
+Cyn hir daeth iechyd, a dechreuodd y plant ennill tipyn.  Ond
+gadewch i ni groesi, dan gysgod craig y castell, drwy goed mafon
+duon a heibio cerrig enfawr sydd wedi treiglo o'r graig fry, at Dan
+y Castell.  Yr oedd Ap Vychan a'i frodyr a'i chwiorydd yn adnabod
+pob un o'r cerrig hyn fel eu cymydogion.  Un ffordd i ennill ambell
+geiniog oedd hel cen oddiar gerrig.  Defnyddid y cen i lifo dillad,
+ac nid oes bosibl cael lliw prydferthach.  Crwydrodd Ap Vychan
+llawer, yn hogyn byrdew, gyda brawd hyn nag ef, i hel cen cerrig ac
+i gardota.  Clywais hen frawd yn dweyd yn ddiweddar ei fod wedi
+cyfarfod y ddau lawer gwaith.  Byddai gan Ap Vychan got laes,--hen
+got oedd wedi disgyn iddo oddiwrth rywun hyn,--a dwy boced fawr y tu
+mewn iddi.  Yn y naill boced byddai cen cerrig a chardod flawd, ac
+yn y llall byddai Beibl mawr.  Crwydrodd y ddau frawd unwaith cyn
+belled ag Aber Ystwyth.  Cardodasant yn Sir Aberteifi, a chawsant
+lawer o yd.  Ond cymerodd rhywun calongaled digydwybod fantais ar y
+ddau hogyn deg ac wyth oed, a mynnodd eu blawd i gyd am y grot oedd
+raid iddynt dalu am groesi'r afon Dyfi.  Ond yn y cwch dywedodd
+rhywun tirion,--"Yr wyf fi'n talu dros y plant bach."  "Ni ellais
+byth," ebe Ap Vychan lawer blwyddyn wedyn, "ar fy nheithiau
+pregethwrol, fyned heibio'r tai a'm lletyasent, heb deimlo diolch-
+garwch i Dduw, ac i ddynion hefyd, am y tiriondeb a dderbyniais yn
+nyddiau plentynrwydd a thlodi."
+
+Er hyn oll,--cafodd Ap Vychan ieuenctyd hapus.  Wedi'r clefyd, bu'r
+tad a'r fam yn ddedwydd lawer awr.  A phwy na fu wrth fagu plant?
+Dyma ddarluniad o Dan y Castell, -
+
+
+"Yn nechreu haf y fwydden 1818 yr oedd gwr a gwraig, at hyaid o
+blant nwyfus a chwareus, yn byw dan gysgod craig fawr ac ysgythrog,
+ac mewn ty bychan, a'i do o redyn y mynydd-dir oedd gerllaw iddo, ac
+nid oedd haul yn tywynnu arno am rai wythnosau yn nyfnder y gauaf.
+Yr oedd yn cael ei gysgogi'n dda rhag gwyntoedd o'r gorllewin ac o'r
+deheu; ond yr oedd awelon oerion y gogledd a'r dwyrain yn ymosod
+arno yn ddidrugaredd.  Mynnai y mwg hefyd ymgartrefu yn y ty a'r to
+rhedyn, gyda'r teulu, ac nid ai allan o'i fodd, os na fyddai'r gwynt
+yn chwythu o ryw bwynt a ryngai ei fodd ef.  Yr oedd megis un o'r
+teulu.
+
+"Yr oedd ffynnon o ddwfr iachus yn tarddu o ganol y mynydd mawr, yn
+union wrth dalcen y ty.  Ceid digon o danwydd o fawnog oedd yn y
+mynydd uwchlaw'r ty, yr hyn a barai fod yr aelwyd, ar nosweithiau
+hirion y dyddiau byrion, yn hynod o gysurus.  Eisteddai'r tad yn un
+gornel, a'r fam ar ei gyfer yn y gornel arall, a'r plant yn hanner
+cylch o flaen y tan, a phob un oedd yn ddigon o faint yn gwau hosan
+mor gyflym ag y gallai, fel y gallai'r fam fynd a hanner dwsin o
+barau i'r farchnad ar y Sadwrn, a'u cyfnewid yno am angenrheidiau
+teuluaidd."
+
+
+Gadewch i ni adael Tan y Castell, a throi ein gwynebau tua'r Ty
+Cerrig, a "phulpud y Crynwyr."  Sylwch ar y graig fygythiol
+ddaneddog, a'i chastell yn goron doredig ar ei phen.  Yng
+ngwythienau'r graig acw y mae aur.  Pan oedd Ap Vychan yn cardota ei
+fara ymhell yn Sir Aberteifi, yr oedd gronynau aur yn nhalcen ei dy.
+
+O'n blaenau dacw Foel Llyfnant a'r Arennig, a dyna isalaw ddofn
+Rhaiadr Mwy.  Dacw'r mynyddoedd y bu Ap Vychan yn crwydro hyd ddynt
+i hel cen cerrig, dacw dai hen breswylwyr Penanlliw,--pobl dal
+gyhyrog, pobl ddi-wenwyn a heddychlon, pobl wedi eu trwytho a
+duwinyddiaeth gadarn ac iach.  Llawer hanes rhyfedd adroddir am
+grefyddwyr y fro hon.  Ond dyma ni wrth Dy Cerrig.  Yn y cyntedd o
+flaen y ty dywed traddodiad fod y Crynwyr wedi ymgyfarfod laweroedd
+o weithiau.  Byddai rhyw gyfaill crwydrol yn sefyll ar garreg agosaf
+i'r ty, ac yn traethu.  Eisteddai'r cyfeillion mwyaf blaenllaw ar y
+garreg arall, a safai y dorf.  Ni wyddis fawr o fanylion hanes y
+Crynwyr, ond y mae'n sicr eu bod wedi gadael rhyw dynerwch enaid, a
+rhyw hoffder greddfol o'r efengyl yn y fro hon.
+
+Ffurfiwyd meddwl Ap Vychan dan ddylan-wadau iach.  Gadewch i ni droi
+i fyny tua, Chraig y Tan, lle y bu'n hogyn cadw'r caeau, ac mi
+adroddaf i chwi beth glywais gan hen bobl am dano.  Bu am dymor pan
+y meddylid nad oedd llawer iawn o ol gras ar ei fuchedd.  Pan oedd
+yn egwyddorwas yn y Lon draw, yr oedd wedi ei brentisio i wr
+crefyddol,--Simon Jones y Lon.  Yr oedd gan Simon Jones fab,--un
+athrylithgar a direidus,--ac efe oedd hoff gydymaith y prentis go.
+Ambell dro canent i ryw elyn, -
+
+
+"Yr un aeliau, a'r un olwg,
+ A'r un drem, a'r gwr drwg"
+
+
+Cedwid Ysgol Sul yng Nghaer Gai; a holai Thomas Ffowc y plant.  Un
+tro gofynnodd i hogyn bychan sydd erbyn hyn yn wr cyfrifol yn yr
+America, -
+
+"Oes gen ti adnod, fy mhlentyn i?"
+
+"Oes."
+
+"Wel, tyrd a hi."
+
+
+"Bydded hysbys a gwir yw.
+ Lle crafa'r iar, y piga'r cyw."
+
+
+"Da iawn, fy machgen i, pwy ddysgodd yr adnod ene i ti?"
+
+"Twm Seimon a Robin y Go."
+
+"Roeddwn i'n meddwl.  Paid di a chymryd dy ddysgu gennyn nhw eto."
+
+Un tro cafodd Mari Jones y Lon, un o'r gwragedd duwiolaf welodd ei
+hardal, gan Robin addaw dod i'r capel y Sul wedyn.  Addawodd yntau
+ar yr amod ei bod hi'n rhoddi caniatad iddo yn y bore.  Nos Sadwrn
+cymerodd Twm siswrn a thorrodd un ochr yn unig o wallt hir Robin, ac
+eilliodd hefyd un gern iddo.  Bore Sul ymddanghosodd Robin ger bron
+Mari Jones, gyda gwallt hir ar un ochr i'w ben, a'r gwallt wedi ei
+dorri yn y gnec ar yr ochr arall.  Ni welwyd Robin ymysg y duwiolion
+y bore Sul hwnnw.
+
+Dro arall yr oedd Twm a Robin yn cychwyn i'r Bala i arddanghosfa
+anifeiliaid gwylltion.  Nid oedd gan Simon Jones arian parod i'w
+roddi iddynt yn eu pocedau, ond rhoddodd bapur i'w roi i hen wraig y
+King's Head, a ffigiwr dau arno.  Deallodd y ddau mai deuswllt oedd
+hynny'n feddwl, a rhoisant ffigiwr un o flaen y ffigiwr dau.
+
+Gwahanwyd y ddau gyfaill mynweswol ac athrylithgar hyn yn eu
+marwolaeth.  Y mae Ap Vychan yn huno ym mynwent Llanuwchllyn, yn
+ymyl Simon Jones a Mari Jones.  Ac y mae Thomas Jones, mab y rhain,
+yn huno yr ochr arall i'r Werydd, yn Utica.  Ond y mae ei enw yntau
+ar feddfaen ei deulu,--bu farw yn 1847, yn chwech a deugain oed.
+
+Na feddylier oddiwrth hyn fod Ap Vychan wedi byw'n fachgen gwyllt.
+Ni chollodd ei dad ei ddylanwad ar ei gymeriad.  Ychydig cyn ei
+farw, yr oedd yn adrodd breuddwyd wrth Ifan T. Davies.  "Yr oeddwn
+i'n breuddwydio neithiwr, Ifan," meddai, "'mod i'n gweld fy nhad, a
+dene'r tro cynta i mi i weld o er pan fu o farw.  Yr oeddwn i ag ef
+yn cerdded ar hyd ffordd deg wastad-lefn.  Yr oeddwn i'n blentyn ac
+yn cydio yn i law o.  Hefo'r ffordd yr oedd aber o ddwr grisialaidd
+yn dwndwr.  Dros y gwrych yr oedd dyrysni, o ddrain a rhedyn a
+mieri, fel y Wenallt, ac yng nghanol y dyrysni 'roedd dyn.  A dyma
+fo'n gwaeddi ar fy nhad,--'Ddyn anwyl, fedrwch chi ddangos y ffordd
+i'r bywyd tragywyddol i mi?'  'Medra,' medde nhad, ac yn dangos i
+fys at y ffordd deg, 'dyma hi, mae Rhobet a minne wedi bod yn i
+cherdded hi ers blynyddoedd.'"
+
+Y ffordd a'r aber wrth ei hochr oedd y ffordd y buom yn ei cherdded
+at y Ty Coch.  A dacw'r t Wenallt.  Ymlaen y mae golygfeydd mynyddig
+rydd orffwys i'r meddwl lluddedig, os crwydrir yn eu mysg.  Byddaf
+fi'n hoff iawn o dreulio dyddiau yn y cymoedd hyn, a byddaf yn
+meddwl yn aml, wrth bensynnu ar lannau'r aberoedd, am y bachgen fu'n
+ennill ei damaid prin wrth wylio'r defaid a diosg eu gwisg oddiam
+gerrig y mynyddoedd.
+
+
+
+GERDDI BLUOG
+
+
+
+Yr oeddwn wedi meddwl llawer am weld cartref Edmwnd Prys, y cartref
+sydd yng nghanol y mynyddoedd, y cartref lle cyfieithiwyd Salmau
+Israel i'r iaith Gymraeg.  Tybiais mai canol haf oedd yr amser goreu
+i fyned yno ar draws y bryniau, gan fy mod yn meddwl bob amser mai
+haf yng Nghymru ydyw'r tymor ddarlunir yn y Salmau, pan hiraetho'r
+hydd am yr aberoedd dyfroedd, a phan fo'r porfeydd gwelltog yn
+hyfryd ar lan dyfroedd araf.  "Gefn trymaidd yr haf," chwedl pobl
+Harlech, y dechreuais ddringo'r bryniau serth sydd rhwng glan y mor
+a'r cartref yn y mynyddoedd.
+
+Pan eisteddais i orffwys gyntaf, yr oeddwn ar fryn uwchlaw Castell
+Harlech,--y mor odditanaf a'r mynyddoedd uwch fy mhen, y mynyddoedd
+sydd rhwng glan y mor a gwastatir uchel Traws Fynydd.  Llecyn hyfryd
+odiaeth oedd hwnnw.  Dros gaeau o datws gwyrddion, gydag ambell
+flodeuyn piws ar y cae gwyrdd, gwelwn donnau gwynion afrifed y mor,
+a'r haul yn goreuro eu hewyn.  Os wyt yn ymhyfrydu mewn lliwiau,
+buasai yn dda gennyt fod gyda mi yno,--i weled y gwyrdd yn dy ymyl,
+a'r gwyn gyda gwawr aur arno draw drosto.  Tybiwn ei fod yn gyfuniad
+o liwiau prydferthaf nef a daear; ac yn y cyfuniad yr oedd ei swyn.
+Heibio'r garreg yr eisteddwn arni rhedai dyfr-oedd grisialaidd o
+ffynnon y Bedyddwyr, dwfr clir wedi codi'n foreu ym mro y creigiau
+a'r grug.  Hyd ochrau sych hyfryd yr afonig, blodeuai'r goesgoch a'r
+rhedyn, gan wasgar eu perarogl hyfryd gwan.  Ac ar ael y bryn o'n
+blaenau gwelem Gutiau'r Gwyddelod, fel ysbrydion hen amseroedd.
+
+Nid oeddwn fy hun yn y llecyn hwnnw.  Yr oeddwn i a gwr ieuanc, oedd
+yn treulio ei wyliau gartref yn Harlech, wedi dod yn ffrindiau mawr.
+A chan ei fod yn gwybod am bob troedfedd o'r ardal, yr oeddwn wedi
+erfyn arno ddod yn gwmpeini i mi.  Ni fuasai'n bosibl cael diwrnod
+na chwmni gwell.  A rhag fod fy nghydymaith yn meddwl fy mod wedi
+blino eisoes, troais fy nghefn ar olygfa oedd mor swynol i mi.
+
+O'n blaenau yr oedd gallt serth, ac yr oedd corn simneu unig i'w
+weled drosti, fel pe buasai'n codi o'r ochr draw.  Corn simneu Cefn
+y Filldir oedd, a chlywais fod yno bregethwr unwaith, pregethwr y
+Bedyddwyr, yn meddu dylanwad ar yr ysbrydion drwg.  Hawdd gennyf fi
+gredu hynny, ac ni rown fawr am bregethwr os na fydd ar yr ysbrydion
+drwg dipyn o'i ofn ambell i dro.
+
+Yr oedd yr allt yn drom a'r dydd yn boeth, ac wrth ddringo igam ogam
+i ben y bryn safem yn aml, a thaflem aml olwg yn ol ar y castell a'r
+mor.  Yr oedd swn y mor yn dod yn fwy gwan a suol o hyd, a phrin y
+clywem ef pan ddoi swn gwenynen i'n clustiau, wrth iddi grwydro dros
+flodau man y mynydd.
+
+Wedi cyrraedd pen y bryn, wele wastatir hir o'n blaenau,--cae hir
+eithinog glas o'r enw y Fonllech Hir.  Yr oedd awel adfywiol yn
+crwydro o'r mynyddoedd i'n cyfarfod, wedi casglu perarogl mewn
+cannoedd o gaeau gwair.  Odditanom yr oedd cwm rhamantus Nancol, a
+morfa'r Dyffryn.  Dros y rhain y gwelem Fochras a'i gregin, a Sarn
+Badrig yn y mor.  Ehedai aml wylan tua'r tir rhyngom a'r awyr las,
+arwydd fod storm yn y mor.  Yr oedd gorchudd o niwl dros y Wyddfa
+a'r Rhinog a'r Moelfre o'n blaenau.
+
+Daethom i ffordd union deg yn rhedeg ar hyd y Fonllech, debyg i
+ffordd Rufeinig, o Lanfair i Fedd Gelert a Nanmor.  Cerddasom ennyd
+ar hyd hon, gan droi ar y chwith o'r llwybr gerddem o'r blaen.
+Odditanom gwelem ffermdai Drws yr Ymlid a Chil y Bronthyr.  Dilynai
+aber ni, gan fynd dan y ffordd weithiau; efallai i ti ei gweled,
+ddarllennydd hoff, yn disgyn yn gawod wen dros y graig yn ymyl
+castell Harlech.
+
+Troisom o'r ffordd hir union wedi ei dilyn am beth amser, gan
+gyfeirio ar y dde tua Chwm Bychan.  Yr oedd tarw'r Ffridd ar ein
+llwybr, ond ni wnaeth fwy na rhuo.  Yr oeddwn wedi edrych o'm cwmpas
+am le i ddianc, ac wedi methu canfod yr un.  Hyfryd i mi oedd gweled
+y tarw'n rhoi ei ben i lawr, ac yn ail ddechreu pori mewn heddwch.
+Bum mewn ffos unwaith, ag ochrau cerrig iddi, a tharw yn bwrw a'i
+ben ataf, ond fod yr ochrau cerrig yn rhy gul i'w dalcen ddisgyn
+arnaf.  Yr wyf yn cofio ei anadl boeth ar fy ngwyneb o hyd; a pho
+leiaf o deirw fo'n y byd, goreu oll gen i.
+
+Caeau bychain caregog oedd yno, gyda darnau o dir amaethedig ymysg
+corsydd a brwyn.  Yr oedd ffrydiau ardderchog o ddwfr gloew ymhob
+man.  I lawr odditanom gwelem gaeau gwyrddion dyffryn yr Artro, a'r
+mor dyfnlas draw dros y morfa llydan a'r traeth.  Yr oedd gwres yr
+haul wedi codi cymylau i hulio'r nen.  Doi ambell heulwen danbaid
+trwy'r cymylau, ac yr oedd lliw pob peth yn troi yn ogoneddus tan ei
+gwen,--lliw melynwyn brenhines y weirglodd, coch gwan blodau'r grug,
+melyn tanbaid yr eithin, a'r lliwiau afrifed rhwng coch-wyrdd y
+gwair addfed a glas-wyrdd yr egin yd.  Yr oedd llawer o'r gwair wedi
+ei gynhauafa oddiar rosydd y Ffridd a Rhyd yr Eirin, a'r syndod i mi
+oedd sut yr oeddynt wedi medru lladd y byrwellt rhwng y twmpathau
+caregog, os nad a siswrn.  Ac yr oedd arogl y mynydd yn dod i'n
+cyfarfod dros y caeau cneifiedig, arogl crawcwellt a grug.
+
+Wedi croesi'r gefnen hon eto, daethom i olwg y Cwm Bychan, ac wele
+wlad Edmwnd Prys o'n blaenau.  Natur yn ei pherffeithrwydd sydd yno,
+ni welir ond ychydig o ol llaw dyn arni, ac y mae'n sicr fod yr olwg
+a gawn ar y Cwm Bychan yn union yr un fath a'r olwg gai Edmwnd Prys
+arni wrth gyfieithu'r Salmau, dair canrif yn ol.
+
+Gyda'n bod yng ngolwg y cwm, gwelem fynyddoedd yn codi'n sydyn o'n
+blaenau, a golwg ddu fygythiol arnynt.  Pan welais y cwm gyntaf, nid
+fel cyfieithydd y Beibl y daeth Edmwnd Prys i'm meddwl, ond fel y
+swynwr fu'n ymryson a Huw Llwyd Cynfel.  Ond buan y cynefinodd fy
+llygaid a'r mynyddoedd geirwon serth, a gwelais y llyn tawel sy'n
+gorwedd wrth eu traed.  Yr oedd rhes o goed rhyngom ag ef, a gwelem
+ei ddyfroedd gleision tawel rhwng y canghennau.  Y tu hwnt i'w gwr
+uchaf gwelem gaeau llechweddog a rhai gwastad.  Y tu hwnt iddynt yr
+oedd y mynyddoedd o hyd; yr oedd niwl ar ben Carreg y Saeth a'r
+Rhinog Fawr, ac nis gallem weled pa mor uchel oeddynt.
+
+Ond ymhle mae'r Gerddi Bluog?
+
+Yn union odditanom, yr ochr yma i'r cwm.  Byddwn yno mewn ychydig
+funudau.  Dechreuasom ddisgyn hyd y llwybr serth, drwy gaeau
+bychain, llawn o goed gwern ac eithin a grug.  Ac hyd ochr y nant
+gwelem y feidiog las a lliaws o flodau nad oedd gennym ni enwau
+arnynt.  Yr oedd yno un math o goed bychain oeddym yn adnabod yn
+dda, sef coed llus.
+
+O'r diwedd cyrhaeddasom y gwaelod, ac aethom drwy lidiart fechan
+mewn mur o gerrig geirwon.  Ac wele'r Gerddi Bluog o'n blaen.  Wrth
+ei gefn yr oedd llond y nant o goed, a ffrwd gref yn rhedeg yn wyllt
+ar hyd y graig a'r graian odditanynt.  Ar lan y ffrwd hon gwelem yr
+adeiladau,--yr helm drol a'r beudai a'r cutiau moch,--ac ymhellach
+draw na hwynt gwelem y ty.  Y ddau gar mawn wrth gefn yr helm, y
+cunogau llaeth yn sychu ar y graig, y buarth glan, y coed cysgodol,
+yr olwg glyd a threfnus,--y mae'r Gerddi Bluog yn debyg iawn i lawer
+hendre Gymreig.  Ond yr oedd y pinwydd yn taflu rhyw wawr henafol a
+dieithr ar y lle.  Wrth i ni ddod i lawr ochrau'r buarth, yr oedd
+arogl chwilys yr eithin a chamomeil yn perarogli'r awel, ac yr oedd
+cymylau gwynion yr haf yn ymlid eu gilydd uwch ein pennau dros y
+cwm.
+
+Croesasom yr afonig, a dechreuasom chwilio am enwau maswniaid ar hen
+furiau'r beudai.  Ar garreg las fechan wrth ffenestr dalcen un beudy
+gwelsom hyn, -
+
+Morgan Prys
+HYDREF:  31
+1728:  W.  H.
+Pen.:  Saur
+
+O'r adeiladau daethom at y ty, a gwelsom yr enw M. P. a'r dyddiad
+1667 ar ran cydmarol newydd o hono.  Yr oedd ei gefn atom, a
+throisom am ei gornel i gael golwg ar ei wyneb.  Cawsom olwg hen a
+phatriarchaidd iawn arno.  Gwelais ar unwaith mai o'r drws acw ac ar
+hyd y palmant hwn y doi arch-ddiacon Meirionnydd pan ar ganol rhoi'r
+salmau mewn Cymraeg mor felodaidd.  Lle tawel a chlyd ac unig yw.  Y
+mae'r ty a'i dalcen i fryn caregog serth.  Ar ben y banc y mae mur,
+a'r goesgoch yn tyfu gyda'i waelod, a choeden onnen yn gwyro uwch ei
+ben.  Pan droisom am y gornel, yr oedd y mur a'r bryn yn union o'n
+blaenau.  Ar y chwith yr oedd gwyneb y ty.  Yr oedd y drws yn isel,-
+-yn debycach i ddrws y dewin nag i ddrws arch ddiacon,--ac yn hen
+iawn; yn amser ymosodiadau ar dai y cynlluniwyd drysau felly.  Yn
+wyneb hir y ty yr oedd un ffenestr; ac un arall wedi ei chau yn
+amser y dreth ar ffenestri.  Ar gyfer y ty, ac yn gwynebu ato, yr
+oedd hen dy hyn fyth, wedi ei droi yn dy mawn.  Rhwng y ddau yr oedd
+llawr o graig neu o balmant, oddigerth lle tyfai blodau cochion mawr
+o flaen y ty mawn.  Safasom ger drws y ty i weled pa olygfa geir o
+hono.  Yr oedd pinwydd duon yn ymyl, ac yr oedd awel ysgafn yn
+gwneyd iddynt ysgwyd yn araf, fel hen wragedd y seiat dan awelon o
+Seion, fel pe buasent yn clywed swn y Salmau byth.  Rhwng y pinwydd
+hyn gwelem fynyddoedd ardderchog,--fel y mil o fynyddoedd y sonia'r
+Beibl am danynt.
+
+Ond yr oedd yn bryd troi i'r ty.  Yr oedd y gwr wedi dod allan
+atom,--gwr caredig prysur,--a rhaid i ffarmwr fod yn brysur iawn i
+fyw yn y dyddiau hyn, pan y mae prisiau pob peth mor isel.  Aethom i
+mewn dan y garreg fawr sy'n gapan i'r drws.  Yr oedd cyntedd hir o'n
+blaenau, yn mynd ar draws y ty i gyd.  Ar ein de yr oedd palis pren,
+a drws tua'i ganol.  Troisom trwy'r drws hwnnw i gegin eang, gyda
+nenfwd isel hen ffasiwn.  Yr oedd y llawr yn lan, fel yr aur, ac yr
+oedd golwg clyd ryfeddol ar y gegin.  Draw ar ein cyfer yr oedd y
+simneu fawr hen ffasiwn, a'r tan mawn, a'r crochanau.
+
+Yr oedd plismon yn y ty, yn nillad ei swydd.  Nid am fod drwg-
+weithredwyr yng Ngerddi Bluog yr oedd wedi dod, ond oddiar ysfa
+lenyddol.  Y mae aml blismon yng Nghymru'n llenor; ac yr oedd hwn yn
+dod o gyffiniau llenyddol Llanarmon Dyffryn Ceiriog.  Y tu ol iddo,
+gan sythed ag yntau, gwelwn gloc enwog Edmwnd Prys.  Cas hir, o
+onnen, debygwn, yw cas y cloc.  Nid yw'n mynd,--nid oes o hono ond
+pen a chas.  Ni fynnwn daflu angrediniaeth ar hen draddodiad, yn
+enwedig pan fo Glasynys wedi ei wneyd yn destyn can; ond paham na
+fuasai'r "Morgan Price of Gerthi Blyog," dorrodd ei enw arno yn
+1734, yn torri ei enw ar rywbeth heblaw'r hen gloc.
+
+Mam yn Israel oedd gwraig Gerddi Bluog, gallaswn feddwl.  Gadawodd i
+ni weld yr holl dy, a mynd i'r llofft i weled pren gwely Edmwnd
+Prys.  Aethom i fyny hyd risiau derw troellog, nes dod i'r llofft
+lle mae'r gwely.  Beth bynnag am y cloc, nis gall fod amheuaeth am y
+gwely.  Gall ei dderw du treuliedig fod yn llawer hyn nag Edmwnd
+Prys, er feallai fod y pyst wedi eu torri yn ei amser ef neu wedyn.
+Uwch ben lle'r gobennydd y mae'r pren wedi ei rannu'n banelau ac y
+mae ysgrifen o gwmpas y panel canol rhywbeth yn debyg i hyn,--E. P.,
+1592.  O'm rhan fy hun, gwell gen i na dim yw edrych ar y golygfeydd
+y bu rhai enwog ein gwlad yn edrych arnynt.  Ond, er hynny, yr oedd
+rhyw foddhad imi deimlo fy mod wedi gweld y gwely y bu Edmwnd Prys
+yn cysgu ynddo, a'r cloc allasai fod wedi tipian llawer cyn i Forgan
+Price dorri'r ffigyrau 1734 arno.  Ond fy awydd oedd crwydro o
+gwmpas y Gerddi Bluog.
+
+Yr oedd y diwrnod haf yn ddiwrnod tlws.  Penderfynasom dynnu i
+fynu'r mynyddoedd yr ochr arall i'r Cwm Bychan, i weled y grisiau
+wnaeth y Rhufeiniaid, ac i gael golwg ar gartref a gwlad Edmwnd
+Prys.  Gwrthodasom fwyd, heblaw llefrith i'w gofio; gan addaw dod yn
+ol at de.
+
+Cychwynasom i lawr tua gwaelod y cwm hyd lwybr troellog, a chawsom
+ein hunain mewn gwlad ramantus iawn.  Unwaith daethom i hafan
+goediog gysgodol, gyda rhedyn tal yn dechreu melynu hyd ei hochrau,
+a heulwen wan ar ei brwyn ac ar y dwfr gloewlas araf oedd yn llithro
+gyda'i min.  Ar ochrau'r meusydd y mae creigiau toredig, fel meini
+wedi eu parotoi i deml; ac yr oedd rhyw ddistawrwydd yn teyrnasu
+dros yr holl fro gysgodol, fel pe buasai unwaith wedi bod yn lle
+prysur a llawn o bobl, ac yn awr wedi adfeilio.
+
+Cyn hir yr oeddym ar lan yr Artro, ffrwd wyllt o ddwfr grisialaidd
+yn rhedeg rhwng dolydd gwyrddion.  Yr oedd y ffordd yn mynd yn fwy
+dyddorol o hyd.  Wele'r Graig Ddrwg a Charreg y Saeth o'n blaenau, a
+gwelsom raiadr ac aml lecyn rhamantus.  Yr oedd y ffordd yn myned ar
+hyd min y llyn, ac yr oedd yr olygfa dros y dyfroedd tawel yn un i'w
+chofio.  Ymgodai Carreg y Saeth yn fawreddog y tu arall i'r dwr.  Ar
+y de yr oedd llwyni o goed, a bryn yn codi y tu ol iddynt.  Ac ar y
+chwith yng nghyfeiriad yr amaethdy sydd ym mlaen y Cwm Bychan, yr
+oedd hesg rhwng y llyn a'r caeau gwair.  Y mae'r amaethdy hwn mewn
+lle tarawiadol, a dywedodd fy nghyfaill ystori eithaf cyffrous am
+rai o hen deulu'r ty.  O amgylch y ty y mae hanner cylch o greigiau,
+fel y darlun o greigiau Edom sydd yn fy meddwl crwydrol i.  Y mae y
+creigiau ar lun muriau anferthol, gwaith maswniaid oesoedd y cewri.
+Rhwng y creigiau a'r llyn y mae tir,--rhyw hanner gweirglodd hanner
+mawnog; a throsto gwelem y llyn o hyd fel arian crych, a phinwydd
+duon yn sefyll fel myfyrdodau y tu hwnt iddo.  A thraw, dros y cwbl,
+yr oedd y mynyddoedd dan len deneu o niwl.
+
+Gadawsom yr amaethdy o'n holau, a dringasom i fyny gyda chlawdd
+mynydd.  Buom yn teithio yn hir drwy hafan goediog; ond o'r diwedd
+daethom i'r mynydd agored, a daeth awel hyfryd dros y graig i'n
+cyfarfod.  Yr oeddwn wedi clywed llawer am y grisiau Rhufeinig yn
+Ardudwy, ac yr oeddwn wedi meddwl mai rhyw ris neu ddwy oedd yno
+wedi eu naddu mewn craig.  A mawr oedd fy syndod wrth weled llwybr o
+gannoedd, os nad miloedd, o risiau yn arwain i fyny i'r mynydd.
+Anhawdd iawn, hyd yn ced i'r ieuanc a'r brwdfrydig, fuasai dringo'r
+mynydd heb y grisiau; ond yr oeddym yn myned i fyny ar hyd-ddynt mor
+hawdd ag ar hyd llwybr gardd.  Anaml y bum mor hapus wrth gerdded
+unrhyw lwybr ag wrth gerdded y llwybr Rhufeinig yn Ardudwy.  Yr oedd
+yr awel yn adfywiol a thyner, yr oedd murmur y neint yn felodaidd,
+yr oedd y blodau'n orlawn o fywyd, ac yr oedd tawelwch distaw dwys y
+mynyddoedd yn adfywiol iawn.  Yr oedd y dwfr mor risialaidd, y
+lliwiau mor danbaid, a'r hin mor heulog, fel mai prin y medrwn
+goelio fy mod yng Nghymru.  Wrth weled y llwybr Rhufeinig, tybiwn er
+fy ngwaethaf fy mod ar lethrau'r Apeninau Disgynnai'r afonig fechan
+i'n cyfarfod, o graig i graig, gan fynd yn llai o hyd.  Weithiau
+gwelem fedwen yn crymu uwch ben pistyll gwyn; dro arall gwelem y
+grug blodeuog wedi ymestyn dros y llwybr.  Synnwn paham na threuliwn
+fy oes ar y mynydd, a daeth i'm meddwl mor ynfyd oeddwn pan oeddwn
+yn treulio fy oes ar yr iseldiroedd.  Toc darfyddodd yr arber, a
+daethom at ffynnon loew ymysg cerrig mawr.  Ond nid oeddym eto ar
+ben y mynydd.  Yr oedd ochrau'r mynydd, erbyn hyn, wedi cau at ei
+gilydd, yn furiau o gerrig enfawr.
+
+Yr oeddym wedi edifarhau am wrthod bwyd yn y Gerddi Bluog.  Er
+llawenydd i ni, yr oedd coed llus bob ochr i'r grisiau, ymron ar ben
+y mynydd.  Cawsom wledd arnynt, cyn dringo i ben y golwg.  Ac o'r
+diwedd, wele ni ar ben y fynedfa; a gwelem lwybr hir yn dirwyn i
+lawr i wastadedd Traws Fynydd.  Clywem yr afon yn murmur yn ddedwydd
+i lawr yn y gwaelod.  Ond tybiwn i mai ar ben mynydd yn unig y mae
+dedwyddwch.
+
+Edrychasom yn ol ar y llwybr gerddasem.  Gwelsom fod y niwl yn
+prysur godi o'n holau.  Gwelem greigiau duon ysgythrog, fel tyrau
+dinasoedd llosg yn codi o hono; ac yr oedd y niwl yn torri'n ddarnau
+wrth daro yn erbyn y creigiau hyn.  Ac yr oedd y grisiau Rhufeinig
+yn arwain i lawr i'r niwl.  Nid peth hawdd oedd colli golwg ar Draws
+Fynydd, a chychwyn i lawr hyd y grisiau drachefn.  Cofiwn, wrth
+fyned i lawr ar hyd-ddynt, eu bod yno cyn i'r efengylydd cyntaf ddod
+i'r wlad, a pheth hen iawn i deimlad Cymro yw peth hyn na'r efengyl.
+
+Ni fedr dyn fyw ar lus yn unig.  Mwyn oedd am y gwahoddiad hwnnw i'r
+Gerddi Bluog.  Yr oeddym yn newynog,--yr oedd awel y mynydd wedi
+dwyn awydd am fwyd wrth roi terfyn ar ein lludded,--ond nid oedd y
+ffordd brydferth yn rhy hir gennym, hyd yn oed wrth ei cherdded yn
+ol.
+
+Heibio'r llyn drachefn a thrwy'r hafan unig cyrhaeddasom y Gerddi
+Bluog yn ol.  Yr oedd y wraig garedig wedi ein gweled yn dod.
+Arweiniwyd ni ar unwaith ar hyd y cyntedd hir hwnnw, ac i'r parlwr
+yn aden y ty.  Cawsom de heb ei fath; nid wyf yn meddwl fod cystal
+hufen yn unlle, na chystal caws.  Un o'r Bedyddwyr Albanaidd, hen
+ddiadell y gwr rhyfedd o Ramoth, oedd y wraig.  Holais lawer arni,
+oherwydd y mae llawer rhamant am John Jones o Ramoth.  Cynnil iawn
+oedd ei hatebion, a distawach na llawer gwraig glywais yn adrodd
+hanes.  Pan ofynnais iddi am wisgoedd pobl ei chapel, ni chefais yn
+ateb ond gwirionedd cyffredinol am ddynol ryw,--"Mae pawb gen
+grandied ag y medra nhw yrwan," ac yr oedd y symledd a'r
+caredigrwydd sydd yn nodweddu'r seiat fechan yn amlwg yn y ty hwn.
+Tawel, dirodres, a mwyn iawn y cawsom ni wraig un o'r Bedyddwyr
+Albanaidd yn y Gerddi Bluog.  Hyfryd oedd meddwl wrth ymadael, fod
+hen gartref Edmwnd Prys yn un o gartrefi croesawgar Cymru hyd
+heddyw.
+
+Dringasom ochr y mynydd, gan droi'n ol yn aml i edrych ar wlad
+Edmwnd Prys, a buan y cyrhaeddasom y ffordd Rufeinig hir sy'n mynd
+fel saeth hyd y grimell.  Yr oedd nant yn cydddod a ni i lawr, gan
+ddawnsio a gwenu.  Daethom i olwg y mor, a gwelem gastell Harlech yn
+ddu rhyngom a'r traeth melyn, fel angel coll yn crwydo ar ororau'r
+nefoedd.  Codai cymylau melyn eurog i'r nen, yr oedd lliwiau
+bendigedig ar y tywod a'r ewyn mor.  Nid oedd y castell ond megys
+corach du bach ym mhresen-oldeb y mynyddoedd a'r mor.  Yr oedd y
+prydnawn yn darfod, ac yr oedd niwl a chysgodion yn dechreu ymdaenu
+dros yr Eifl a Moel y Gest a'r Wyddfa.  A dyna ddiwedd fy nhaith
+innau i gartref Edmwnd Prys.
+
+
+
+PANT Y CELYN
+
+
+
+"Ym mhle MAE Pant y Celyn?" ebe athraw yn un o golegau'r
+Methodistiaid Calfinaidd wrthyf unwaith.  Yr oedd ton gwerylgar yn
+ei gwestiwn, oherwydd ei fod yn gorfod gofyn peth oedd yn dangos
+cymaint o anwybodaeth.  Nid oeddwn yn ddigon rhagrithiol i ddweyd fy
+mod yn synnu at ei anwybodaeth, oherwydd ni wyddwn fy hun, cyn mynd
+yno, ymha un o bedair neu bum sir yr oedd Pant y Celyn.  Er hynny
+nid oes odid aelwyd yng Nghymru nad ydyw Pant y Celyn yn air
+teuluaidd arni.
+
+Ryw ddiwrnod yn yr haf diweddaf yr oeddwn yn teithio o fynydd-
+diroedd Llanwrtyd drosodd i ddyffryn Tywi, ac i lawr ar hyd y
+dyffryn enwog hwnnw.  Wedi rhediad chwyrn i lawr hyd ochrau'r
+mynyddoedd, daethum i Lanymddyfri gyda'r nos.  Ni welwn fawr o dref
+na dim, o'r orsaf; a throais i'r gwesty cyntaf gefais.  Yr oedd yno
+dan braf,--yr oedd yr hin yn oer a gwlawog, er mai haf oedd.  Yr
+oedd yno fwyd da ac iachus mewn ystafell lan hefyd.  Fel rheol, pur
+anghysurus ydyw lletydai Cymru o'u cydmaru a lletydai gwledydd
+ereill, yn enwedig tai dirwest.  Gadewir y ffenestri yng nghauad
+ddydd a nos, nes y bo arogl anhyfryd ar yr ystafelloedd ac ar y
+dodrefn; gadewir llwch i hen gartrefu ar bob astell ac ym mhob
+cornel; a bydd rhigolau duon, digon i ladd archwaeth y cryfaf, ar y
+cream-jug o wydr tawdd.  Ond, yn y gwesty hwnnw ger gorsaf
+Llanymddyfri, yr oedd popeth gen laned a'r aur; yr oedd ol dwfr
+grisialaidd ar bob peth.  Yr oedd y llian gwyn fel yr eira, yr oedd
+y siwgr fel pe'n disgleirio yn y llestr gwydr mawr, taflai'r tan
+oleuni rhuddgoch ar gwpanau glan fel y cwrel.  Yr oedd y bara can,
+yr ymenyn, a'r caws yn flasus, yr oedd yr hufen yn felyn dew, yn
+ddigon tew, chwedl Kilsby, i geiniog nofio ar ei wyneb yn ddi-
+brofedigaeth.  Ac am y te, wel, te oedd; nid y drwyth roddir o'm
+blaen yn aml, trwyth nas gwn ar ddaear wrth ei hyfed beth sydd yn yr
+tepot gyda'r dwr,--pa un ai ffa'r corsydd ai dail carn yr ebol ai
+sug tybaco.
+
+Wedi dadluddedu o flaen y tan, bum yn darllen gweithiau S. R. oedd
+yn yr ystafell.  Ymgollais yn y rhai hynny hyd nes y daeth gwr y
+gwesty i ddweyd fod y tan bron a mynd allan.  Cefais hanes y wlad
+ganddo, yn grefyddol a gwleidyddol yn bennaf, o safle Bedyddiwr
+Arminaidd.  Cefais bob manylrwydd hefyd am y ffordd oreu i gyrraedd
+Pant y Celyn.  Yr oedd pobl fonheddig o Saeson yn aros yn yr un ty,
+a thybiwn unwaith, gan eu bod hwythau'n mynd i'r un cyfeiriad, y
+medrem gyd-logi cerbyd.  Ond, erbyn cael ymgom, trwy wr y ty, nid
+oeddynt hwy wedi clywed gair erioed am Williams Pant y Celyn.  Yr
+oeddynt wedi clywed llawer o son am Dwm Sion Cati, ac i chwilio am
+ei ogof ef yr oeddynt yn mynd.  Pe buasai Twm Sion Cati yn ei ogof,
+os gwir pob stori, ni fuasai'r brodyr hyn mor awyddus am fynd yn
+agos ati.
+
+Bore drannoeth, nid cyn i fwyafrif pobl Llanymddyfri godi, yr oedd
+cerbyd wrth ddrws y gwesty, a gyrrwr ynddo, yn barod i'm cludo tua
+Phant y Celyn.  Nid oedd y gyrrwr yn un siaradus; yn wir, pur anodd
+oedd cael ystori o hono.  Rhoddodd ei ddistawrwydd fwy o hamdden i
+minnau edrych o'm cwmpas, a meddwl am emyn ar ol emyn ddoi i'm cof
+wrth deithio ymlaen hyd gynefin ffyrdd y per ganiedydd.  Rhedodd y
+merlyn, a'i fwng yn yr awel, hyd y ffordd o'r orsaf i'r dref, heibio
+i ysgol Llanymddyfri.  Yna trodd am y gornel tua'r gogledd; gan fynd
+yn chwyrn trwy'r brif ystryd.  Gadawsom gapel prydferth ar y chwith,
+capel coffadwriaethol Williams Pant y Celyn,--capel Saesneg
+ysywaeth.  Ymhen tipyn, wrth fynd o'r dref i'r wlad agored, yr
+oeddym yn pasio adeilad arall.  Ar y dde yr oedd hwn, ac yr oedd
+golwg urddasol arno, er gwaethaf ei henaint a'i dlodi.  Gofynnais
+i'r gyrrwr a'i hwnnw oedd ty'r Ficer, a dywedodd yntau mai ie.
+
+Dol werdd lydan a Llanfair ar y bryn i'w weld drosti,--dyna welsom
+gyntaf wedi gadael y dref.  Gwyddwn mai yn y Llanfair hwnnw y
+claddwyd Williams.  Collodd Llanfair ar y bryn o'n golwg, a
+dilynasom ffordd wastad hyfryd gydag ymyl y ddol a than gysgod bryn
+creigiog.  Daethom i gwm cul, lle'r oedd yr afon wedi torri ffordd
+iddi ei hun i adael y mynyddoedd.  Dyma ddol wastad eto, a choed o
+bobtu iddi, lle hyfryd ddigon.  Dacw fynydd yn codi o'n blaenau;
+daeth awydd canu drosom, -
+
+
+"Ar ddisgwylfa uchel gribog
+  Disgwyl 'rwyf er's hir brydnawn,
+ Edrych am yr hindda hyfryd
+  'Nol cawodydd geirwon iawn,
+Ac i'm hysbryd,
+  Trwy'r cymylau, weld y wlad."
+
+
+Hyd yn hyn yr oedd wedi bod yn bwrw gwlithlaw, ac yr oedd y wlad dan
+niwl llwydlas.  Fel yr oeddym yn agoshau at y mynydd hwnnw, daeth
+awel o'r de, a dechreuodd y niwl dorri a chilio.  Llawer gwaith y
+gwelodd yr emynnwr awyr las drwy'r cymylau ar y ffordd hon, a llawer
+gwaith yr hiraethodd am dani, -
+
+
+"Pa bryd caf deimlo'r awel gref
+Sy'n chwythu i ffwrdd gymylau'r nef,
+  I mi gael gweled Salem bur?
+Gogoniant ddwyfol uwch y rhod
+Nas gwelodd llygaid dyn erioed,
+  Ac nas mwynheir mewn anial dir."
+
+
+Dyma'r ffordd yn troi i'r ochr arall i'r dyffryn; dacw'r afon yn
+troelli, ol a gwrthol, fel pechadur yn yr yrfa trwy'r anialwch.  Ond
+y mae swn dedwydd yn ei dwndwr, wrth adael ei gyrfa wyllt yn y
+bryniau a dechreu llifo'n esmwyth gydag ymyl y ddol, -
+
+
+"Mi deithiais ran o'r anial maith,
+ 'Dwy'n deall pellder pen fy nhaith,
+  Mewn gwledydd sychion, dwr nid oedd;
+ Yn awr rwy'n disgwyl, fore a nawn,
+ O'r nefoedd ddwr a sypiau grawn,
+  Wna'm henaid egwan wrth ei fodd."
+
+
+Dacw'r ffordd yn rhedeg yn syth yng nghyfeiriad y mynydd unig hwnnw.
+Ni wyddem beth oedd y bryn yn guddio,--dyffrynnoedd, gwlad wastad,
+ynte mynyddoedd uwch.  Dyma drofa yn y ffordd, o honi gwelem draw,
+heibio'r mynydd, fynyddoedd ereill, uwch o lawer, heb rif, -
+
+
+"Er c'uwch y bryniau uchel fry,
+  A swn tymhestloedd tywyll, du.
+ A'r holl freuddwydion ofnau sy,
+  Anturiaf eto 'mlaen;
+ Mae nerth y nefoedd fry yn fwy
+ Na myrdd o'u dychryniadau hwy;
+ Mae haeddiant dwyfol farwol glwy
+  Yndrech na dwr a than."
+
+
+Gydag inni gael golwg ar y wlad y tu hwnt i'r mynydd, cauodd
+gorchudd o wlaw am dani.  Dechreuodd y gwlaw yrru dros y
+dyffrynnoedd, ac yr oedd y gwynt yn dolefain wrth ysgubo dros fryn a
+phant.  Pe buaswn yn hollol ddieithr i'r wlad, tybiaswn mai dros ryw
+wastadedd mynyddig, heb ddim ond pyllau mawn a chrawcwellt ac ambell
+ddafad esgymun, yr oer anadlai'r awel.  Ond yr oeddwn wedi cael
+golwg ogoneddus ar y wlad dan haul nawn y dydd cynt; a gwyddwn,
+oddiwrth emynnau Williams, fod ei gartref mewn gwlad brydferth, -
+
+
+"Dyma'r man dymunwn drigo,
+  Wrth afonydd gloewon, llawn,
+ Syddyn llifo o ddwr y bywyd
+  O las foreu hyd brydnawn,
+      Lle cawn yfed
+  Hyfryd gariad fyth a hedd."
+
+
+Oddiwrth olygfeydd yr ardal hon y cafodd Williams ei liwiau i
+ddarlunio gwlad yr hedd, -
+
+"Mi welaf draw, o bell,
+    Baradwys hardd ei gwedd,
+ A phrennau llawer gwell
+    Yn perarogli hedd;
+ O hyfryd wlad, tu draw pob gwae,
+ Gwyn fyd gawn heddyw dy fwynhau."
+
+
+Ond y mae'r gwynt yn dolefain, a'i swn fel swn cornchwiglen, ond ei
+fod yn fwy parhaus ac yn fwy lleddf.  Daethom at le yr oedd yr afon
+a'r ffordd yn ymrannu'n ddwy.  Troisom ni ar y chwith i lawr ffordd
+serth, a gwelem ffordd union o'n blaenau, a bryn uchel, a chlawdd ar
+ei draws, fel cadwen wedi ei thaflu drosto.  Ond ychydig ymlaen
+fedrem weld, gan y niwl a'r gwlaw.  Mynych ddymuniad oedd am i'r
+niwl godi, ac am gael gweled gogoniant y wlad, -
+
+
+"Rwyf yn dechreu teimlo eisoes
+  Beraroglau'r gwledydd draw
+ Gyda'r awel bur yn hedeg,
+  Diau fod y wlad ger llaw,
+ Tyrd, y tir dymunol hyfryd,
+  Tyrd, yr ardal sydd heb drai.
+ Dy bleserau o bob rhywiau,
+  Gad im bellach eu mwynhau."
+
+
+A chyn bo hir daeth awel eilwaith o'r de, ysgafnhaodd yr awyr, a
+gwelem rimin glas o fynyddoedd pell o'n blaen.  Yr oedd y ffordd
+erbyn hyn yn debycach i ffordd dre ddegwm nag i brif-ffordd, yn
+dirwyn i fyny hyd ochr bryn serth.  Wrth i ni godi i fyny, yr oedd
+yr olygfa'n ehangu o hyd, gan roddi teimladau hyfryd i ninnau, a
+gwneyd inni feddwl ein bod yn gadael gwlaw a'r gelltydd serth ar ein
+hol -
+
+
+"Rwyf yn teimlo gwynt y deheu,
+  Yn anadlu awel bur,
+ Ac yn ysgafn gario f'enaid
+  Draw i fryniau Canan dir;
+ Aeth y gauaf garw heibio,
+  Darfu'r oer dymhestlog wynt;
+ Na ddoed mwy'r cawodydd duon
+  I fy mlino i megys cynt."
+
+
+O'r diwedd daethom i ben yr allt, a chawsom olwg ogoneddus ar y
+bryniau dan orchudd ysgafn tyner o niwl.  Llawer gwaith y bu
+Williams yn syllu arnynt oddiar y ffordd hon, ac nid rhyfedd fod ei
+emynnau gore mor llawn o honynt.
+
+
+"Rwyf yn gweled bryniau uchel
+  Gwaredigaeth werthfawr lawn,
+ O na chawn i eu meddiannu
+  Cyn machludo haul brydnawn;
+      Dyma'm llef tua'r nef,
+  Addfwyn Iesu, gwrando ef."
+
+
+Llawer gwaith, wedi taith flinderus, y bu Williams yn edrych tua
+bryniau ei gartref oddiar y ffordd uchel hon, ac ar yr eangder o
+fynyddoedd welem y tu hwnt iddynt, -
+
+
+"Rhwng cymylau duon, tywyll,
+  Gwelaf draw yr hyfryd wlad;
+ Mae fy ffydd yn llefain allan, -
+    'Dacw o'r diwedd dy fy Nhad.
+      Digon, digon!
+   Mi anghofia'm gwae a'm poen."
+
+
+Ond nid ydym eto ym Mhant y Celyn, er ein bod yng ngolwg y wlad.
+Rhed y cerbyd yn chwyrn i lawr y bryn, a dyma ni mewn dyffryn cauad
+coediog, gyda chapel bychan uwch ben y nant.  Capel Anibynwyr Pentre
+Tygwyn ydyw, ac y mae'r dyddiad 1719 arno.  Ni chefais fawr o amser
+i edrych arno, ond yr wyf yn cofio gweled bedd Daniel Howells o
+Lanymddyfri, fu'n pregethu am bymtheng mlynedd a deugain.
+
+Wedi gadael y pentre bychan hwn, yr oedd rhiw serth o'n blaen; ac
+erbyn i mi ddod o fynwent y capel, gwelwn y cerbyd tua hanner y
+ffordd i fyny'r rhiw, a'r ceffyl yn gorfod ei dynnu o ochr i ochr,
+er mwyn lladd yr allt rywsut.  Deuai un o emynnau Williams i'm cof
+innau o hyd, -
+
+
+"Wel, f'enaid, dos ymlaen,
+  'Dyw'r bryniau sydd gerllaw
+ Un gronyn uwch, un gronyn mwy,
+  Na hwy a gwrddaist draw;
+ Dy angrhediniaeth gaeth,
+  A'th ofnau maith eu rhi,
+ Sy'n peri it' feddwl rhwystrau ddaw
+  Yn fwy na rhwystrau fu."
+
+
+Ond dyma fi wedi dal y cerbyd, ac ar ben y rhiw.  O'n blaen, o
+bobtu'r ffordd, yr oedd caeau gweiriog, ac awel esmwyth aroglus yn
+anadlu drostynt.  Troisom trwy lidiart ar y dde, a dilynasom ffordd
+oedd yn croesi'r cae gwair i gyfeiriad yr afon.  Toc daeth yr afon
+i'r golwg, a gwelsom ei bod yn rhedeg gyda godrau'r cae.  Wrth i ni
+droi gyda'r ffordd gwelem lwyn o goed o'n blaen, yr oedd coed hefyd
+yn nyffryn yr afon, a throstynt oll gwelem y mynydd yn dawel a
+thlws.  Lle hyfryd, pell o dwrf y byd, ydyw Pant y Celyn, -
+
+
+"Dyma'r man dymunwn aros
+  O fewn pabell bur fy Nuw,
+ Uwch terfysgoedd ysbryd euog,
+  A themtasiwn o bob rhyw;
+      Dan awelon
+ Peraidd hyfryd tir fy ngwlad."
+
+
+Cerddais ymlaen tua'r ty, nid ydyw yn y golwg tan ddeuir i'w ymyl.
+Wedi mynd i mewn i'r buarth, gwelwn o'm blaeu dy newydd, gydag un
+talcen i'r llechwedd a'r llall at yr afon.  Rhyngddo a'r afon yr
+oedd glyn bychan swynol, llawn o goed.  Yn union o'i flaen, i dorri
+grym y gwynt ac i gadw pethau, yr oedd hen dy to brwyn.  Teimlwn, er
+nad oedd dim yn darawiadol iawn yn y ty, fod y fangre'n un hyfryd a
+tharawiadol iawn.  Eis ymlaen at y ty, cnociais, a daeth geneth
+lygat-ddu, rhyw bedair ar bymtheg oed, i'r drws.  Yr oeddwn wedi
+gweled y darlun o Williams sydd yn llyfrgell Abertawe, a theimlwn
+fod yn rhaid fod yr eneth hon yn perthyn iddo.
+
+"Dyn dieithr o'r Gogledd ydwyf," ebe fi, "wedi dod i weld Pant y
+Celyn."
+
+"Chwi gewch ei weld, a chroeso.  Dowch mewn.  Mae'n resyn eich bod
+yn cael diwrnod mor wlawog."
+
+Arweiniwyd fi i mewn, a gwelais fod lletygarwch Cymreig o'r iawn ryw
+ym Mhant y Celyn.  Nid oeddynt wedi'm gweled i erioed o'r blaen, ac
+ni wyddent a welent fi byth wedyn.  Ond mynnent gael gwneyd te i mi;
+a phan wrthodais, daethant a glasiad o lefrith oedd yn gwneyd i mi
+sylweddoli dymunoldeb "gwlad yn llifeirio o laeth a mel."
+Arweiniwyd fi i ystafell Williams, ystafell isel dan drawstiau mawr.
+Yr oedd cader Williams yno, yn yr hon yr ysgrifennodd ei hanes
+ysbrydol mewn cynifer o ddulliau.  Cynhygiwyd i mi eistedd yn y
+gader, ond yr oedd rhyw hanner ofn yn rhwystro i mi wneyd hynny.  Yr
+oedd IHS,--Iesus hominum Salvator, Iesu Gwaredwr dynion,--ar
+galchiad y nenfwd yn yr ystafell fechan unwaith.  Trwy'r ffenestr yr
+oedd llecyn gwyrdd bychan i'w weled, a'r ty to brwyn dros ei ben.
+Ar ben y grisiau, gwelais gloc Williams, gyda gwyneb o bres gloew, a
+thic trwm marw.  Yr oedd yr hen gloc a'r hen gader yn dwyn i'm
+meddwl lafur ei oes ryfedd.  Hwyrach fod llawer o'r Diwygwyr yn
+bregethwyr mwy nerthol na Williams Pant y Celyn.  Ond ni weithiodd
+yr un o honynt yn galetach, ac ni fydd dylanwad yr un o honynt mor
+barhaol a'i ddylanwad ef.  Efe, trwy ei emynnau, sydd wedi gwneyd y
+Diwygiad yn rhan o fywyd Cymru, ac wedi gwneyd iddo esgor ar
+ddeffroad cenedl,--deffro i feddwl ac i fyw.  Fel cydoeswyr
+Shakespeare yn Lloegr, nid edrychai cydoeswyr Williams Pant y Celyn
+arno fel y bardd na'r meddyliwr mwyaf yn eu mysg.  Barnent ei
+emynnau gan gofio am anhawsderau cynghaneddu,--gwaith, o fawr ofal
+Rhagluniaeth am ddyfodol Cymru, na cheisiodd efe ei wneyd.  Yr oedd
+mwy o ramadeg yn emynnau Thomas Jones o Ddinbych a mwy o gynghanedd
+yn emynnau'r gwr rhyfedd athrylithgar o Ramoth, ond Williams ydyw'r
+per ganiedydd er hynny.  Clywais fod Dr. Edwards wedi chwilio am un
+i ysgrifennu erthyglau ar hymnau Pant y Celyn, a'i fod wedi gofyn i
+Eben Fardd ymgymeryd a'r gwaith.  Safodd Eben Fardd uwch eu pennau
+fel gramadegydd.  Gwrthododd Dr. Edwards ei feirniadaeth, a
+gofynnodd i Wilym Hiraethog sefyll uwch eu pennau fel bardd.
+Clywais ddweyd fod Williams wedi ysgrifennu gormod, ac y buasai'n
+well iddo fod wedi aros mwy uwchben ei linellau, i'w gloewi gogyfer
+a'r beirniad gor-fanwl byr ei lathen ddeuai gyda'r oes wannach oedd
+yn dod ar ei ol.  Dyna ddywedir hefyd am Wordsworth, dyna ddywedir
+am Geiriog,--ac y mae'n dangos mor ddiwylliedig ac mor fas ydyw tir
+meddwl y rhai a'i dywed.
+
+Ond dyma wr ty Pant y Celyn.  Diacon gyda'r Anibynwyr ydyw, ac un
+diddan iawn ei ystori.  Gwyddai hanes John Penri'n dda, ac yr oedd
+yn cofio'r Siartwyr yn y De.  Ond, rhag ofn i mi feddwl ei fod yn
+rhyw eithafol iawn, dywedodd, gyda gwen chwareus yn ei lygaid, ei
+fod yn talu'r degwm fel yr oen.
+
+Yr oedd hen gloc Pant y Celyn, gyda'i dipiadau trymion, yn mynd mynd
+ar ben y grisiau, a gorfod i minnau ymadael heb gael holi ond
+ychydig iawn.  Ond dymunol i mi oedd teimlo fod teulu'r emynnwr ym
+Mhant y Celyn o hyd.
+
+Wrth sefyll ger Pant y Celyn, teimlwn fy mod yn cael esboniad ar
+lawer emyn.  Ar y llecyn hwn bu Williams, lawer tro, yn teimlo awel
+y deheu, fel y teimlaf finnau hi'n awr, ac yn ei chroesawu, -
+
+
+"Deuwch yr awelon hyfryd,
+  Deuwch dros y bryniau pell,
+ Dan eich aden dawel, rasol,
+  Dygwch y newyddion gwell;
+ Dygwch newydd at fy enaid, -
+  Fy enaid innau yno gaed,
+ Dedwydd enw'n argraffedig
+  Yn yr iachawdwriaeth rad."
+
+
+Yma y bu'n disgwyl am y gwanwyn, ac am yr awel dyner o'r de, -
+
+
+"Na'd i'r gwyntoedd cryf dychrynllyd
+  Gwyntoedd cryf y gogledd draw,
+Ddwyn i'm hysbryd gwan trafferthus
+  Ofnau am ryw ddrygau ddaw;
+Tro'r awelon
+  Oera'u rhyw yn nefol hin."
+
+
+Yma y gwelodd y wawr, lawer diwrnod hyfryd, yn torri ar y mynyddoedd
+draw, wedi noswaith o golli cysgu wrth ofni am ei ffydd, -
+
+
+"Draw mi wela'r nos yn darfod,
+  Draw mi welaf oleu'r dydd,
+ Yn disgleirio dros y bryniau,
+  Melus yn y man a fydd;
+ Ffy gelynion pan ddel goleu,
+  Ni all pechod, er ei rym,
+ A'i holl wreiddiau yn fy natur.
+  Sefyll haul cyfiawnder ddim."
+
+
+O'r llecyn hwn y bu'n gweld y caeau'n tyfu, a'r blodau'n lledu eu
+hwynebau i oleuni cynnes yr haul.  Dacw'r llygad dydd ar y weirglodd
+brydferth, a'r glaswenwyn, a mantell fair, a'r ben-galed, a chynffon
+y gath,--ond
+
+
+"Ofer imi weld y ddaear
+  Yn egino'i hegin grawn,
+ Ofer imi weld yr heulwen
+  Fawr yn estyn ei phrydnawn,
+ Ofer imi weld y blodau
+  Yn datguddio'u dirif liw,
+ Tra fo neb rhyw un creadur
+  Yn cysgodi gwedd fy Nuw."
+
+
+A dacw fynyddoedd yn ymestyn i'r gogledd, i gyffiniau Ystrad Ffin.
+Yma y bu'r hen emynnwr, pan na fedrai deithio mwy, yn canu ei emyn
+bendigedig ei hun, -
+
+
+"Rwy'n edrych dros y bryniau pell,
+  Am danat bob yr awr;
+ Tyrd, fy anwylyd, mae'n hwyrhau,
+  A'm haul bron mynd i lawr."
+
+
+Teimlwn, wrth adael Pant y Celyn, fy mod yn troi'm cefn ar un o
+lanerchi mwyaf cysegredig Cymru.  Y mae golygfeydd y fro hon wedi
+ymddelweddu yn yr emynnau sydd, yn eu tro, wedi rhoddi eu delw ar
+feddwl Cymru.  Synnwn fod golygfeydd Pant y Celyn mor gartrefol i
+mi; yr oeddwn wedi eu gweled yn yr emynnau, bob un.  Trwy'r
+golygfeydd hyn y cafodd Williams y darluniadau o'r nefoedd sydd,
+erbyn hyn, yn rhan o freuddwydion ac o obeithion pob Cymro.  Gwened
+yr haul arnat byth, ti gartref per ganiedydd Cymru!
+
+Cyn y nos, ail gychwynnais o Lanymddyfri, a dringais i fyny i eglwys
+Llanfair ar y bryn.  Y mae bedd a chofgolofn Williams wrth ochr Pant
+y Celyn i'r eglwys.  Y mae golygfa brydferth oddiar ben y bryn hwn,
+oddiwrth y bedd, ar y wlad oddiamgylch; ond ofer fuasai dechreu
+dweyd hanes y fro hanesiol hon.  Y mae'r golofn o wenithfaen
+Aberdeen, ac y mae'r argraff sydd arni wedi ei godi oddiar y garreg
+las oedd ar fedd Williams o'r blaen.
+
+Cyn i mi adael Llanfair ar y bryn daeth un heulwen hyfryd euraidd ar
+yr yw ac ar wlith y beddau; ac yn fuan iawn gwelwn yr eglwys a'i
+bedd yn diflannu o'm golwg yn y pellder ac yn y gwlaw.
+
+Darllennais emynnau Pant y Celyn wedi mynd adre gyda mwy o flas nag
+erioed.  Darllennais hwy droion wedyn, ac yr wyf yn barod i ddweyd
+gydag Elfed wrth bob Cymro, -
+
+
+Dante--dos i'w ddilyn;
+  Shakespere--tro i'w fyd;
+Cofia Bant y Celyn
+  Yr un pryd.
+
+
+
+BRYN TYNORIAD
+
+
+
+Yna ganwyd Ieuan Gwynedd--hynaws.
+    Ynghanol dinodedd;
+  A'i wylaidd swyn hawliodd sedd
+  Orielau anfarwoledd.
+- GWAENFAB.
+
+Cartref Ieuan Gwynedd,--pa Gymro na theimla ei galon yn cynhesu wrth
+feddwl am dano?  Yn y cartref tlawd ac anghysbell hwnnw y bu mam
+bryderus yn ceisio dysgu ei Hieuan bach bregethu, ac yn agor i'w
+feddwl plentynaidd gynnwys rhyfedd ei Beibl Coch,--oedd wedi brynnu
+gan Charles o'r Bala ei hun, ac wedi talu am dano bob yn ychydig o'i
+henillion prin.  Pwy aberthodd fwy dros ei wlad na'r bachgen hwnnw,
+pwy welodd ddyfodol Cymru a threm gliriach, pwy ddanghosodd
+brydferthwch bywyd ei gwerin mor ddiofn?  A wnaeth rhywun fwy mewn
+oes mor fer a than gymylau mor dduon?  Naddo, neb.
+
+Ar fore hyfryd yn yr haf diweddaf, cefais fy hun yng ngorsaf fechan
+y Bont Newydd, rhyw dair milltir o Ddolgellau.  Aeth y tren ymaith,
+gan adael dim ond meistr yr orsaf a minnau.  Ar un ochr yr oedd bryn
+coediog, yr ochr arall yr oedd yr afon; a phrin yr oedd digon o le
+i'r ffordd fawr a'r ffordd haiarn rhwng yr afon a'r bryn.  Ond dros
+yr afon yr oedd ychydig o gaeau gwastad, a bryn coediog arall y tu
+hwnt iddynt.  Y mae'r dyffryn ymysg y culaf o ddyffrynnoedd Cymru.
+Ger yr orsaf, dyma bont i groesi afon Wnion.  Y mae golygfeydd
+swynol i'w gweled oddiar y bont hon,--mynyddoedd uchel gleision i'w
+gweled ymhob cyfeiriad dros lwyni o goed, a'r afon risialaidd yn
+murmur yn ddedwydd rhwng y bryniau sydd fel pe'n ymdyrru ati i
+edrych ar ei thlysni.  Gwlad goediog garegog ydyw hon, y mae'n
+amlwg, a glynnoedd llawn o ir-gyll a rhedyn.
+
+Ond rhaid peidio aros ar y bont.  Dyma ffordd deg, rhwng gwrychoedd
+cyll, a rhosynau gwylltion claerwyn fel pe'n gwylio'r teithwyr
+anaml.  Ar ochrau'r ffordd y mae blodau gwylltion lawer, y llysiau
+mel tal aroglus, a gwawr felen ar eu gwynder; clychau'r gog gwelw-
+leision, rhyfeddod i blentyn; a'r ben-galed arw, gyda'i thegwch
+cartrefol.  Ie, ar y ffordd deg hon, ac ymysg y blodau hyn, y
+treuliodd y plentyn Ieuan Gwynedd lawer o ddiwrnodau haf ei
+blentyndod.
+
+Ond dyma'r Ty Croes yn ymyl.  Ydyw, y mae yn union fel y darlunia
+Ieuan ef pan yn hiraethu am ei fam a bore oes.  Y mae ei dalcen
+atom, a'i wyneb gwyngalchog i'r ffordd.  Dacw'r dderwen lydanfrig ar
+ei gyfer, dacw'r cae porfa o flaen y drws, dacw'r pistyll bach mor
+glir a phan gyrchai Catharin Evans ddwfr o hono a phan geisiai Ieuan
+Gwynedd gydio ynddo pan yn ddwyflwydd oed.  "Cawsant ran y cyffredin
+o lafurwyr a man amaethwyr Cymru," ebe Ieuan am ei fam a'i dad.  "Ni
+buont heb y fuwch yn y beudy, yr ychydig ddefaid yn y Cae Porfa,
+na'r pistyll gloew grisialaidd o flaen y drws drwy yr amser."  Mewn
+ychydig funudau croesir y cwm o fryn i fryn,--ond mor ddyledus ydyw
+Cymru i'r fangre fach!  Yn y bwthyn hwn y bu'r bachgen yn darllen
+ychydig lyfrau ei dad,--Grawn Sypiau Canan, Taith y Pererin, Llyfr y
+Tri Aderyn, Ffynhonnau yr Iachawdwriaeth, yr Ysgerbwd Arminaidd,
+Bardd Cwsg,--a Beibl Coch ei fam.  Dyma'r garreg olchi; oddiar ei
+phen y bu'r plentyn yn pregethu i'r dderwen fawr a'r pistyll,--
+blaenor ac arweinydd y gan.  Ac yn rhywle yn ymyl y mae'r llannerch
+lle syrthiodd ar ei liniau dan argyhoeddiad i weddio, llannerch yr
+ymwelai a hi bob tro y deuai i edrych am ei fam.  Yma y dadblygodd
+ei feddwl, dan arweiniad cariadus ei fam; oddiyma yr aeth yn fachgen
+ieuanc i ymgodymu a holl gyfyngderau myfyriwr tlawd; yma y bu, yn
+Ionawr, 1849, yn edrych ar wyneb ei fam cyn y wylnos,--yn awr heb na
+gair na deigryn fel y bu.  Pell y bo'r dydd yr anghofio Cymru y fam
+hon a'r mab hwn.
+
+"Faint o ffordd sydd oddi yma i Fryn Tynoriad?" ebe fi wrth wraig
+oedd yn sefyll gyda dau blentyn wrth y drws.  Dywedai fod siwrne hir
+i fyny i gyfeiriad pen y Garneddwen, hyd ffordd y Bala.  Bu dadl
+rhyngof a'r bachgen bach am oed Ieuan Gwynedd pan symudodd ei rieni
+o'r Bryn Tynoriad i'r Ty Croes.  O'r diwedd dywedai fod ganddo lyfr
+setlai'r cwestiwn, llyfr oedd ei frawd hynaf, sydd yn gwasanaethu
+yng Nghwm Hafod Oer, wedi ei yrru iddo.  Aeth i'r ty, a daeth a
+rhifyn o Gymru'r Plant yn fuddugoliaethus, i roi taw arnaf.
+
+Cychwynnais hyd ffordd dan y coed tua Bryn Tynoriad.  O'm blaen yr
+oedd Dol Gamedd, ar fryn, yn debycach o bell i dy Elizabethaidd neu
+fynachlog na dim arall.  Oddiyno cefais lwybr troed i lawr y cae a
+thrwy goedwig fechan i'r ffordd haiarn.  Cerddais ennyd hyd hon, gan
+ryfeddu at ddistawrwydd ac unigedd gwaelod y cwm, lle nad oedd prin
+le i'r afon a'r ffordd.  Toc gwelwn feudy megis pe'n edrych arnaf
+dros ochr rugog y ffordd.  Dringfais i fyny ato, a gwelais gaeau, yn
+lle coedwig fel o'r blaen.  Dechreuais ddringo i fyny.  Yr oedd y
+distawrwydd yn teyrnasu o hyd, oddigerth fod swn carnau meirch
+carlamus yn dod o'r ffordd islaw.  Ond wele wlad fawr boblog yn
+ymddangos wrth i mi ddringo i fyny, ffermydd laweroedd a beudai, a
+chynhaeaf gwair prysur.  O gwmpas y cylch o ffermydd yr oedd cylch
+pellach ehangach o fynyddoedd ysgythrog, a gwelwn Gader Idris yn
+codi'n bigfain i'r niwl tua'r de.  Ni fum mewn lle hyfrytach erioed
+nag ar ben y banciau hyn.  Aberoedd grisialaidd, ffrwythau addfed,
+arogl gwair sych cynhauafus, awel y mynydd ac awel y mor,--dyma le
+i'r gwan gryfhau.  Ar ein cyfer dacw'r Hengwrt Ucha; a thraw ar fin
+y mynydd, uwch ei ben, dacw'r Blaenau, cartref Rhys Jones,
+cynhullydd "Gorchestion Beirdd Cymru."  Ymhellach fyth y mae'r
+Rhobell gawraidd yn edrych i lawr ar y llethrau a'r dyffryn.
+
+Cefais ymgom ddifyr a llawer amaethwr y diwrnod hwnnw.  Dywedent fel
+y byddai pawb ar ei dir ei hun unwaith,--Pant y Panel, Coed
+Mwsoglog, Coed y Rhos Lwyd, Maes y Cambren, Brith Fryniau, a llu
+ereill,--oll erbyn heddyw wedi eu gwerthu i dir-feddiannwr mawr.
+Sylwais gymaint yn dlysach oedd yr hen dai na'r tai sydd newydd eu
+codi; ond nid oedd amser i holi beth oedd y rheswm.
+
+Heibio llawer cartref dedwydd, a phawb ond y plant a'r cwn yn prysur
+gario gwair, cyrhaeddais Esgair Gawr.  Yr oedd y cerdded hyd ael y
+bryniau a thrwy'r coed wedi codi mawr eisieu bwyd arnaf.  Cefais
+lawer gwahoddiad gan y ffermwyr caredig i droi i mewn "i gael
+tamaid," ond yr oeddwn yn cadw fy hun at y te oedd yn Esgair Gawr.
+O'r cartref croesawus hwnnw cefais ffordd hyfryd, dros gaeau a than
+goed, i Fryn Tynoriad.  Gwelais y llyn lle y bu ond y dim i Ieuan
+Gwynedd foddi cyn bod yn ddwy flwydd oed,--ond anfonodd Rhagluniaeth
+ryw ffermwr yno mewn pryd.  Y mae Bryn Tynoriad yn agos iawn i ben y
+Garneddwen,--y mynydd sy'n gwahanu dyffryn y Ddyfrdwy oddiwrth
+ddyffryn yr Wnion.  Y mae'n bur neilltuedig, mewn cwm main, a
+gelltydd coediog bob ochr.  Yn awr y mae'r ffordd haiarn yn mynd
+heibio iddo, a gorsaf Drws y Nant ychydig yn nes i lawr.  Ond unig a
+thawel ydyw eto.  Y mae dwy aden i'r ty, a chanol, y canol yn dy
+annedd, a'r adenydd yn ysgubor a beudy.  Wrth ei gefn y mae coed a
+ffridd serth y Celffant.  O'i flaen y mae cae bryniog dymunol.
+Oddiar y cae gwelir yr Wnion fechan islaw, a'r Wenallt goediog ar
+gyfer.  Gwelir agoriad rhwng y mynyddoedd i gyfeiriad y Bala, dros
+ddraenen y cymerodd rhywun lawer o ofal gyda'i thyfiant.
+
+Ond gadewch i ni fynd i'r ty.  Y mae ynddo wraig garedig, siaradus,
+a doniol dros ben,--Anibynwraig bid siwr.  Awn i fyny gris neu ddwy,
+a dyna'r gegin ar y dde.  Llawr tolciog ydyw, wedi ei lorio a
+cherrig bychain.  Yr oedd yna dan braf o dan y simnai fawr, a'r
+tegell yn berwi ar gyfer y cynhauafwyr gwair,--yr oedd y gwlaw wedi
+gorchuddio'r fro erbyn hyn, a'r gwair mewn diddosrwydd neu ar y cae.
+
+Ac yma y dysgodd Ieuan Gwynedd gerdded.  Nid oedd yn cofio llawer am
+y lle; ond yr oedd yn cofio'r diwrnod mudo i'r Ty Croes, er nad oedd
+yn ddwyflwydd oed, oherwydd ei fod wedi medru cario "ystol mam" ar
+draws yr aelwyd.  Ac ar yr aelwyd hon y suwyd ef gan ei fam, y
+magwyd ef gan ei dad, ac y cusanwyd y "bachgen bach" gan ei frawd.
+Danghoswyd y "siamber" imi hefyd, yr ochr arall i'r drws, lle ganwyd
+Ieuan.
+
+
+Ryw dro bu ef ei hun yn edrych ar fan ei eni.  "Amgylchais y ty yn
+ol ac ymlaen.  Chwiliais am le y ffenestr o flaen pa un y'm ganesid;
+ac fel yr oeddwn yn myned ol a blaen o gylch y fan, teimlwn fel na
+theimlais erioed o'r blaen.  Dyna y llannerch lle y dechreuaswn fyw.
+Yno ym brys-fedyddiwyd rhag fy marw'n ddi-fedydd, a chael yr helbul
+o fy nghladdu yn y nos ym mynwent Dolgellau, yr hon oedd dros saith
+milltir o ffordd o'r lle.  Yno y gorweddaswn i a fy mam am oriau,
+a'r bobl yn disgwyl i ni farw am y cyntaf; ac yno y cyneuwyd ynnof y
+ganwyll yr hon na losga tragwyddoldeb allan.  Yno y dechreuaswn fyw,
+yno y dechreuaswn farw.  Yno y dechreuais fy llwybr i'r wybrennau,
+ac yno y dechreuais fy ffordd i'r bedd."
+
+
+"Ffordd i'r bedd," a'r diwedd yn y golwg yn ddigon aml, oedd bywyd
+byr a brau Ieuan Gwynedd.
+
+Ymysg y gwladgarwyr newidiodd wedd meddwl Cymru yn y blynyddoedd
+diweddaf, nid y lleiaf oedd ef.
+
+Gwnaeth gymaint am fod ei fywyd mor debyg i fywyd ei frodyr, tra yr
+oedd amcanion y bywyd hwnnw mor anrhaethol uwch.  Plentyn Cymru oedd
+ym mhob peth,--ar y Beibl y cafodd ei fagu, sel dros ddirwest
+ddeffrodd ei enaid, awydd angerddol am wybodaeth wnaeth iddo fyrhau
+ei ddyddiau o fyfyrdod tlawd a gwaith amhrisiadwy.
+
+Dyhead ei fywyd oedd gweled Cymru'n lan ac yn rhydd; yn lan oddiwrth
+bechod, a'i mheddwl yn anibynnol ar bawb ond ar ei Duw.  Ond er mor
+chwerw oedd yn erbyn ei phechodau, ni fedrai oddef i neb ei
+chamddarlunio a'i gwawdio, fel y dengys ei ysgrifau miniog yn erbyn
+bradwyr y llyfrau gleision.
+
+Fel ysgrifennydd y gwasanaethodd Gymru oreu.  Yr oedd ei sel,--a'i
+afiechyd, efallai,--yn ei wneyd yn chwerw weithiau at ei
+wrthwynebwyr, ond maddeuir pob gair garw pan gofir am ei lafur
+llethol gyda'r Adolygydd, a chyda'r Gymraes yn enwedig.  Gwelodd mor
+bwysig oedd merched Cymru; gwyddai y medrent hwy newid y ffasiwn o
+ddirmygu iaith eu gwlad.  Gwelodd fod ar feddwl Cymru eisieu sylfaen
+o wladgarwch oleuedig, a buasai wedi ysgrifennu llyfr ar hanes Cymru
+pe tebyg y rhoddasai ei gydwladwyr groesaw iddo.
+
+
+
+TREFECA
+
+
+
+"Dyma'r fan, tr'wy byw mi gofiaf,
+  Gwelais i di gynta erioed,
+O flaen porth yr eglwys eang
+  Heb un twmpath dan dy droed,
+Mewn rhyw ysbryd dwys sylweddol,
+  Fel yng ngolwg dydd a ddaw,
+Yn cynghori dy blwyfolion,
+  A dweyd fod y farn ger llaw."
+
+A dyma'r eglwys lle gorwedd Howel Harris, udgorn y Diwygiad!  Yn yr
+eglwys acw yr argyhoeddwyd ef, a rhoddwyd ef i orwedd lle y clywodd
+lais Duw yn cynnyg trugaredd iddo.  A dacw'r fan lle pregethai pan
+basiodd William Williams, ar ei ffordd adref o'r ysgol i Bant y
+Celyn.  Bore gofiwyd byth gan William Williams oedd hwnnw, -
+
+
+"Dyma'r boreu, byth mi gofiaf,
+  Clywais innau lais y nef;
+ Daliwyd fi wrth wys oddiuchod,
+  Gan ei swn dychrynllyd ef."
+
+
+Ychydig o lanerchi ar ddaear Cymru sydd mor gysegredig i deimlad
+Cymro a'r llannerch hon,--lle gwelwyd apostol cynhyrfus y Diwygiad
+yn pregethu argyhoeddiad i emynnwr y Diwygiad.
+
+Llannerch dawel, brydferth ydyw.  Y mae ar ychydig o godiad tir, a
+dringir iddi o dref fechan Talgarth welwn o bobtu i aber Enig a
+helyg ac ysgaw rhyngom a hi.  Y mae golwg hyfryd ar y wlad
+oddiamgylch, saif cylch o fynyddoedd gwyrddleision fel gwylwyr
+uwchben y fynwent, a chyfyd twr ysgwar yr eglwys i fyny'n uchel ac
+yn hyf, i ddangos yspotyn mwyaf cysegredig y fro ddyddorol a
+phrydferth hon.  Y mae'n bedwar o'r gloch ar gloc yr eglwys, ac y
+mae distawrwydd adfywiol nawn haf wedi disgyn, fel gwlith, ar y wlad
+ffrwythlawn dyfadwy.  Y mae rhyw orffwys breuddwydiol yn meddiannu
+f'enaid innau wrth neshau at y fynwent; a su hen ddigwyddiadau, fel
+ysbrydion llawer cnul a llawer claddfa, yn llenwi'r distawrwydd ar
+nawn haf.  Y mae hud dros bopeth, prin y mae digon o natur beirniadu
+ynnof i gael poen oddiwrth y cerrig beddau di chwaeth, gyda'u
+llythrennau efydd, sydd ym mhlith hen gerrig mwsoglyd y fynwent.
+Sefais, ar ddamwain, cyn dod at borth yr eglwys, a disgynnodd fy
+ngolwg ar enw Howel Harris.  Carreg fedd ei dad oedd.  Ar hon y
+dywedir fod Howel Harris yn pregethu pan safodd Williams Pant y
+Celyn wrth fynd heibio, i glywed ei alwad ef ei hun.  Y mae'r
+llythrennau mor berffaith ag oeddynt pan safai Howel Harris, os
+safai hefyd, ar y garreg i gyhoeddi ei newyddion rhyfedd.  Yr oedd
+gwirioneddau'r byd tragwyddol mor fyw o'i flaen ef fel mai prin y
+sylwai, hwyrach, ar yr olygfa o'i gwmpas.  Eneidiau anfarwol, nid
+mynyddoedd a lamant fel hyrddod a bryniau a branciant fel wyn
+defaid, a welai ef.  Ond maddeuer i mi, o gyneddfau gwannach a chyda
+llai o ddychymyg, am syllu ar yr olygfa.  Y mae'n araf godi o'm
+blaen, fel yr oedd y diwrnod y daliwyd yr emynnwr a gwys oddi uchod.
+Dacw Howel Harris ar y garreg fedd, a'i lais yn ddychryn i'r dyrfa
+sy'n gwelwi o'i flaen.  Dacw wr ieuanc ar ei ffordd adref o'r ysgol
+wrth ddrws y fynwent, yn gwasgu'n agosach i gwr y dorf, ac yn colli
+golwg arno ei hun wrth wrando, mewn syndod a dychryn, ar y llais
+taran hwnnw.  O flaen y pregethwr y mae chwech o yw mawreddog,--y
+maent yno eto yn eu duwch wylofus,--a thref Talgarth.  Uwchben
+dacw'r Mynydd Du; ac o amgylch y mae bryniau blodeuog ardal sydd
+ymysg ardaloedd tlysaf Cymru.
+
+Ni raid myned ymhell i gael hanes olaf y pregethwr gynhyrfodd fwyaf
+ar Gymru o'r holl bregethwyr fu yng ngwlad y pregethu erioed.  Eis
+ymlaen trwy'r fynwent, ac at ddrws yr eglwys.  Y mae'r eglwys yn
+isel a llydan; ac yn drymaidd iawn y tu mewn.  Cerddais yng
+nghyfeiriad y cor, a gwelwn ysgrifen hanes Howel Harris ar garreg.
+
+Gwelais lawer carreg fedd mewn llawer gwlad mewn llawer lle
+rhyfedd,--gwelais y garreg ar fedd gwag Dante, gwelais fedd
+Chateaubriand mewn craig yn nannedd y tonnau, gwelais feddau rhai
+enwog mewn eglwysi mawrwych,--ond ni theimlais gymaint yn unlle ag
+yn eglwys drymaidd dywell Talgarth.  Hyfryd i Howel Harris oedd huno
+lle y clywodd y bywyd newydd yn ymweithio yn ei enaid.  Teimlwn fod
+mwy na bedd yn eglwys Talgarth; teimlwn fy mod ar lecyn genedigaeth
+Cymru newydd.  Beth bynnag arall fedrir ddweyd am ei hyawdledd ac am
+ei athrylith, ac am ei gynlluniau rhyfedd, gellir priodoli deffroad
+Cymru, o gwsg oedd yn marweiddio ei nherth cenhedlaethol, iddo ef yn
+fwy nag i neb arall.
+
+Ond y mae ychwaneg na'i hanes ef ar y garreg, digon i'm hadgofio am
+y teimladau daiarol,--teimladau ag arlliw y nef arnynt,--oedd mor
+gryf yn ei enaid.  Ar ei deithiau pregethu, yn ei weddiau, yn ei
+freuddwydion, yn ei ofnau, y mae un nad enwa yn bresennol yn
+barhaus.  Bum yn darllen ei lythyrau ati, a'r cynnyg priodas.  Wedi
+hanes yr ymserchu a'r ofni,--stori sydd mor hen, ac mor newydd,--
+dyma ei hanes olaf hithau, wedi siarad am yr lesu a'i hanadl olaf.
+
+Mewn awr hamddenol, ryw dro, cesglais lythyrau caru dyddorol.  Yn eu
+mysg yr oedd un oddiwrth Nathaniel, mab Daniel Rowland, at ferch
+Howel Harris.  Y mae yma air o'i hanes hithau, unig blentyn eu
+gofal, ar waelod y garreg.
+
+Cwsg yn hyfryd, apostol Cymru, -
+
+
+"Cwsg i lawr yn eglwys Talgarth,
+  Lle nad oes na phoen na gwae;
+ Mi gai godi i'r lan i fywyd,
+  Sy'n dragwyddol yn parhau."
+
+
+Cawsom fwynhau golygfeydd prydferth ac awel nawnol yn suo dros gae o
+feillion peraroglus wrth gerdded y filldir sydd rhwng Talgarth a
+Threfeca.
+
+A dacw Drefeca yn y golwg.  Ymgyfyd fel llinell hir o gestyll a thai
+diwedd y Canol Oesoedd, dros gaeau gweiriog.  Oni bai am y capel
+hyll ar y chwith, buasai'n adeilad tarawiadol a phrydferth iawn.
+Yma, mewn tawelwch, y treuliodd Howel Harris y rhan fwyaf o'i oes.
+Wedi'r ymrafael, pan welodd ei fod yn colli gafael ar y
+dychweledigion drowd trwy ei weinidogaeth ef ei hun, gadawodd ei
+bregethu teithiol, ac ymneillduodd i'w gartref, gan wneyd Trefeca yn
+gartref i bawb hoffai adael ei fro a dyfod i gydweithio ac i gyd-
+addoli.  Ffurfiai'r holl gwmni un teulu, yr oedd eu heiddo'n
+gyffredin, ac yr oedd cynilun eu bywyd yn debycach i freuddwyd rhyw
+athronydd nag i gynllun yn cael ei weithio allan gyda brwdfrydedd a
+llwyddiant.  Tuag at gadw cymdeithas fel hyn gyda'i gilydd yr oedd
+eisiau mwy na chrefydd a hyawdledd, yr oedd eisieu medr anghyffredin
+mewn trin dynion.  Nid oes odid i ddim yn hanes Cymru mor ddyddorol
+ag ymgais Howel Harris i sylweddoli, rhwng bryniau Cymru, gynllun yr
+eglwys yn nyddiau yr apostolion.  Yng ngwyneb pob anhawsderau,--
+diogi, ymrysonau, gwrthgiliad, priodi anghydmarus ymysg aelodau'r
+teulu,--yr oedd Trefeca dan Howel Harris yn llwyddo ac yn blodeuo.
+Bu'n fwy llwyddiannus, hwyrach, na'r un a geisiodd sefydlu
+cymdeithas o'r fath.  Yn grefyddwyr, yn filwyr, yn weithwyr,--
+enillodd "Teulu Trefeca" barch ac edmygedd rhai wawdiai, ar y
+cyntaf, y syniad o godi mynachlog yn Nhrefeca.  Ebe Williams Pant y
+Celyn, -
+
+
+"Pam y treuliaist dy holl ddyddiau
+  I wneyd rhyw fynachlog fawr,
+ Pan y tynnodd Harri frenin
+  Fwy na mil o'r rhain i lawr?
+ Diau buasit hwy dy ddyddiau,
+  A melusach fuasai'n 'nghan.
+ Pe treuliasit dy holl amser
+  Yng nghwmpeini'r defaid man."
+
+
+Nid yn aml y cofir mai ychydig o'i oes roddodd Howel Harris i
+bregethu.  Cwestiwn ei frodyr oedd, -
+
+
+"Pam y llechaist mewn rhyw ogof,
+  Castell a ddyfeisiodd dyn.
+ Ac anghofiaist y ddiadell
+  Argyhoeddaist ti dy hun?"
+
+
+Ond ffurfio "teulu," tebyg, i'r eglwys yn adeg yr apostolion, oedd
+ei amcan ef; a gwastraffodd ar Drefeca y llafur yr oedd holl Gymru
+yn dyheu am dano, -
+
+
+"Ai bugeilia cant o ddefaid,
+  O rai oerion, hesbion, sych,
+ Ac adeilo iddynt balas
+  A chorlannau trefnus gwych, -
+ Etyb seinio pur Efengyl,
+  Bloeddio'r Iachawdwriaeth rydd,
+ O Gaerlleon bell i Benfro,
+  O Gaergybi i Gaer Dydd?"
+
+
+Dyma ni'n troi o'r ffordd, ar hyd rhodfa trwy gae gwair, at wyneb y
+coleg.  O'i flaen y mae coed bytholwyrdd lawer; ac y mae golwg
+henafol ar yr holl adeilad mawr di drefn, ar ei ffenestri crynion
+tyrog, gyda'r cloc a'r lantar yn sefyll uwchben y cwbl.  Aethom
+heibio'r wyneb, a thrwy ddrws yn yr ochr i ystafelloedd bychain, ond
+hynod ddiddos a chysurus.  Wedi hwyr-bryd blasus, digwyddais edrych
+ar nenfwd wyngalchog yr ystafell yr eisteddem ynddi, a gwelwn enw
+Jehofah mewn llythrennau Hebraeg uwch ein pen.  Dywedodd yr athraw
+wrthyf mai yn yr ystafell hon yr arhosai Countess Huntingdon pan ar
+ymweliad a Howel Harris, ac y mae'n sicr fod arddeliad mawr wedi bod
+ar lawer dyledswydd deuluoidd yn yr ystafell gysegredig.
+
+Treuliais amryw ddyddiau dedwydd yn Nhrefeca.  Crwydrwn, wrth
+f'ewyllys, drwy'r ystafelloedd lluosog, fu unwaith yn gartref i
+"deulu" rhyfedd Howel Harris.  Teimlwn fod Trefeca yn gynllun o
+goleg,--mewn lle iach tawel.  Hen weithdy'r "Teulu" ydyw un o'r
+ystafelloedd darlithio, a danghoswyd i mi dwll trwy yr hwn y gallai
+Howel Harris weled, yr adeg a fynnai, pa fodd yr oedd pethau'n mynd
+ymlaen yn y gweithdy.  Y mae'r llyfrgell yn cynnwys un o'r
+casgliadau goreu o lyfrau Cymraeg welais erioed; casglwyd hi, yr wyf
+yn meddwl, trwy lafurus gariad y Parch. Edward Matthews.  Cynhwysa
+hefyd ddyddiaduron a llythyrau Howel Harris, a llawer o lythyrau
+ereill deifl oleuni dyddorol iawn ar gynlluniau a gwaith Howel
+Harris.
+
+
+Nid oes fawr o ffordd o Drefeca i Lyn Safaddan.  Llecyn mwyn ydyw'r
+llyn hwn, treuliais ddiwrnod hyfryd ar ei ddyfroedd.  Croesasom ef
+droion a gadawsom i'r cwch sefyll ymysg yr hesg tal sy'n tyfu o
+waelod y llyn tra'r oeddym yn gwylio'r eleirch ac yn mwynhau'r
+golygfeydd oedd wedi ymddelwi yn y dyfroedd clir.  Dyma le tawel,
+lle wrth fodd y myfyrgar, dan gysgod Mynydd Troed, ac o fewn ychydig
+i gyrchfannau miloedd glowyr y Deheudir.  Tra'n mwynhau'r awelon
+hafaidd, cofiwn am y traddodiad sydd ynglyn a'r llyn,--fod ei
+ddyfroedd yn cuddio dinas bechadurus suddodd i'r ddaear dan bwys ei
+drygioni.
+
+Gadewais Drefeca yn blygeiniol, ac yr oedd awel iach y bore yn
+gwneyd fy meddwl yn ddigon effro i gofio darluniad Williams adeg
+marw Howel Harris, -
+
+
+"Mi af heibio i'r palas euraidd
+  Sydd a'r angel ar ei ben,
+ 'Drychaf ar y castell cadarn
+  Sy a'i begynau yn y nen;
+ Ac mi rof ochenaid ddofon,
+  Gan ryw synnu ynnwyf f'hun,
+ Fel mae'r nef yn trefnu ei throion
+  I ddiddymu dyfais dyn.
+
+"Er cadarned yw'r adeilad,
+  Ac er teced yw ei wedd,
+ Y mae'r perlyn goreu ynddo
+  Heddyw'n gorwedd yn ei fedd
+ Ac nis gwel e mwy mo hono
+  Fel y gwelodd ef o'r bla'n,
+ Hyd y dydd bo'n cael ei losgi
+  Gyda'r byd yn danllwyth dan."
+
+
+
+CAER GAI
+
+
+
+Y mae'n ddiameu mai Gwerfyl Fychan ac Ann Griffiths ydyw dwy
+brydyddes oreu Cymru.  Yr oedd Gwerfyl yn byw yn amser adfywiad
+dysg, a rhoddodd ei hathrylith ar waith i weu caneuon aflendid,--ac
+y mae bron a medru gwneyd yr aflan yn brydferth.  Yr oedd Ann
+Griffiths yn byw yn amser adfywiad crefydd, a daeth emynnau pur o'i
+chalon fel dwfr glan o ffynnon y mynydd.
+
+Y mae'r ddwy wedi eu claddu,--ac fel y mynnai pethau fod, yn yr un
+fan.  Yn Llanfihangel yng Ngwynfa y claddwyd Gwerfyl Fychan hefyd,--
+y mae'r un ymddigrifodd mewn meddyliau cnawdol yn huno ochr yn ochr
+a'r hon ymhyfrydodd mewn meddyliau sanctaidd.
+
+Saif Caer Gai ar fryn uwch pen gorllewinol Llyn Tegid, a haul y
+bore'n tywynnu arno'n gynta man.  Y mae traddodiadau boreuaf ein
+hanes ynglyn ag ef.  Ar y dolydd islaw iddo, meddid, y cafodd Arthur
+ei addysg.  Bu'n balas Rhufeinig; ac aml iawn y cwyd swch yr aradr
+briddfaen Rhufeinig, neu garreg fedd rhyw filwr, neu ddarn arian a
+delw ymherawdwr arni, neu ddarn o lestr loew goch.
+
+Mewn amser diweddarach yr oedd yn gartref y Fychaniaid.  Y mae
+darnau o brydyddiaeth Gwerfyl yn nofio ar gof gwlad eto.  Gwyr pawb
+am yr hen frenhinwr pybyr Rowland Fychan, cyfieithydd yr Ymarfer
+Duwioldeb.  Ond gwyr yr efrydydd am aml Fychan arall hyddysg mewn
+cywydd ac englyn.
+
+Wrth rodio'r hen fynedfa i fyny at Gaer Gai, er cymaint o feddyliau
+ddaw am hanes ein cenedl, rhaid syllu ar fawredd rhyfeddol y fro.  Y
+mae cefn mawr llwm yr Aran tuag atom, y mae'r Garneddwen yn gorwedd
+yn isel rhwng ei chwiorydd cawraidd, a gwga olion hen gastell Carn
+Dochan oddi ar gopa craig serth ysgythrog ar ein cyfer.  Odditanom
+cwsg dyfroedd gloew Llyn Tegid, ac ar ein cyfer, dros y dwr, y mae
+bryniau gwyrddion uchel groesid gynt gan ffordd Rufeinig.  Mae'r
+gerddi'n aros ar y llecyn heulog, ac y mae pantle'r ffos yn amlwg;
+ond ni chlywais erioed hanes cloddio i chwilio am drysorau neu
+feddau y Rhufeinwyr fu yma gynt.
+
+Y ty adeiladodd Rowland Fychan, ond wedi ei adgyweirio ymron
+drwyddo, sydd yno'n awr.  Y mae geiriau yr hen frenhinwr selog wrth
+ben y drws, -
+
+
+"Rho glod i bawb yn ddibrin,
+  A char dy frawd cyffredin;
+ Ofna Dduw, cans hyn sydd dda,
+  Ac anrhydedda'r brenin."
+
+
+
+CEFN BRITH
+
+
+
+"Os anghofiaf di, Jerusalem, anghofied fy neheulaw ganu.  Glyned fy
+nhafod wrth daflod fy ngenau oni chofiaf di, oni chodaf Jerusalem
+goruwch fy llawenydd pennaf."--SALM cxxxvii. 5-6.  Ar wynebddalen
+"Supplication" John Penri dros Gymru.
+
+Yr oedd cyfaill i mi unwaith yn cyd-deithio yn y tren a'r diweddar
+Barch. J. Kilsby Jones, o Lanfair Muallt i Lanwrtyd.  Ymhen tipyn
+wedi gadael Llechryd, dyma Mr. Jones yn tynnu ei het, ac yn dweyd,--
+"Yr ydym yn awr ar dir clasurol.  A welwch chwi'r llwyn o goed acw?
+Dacw Gwm Llywelyn.  A welwch chwi'r ty ar ochr y bryn i fyny acw?
+Dacw'r ty y ganwyd John Penri ynddo.  John Penri a ddywedodd wrth yr
+Ymneillduwyr am fynd i'r Amerig.  Ie, yn y bwthyn acw y ganwyd y
+syniad am weriniaeth fawr y Gorllewin."
+
+Y mae'n sicr mai'r awydd am ryddid cydwybod,--yr awydd gafodd John
+Perni'n ferthyr iddo,--a roddodd fod i'r weriniaeth fawr honno.  Ond
+nid am yr hyn a wnaeth Penri i'r Weriniaeth nas gwelsai ond trwy
+ffydd, nid am hynny y meddyliwn wrth ddisgyn yng ngorsaf Llangamarch
+ym mis Gorffennaf diweddaf, eithr am yr hyn a wnaeth dros Gymru, cyn
+rhoddi ei fywyd ieuanc i lawr drosti am bump o'r gloch y prydnawn,
+ar y nawfed dydd ar hugain o Fai, 1593.
+
+Y mae ardal Llangamarch yn un o'r ardaloedd mwyaf mynyddig yng
+Nghymru, er nad yw Mynydd Epynt a mynyddoedd Aber Gwesin mor uchel
+a'u brodyr sy'n sefyll rhyngddynt a gwynt ac eira'r gogledd.  Wrth
+fynd tua Llangamarch o Fuallt yr oeddym yn dringo i fyny o hyd, yng
+nghyfeiriad y mynyddoedd sy'n derfyn rhwng dyffrynnoedd yr Wy a
+dyffrynnoedd y Tywi.  Teithiem i fyny dyffryn yr afon Dulais, un o
+ganghennau'r Wy; o bobtu i ni yr oedd rhes o fynyddoedd, a gwlad
+fryniog rhyngddynt, a thai ar y bryniau.  Dyma'r tren yn aros ar
+lethr y dyffryn, mewn man cul arno.  Ar y llaw dde y mae eglwys ar
+ochr y bryn, yr eglwys lle mae claddfa Cefn Brith, a'r eglwys lle'r
+huna Theophilus Jones, hanesydd Brycheiniog.  I lawr odditanom, ar y
+chwith, y mae'r Ddulais dryloew ond yn rhy bell i lawr i ni glywed
+ei dwndwr ar ei cherrig a'i graian.  Cerddais i lawr o'r orsaf, a
+sefais ennyd ar y bont sy'n croesi'r afon brydferth.  Tra'r oeddwn
+yn edrych i fyny'r afon ar y glennydd coediog, ac ar y mynyddoedd
+oedd draw dan eu gorchudd llwyd o wlaw, clywn swn troed trwm, swn
+rheolaidd fel swn troed rheng o filwyr.  Heddgeidwad oedd yno.
+"Rhagluniaeth a'i hanfonodd yma," meddwn wrthyf fy hun, "daeth i'r
+dim, caf ei holi am y ffordd."
+
+"Wr braf," meddwn wrtho, "a welwch chwi'n dda gyfarwyddo dyn dieithr
+i Gefn Brith?"
+
+"I don't know what you say, you should speak English."
+
+"Mae hynny'n orthrwm mawr," meddwn innau, "na chawn siarad Cymraeg a
+swyddogion cyflog mewn lle mor Gymreig a Llangamarch.  Ffordd
+bynnag, er siarad Saesneg ag ef, a Saesneg llawer gwell na'i Saesneg
+ef hefyd, ni chefais ddim gwybodaeth ganddo.  Gwelais yn eglur mai
+nid Rhagluniaeth wnaeth hwn yn heddgeidwad, ond prif-gwnstabl
+Seisnig.  A rhyfeddwn yn fawr fy mod wedi camgymeryd gwaith y naill
+am waith y llall.  Ar ororau'r Deheudir y mae llawer o syniadau hen
+ddyddiau'r Lords Marchers eto'n aros, tybir gan yr awdurdodau mai
+llywodraethu'r Cymry yw eu gwaith, ac nid eu gwasanaethu.  Ac y mae
+gormod o'u hen waseidd-dra yn y Cymry hyn eto, mwy o ofn plismon
+anwybodus o Sais nag o ofn Cymro gonest a chydwybodol.  Ond tybed,
+er hyn, mai Sais uniaith ddylai ofalu am heddwch Llangamarch?
+
+O'r bont cerddais i'r pentref, pentref bach ar lan yr afon dan
+gysgod bryn.  Gofynnais i'r wraig gyntaf gyfarfyddais am y ffordd i
+Gefn Brith; atebodd hithau, gen gynted a'r gwynt, drwy ofyn cwstiwn
+arall, "Ich chi'n blongo iddi nhw?"  Wedi i mi ddweyd digon o fy
+hanes i'w boddloni, rhoddodd gyfarwyddiadau manwl i mi, a
+desgrifiadau maith o ffyrdd, trofeydd, coed, a thai.  Anghofiais y
+rhan fwyaf wrth gerdded i fyny gyda glan yr afon; ac erbyn i mi holi
+yr ail waith yr oeddwn wedi mynd yn rhy bell o lawer hyd ffordd
+Llanymddyfri, ac wedi anghofio troi.  Troais yn ol; a gwelwn ffordd
+drol ar y llaw dde yn arwain o'r gwastad, ac yn dirwyn i fyny ochr y
+bryn.  Cerddais innau hyd hon, ffordd leidiog is na'r caeau o'i
+chwmpas.  Erbyn hyn yr oedd yn gwlawio'n drwm, a da oedd cael cysgod
+y gwrychoedd uchel trwchus.  Bum am gwarter milltir heb weled fawr
+ond bedw a gwern; yna, wrth i mi godi uwchlaw'r dyffryn, daeth y
+wlad agored i'r golwg, ac ambell lygeidyn o haul arni trwy'r gwlaw.
+Wedi cyrraedd pen y bryn, cefais olygfa ogoneddus ar fryniau a
+dyffrynnoedd yn ymestyn i'r gorllewin.  Bum yn cerdded am beth,
+amser hyd ffordd wastad, gyda'r dyffryn ar y llaw dde, a mynyddoedd,
+at y rhai yr oeddwn yn dod agosach agosach, ar y llaw chwith.  Ar
+odrau'r mynyddoedd hyn yr oedd ffriddoedd, llawer glyn cul coediog,
+a llawer hafan werdd.  O'r diwedd dois i olwg y ty; nid oedd y
+pellder gerddais ond rhyw ddwy filldir a hanner, ond tybiwn ei fod
+yn ychwaneg, oherwydd fod cymaint o dynnu i fyny a fod y ffordd mor
+drom gan y gwlaw.
+
+Ond anghofiais bol lludded a dillad gwlybion wrth edrych ar yr
+olygfa welir o ymyl Cefn Brith.  Gwelwn lwybr yn mynd at wyneb y ty
+trwy ganol gweirglodd weiriog wlithog; ac yr oedd y ffordd yn rhoi
+tipyn o dro, ac yn mynd heibio'r adeiladau.  I ba gyfeiriad bynnag
+yr edrychwn, gwelwn fynyddoedd yn edrych arnaf or tu cefn i
+fynyddoedd.  I'r gorllewin, dros Gefn Gorwydd a phentref a chapel
+mawr, yr oedd mynyddoedd Llanwrtyd ac Ystrad Ffin; ac ar yr ochr
+arall yr oedd hafannau gwyrddion mynyddig, gydag ambell goeden
+griafol ac ambell fedwen yn ymddyrchafu mewn tlysni dan wlith y
+cawodydd a gwen yr haul.  Dyma'r ardaloedd y bu John Penri yn meddwl
+am danynt pan yn ffoadur yn Lloegr a'r Alban, yr ardaloedd gafodd
+bryder ei fywyd a'i feddyliau olaf.
+
+Adeg ryfedd oedd yr adeg y bu Meredydd Henri yn disgwyl John adre
+o'r ysgol i'r lle mynyddig hwn.  Yr oedd teimlad angerddol dros
+undeb Lloegr, yn wladol ac yn eglwysig.  Dyma'r adeg yr oedd
+Elisabeth yn "Faerie Queene" i Loegr a Chymru, dyna'r adeg yr aeth
+Lloegr drwy beryglon oddiwrth alluoedd pabaidd Ewrob, dyna'r adeg y
+danghosodd Shakespeare mai aflwydd ddaw i wlad lle y gwrthwynebir y
+brenin, eneiniog Duw.  Ufuddhau i'r frenhines, caru'r eglwys
+genhedlaethol, a diolch i Ragluniaeth am gael byw yn yr amser hwnnw-
+-dyna dybiai ysbryd yr oes oedd dyledswydd dyn.  Ac i Gymro, beth
+oedd mor unol a'i natur?
+
+Ond yr oedd yn yr amaethdy mynyddig hwn un welodd hanes oesoedd i
+ddod, un ddanghosodd yn glir beth fyddai dyfodol Cymru.  Gwelai fod
+yr eglwys yn esgeuluso Cymru, ac yn gwrthod rhoi yr efengyl iddi yn
+ei hiaith ei hun; teimlodd rym yr efengyl a gwelai Gymru yn ei
+phechodau.  Agorodd tosturi a phryder ei lygaid, a daeth mab yr
+amaethwr yn broffwyd ei wlad.
+
+Ganwyd John Penri yng Nghefn Brith, yn y ty sydd o'm blaen, yn 1559.
+Aeth i Gaer Grawnt yn bedair ar bymtheg oed, ac yno clywodd y
+Piwritaniaid cyntaf,--rhai ddywedai nad oedd y Diwygiad wedi ei
+orffen.  A feallai iddo gael cipolwg ar wirionedd mawr y dyfodol,--y
+medrai gwlad fod yn gadarn ac unol heb grefydd genhedlaethol y
+gellid goddef i gydwybod pob dyn ffurfio ei grefydd ei hun.  O'r
+brifysgol, deuai Penri i fynyddoedd Brycheiniog yn ystod ei wyliau,
+ac nis gallai lai na theimlo mor ofergoelus oedd Cymru,--gwlad oedd
+wedi colli ei Phabyddiaeth, ac heb gael eto ddim yn ei lle.  Yn 1586
+daeth i Rydychen, ac yma, y mae'n debyg, yr ysgrifennodd ei bamffled
+ar sefyllfa resynus Cymru, y pamffled anfonodd yn 1587 i'r frenhines
+a'r senedd.  Dychrynnodd y pamffled hwnnw lawer, a pha ryfedd,
+oherwydd gofynnid ynddo am hawl i leygwyr Cymru bregethu'r efengyl.
+Er i'r hyn ddywedid ynddo gael ei ddweyd yr y Senedd hefyd, gwysiwyd
+Penri o flaen yr awdurdodau eglwysig, o flaen yr Archesgob Whitgift
+a'r esgobion.  Rhaid maddeu llawer i'r rhain pan gofiwn mai cred eu
+hoes oedd fod yn rhaid, er diogelwch, lladd pob gwrthryfel yn erbyn
+sefydliadau cenhedlaethol.  Dywedasant wrth Benri nas gellid goddef
+ei syniad nad oedd clerigwr na phregethai yn weinidog Crist.
+Cyhoeddodd yntau ryfel yn erbyn yr awdurdodau trwy ddweyd y collai
+ei fywyd cyn y rhoddai'r syniad hwnnw i fyny.
+
+Yn 1588, blwyddyn yr oedd Lloegr yn hanner addoli ei brenhines a'i
+heglwys wedi'r Armada, blwyddyn Beibl yr Esgob Morgan, yn y flwydd-
+yn honno cyhoeddodd Penri bamffled arall.  Mewn iaith hyawdl,
+condemnia'r ymgais ffol i "geisio achubiaeth i ddynion trwy ddarllen
+iddynt yr hyn na fedrant ddeall"
+
+
+"Ychydig salmau, gydag un bennod o'r Testament Newydd yn Gymraeg,--
+oherwydd ni siaradodd yr Hen Destament Gymraeg yn ein dyddiau ni, er
+ei fod, er llawenydd mawr i mi, yn barod i'w argraffu,--hyn yn unig
+yn cael ei ddarllen mewn dull gresynus, heb un mewn deg yn ei
+ddeall, ai dyma'r moddion, ysywaeth, a ordeiniodd Duw i hysbysu i
+bawb yng Nghymru beth yw cymdeithas y dirgelwch?"
+
+
+Trydd at yr esgobion yn gynhyrfus, -
+
+"O chwi esgobion Cymru, y rhai a ddibrisia ei enw Ef, os gofynnwch
+pa fodd y dibrisiasoch ef, atebir mai trwy gynnyg y cloff a'r dall
+a'r anafus i weinidogaeth yr Arglwydd, gan ddweyd nad ydyw hyn yn
+ddrwg.  Felly dibrisiwch enw Duw trwy ddweyd nad oes eisieu gofalu
+am ei wasanaeth.  Wrth weled eich bod chwi eich hunain yn gwybod, a
+fod holl Gymru'n gwybod, eich bod wedi rhoddi yn yr alwedigaeth
+gysegredig ddynion cnafaidd a drwg fu'n crwydro drwy'r wlad dan enw
+ysgolheigion, afradloniaid a gwyr gweini wnaeth y weinidogaeth yn
+noddfa olaf iddynt; wrth weled eich bod yn gadael yny weinidogaeth
+rai y gwyddis eu bod yn buteinwyr a meddwon a lladron a rhai'n
+tyngu'n erchyll, rhai y dywed Job mai gwaelach na'r ddaear ydynt,--
+oni ddywedwch, trwy hyn oll, nad oes eisieu gofalu am wasanaeth yr
+Arglwydd?  Os goddefwch hwynt, ac os arhoswch eich hunain yn
+lladronllyd o faes eich dyledswydd, a ydych chwi'n meddwll am
+anrhydedd yr Arglwydd ac am iachawdwriaeth ei bobl?"
+
+
+Mewn adeg ogoneddus yn hanes a llenyddiaeth Lloegr yr ymddanghosodd
+y llyfr chwerw hwn, pan oedd pob un yn tybied mai ei ddyledswydd
+oedd cynnal breichiau'r frenhines Gymreig oedd ar orsedd Lloegr a'r
+Iwerddon a Chymru.  Dyma gyfnod gwladgarwch ar ei gryfaf, oes aur
+Eglwys Loegr a llenyddiaeth Seisnig.  Ond nid oes Gymro fedr
+ddarllen llyfr Penri heb gydymdeimlo ag ef yn llwyr, a hynny ymhell
+cyn dod at y geiriau olaf, -
+
+
+"Your poore countrey-man, who in all dutiful good will hath wholy
+dedicated himself to doe you good in the Lorde.
+IOHN PENRI."
+
+
+Yr oedd ar lywodraethwyr Cymru ofn yr iaith Gymraeg, yr oedd y
+gyfraith yn gwahardd i'r un swyddog ei siarad, a gwelodd Penri nad
+oedd obaith i Gymru oddiwrth y frenhines na'r Senedd,--yr oedd
+pregethwyr lleyg a chyfraniadau gwirfoddol yn bethau rhy newydd.
+Diangodd i'r Alban rhag ei erlidwyr, ond ni fedrai aros mewn heddwch
+yno, gan ei gariad angerddol at Gymru.  Daeth yn ol i Lundain, gan
+ddisgwyl cael caniatad i fynd i Gymru i bregethu, ac ymunodd a'r
+ddiadell o Anibynwyr oedd yno.  Yr oedd ei erlidiwr ar ei ol, a
+gwysiwyd ef o flaen y Court of High Commission, llys eglwysig y
+frenhines.  Cyhuddid ef ar gam o ysgrifennu'r Martin Mar-Prelate
+Tracts, rhai y mae eu hyspryd chwerw gwawdlyd yn anhebyg i ysbryd
+tyner a difrifol ei ysgrifeniadau ef.  Ychydig o obaith am
+gyfiawnder oedd i un garcherid gan weinidogion y Tuduriaid; ac yn
+l592 yr oedd Penri yng ngharchar, wedi rhoddi i fyny bob gobaith am
+gael byw.  Peth anodd iawn oedd marw mor ieuanc, yn dair ar ddeg a'r
+hugain oed.  Peth anodd iawn oedd marw a gwaith mor fawr i'w wneyd,
+rhoddi'r efengyl i Gymru dywell dlawd.  O garchar caeth,
+ysgrifennodd yn nechreu Ebrill, 1593, at ei wraig a'i bedair geneth
+fach.  Nid oedd ganddo ddim i'w adael iddynt ond Beibl bob un.
+Gofyn iddynt, os medrent rywbryd, wneyd rhywbeth dros ryw blentyn o
+Gymru, ac yn enwedig i'w fam oedrannus oedd wedi aberthu drosto pan
+yn fyfyriwr.
+
+Ac yng Nghefn Brith yr oedd ei fam yn byw, a'i frodyr a'i chwiorydd
+oedd i ofalu am ei enethod bach na wyddent eto beth oedd gweddi.
+Ond gadewch i ni anghofio'r dienyddiad hwnnw,--gwyr yr hen
+oruchwyliaeth yn llofruddio proffwyd y newydd,--ac edrych pa fath le
+yw ei gartref, dri chan mlynedd ar ol iddo ei adael.
+
+Eis i fyny at y ty hyd y ffordd, yr oedd gormod o wlith ar y llwybr.
+Yr oedd dyn ar ben das gwair yn ei doi, a dywedodd fod "llawer o
+hynafiaethwyr" yn dod i edrych y lle,--yn enwedig o Landrindod a
+Llanwrtyd ym misoedd yr haf.  Eis heibio'r beudy, ac i'r buarth,--
+lle wedi ei amgylchynu bron gan adeiladau.  Ar un ochr i'r ysgwar y
+mae'r ty, a phorth o'i flaen, a'r coed yn ei gysgodi o'r tu ol.  Yr
+oedd golwg dawel arno, fel pe buasai wedi ei adael fel y mae er
+amser Meredydd Penri.  Nid oedd dim arwyddion bywyd ond y cunogau
+llaeth oedd newydd eu golchi yn y porth, a'r hen gi defaid gododd ei
+ben cysglyd i edrych arnaf.
+
+Eis ymlaen heibio'r ty i'r caeau.  Rhedai aber risialaidd i lawr o'r
+mynydd, ac yr oedd coeden wag wedi ei gwneyd yn gafn i'r pistyll.  A
+thraw yr oedd y gweirgloddiau hyfryd, a'r mynydd y tu hwnt iddynt.
+Nid oedd yno greigiau nac ysgythredd, dim ond mawredd esmwyth a
+thawelwch.  Yr oedd edrych ar drumau prydferth Mynydd Epynt yn rhoi
+gorffwys i'r meddwl, nid y gorffwys sy'n arwain i ddiogi, ond y
+gorffwys sy'n arwain i waith.  Dyma orffwys fel gorffwys y nefoedd,
+gorffwys sy'n deffro'r meddwl ac yn ei gryfhau at waith.  Nid
+rhyfedd mai meddwl effro a gweithgar oedd meddwl John Penri.  Ni
+fedd y mynyddoedd hyn fawredd mynyddoedd y gogledd, rhywbeth hanner
+y ffordd rhwng Bro Morgannwg a'r Wyddfa ydynt.  Ac nid rhyfedd mai
+eu prydferthwch hwy, o'r holl fynyddoedd, ddarganfyddwyd gyntaf, gan
+rai o'r ardaloedd hyn,--John Dyer a Henry Vaughan.  Bum yn syllu'n
+hir ar y coed unig welwn hyd drumau'r mynyddoedd, ac yna'n edmygu
+lliwiau'r rhedyn a'r ysgaw a'r drain.  Trois wedyn i wylio'r
+gwenoliaid oedd wedi nythu tan y bondo, ac yna mentrais i'r ty.
+
+Eis trwy'r porth, a gwelwn ddrws cegin fawr yn agored ar y llaw dde.
+Cegin eang, isel do, hen ffasiwn oedd, a llawer o gig moch yn crogi
+oddiwrth y trawstiau.  Yn y pen draw yr oedd lle tan isel, ac
+ychydig o dan gwiail ynddo.  Wrth y pentan yr oedd gwr canol oed, a
+gofynnais hen gwestiwn iddo, -
+
+"Sut yr ydych chwi heddyw?"
+
+"Gweddol fach, gweddol yn wir, dewch ymlan.  Mi ges yr anwyd yn y
+gaua," meddai, dan besychu, "ac mi cesho fe wedin yn y mish bach
+dewch ymlan."
+
+Eisteddais tan fantell y simdde, ac agorodd ci oedd yn cysgu ar y
+pentan ei lygad i edrych arnaf, fel pe'n drwgdybio fod fy mryd ar
+gynnwys y crochan enfawr oedd ar y tan.  Tybiai'r gwr mai prynnu
+gwlan oedd fy mwriad, a gofynnodd ai ni wyddwn beth oedd pris y
+gwlan 'nawr.  Llonnodd pan ddywedais ei fod yn codi ychydig, ond
+gwelodd ar unwaith mai nid porthmon oeddwn.  Yr oedd ganddo, meddai,
+bedwar neu bum cant o ddefaid yn pori ar y mynyddoedd.  Tra'r oeddwn
+yn syllu ar yr hen ddodrefn derw, daeth cwestiwn wedyn,--yr oedd ar
+wr y ty awydd gwybod o ba grefydd yr own.  Atebais innau trwy ddweyd
+peth wyddai eisoes, sef mai Bedyddiwr oedd ef.
+
+"Pwi wedodd wrthich?"
+
+"Ddywedodd neb; ond gwelaf ddarlun Spurgeon a darlun Christmas
+Evans, a dyma Emau Robert Jones, Llanllyfni.  A glywsoch chwi hanes
+Robert Jones yng nghanol y chwarelwyr meddwon?"
+
+"Naddo i."
+
+"Wel, codi ei ddwylaw yn eu canol a wnaeth, a diolch fod gan Dduw
+uffern i roi'r fath rai ynddi."
+
+"Gweid difrifol oedd e, cofiwch rhi.  O'r North yr ych chi'n dod?"
+
+Wedi gwrando tipyn ar hanes y fro, gofynnais a gawn weld y rhannau
+hynaf o'r ty.  Dywedodd y gwr fod croeso i mi ei weld i gyd.  Aethom
+trwy ddrws y gegin yn ol, a gwelem fynedfa hir yn rhedeg gyda mur y
+wyneb.  Rhwng y fynedfa hon a mur y cefn yr oedd dwy ystafell, yn
+edrych i'r gadles, ystafelloedd oerion lleithion, ac yn llaethdai y
+defnyddid hwynt.  O'r rhain daethom yn ol i ddrws y ty, ac aethom
+ymlaen hyd y cyntedd hir hyd nes y daethom at ddrws ymhen draw y ty,
+drws parlwr bychan, a'r lleithder wedi amharu yr ychydig ddodrefn a
+darluniau oedd ynddo.  Danghosai'r cynllun yn amlwg fod y ty'n hen
+iawn, ac nid oedd gennyf un amheuaeth nad ydyw'n awr yr un fath yn
+union ag oedd pan ddysgodd John Penri gerdded ynddo.  A braidd na
+thybiwn glywed y llais a ddistewyd gan yr archesgob wrth glywed y
+gwynt yn codi, -
+
+
+"O chwi bobl Cymru, yr ydych on yn esgymun ac yn wrthodedig.  O chwi
+bobl Cymru, yr ydych yn estroniaid o gymundeb y wir eglwys.  O chwi
+bobl Cymru, nid ydych hyd yn oed yng nghyfamod yr addewid, yr ydych
+heb obaith dedwyddwch y nef.  O chwi bobl Cymru, pa wybodaeth bynnag
+o Dduw a ddywedwch sydd gennych, yr ydych yn wir yn anffyddwyr; ac
+heb Dduw,--pob un o honoch ar nas dygwyd, er yr adeg y daethoch o
+ogof eilunaddoliaeth a Phabyddiaeth, i gyfranogi yng ngallu Duw, yr
+hwn yw'r efengyl."
+
+
+Yna, wrth i'r gwynt yn y coed ostegu, tybiwn fod ei lais yn tyneru
+mewn cydymdeimlad, -
+
+
+"Ond yn wir, fy mrodyr, ni phregethwyd yr efengyl i chwi, llenwir fi
+a gofid wrth glywed gwawdio enw Cymru."
+
+
+Pe crwydrai ysbryd John Penri heddyw trwy wlad a garai mor fawr,
+gwelai fod ei weddi dros Gymru wedi ei hateb, a fod addoldai drwy'r
+broydd fu gynt yn ofergoelus ac yn isel eu moes.  Os byth y rhydd
+Cymru gofgolofn ar odrau Mynydd Epynt i ddweyd wrth ei phlant am
+dano, rhodder arni y geiriau hyn anfonodd o'i garchar, yn ei
+ddyddiau olaf, at Burleigh, -
+
+
+"Gwr ieuanc tlawd ydwyf, wedi'm geni a'm magu ym mynyddoedd Cymru.
+Myfi yw'r cyntaf, wedi blodeuad diweddaf yr efengyl yn y dyddiau
+hyn, lafuriodd i hau ei had bendigedig ar y mynyddoedd anial hynny.
+Llawenheais lawer tro o flaen fy Nuw, fel y gwyr ef, am y ffafr o'm
+geni a'm magu dan ei Mawrhydi, er mwyn gwneyd y gwaith.  Yn fy
+nymuniad cryf i weled yr efengyl yng ngwlad fy nhadau, ac i weled
+symud y llygredigaethau a'i rhwystra, hawdd oedd i mi anghofio fy
+mherygl fy hun; ond ni anghofiais fy nheyrngarwch i'm Tywysog
+erioed.  Ac yn awr pan wyf i orffen fy nyddiau, a hynny cyn dod i
+hanner fy mlynyddoedd yn ol trefn natur, yr wyf yn gadael llwyddiant
+fy llafur i'm cydwladwyr a gyfyd yr Arglwydd ar fy ol i, i orffen y
+gwaith, yr hwn, wrth alw fy ngwlad i wybodaeth am efengyl fendigedig
+Crist, a ddechreuais i."
+
+Trwy holl droion hanes Cymru, nid oes dim mor hyawdl i deimlad Cymro
+ag ewyllys John Penri,--pedwar Beibl, gofal ei fam, a llwyddiant ei
+waith.
+
+
+
+GLAS YNYS
+
+
+
+Pan fum i drwyddi, tybiwn mai priodol iawn fyddai galw bro Elis Wyn
+yn Wlad Cwsg.  Tybiwn fod rhywbeth yn ddieithr yn ei goleuni, a fod
+su esmwyth yn tonni trwy ei hawyr o hyd.  Prin y teimlwn y
+gwahaniaeth rhwng bod yn effro ac ynghwsg ynddi.  Yr oeddwn fel pe'n
+breuddwydio wrth gerdded drwyddi; a phan ddoi cwsg, nid oedd
+breuddwyd yn newid dim ar y wlad.  Y mae delw'r wlad ar y
+gweledigaethau sydd wedi synnu ac wedi dychrynnu cymaint.  Nis
+gallasai'r bardd ddychmygu fel y gwnaeth am y byd ac angeu ac
+uffern, ond mewn gwlad fel hon.
+
+Un peth tarawiadol ynddi ydyw ei distawrwydd.  Nid yn unig y mae'n
+ddistawach na gwlad boblog, lawn o bentrefydd; y mae'n ddistawach na
+mynydd-dir eang unig y Berwyn neu Blunhumon.  Ni fum mewn lle
+distawach erioed.  Y mae'r don i'w gweled yn symud draw ymhell yn
+ewyn i fyny'r traeth, ond mewn distawrwydd perffiaith.  Y mae'r
+wylan yn ehedeg uwch ben; ond, o ran pob swn, gallai fod yn ddarlun
+o wylan ar ddarlun o awyr.  Ac y mae'r mynyddoedd mawr yn gorwedd yn
+berffaith ddistaw yng ngwres y canol ddydd haf; tybiwn fod y defaid
+a'r aberoedd yn cysgu arnynt.
+
+Peth tarawiadol arall yng ngwlad Bardd Cwsg ydyw cyfoeth ei lliwiau,
+ac amrywiaeth ei chymylau a'i lleni teneuol o niwl.  Pan fo'r haul
+yn tywynnu y mae melyn a gwyn y traeth y tu hwnt i ddesgrifiad; pan
+fachludo'r haul, cyll y mor ei ddisgleirdeb ar unwaith, ac y mae
+golwg ddu frawychus ar y llu mynyddoedd mawr sydd o gwmpas Gwlad
+Cwsg.  Ac nis gall neb ddarllen y tair Gweledigaeth heb adnabod niwl
+a tharth Harlech, ac heb weled mor hoff yw Elis Wyn o gyferbynnu
+goleuni disglaer a thywyllwch dudew.  Fel Spenser a Milton yn
+llenyddiaeth Lloegr, y mae'n hoff o ddesgrifio goleum tanbaid neu'r
+fagddu ddilewyrch.  Efe yw Rembrandt llenyddiaeth Cymru.  Dacw
+belydryn yn gloewi o'r tu hwnt i gwmwl melynwyn, fel hwnnw welodd y
+Bardd Cwsg pan weddiodd yng ngafael y Tylwyth Teg,--"Gwelwn ryw
+oleuni o hirbell yn torri allan, O mor brydferth!"
+
+Gwaith caled ar ddiwrnod gwresog yw dringo i fyny dan gysgod castell
+Harlech.  Rhaid fod Bardd Cwsg wedi treulio llawer o amser yn yr hen
+gastell hwn; a hwyrach fod edrych i lawr dros ddibyn ei graig wedi
+ei helpu i ddychmygu am y ceulannau a'r dibynnau y gwelodd daflu'r
+colledigion drostynt yn ei Uffern.  A'r ffrwd acw, tybiaf i mi weled
+darlun o honi fel un o raiadrau y Fall.  Ond dyma ben y bryn o'r
+diwedd, a hen wr llygad-lon wedi bod yn fy ngwylio'n dringo.
+
+"Mi gewch ddiwrnod braf i weld y wlad heddyw," ebe'r hen wr a'm
+cyfeiriai o Harlech tua Glasynys, "mi fydd y dydd i gyd fel y
+pelydryn yna gyda hyn."  A gwir a ddywedodd, cefais ddiwrnod
+poetha'r haf hwnnw.  Y mae Harlech ar godiad tir serth, a rhaid cael
+un chwim iawn i ddod i fyny iddi o'r traeth heb golli ei wynt.  Un
+ystryd hir y tybiwn ei bod, o bobtu i'r ffordd sy'n rhedeg hyd y
+bryniau, yn gyfochrog a glan y mor.  Y mae'n lan, er nad oes
+adeiladau mawrion yn ei rhan hynaf.  Hawdd gweled ei bod yn hen dref
+oddiwrth ei chastell ac amlder ei thafarnau.  Trois ar y chwith, hyd
+ffordd Talsarnau, a chefais gwmni bardd am ran o'r ffordd.  Toc
+gadewais y ffordd gysgodol sy'n rhedeg hyd fron y mynydd, a throais
+hyd lwybr i lawr i'r gwastadedd glas odditanaf.  Ar ganol y
+gwastadedd gwelwn fryncyn yn codi, ac o bob tu iddo,--ar ochr y
+mynydd ac ar ochr y mor,--y mae amaethdy o'r enw Glasynys.  Oddiar
+ben y bryn y mae golygfa ardderchog ar for a mynydd.  Ynys, mae'n
+ddiameu, oedd y bryn unwaith, ac yr oedd y gwastadedd yn for.  Ar
+ein cyfer codai'r mynydd yn serth, gyda choed yn aml ar ei lethrau.
+Aml waith y bu Elis Wyn yn dringo i ael y mynydd acw; a dacw'r
+llecyn, hwyrach, oedd o flaen ei lygad pan yn darlunio ei
+weledigaeth gyntaf, -
+
+
+"Arryw brydnawn-gwaith teg o haf hir-felyn tesog, cymerais hynt i
+ben un o fynyddoedd Cymru, a chyda mi yspienddrych, i helpu'm golwg
+egwan, i weled pell yn agos, a phethau bychain yn fawr; trwy yr awyr
+denau eglur, a'r tes ysblennydd tawel canfyddwn ymhell bell, tros
+for y Werddon, lawer golygiad hyfryd.  O hir drafeilio a'm llygaid,
+ac wedyn a'm meddwl, daeth blinder, ac yng nghysgod blinder, daeth
+fy Meistr Cwsg yn lledradaidd i'm rhwymo; ac a'i agoriadau plwm fe
+gloes ffenestri fy llygaid, a'm holl synwyrau ereill, yn ddiogel."
+
+
+Cerddais dros y bryn bychan gan ddod i lawr at gefn Glasynys y
+bardd,--amaethdy a'i wyneb tua'r mynyddoedd.  Gwelais ar unwaith ei
+fod wedi ei adeiladu fel y dylid adeiladu ty ar lethr craig; gyda
+drws i fynd oddiallan i'w ystafelloedd uchaf, a mor naturiol ei
+safiad a phe buasai wedi codi, fel blodeuyn, yng nghwrs natur ar
+ochr y bryn.  Curais wrth y drws, a daeth merch ieuanc i'w agor.
+Dywedodd fod croesaw imi weled cartref y Bardd Cwsg, a danghosodd i
+mi brif ystafelloedd y ty.  Yr wyf yn cofio fod rhyw hanner arswyd
+arnaf wrth grwydro trwy'r ystafelloedd lle crewyd golygfeydd ofnadwy
+Bardd Cwsg; a thybiwn mai hyfryd i'r bardd, pan fyddai ei ddychymyg
+wedi ei arwain trwy erchyllderau uffern a'r fall, oedd sylweddoli ei
+fod ef mewn lle mor hyfryd.
+
+
+Yr oedd llwybr Elis Wyn rhwng ei gartref a'i eglwys, rhwng Glasynys
+a Llanfair.  Y mae Glasynys rhyw ddwy filldir o Harlach i'r gogledd,
+ac y mae eglwys Llanfair rhyw ddwy filldir o Harlech i'r de.  Bum yn
+Llanfair hefyd, lle y gorwedd Elis Wyn mewn bedd dinod, bron
+anadnabyddus.  Y mae'r daith o Harlech i Lanfair yn fwy digysgod
+na'r daith i Lasynys, ar wres neu ar gurwlaw, ond nid yw'n llai
+hyfryd.  Wedi tynnu i fyny'r rhiw oddiwrth y mor, a gadael yr hen
+gastell gwgus ar ein hol, trown ar y dde.  Y mae mwy o Harlech i'w
+weled wrth fynd i Lanfair nag wrth fynd i Lasynys.  Wedi cerdded
+drwy ystryd gweddol hir, deuir i lecyn dymunol iawn dan goed, ar
+gyfer prif westy'r lle.  Y mae golwg brydferth iawn oddiyma drwy'r
+coed ar y mor sy'n mhell odditanodd, ac y mae pob trofa newydd ar y
+ffordd yn hyfrydwch.  Creigiau, coed, mynydd, a'r mor,--nid oes
+braidd dy yn y cilfachau hyn heb olygfeydd o'i ffenestri y buasai
+cynllunydd palas brenin yn falch o honynt.  Ond yn fuan iawn yr ydym
+yn gadael yr hen dref ar ein holau, ac yn teithio hyd ffordd deg ar
+y dibyn uwch ben y mor, a'r hen gastell du gwgus yn ein gwylied o'n
+hol.  Dyma ffordd y bu Bardd Cwsg yn ei cherdded filoedd o weithiau,
+ac y mae golygfeydd ei weledigaethau o'n hamgylch heddyw, er fod
+syniadau gwlad wedi newid llawer er yr adeg y bu yn ei cherdded
+ddiweddaf, tua chant a thrigain o flynyddoedd yn ol.
+
+Aml dro, y mae'n ddiameu, bu Elis Wyn yn edrych ar ddyffrynnoedd fel
+dyffryn Nancol; ac i'w feddwl ef, fel i feddwl pawb yn yr oes honno,
+yr oedd yr aruthredd rhamantus yn erchylldra di-drefn.  Yn ei
+freuddwydion y mae'r cwm mynyddig yn ymddangos yn uffern, lle
+gwelai'r colledigion, a'r ysbrydion aflan
+
+
+"a phigffyrch yn eu taflu i ddisgyn ar eu pennau ar heislanod
+gwenwynig o bicellau geirwon gwrthfachog, i wingo gerfydd eu
+hymenyddiau; ymhen ennyd, lluchient hwy ar eu gilydd yn haenfeydd, i
+ben un o'r creigiau llosg, i rostio fel poethfel.  Oddi yno cipid
+hwy ymhell i ben un o fylchau y rhew a'r eira tragwyddol; yna yn ol
+i anferth lifeiriant o frwmstan berwedig, i'w trochi mewn
+llosgfeydd, a mygfeydd, a thagfeydd o ddrewi anaele."
+
+
+Weithiau tybiwn ein bod yn adnabod rhai o gymoedd Meirion, hyd nes y
+dadlennir y darlun erchyll i gyd, -
+
+
+"Tu isaf i'r gell yma gwelwn rhyw gwm mawr, ag ynddo megis myrdd o
+domenydd anferth yn gwyrddlosgi; ac erbyn neshau gwybum wrth eu
+hudfa mai dynion oeddynt oll, yn fryniau ar eu gilydd, a'r fflamau
+cethin yn clecian trwyddynt."
+
+
+Nid un yn gwenu ar bechod oedd Elis Wyn.  Y mae'n amhosibl cael
+darluniad mor ddychrynllyd o feddwdod ac aflendid ac anghrefydd, hyd
+yn oed ym mhregethau'r Diwygiad, ag yn ei weledigaethau ef.  Ac nid
+arbed y boneddigion na'u cynffonwyr.  Ychydig o lafurwyr welodd yn
+uffern; ac o'r rhai welodd, os oedd rhai wedi dod yno am gau talu'r
+degwm, yr oedd ereill wedi dod oherwydd gadael eu gwaith i ddilyn
+boneddigion.  Oes y boneddigion oedd y ddeunawfed ganrif; hwy oedd
+yn rheoli mewn llan a llys.  Hwy oedd yn y fyddin, hwy oedd yn
+ustusiaid, hwy oedd yn rheoli ymhob man.  A dysgeidiaeth pulpudau'r
+oes oedd fod yn rhaid ymostwng iddynt.  Ond trinir yr ustusiaid a'r
+cyfreithwyr a'r physygwyr yn ddiarbed yng ngweledigaethau Bardd
+Cwsg.  Ie, unwaith clywodd chwerthin yn uffern, -
+
+
+"A mi yn dyfod allan o'r gilfach ryfeddol honno, mi a glywn gryn
+siarad; ac am bob gair y fath hyll grechwen a phed fuasai yno
+bumcant o'r cythreuliaid ar fwrw eu cyrn gan chwerthin.  Ond erbyn i
+mi gael neshau i weled yr ameuthyn mawr o wenu yn uffern, beth
+ydoedd ond dau o bendefigion newydd ddyfod, yn dadleu am gael parch
+dyledus i'w bonedd; ac nid oedd y llawenydd ond digio'r gwyr
+boneddigion.  Palff o ysgweier a chanddo drolyn mawr o femrwm, sef
+ei gart achau, ac yno yn dadgan o ba sawl un o'r Pymtheg Llwyth
+Gwynedd y tarddasai ef; pa sawl Ustus o heddwch, a pha sawl Sirydd a
+fuasai o'i dy ef.  'Hai, Hai,' ebe un, 'nid ych chwi ond aer y
+fagddu, fflamgi brwnt, prin y teli i ti lety noswaith,' eb efe, 'ac
+eto ti a gai ryw gilfach i aros dydd:' a gyda'r gair, dyma'r ellyll
+ysgethrin a'i bigfforch yn rhoi iddo, wedi deg tro ar hugain yn yr
+wybr danbaid, ond oedd ef yn disgyn i geudwll allan o'r golwg."
+
+
+Y mae'n hawdd gweld athrylith Elis Wyn oddiwrth y gosb rydd i bob un
+yn uffern.  Nis gwyr y darllenydd yn iawn beth i'w wneyd wrth
+ddarllen hanes y gosb, pa un ai dychrynnu ai chwerthin, gan mor
+anisgwyliadwy ydyw'r gosb, ac eto mor naturiol.  Y meddw, y rhegwr,
+yr aflan, y rhodreswr, y chwedleuwr,--y maent i gyd yn y fro erchyll
+honno wrth eu hen waith.  Er esiampl, cymerer y pedwar ffidler oedd
+newydd farw, ac oedd yn eu bywyd wedi bod yn lwcusach am gynulleidfa
+na'r person, -
+
+
+"'Ffwrdd, ffwrdd, a'r rhai hyn i wlad yr anobaith,' ebe'r brenin
+ofnadwy; 'rhwymwch y pedwar gefn-gefn, a theflwch hwy at eu
+cymheiriaid, i ddawnsio yn droednoeth hyd aelwydydd gwynias, ac i
+rygnu fyth heb na chlod na chlera."
+
+
+Ond dyma Lanfair yn y golwg.  Dacw'r eglwys y bu Elis Wyn yn
+gwasanaethu ynddi, a'r lle y claddwyd ef.  Y mae gwlad agored
+brydferth Llanfair a Llanbedr o'n blaenau.  Y mae'r mor gryn bellder
+odditanom, a thraw ar ei lan wele eglwys fechan Llandanwg.  Pentref
+bychan ydyw Llanfair, rhyw ychydig o dai o bobtu i'r ffordd.
+
+Gydag i mi gyrraedd y pentref ymgasglodd lliaws o'r plant, rhai yn
+awyddus am rywbeth i'w weled neu i'w wneyd, o'm cwmpas.  Nid oedd yr
+un o honynt wedi clywed gair am Elis Wyn nac am weledigaethau Bardd
+Cwsg.  Yr oeddynt yn foddlon iawn i'm gwasanaethu, a medrodd un o
+honynt gael allwedd y fynwent ac allwedd yr eglwys i mi.  Saif yr
+eglwys hir a'i thalcen i'r mynydd, o fewn mynwent lawn a threfnus.
+Yr oedd hanner arswyd arnaf wrth fynd i'r eglwys, ac yr oedd y plant
+a'm dilynent mor ddistaw a phe gwybuasent fod Bardd Cwsg, un
+ddychmygodd weled pethau mor ofnadwy, yn huno yno.  Y mae'r allor yn
+llenwi y pen agosaf i'r mynydd o'r eglwys, o fur i fur.  Hysbyswyd
+fi fod lle'r allor yn fyrrach unwaith, a fod lle i un set rhwng yr
+allor a'r mur.  Tan y set honno, set Glas Ynys, a claddwyd y Bardd
+Cwsg; ond erbyn hyn y mae'r allor dros ei orweddle.  Ac ni wyddai
+plant ei bentref, oedd mor ddistaw a llygod yn yr eglwys dawel, ddim
+am ei waith nac am ei enw.
+
+Troais i unig westy'r pentref i ofyn lluniaeth, oherwydd yr oedd
+erbyn hyn yn hen brydnawn.  Tra'r oedd y forwyn yn gosod y llian ar
+y bwrdd mewn parlwr bach cysurus ddigon, gofynnais iddi, -
+
+"Yn yr eglwys yma y claddwyd Elis Wyn o Lasynys, ynte?"
+
+"Hwyrach wir, syr, ond 'doeddwn i'n nabod mo hono fo."
+
+Yr oedd gwr y gwesty gerllaw, ac amryw las hogiau yn y gegin, ond
+nid oedd yr un o honynt yn gwybod dim am Elis Wyn.  Dywedodd un y
+gallai'r ysgolfeistr fod yn gwybod, fod llawer o bethau ynghadw yn
+ei ben ef, ond ei fod ar ei wyliau ar hynny o bryd.
+
+Wedi te troais yn ol tua Harlech, a daethum at y ffordd sy'n arwain
+i lawr at Landanwg a min y mor.  Gwelwn mai rhibin hir iawn o ffordd
+ydoedd, ond daeth awydd angerddol drosof am weled gorweddfan Sion
+Phylip.  Ac i lawr a mi, hyd ffordd ddigon tolciog, nes cyrraedd ty
+neu ddau heb fod nepell o lan y mor.  Dywedwyd wrthyf na fu claddu
+ym mynwent Llandanwg er ys blynyddoedd, ac nad oes un math o
+wasanaeth ynddi'n awr.  Croesais ffrwd ddwfr, a chefais fy hun mewn
+cae gwyrdd o flaen yr eglwys.  Yr oedd y llecyn yn un hyfryd ar y
+nawn haf hwnnw.  Chwythai awel dros y mor, ag iechyd ar ei haden, ac
+yr oeddwn yn meddwl fod y ffrwd oedd ar golli yn y mor yn berffaith
+loew, fod y glaswellt yn berffaith wyrdd, a fod yr awyr yn berffaith
+bur.  Bechan iawn ydyw'r eglwys, a dieithr yr olwg arni.  Ni welais
+ond llwybr i fynd ati, a hwnnw'n cithaf anodd ei gael.  Y mae porth
+i fynd trwyddo i'r fynwent, ar gyfer ffenestr fawr y dwyrain.  Y mae
+drws yr eglyws i'r stormydd a'r mor.  Saif yr eglwys yn llythrennoll
+ar fin y mor, ac y mae'r tywod luchiwyd gan ystormydd hyd ei llawr.
+"Llan dan wg y mor" ydyw ystyr ei henw, ebe un hen ramadegydd
+gyfarfyddais.  Mynwent unig a thawel, hyd yn oed ymysg mynwentydd,
+ydyw.  Y mae'r eglwys yn wag oddigerth fod yno ychydig o hen goed
+derw.  Anaml, yn sicr, y bydd neb yn torri ar unigedd y fan.  Y mae
+enwau ffermydd yr ardal ar y cerrig beddau, ond yr wyf yn meddwl mai
+anaml y cleddir yno'n awr.  Gwelais fedd Sion Phylip, wedi tipyn o
+chwilio ymysg y twmpathau gleision a'r cerrig beddau mwsoglyd.  Y
+mae yng nghysgod yr eglwys, yn union dan ffenestr y dwyrain.  Wrth
+dynnu'r mwsogl oddiar y ddwy lythyren a'r dyddiad a'r englyn sydd ar
+y garreg, ceisiwn gofio peth o Gywydd y Wylan, cywydd goreu Sion
+Phylip.  Ac yn sicr ddigon yr oedd gwylan unig yn hofran uwch fy
+mhen, fel pe'n gwylio bedd y bardd a'i darluniodd.
+
+Bu Elis Wyn yn darllen gwasanaeth yr eglwys yma, yn swn y mor.
+Tybed ei fod wedi cerdded hyd y traeth, gan synfyfyrio, i aros i'r
+plwyfolion ddod?  Ai ar y llecyn hwn, wrth syllu ar y feisdon, y
+dychmygodd yr ymddiddan rhyngddo a Thaliesin Ben Beirdd, pan y
+gofynnodd Taliesin iddo am y prydydd,--"Pa le mae'r pysgodyn sy'r un
+lwnc ag ef?  Ac mae hi yn for arno bob amser, eto ni thyr y mor heli
+mo'i syched ef."
+
+
+Yr oedd y nos yn dod, a'm ffordd innau i'm llety yn hir.  Nosodd
+arnaf cyn i mi ddod i'r ffordd fawr, ac ni welwn wahaniaeth rhwng
+daear a mor.  Nid oedd arnaf lai nag ofn yn y gwyll, yr oeddwn wedi
+meddwl cymaint yn ystod y dydd am y bodau erchyll ddarlunnir gan
+Fardd Cwsg.  Gan nad oedd ond amlinellau llymion y wlad i'w gweled,
+yr oeddwn bron a meddwl weithiau fy mod yn y dyffryn hwnnw
+ddarlunnir yng "Ngweledigaeth Angau yn ei Frenhinllys isaf, -
+
+
+"Mi'm gwelwn mewn dyffryn pygddu anfeidrol o gwmpas, ac, i'm tyb i,
+nid oedd diben arno; ac ymhen ennyd, wrth ambell oleuni glas, fel
+canwyll ar ddiffodd, mi welwn aneirif, O! aneirif, o gysgodion
+dynion, rhai ar draed, a rhai ar feirch, yn gwau trwy eu gilydd fel
+y gwynt, yn ddistaw ac yn ddifrifol aruthr; a gwlad ddiffrwyth, lom,
+adwythig, heb na gwellt na gwair, na choed nac anifail; a chwipyn,
+er maint oedd y distawrydd o'r blaen, dyma si o'r naill i'r llall,
+fod yno ddyn bydol."
+
+
+Y mae'n debyg fod Bardd Cwsg wedi llenwi bywydau llawer a
+dychrynfeydd, wedi gwneyd pob nos yn llawn o ellyllon, ac wedi
+dyrysu synhwyrau llawer un.  Pa ryfedd fod y llyfr hwn wedi
+effeithio cymaint ar fywydau dynion?  Mor dryloew yw ei arddull, mor
+gain a naturiol ei Gymraeg!  Ac mor ryfedd ydyw ei ddychymyg pan yn
+crwydro trwy'r eangderoedd dychrynllyd hynny, pan yn dilyn o'i ledol
+ar ol milwyr disglaer Lusiffer wrth iddynt deithio fel mellt hyd y
+fagddu hyll!
+
+Rhyfedd ac ofnadwy ydyw'r pethau ddarlunnir ganddo, ac nid heb
+ychydig ofn y medrir meddwl am danynt ar ffordd unig fel hon wedi
+nos.  Cyn i oleuadau Harlech ddod i'r golwg, yr oedd fy meddwl wedi
+troi at emyn y Bardd Cwsg, emyn sy'n dangos beth fuasai ei
+weledigaeth ym Mharadwys pe'r ysgrifenasai hi, -
+
+
+"Myfi yw'r Adgyfodiad mawr,
+  Myfi yw gwawr y bywyd;
+Caiff pawb a'm cred, medd f'Arglwydd Dduw,
+  Er trengu, fyw mewn eilfyd.
+
+"A'r sawl sy'n byw mewn ufudd gred
+  I mi, caiff drwydded nefol
+Na allo'r angau, brenin braw,
+  Ddrwg iddaw yn dragwyddol.
+
+"Yn wir yn wir, medd Gwir ei hun,
+  Pob cyfryw ddyn sy'n gwrando
+Fy ngair gan gredu'r Tad a'm rhoes,
+  Mae didranc einioes ganddo."
+
+
+
+TY'R FICER
+
+
+
+Llawn o ddyfroedd oedd Llanymddyfri pan welais i'r lle gyntaf, er
+fod hynny yn niwedd mis Mehefin.
+
+
+Bran a Gwydderig
+A Thywi fynheddig
+A Bawddwr fach fawlyd
+  Yn rhedeg drwy'r dre," -
+
+
+nid yn unig yr oedd y rhain yn llifo dros y dolydd, ond yr oedd y
+gwlaw yn tywallt fel diluw.  Yr oedd wedi golchi swyddogion y ffordd
+haiarn yn lan; a thybiwn innau, wrth edrych o'r tren pan safodd yn
+Llanymddyfri, mai mewn dillad gwlybion y byddai raid i mi dreulio
+gweddill y dydd.  Gwelwn nad oedd y dref yn ymyl, ac ni welwn gerbyd
+fuasai'n noddfa rhag y gwlaw.  Ond, wedi disgyn, gwelais westy ar fy
+nghyfer, a medrais ei gyrraedd ar draws y ffordd cyn gwlychu at fy
+nghroen.
+
+Daeth gwraig dawel, a swn penderfyniad yn ei llais, i'm croesawu.
+Yr oedd golwg gysurus ar bob peth yn y ty, yr oedd tan braf yn
+cynneu yn y parlwr cyn pen y chwarter awr, ac yr oedd pryd
+danteithiol o fwyd wedi ei arlwyo.
+
+Yr oedd yno lyfrau hefyd, dyna'r gwahaniaeth rhwng gwesty Cymreig a
+gwestai ereill.  Cefais ymgom a gwr y ty,--y mae hyn yn rhan o fywyd
+fforddolyn,--a dywedodd bopeth wrthyf am grefydd a gwleidyddiaeth
+Llanymddyfri.  Ond, fel gwestywr call, ni soniodd air am ei grefydd
+na'i gredo wleidyddol ei hun; ac yr wyf yn meddwl iddo fethu cael
+gweledigaeth eglur ar fy amryw dybiau innau.  Gwr tawel oedd, yn
+siarad Cymraeg da.
+
+Cyn huno, yn swn y gwlaw, bum yn ceisio dyfeisio fath dref a welwn
+yfory, a fath dy oedd ty'r Ficer enwog.  Yr oeddwn wedi gweld y lle
+o bell.  Pan oedd fy nhren yn croesi'r nentydd hyd ochr y mynydd, yr
+oeddwn wedi gweld dyffryn swynol i lawr odditanom, a gwastadeddau
+coediog niwliog draw.  Ond cyn dychmygu darlun eglur yr oeddwn yng
+ngwlad cwsg.  A chyn hir daeth yn ystorm yn fy mreuddwydion, a
+thybiais weled melldith y Ficer wedi dod ar Lanymddyfri, a'r dwfr yn
+ei chludo hi a minnau tua'r mor.  Ond pan ddaeth y bore, yr oedd
+haul disglaer ar bob peth, a minnau'n meddwl mor hyfryd oedd fy lle.
+
+Wedi cael cyfarwyddiadau manwl, cychwynnais tua thy'r Ficer.
+Gadewais ysgol Llanymddyfri ar y dde, a chefais fy hun cyn hir ym
+mhrif heol y dref.  Wrth grwydro drwyddi, tybiwn mai tref yn prysur
+adfeilio ydyw Llanymddyfri.  Ni welais ddim gwaith yn cael ei wneyd
+yn unlle, ac nid oedd neb prysur yn y golwg.  O'r negeseuwr i'r
+meddyg, yr oedd pawb yn rhodio'n hamddenol, fel pe mai unig amcan
+bywyd ydyw treulio'r dydd i ddisgwyl y nos a threulio'r nos i
+ddisgwyl y bore.  Ni welwn gwsmer yn yr un o'r siopau; yr oedd pob
+siop fel pe'n hepian, a'r prentisiaid dan y cownter yn disgwyl
+diwrnod ffair.  Gwelais siop lyfrau, arwydd sicr o ddiwylliant, ond
+ol-rifynnau oedd yn y ffenestr, rhai'n traethu am faterion
+gwleidyddol na chymer ond yr hanesydd ddyddordeb ynddynt yn awr.
+Gwelais laswellt yn tyfu yn y farchnad, gwelais yriedydd yn golchi
+ei gerbyd y drydedd waith er pan gafodd gludo neb, gwelais saer yn
+cysgu yng nghanol ei shavings, gwelais gapel Wesleaid--pwy mor
+weithgar--wedi ei gau.  Cyfarfyddais asiedydd deallgar, yr hwn
+ddywedodd lawer o hanes y dref i mi.  Cyfeiriais fy ffon at laswellt
+oedd yn ceisio ymwthio i fyny rhwng cerrig yr heolydd, a gofynnais a
+oedd Llanymddyfri'n adfeilio Sicrhaodd fi nad oedd, ond ei bod yn
+sefyll,--yn cynyddu dim ac yn adfeilio dim.
+
+Cefais dy'r Ficer ymron ym mhen uchaf y dref.  Pasiais ef heb ei
+weled, a chyrhaeddais y bont, lle y danghoswyd mynwent ar fryn uwch
+ben i mi,--Llanfair ar y bryn, man bedd Williams Pant y Celyn.
+Troais yn ol, ac ar y llaw chwith gwelwn dy oedrannus, ac ychydig o
+ol gofal arno.  Meddyliwn wrth ei weled am hen foneddwr wedi torri,
+ac yn goroesi ei gyfoeth mewn cot ddu lom a het dolciog a throwsus
+du seimlyd rhy fyr i guddio ei esgidiau drylliog.  Daeth hen wraig,
+debyg iawn i'r ty, i'r drws i gynnyg dangos y lle i mi, gan ostwng
+yn ei garrau wrth gynnyg.  Y mae ambell ddernyn o bren cerfiedig a
+phlastr yn dangos mor fawr ydyw'r cyfnewidiad ddaeth dros y ty hwn.
+Unwaith bu yn orwych, yn awr y mae ei ystafelloedd cyfaneddol yn
+gartrefi llwm i dlodion Llanymddyfri.
+
+Daeth rhyw brudd-der drosof wrth adael yr ystafelloedd tywyllion
+gwag lle y goleuwyd "Canwyll y Cymry."  Meddyliais am y noson y
+safodd ceffyl heb ei farchog wrth ddrws y Ficer, tra yr oedd corff
+llofruddiedig ei unig fab yn y Tywi.  Meddyliais am lawer bore y
+bu'r Ficer yn cychwyn allan i rybuddio mewn amseroedd enbyd, ac i
+rybuddio'n ofer, -
+
+
+Mene Tecel, tre Llanddyfri,
+Pwysodd Duw hi yn dy frynti;
+Ni chadd ynnot ond y sorod,
+Gochel weithian rhag ei ddyrnod.
+
+Bore codais gyda'r ceiliog,
+Hir ddilynais yn dy annog
+Droi at Dduw oddiwrth dy frynti,
+Ond nid oedd ond ofer imi.
+
+Cenais iti'r udgorn aethlyd
+O farn Duw a'i lid anhyfryd,
+I'th ddihuno o drwmgwsg pechod,
+Hwrnu er hyn 'rwyt ti yn wastod.
+
+Cenais bibau, ond ni ddawnsiaist,
+Tost gwynfannais, nid alaraist;
+Ceisiais trwy deg a thrwy hagar,
+Ni chawn gennyt ond y gwatwar.
+
+Esau werthai ei 'tifeddiaeth
+Am y ffiolaid gawl ysywaeth;
+Tithau wethaist deyrnas nefoedd
+Am gawl brag, do, do, o'm hanfodd.
+
+
+Ond, pa beth bynnag fu ei hanes, y mae Llanymddyfri'n anwyl i bob
+Cymro, ac yn anwyl yng ngolwg y nefoedd, oherwydd o honi hi y daeth
+y Ficer Pritchard a Pher Ganiedydd Cymru.
+
+Cerddais drachefn drwy'r dref, gadewais y castell ar y chwith,
+gadewais y dref o'm hol, a dois i fynwent Llandingad.  Yma, meddir,
+y claddwyd y Ficer, ond nid edwyn neb le ei fedd.  Yn wir dywed
+traddodiad nad ydyw yma mwy, ond fod yr afon wedi rhuthro drwy'r
+fynwent unwaith, ac wedi cario'r corff i'r mor.
+
+Dychwelais trwy'r dref gysglyd dawel i'r gwesty i gael bwyd; ac yn y
+prydnawn cychwynnais tua'r castell.  Saif ar dalp o graig yn ymgodi
+ar lan yr afon.  Yr oedd dannedd y graig i'm gwyneb wrth i mi neshau
+ato, a gwelwn yr eiddew yn ymglymu am ei fur toredig.  Cerddais
+rhyngddo a'r afon, a dringais y bryn.  Y mae'n sicr fod llawer o
+dref Llanymddyfri wedi ei hadeiladu a'i gerrig.  Nid oes ond dau
+ddarn o'r mur trwchus yn aros, y darn agosaf at y dref, ond yr
+anhawddaf cael cerrig o hono.  Y mae'r gornel, gyda thwr mae'n
+debyg, wedi syrthio, ac yr oedd coed yn estyn eu canghennau dros y
+muriau oddiar ben y bryn y tu allan.  Gwelwn ddrysau y bu'r gwylwyr
+yn esgyn ar hyd-ddynt i'r muriau unwaith.  Tawel iawn ac unig ydyw'r
+adfail, o'i gydmaru ag ef y mae eglwys a mynwent Llandingad, welwn
+dros gornel y bryn, yn lle byw.  Bu Gruffydd ab Rhys yn gwarchae
+arno, yn adeg amddiffyn Cymru.  Cymerodd Rhys ei fab ef yn 1202; ac
+wedi hynny bu Gwenwynwyn, Rhys Ieuanc, a Rhys Grug yn ymladd yn ei
+wydd.  Llawer un fu farw yn y ffos sydd eto i'w gweled yn amgylchu
+darnau'r castell,--ond mwynach yw'r olygfa geir o hono heddyw na
+golwg ar ei hanes.  Y mae gwastadedd bychan gwyrdd rhyngddo a'r
+afon, y mae'r dref ar y gwastadedd odditano, ac onid ofer i mi
+geisio darlunio prydferthwch dyffryn y Tywi?
+
+
+
+Y GARREG WEN
+
+
+
+Cychwynnodd tri o Gricieth ar fore hyfryd ym mis Awst diweddaf i
+weled cartref Dafydd y Garreg Wen, ac un o'r tri hynny sy'n
+ysgrifennu yr hanes di-addurn ond cywir hwn.
+
+Yr oeddym yn tybied, er i ni weled llawer bau tlws, na welsom ddim
+tlysach erioed na Bau Cricieth y diwrnod hwnnw.  Yr oedd y mor
+diderfyn o'n blaen, ac yr oedd y glesni hwnnw arnom na welsom yn
+unlle ond ar draethell Mor y Canoldir, dan gysgod mynyddoedd
+Liguria.  Ar un ochr iddo yr oedd bryniau Meirion, fel llinell
+euraidd rhy dyner i ddisgleirio.  O'n blaen ymgodai Moel y Gest fel
+caer anferth, a gwelem y ffordd hir yn dirwyn hyd yr ochr tuag ati.
+O'n hol safai castell Cricieth, yn hyf fel pan y canai Iolo Goch
+iddo, ond heb ogoniant ac heb oleuni mwy.  Ar ein chwith yr oedd
+pigau mynyddoedd gleision yn codi ac yn colli o'n golwg gyda phob
+codi a gostwng yn y ffordd.  Ar ein llaw dde yr oedd y mor, ac
+adlewyrch haul ar grib bob ton, yn gwneyd i ni feddwl am fyddin
+Sennacherib, -
+
+
+"A phigau picellau fel ser ar y lli
+ Pan dywynno yr haul ar las ddwr Galili."
+
+
+Anadlai gwynt braf o'r Wyddfa arnom wrth i ni deithio ymlaen, fel pe
+buasai'r gauaf yn dod i ddweyd ei fod wedi tyneru, ac i ofyn cymod.
+Yn ol yr oedd hafannau o borfa las rhwng creigiau, a'r mor tawel
+dwfn islaw.  Ymlaen wele fynyddoedd a chreigiau mawr, ar ffurf
+muriau, megis wedi eu codi drwy hud.  Ac yr oedd gwenau'r haul yn
+aros ar flodau gwylltion ochr y ffordd.  Ffordd eithaf unig ydyw, yr
+oedd yn pasio ty bychan adfeiliedig o hyd.  Yr oedd y tai hyn yn
+sefyll yn y lleoedd mwyaf dymunol,--dan gysgod craig neu ar lan aber
+wyllt,--ond y mae eu preswylwyr wedi mudo, mae'n debyg, i'r tai mwd
+newyddion sy'n codi megis cabanau un-nos, o amgylch Cricieth.
+Gwelsom un fynedfa adfeiliedig hefyd, gyda'r glaswellt yn prysur
+orchuddio'r graian, fel pe buasai'n arwain at balas anghyfannedd.
+
+Wrth Fron y Gader, troisom o'r ffordd i lecyn caregog, ac yna i lawr
+i gyfeiriad y mor.  Yr oedd yn boeth orlethol, ac araf iawn y
+teithiem ymlaen.  Cawsom ein hunain mewn morfa hir.  Braich o'r mor
+oedd unwaith, mae'n ddi-ddadl, ond llenwodd rhyw afonig fach brysur
+y gilfach a daear.  Y oedd ffosydd wedi eu torri ar hyd y morfa, ac
+yr oedd gwair yn ei ystodiau yn sychu'n braf.  O ganol y morfa cyfyd
+bryn bychan, bryn fu'n ynys unwaith, ac ar ben y bryncyn gwelem
+eglwys ddi-addurn.  Dyna Ynys Cynhaiarn, ac yn ei mynwent y gorwedd
+Dafydd y Garreg Wen.  Cyfeiriasom ati'n araf ar hyd y ffordd las
+gwmpasog, tra'r oedd y caeau a'r mor yn ymddangos yn gydwastad,--y
+naill yn wyrdd a'r llall fel arian byw.
+
+Yr oeddym braidd yn lluddedig, ac ni waeth cyfaddef nad oeddym wedi
+bwriadu dadluddedu yn Ynys Cynhaiarn uwch ben cwpanaid o de Ond och!
+Nid oes yn ymyl yr eglwys, nac yn agos, ond beudy to brwyn
+adfeiliedig.  Y mae porth yr eglwys ymron mynd a'i ben iddo, ond y
+mae rhyw fath o drwsio musgrell wedi bod ar yr eglwys droion.
+Morwyr ac amaethwyr sy'n gorwedd yn y fynwent.  Y mae rhyw Lywelyn
+Cymreig yn gorwedd yno, a Charreg o Gernyw, a Mac Lean o'r Alban.
+Gwelsom fedd pilot wedi boddi, a gwelsom lawer enw prydferth heblaw
+Llwyn y Mafon.  O'r diwedd, yn un o'r corneli agosaf i'r mor, cawsom
+y bedd yr oeddym yn chwilio am dano.  Carreg las sydd ar y bedd
+hwnnw, ar ei gorwedd, ychydig yn uwch na'r lleill.  Ar ben y garreg
+y mae llun telyn mewn cylch, ac yna yr ysgrifen hon, -
+
+
+BEDD DAVID OWEN
+neu Ddafydd y Garreg Wen.
+y Telynor rhagorol
+a gladdwyd 1749,
+Yn 29 oed.
+
+Swynai'r fron, gwnai'n llon y llu--a'i ganiad,
+    Oedd ogoniant Cymru;
+  Dyma lle cadd ei gladdu,
+  Heb ail o'i fath, Jubal fu.
+                             E.O.
+
+
+Y mae'r bedd yn un o'r rhai mwyaf dinod ymysg y beddau dinod sy'n
+llenwi'r fynwent hon; ac oni bai am ofal Elis Owen o Gefn y Meusydd,
+ni fuasai yno garreg o gwbl.  Uwch ben bedd y cerddor saif danadl
+poethion a checs a llysiau bras, anhyfryd eu harogl.  Y mae'r
+fynwent a'r eglwys yn ddarlun o bethau wedi eu gadael.  Y mae'r
+eglwys wedi ei phlastro drostri, heb neb i ofalu am ei
+phrydferthwch, ac yn wag.  Y mae'r fynwent mor anhrefnus a phe
+buasai pla wedi difa holl drigolion y fro, ac wedi gadael i'r marw
+gladdu'r marw.
+
+Eto i gyd, nid ydyw'r fan dawel unig heb brydferthwch.  Yr oedd un o
+honom wedi blino, a rhoddwyd ef i gysgu ar fedd Dafydd y Garreg Wen,
+a'i glust ar y delyn.  A glywodd alawon yn ei gwsg, nis gwn.
+Cerddasom ninnau, y ddau effro, o amgylch y llannerch gysegredig.
+Gwelsom mai mynwent bedair-onglog oedd, gyda choed yn estyn eu
+canghennau drosti.  O'i hamgylch y mae'r morfa isel, ac yna cylch o
+fynyddoedd yn edrych dros y morfa arni.  Pan oedd yn ynys, yr oedd
+yn brydferthach nag ydyw'n awr.
+
+Wedi treulio rhyw awr yn y fynwent, yr oeddym yn effro ein tri, ac
+yn newynog iawn.  Troisom yn ol i'r ffordd, a chyrhaeddasom Bentre'r
+Felin.  Te fynnai dau o honom, byddai'n hawdd cerdded ar ei ol,
+llaeth fynnai'r llall.  Troisom i dy hen ffasiwn a'r enw
+"Temperance" wrth ben ei ddrws.  Tra bo'r tecell yn berwi, buom yn
+edrych ar lun llongau oedd hyd y mur, ac yn ysgwrsio a'r cwsmeriaid
+oedd yn dod i'r siop pob peth.  Yr oedd y cloc awr yn rhy fuan, yr
+oedd Beibl a llyfr hymnau ar y bwrdd, ac yr oedd cylch o addurniadau
+o amgylch carreg y llawr.  Gwnaeth y wraig garedig de da, ac nid
+oedd yn esmwyth heb ganlyn arnom i fwyta'n ddibaid.
+
+Wedi ymgryfhau fel hyn, ail gychwynasom hyd ffordd Porth Madog.
+Gwelem eglwys Ynys Cynhaiarn ar y gwaelod wedi dringo i fyny bryn ac
+yna collodd y mor o'n golwg.  Teithiasom ymlaen ar hyd y ffordd
+lychlyd, ac yr oedd yn mynd yn boethach o hyd.
+
+O'r diwedd daeth y lle i droi o'r brif-ffordd i ffordd gwlad.  Yna
+cawsom gysgod hyfryd coed derw bychain, ac yr oedd mantell Fair yn
+tyfu dan eu cysgod.  Arweiniai'r ffordd i fyny o hyd, ac odditanom
+yr oedd nant,--gwyddem ei bod yno oherwydd ei dwndwr mwyn ac
+oherwydd fod brenhines y weirglodd yn tyfu uwch ei phen.
+Cyrhaeddasom ben y golwg, a daethom o'r coed.  Yr oedd y tawelwch yn
+adfywiol anesgrifiadwy,--nid oedd yno ond su pell y mor a sain
+ambell aderyn mynydd, a gwelem ehedydd yn codi ar ael y goleu.
+Gwelem gastell Cricieth, a mynyddoedd Lleyn yn y pellder y tu hwnt
+iddo.  A gwelem ein ffordd ninnau'n ymdroelli dros y ffriddoedd a'r
+bryniau, drwy wlad o greigdir, dros y mynyddoedd oedd rhyngom a'r
+mor.  Yr oedd anadlu'r awyr iach yno yn bleser,--yr oedd arogl grug
+a rhedyn arni.  Yr oedd arnom eisiau bwyd er mai newydd fwyta
+oeddym.  Gwyn fyd, ni a dybiem, y bobl sydd yn byw yn y fro iach
+hon.  Holasom y ffordd i'r Garreg Wen yng Ngarth Morthin, ac wedi
+dringo aml fryn serth cyrhaeddasom eglwys Treflys.  Saif yr eglwys
+fechan hon yng nghanol caeau gwair, heb na thy na thwlc yn agos ati,
+a buom yn crwydro tipyn o'i hamgylch cyn darganfod llwybr troed i
+fynd ati.  Y mae golwg newydd iawn ar yr eglwys ac ar y beddau; yr
+oedd y fynwent yn debycach i fynwent ar hanner ei gorffen nag i hen
+un.  Gwelais lawer pennill ac englyn tarawiadol.  Dyma bennill
+oddiar fedd merch Braich y Saint, -
+
+
+"Gorffwysodd, gadawodd yr anial ar ol,
+  Tu draw i'r Iorddonen y glaniodd;
+ A'r Iesu dderbyniodd ei hysbryd i'w gol,
+  Can's ffyddlon yw'r hwn a addawodd."
+
+
+Dyma englyn, hefyd, am y Cristion, -
+
+
+"Os tan y gist mae'r Cristion,--ei ddu fedd
+    Sydd fel man-blu'n union:
+  Mae rhyw fwynhad mawr fan hon
+  Yng nghlyw su engyl Seion."
+
+
+Dyma sydd ar fedd Bardd Treflys, -
+
+
+Gu wr, rhawg erys ar go'i ragoriaeth,
+Cywirdeg ydoedd, caredig odiaeth;
+O Seion o'i ol cyfyd swn alaeth,
+Am ei llawn noddwr trwm yw Llenyddiaeth,
+Am wawr hoffrudd, am air ffraeth--Bardd Treflys
+Drwy Eifion erys diderfyn hiraeth.
+
+
+Y mae'r olygfa o fynwent Treflys yn ogoneddus.  Y mae mynyddoedd
+Lleyn, Arfon, a Meirionnydd yn gylch am dani ac y mae un bwlch yn y
+cylch, a mor glas pell sydd yn y bwlch hwnnw.  Buom yn eistedd ar y
+llethr, ar gae adlodd, i synnu at yr olygfa, ac ni cheisiaf fi ei
+darlunio.  Daeth dyn heibio, a danghosodd dalcen y Garreg Wen, draw
+ymhell, dros ddyffryn a gwastadedd.
+
+Yr oedd y dydd yn mynd, a'n ffordd ato'n hir.  Aethom i lawr gore
+gallom hyd y caeau serth i'r Morfa Bychan, lle agored ystormus,
+gydag ychydig o ddefaid yn blewyna hyd dwmpathau grugog dyfai yma ac
+acw yn y tywod.  Ond dipyn oddiwrth y lan, yr oedd caeau gwastad fel
+bwrdd, dan wenith tonnog.  Wedi taith flin gadawsom y mor, a daethom
+at lyn ar ochr y ffordd, a lili'r dwr ar ei ymylon.  Oddiwrth y llyn
+arweiniai ffordd dywodlyd i fyny at dy gwyn ar y fron.  Dringasom i
+fyny, heibio i ffynnon o ddyfroedd clir.  Daethom at gefn y ty, ac
+yr oedd geneth fach yn cychwyn i hel y gwartheg.
+
+"Ai hwn ydi'r Garreg Wen?"
+
+"Ie, mae meistres yn y ty."
+
+Gyda'r gair daeth gwraig ieuanc i'r drws, a dywedodd fod croeso ini
+weld y ty.  Gwelodd fod yr ieuengaf o honom wedi blino.  Daethom yn
+ffryndiau mawr, ac ni chawsom fwy o groeso yn unlle erioed.  Yr oedd
+y gwartheg yn y fuches, ond cawsom de dan gamp.  Yna cawsom weled
+holl ystafelloedd cartref y telynor.  Hen amaethdy clyd ydyw'r
+Garreg Wen.  Ty hir ydyw, a'i dalcen i'r graig, yn un uchder llofft.
+Y mae adeiladau o'i gwmpas bron ym mhob cyfeiriad, a gerddi fel pe
+ar silffoedd craig, a choed ffrwythau.  Oddiamgylch tyf gwynwydd a
+phys llygod a phob blodeuyn gwyllt.  A thraw wrth gefn y ty y mae
+craig,--hwyrach mai hon ydyw'r Garreg Wen,--yn cysgodi'r ty rhag
+gwynt yr ystormydd.  Yr oeddwn wedi clywed mai wrth garreg ar ben y
+mynydd y cyfansoddodd Dafydd "Godiad yr Ehedydd."  Dywedwyd wrth
+enethig am ddod gyda fi i ben y caeau i ddangos y garreg.  Yr oedd
+yr olygfa'n ehangu o hyd wrth i ni ddringo o gae i gae, a dyma
+ddiwedd ysgwrs fu rhwng yr enethig a minne,--"
+
+"Fedri di ganu?"
+
+"Medra."
+
+"Fedri di ganu 'Dafydd y Garreg Wen' i mi?  Neu 'Godiad yr
+Ehedydd'?"
+
+Edrychodd y plentyn yn syn arnaf.
+
+"Wyt ti ddim yn dysgu canu yn yr ysgol?"
+
+"Ydw."
+
+"Wyt ti'n dysgu canu Cymraeg?"
+
+"O nag ydw!"
+
+"A ddysgodd neb erioed i ti ganu alawon Dafydd y Garreg Wen, a
+thithau'n byw yn yr un wlad a fo?"
+
+"Naddo."
+
+"Be fedri di ganu?"
+
+"'Little Ship' a 'Gentle Spring.'"
+
+Yr un dystiolaeth brudd wyf yn gael ymhob man yng Nghymru.  Mae
+cartref enwog yn ymyl y plentyn,--lle cyfieithwyd Gair Duw i'w
+iaith, lle rhoddwyd ar gan ryw wirionedd wareiddiodd ei gyndadau,
+lle daliwyd rhyw alaw nefolaidd i buro a diddanu meibion dynion byth
+mwy,--ond, druan bach, ni wyr ef ddim am danynt.  Feallai fod ei
+athraw neu ei athrawes heb fedru ei iaith, ac felly'n hollol
+anghymwys i'w ddysgu.  Feallai, mewn ambell i ran o'r wlad, fod ei
+athraw yn Gymro, ond rhy anwybodus i ddysgu dim iddo am ei wlad ei
+hun, ac yn rhy ddi-athrylith i weled gogoniant llenyddiaeth Cymru.
+Dysgir alawon yn yr ysgolion, ac eto ceir ardaloedd cyfain lle nas
+gall y plant ganu "Llwyn Onn."  Rhaid fod rhyw swyn anghyffredin yn
+alawon Cymru, yn ogystal ag yn ei hiaith, onide buasai galluoedd
+Philistaidd y byd hwn wedi eu llethu er's llawer dydd.  Y
+Llywodraeth, yn credu fod yr iaith Gymraeg yn draffeth i'w
+swyddogion tal; arolygwyr, wedi rhoddi eu cas ar iaith nas gallant
+ond ei hanner siarad; athrawon, wedi dad-ddysgu Cymraeg da wrth
+ddysgu Saesneg sal,--neu heb fedru erioed ond y Saesneg sal yn unig;
+goruchwylwyr anwybodus, yn credu fod nef a daear yn agored i'w plant
+os medrant ddeall Saesneg bratiog porthmyn Caer,--druan o eneidiau
+plant Cymru rhyngddynt oll.
+
+Cyrhaeddasom y garreg.  Carreg fawr ydyw, ar ben cae glas.  Dywed yr
+hanes fod Dafydd yn dod adre o Hafod y Porth ar lasiad y bore.  Yr
+oedd yr haul yn dechre goreuro y mynyddoedd gogoneddus acw, ac yr
+oedd ehangderoedd y mor yn y golwg.  A chododd ehedydd bach
+uwchlaw'r coed, ac arllwysodd lawenydd y bore mewn can.  Rhoddodd
+Dafydd ei delyn i lawr wrth y garreg hon, a chyfansoddodd "Godiad yr
+Ehedydd."
+
+Wedi cyrraedd y Garreg Wen yn ol yr oedd gwahoddiad cynnes i ni aros
+noson.  Ond yr oedd yn rhaid prysuro ymaith.  Cerddasom yn brysur
+tua Phorth Madog, ar hyd rhiwiau lawer.  Gwelsom lawer hafan
+brydferth, ac aml gip ar y Traeth Mawr a Chastell Harlech rhwng y
+coed.  Yr oedd tri yn prysuro trwy ystryd hir Porth Madog, a chyda i
+ni eistedd yn y tren, yr oeddym yng Nghricieth yn ol.  Teimlad
+dedwydd, wrth gysgu ar lan y mor y noson honno, oedd y teimlad ein
+bod wedi gweled bedd y telynor ac wedi bod yn y Garreg Wen.
+
+
+
+TYDDEWI
+
+
+
+"Cystal am ofal im yw
+ Fyned deirgwaith i Fynyw,
+ A myned, cynired cain,
+ Ar hafoed hyd yn Rhufain."
+IOLO GOCH.
+
+Yr oedd wedi taro chwech o'r gloch y bore er ys pymtheng munud neu
+well pan garlamai ein merlen hoew drwy heol hen Hwlffordd, gan
+deimlo nad oedd mwy o bwysau yn ein cerbyd ysgafn na phe buasai ddim
+ond bwcwl addurnedig i gadw'r awenau yn eu lle.  Naw o'r gloch y
+noson cynt, yr oeddwn wedi gadael Llundain a'i chyffro, gan ddisgwyl
+gweled y bore'n torri ar fynyddoedd Cymru, a chan wybod fod rhyw
+dawelwch yn gorffwys ar y mynyddoedd hynny, tawelwch iachaol,
+heddwch a sudda fel balm i enaid y neb a hir edrycho arnynt.
+Heddwch y mynyddoedd,--dyna feddyginiaeth meddwl pryderus, a dyna
+adnewydda y corff curiedig fel yr eryr.  Aml y teithia enaid Cymro i
+fynyddoedd ei wlad.
+
+Ar hyd y daith nos bum yn breuddwydio'n anesmwyth yn y tren.
+Breuddwydiwn ein bod yn chwyrnellu drwy ddinasoedd distaw
+anghyfannedd,--yr oedd Caerloew wedi ei hanrheithio gan bla, a'r
+glaswellt yn tyfu ar hyd ei hystrydoedd; yr oedd Casnewydd dan y
+mor, a dim ond rhyw drumau aur, fel crib, yn codi o'r tonnau oer
+brigwynion; yr oedd adfeilion anferth Caer Dydd yn goedwig o eiddew
+a mieri, a'r mor wedi cilio oddiwrth ei glan.  Ond yr oedd edyn aur
+y bore ar Lyn Nedd ac ar fau Abertawe, er mai prin y medrai'r dydd
+fy argyhoeddi nad anialwch du oeddwn wedi adael ar fy ol.  O wlad y
+nos i wlad y bore yr oedd fy nhaith.
+
+Nid oedd gennyf ond dwy noswaith a diwrnod i mi fy hun.  Rhaid oedd
+treulio'r ddwy noswaith yn y tren, a mwyn oedd meddwl y cawn
+dreulio'r diwrnod yn Nyfed, a mynd ar bererindod i Dyddewi.  Bu
+pererinion dirifedi'n cyrchu ar hyd y ffordd hon, yn hen oesoedd
+cred, tua Thyddewi; oherwydd yr oedd mynd yno deirwaith mor
+haeddiannol a phe'r eid dros dir a mor i Rufain ei hun,--ceid yr un
+gollyngdod am bechod, yr un iechyd corff, yr un heddwch meddwl.  Ac
+i'r neb deithiodd Ddyfed hyd Dyddewi yn nyddiau cynnes hirion
+esmwyth yr haf, nid anhygoel yw'r traddodiad nad oes afiechyd na
+gwenwyn na phechod yn trigo yn naear sanctaidd Dewi.
+
+Gwell i mi gyfaddef ar unwaith mai nid marweiddio'r cnawd oedd amcan
+fy mhererindod, onide buaswn wedi mynd yn y gauaf, a buaswn wedi
+cerdded dros yr holl fryniau tonnog sy'n ymestyn rhwng Hwlffordd a
+Thyddewi.  Yr oeddwn wedi deall y byddai un o geffylau goreu'r wlad,
+ac un o'r gyrrwyr goreu, yn fy aros yng ngorsaf Hwlffordd.  Bu'n
+edifar gennyf droion yn ystod y dydd na fuaswn wedi cerdded; ond, o
+ran hynny, gorfod i mi gerdded llawer, ac nid o'm bodd.
+
+A dyma ni'n carlamu drwy stryd Hwlffordd.  Mor hyfryd ydyw'r cerbyd
+ysgafn ar ol y tren trwm, ac mor iach ydyw awel y bore dros y
+bryniau gleision acw.  Y union o'n blaenau ymgyfyd castell
+Hwlffordd, gan wgu i lawr arnom, ac ar yr hen dref ddyddorol yr ydym
+yn cyflymu drwyddi.  Toisom ar y dde wrth droed craig y castell, ac
+aethom drwy ystryd gul ar garlam wyllt, er perygl nid ychydig i'r
+plant troednoeth coesnoeth oedd yn ymhyfrydu yn y dwr ac yn y llaid
+sydd ar hyd ochrau ac ar ganol y Stryd Dywell.  Dywedai'r gyrrwr mai
+ym Mhenfro Seisnig y mae Hwlffordd, ac na siaredir gair o Gymraeg
+ynddi.  Gwelwn yn amlwg oddiwrth enwau'r siopwyr fod llawer cenedl
+yn trigo yn y dref.  Bleddyn Gymreig mewn heddwch a Havard
+Normanaidd.
+
+Sais oedd y gyrrwr, a charn Sais.  Ni wyddai ddim am Arthur, ni
+chlywodd son am William Havard, ni wyddai ddim am hanes y dref.  Sur
+ac anfoddog oedd ei drem, ac nid oedd ei iaith mor goeth ag iaith
+ambell un, oherwydd yr oedd yn rhy hoff o son am drigolion y
+tywyllwch wrth eu henwau, a mynych gyfeiriad a wnai at ei enaid byw.
+Ceffylau, cwn, a da pluog oedd hoff destyn ei ymddiddanion; ond am
+gyfarfodydd pregethu, neu ysgolion y fro, neu ei cholegau, gwyddai
+lai na dim.  Yr oedd ganddo ddaliadau gwleidyddol, ac nid oedd arno
+gywilydd eu harddel.  Yr oedd yn ddyn gonest, yn eithaf caredig, ac
+yn barod iawn i dystio mai gwir bob gair oedd yr holl ystraeon
+adroddai.
+
+Dyma ni ar ben y rhiw cyntaf, a gwlad Dyfed hen wlad yr Hud, gwlad
+chwedl am bagan a sant, yn ymestyn o'n blaenau.  Golwg oer a thrist
+sydd arni, gwlad o fryniau penisel, yn ymestyn fel tonnau tua gorwel
+y gorllewin, heb for yn y golwg, heb fynydd.  Ffermwyr, moch,
+gwyddau, peiriannau lladd gwair,--edrychent am y pruddaf.  A thraw,
+yn hanner cylch o'n blaenau, yr oedd cymylau gwgus yn llawn o wlaw
+oer.  Ceisiai'r gyrrwr fod yn llawen, ond yr oedd amheuaeth yn ei
+lais wrth iddo ddweyd,--"Cloudy mornin', fine day, sir."  Gyda hynny
+disgynnodd y gwlaw arnom fel pe'i tywelltid o grwc, a chlywn y
+defnynnau'n rhedeg i lawr rhwng fy nghrys a'm croen.  Anodd canu yn
+y gwlaw, ac eithaf digalon oeddwn innau.  Treiai'r gyrrwr fy
+nghysuro, a thynnu fy sylw at rywbeth oddiwrth fy sefyllfa
+anghysurus ac anwydog.  Danghosodd ddyffryn bychan i mi, a dywedodd
+gyda blas ei fod yn lle ardderchog am lwynogod a dyfrgwn.  Dywedais
+innau nad oeddwn yn cymeryd y dyddordeb lleiaf mewn llwynogod na
+dyfrgwn; ac nad oedd dim casach gennyf na chwn hela, ond y bobl fydd
+yn eu dilyn.  Daethom at afonig fechan dryloew, oedd yn rhedeg drog
+raian glan, dan lwyni o frwyn a llysiau'r gwenyn; ac wrth fy ngweled
+yn edrych ar y blodau, dywedodd y gyrrwr fod y nant yn lle
+ardderchog i bysgota brithylliaid, a gofynnodd i mi a oeddwn yn
+ddaliwr da.  Dywedais fy mod wedi dal un brithyll unwaith, a fod yn
+edifar gennyf byth; ond ni fedrai ddeall hynny.  Yr oedd y gwlaw yn
+dal i ddisgyn, a'm calon innau'n drom.  A dechreuodd y gyrrwr ganu,
+gan wneyd pob swn rhwng swn hogi llif a swn melin goffi.  Gofynnodd
+i mi toc a oeddwn yn hoffi canu, a dywedais innau nad oeddwn wedi
+clywed canu er ys rai dyddiau.  Yr oeddwn yn ddrwg fy hwyl, ac ni
+phetrusodd y gyrrwr ddweyd gan ba fod y blinid fi.
+
+Ond, gyda hynny, peidiodd y gwlaw, a gwenodd yr haul ar Ddyfed.
+Siriolodd y ffurfafen, a gwenodd Dyfed arni drwy ei dagrau.  Y mae
+gwen yn disgyn ar rudd brenhines y weirglodd, dacw fynyddoedd a
+chastell a'r mor, a gallasech glywed dau wlyb yn bloeddio canu dros
+yr holl wlad.  "Dydech chi ddim llawer o ganwr," ebai'r gyrrwr, ar
+ddiwedd y gan.  "Nag wyf," ebe finnau, "nid ydych chwithau ddim
+chwaith, y mae fy llais i wedi ei golli o hir ddistawrwydd, a'ch
+llais chwithau wedi ei andwyo gan ormod siarad."
+
+Castell Roche oedd y castell a welem.  Un twr sydd o hono, a saif
+hwn ar drwyn craig sy'n ymwthio i fyny drwy'r garreg galchaidd.
+Gellir ei weled o bell o bob ochr; y mae'n ddu ac uchel a balch fel
+gorthrwm, yn gwgu ar holl ddyffrynoedd y wlad hon.  Wedi i ni ei
+adael dywedai'r gyrrwr ein bod yn nesu at y terfyn rhwng Dyfed y
+Saeson a Dyfed y Cymry, a chefais dipyn o hanes y ddwy genedl
+ganddo.  Nid oedd gwleidyddiaeth Cymry Penfro wrth ei fodd, a
+gyrrai'n enbyd ar y personiaid am na ddysgent well credo iddynt.
+Ond dywedai eu bod yn gynnil, yn llwyddiannus, ac yn bobl iach a
+chryf.  Ond anffawd fawr oedd eu bod yn siarad Cymraeg, ac yntau'n
+deall yr un gair.
+
+Tra'r oedd y gyrrwr yn traethu ei ddoethineb fel hyn, yr oedd
+golygfa ogoneddus o'n blaenau,--creigiau'n taflu allan o'r ddaear ar
+y dde i ni, a chastell Roche o hyd; a'r mor, gyda'i benrhynnoedd a'i
+ynysoedd, ar ein chwith ac o'n blaenau.  Cyn hir, disgynasom ar hyd
+y rhiw at dafarn Niwgel.  Y mae hon ar lan y mor; ac yn union ar y
+terfyn, fe ddywedir, rhwng y wlad Gymraeg a'r wlad Saesneg.  Yr
+oeddym ninnau yma ar hanner ein ffordd, ac yr oedd yn rhaid i'r
+ferlen a'r gyrrwr wrth lymaid.  Y mae'r dafarn mewn lle unig, mewn
+pantle ar y lan, ac ymron yn anhygyrch yn y gauaf, gallwn feddwl.
+Ond y mae llawer o gyrchu yno yn yr haf.  Pe buaswn yno drannoeth,
+buaswn yno ar y dydd dawnsio, sef dydd Iau.  Y mae traeth o dywod
+melyn caled gerllaw'r dafarn, a chyrcha bechgyn a genethod yr
+ardaloedd cylchynol yno ar nawniau Iau i ddawnsio, a daw lluoedd
+mewn cychod o'r lan gyferbyn i'w cyfarfod.
+
+Wrth i mi ddringo ar hyd y ffordd serth ar ol y ferlen o bantle'r
+dafarn, gwelwn y traeth prydferth, ac ni welais erioed gymaint
+cynulleidfa o wylanod y mor a'r dyrfa o honynt oedd yn edrych yn
+astud ar y llanw'n mynd allan.  O hyn i Dyddewi yr oedd y wlad yn
+dlysach a'r bobl yn fwy dyddorol.  Ochrau rhedynog oedd yno, a
+gwartheg duon,--yn codi hiraeth am y llefrith melus hwnnw na cheir
+ond gan wartheg sy'n pori ochrau mynyddoedd.  Brethyn cartref oedd
+gwisg y bobl, neu rywbeth ar ei lun,--brethyn da, ffedog stwff, a
+bectwn yspotiog.  Holent fi'n awchus, a methent wybod oddiwrth fy
+iaith o ba ran o Gymru y deuwn.  Gwahoddent fi'n groesawus i'w tai,
+ond yr oedd yn rhaid i mi gyfeirio eu sylw at y gyrrwr a'i geffyl yn
+llafurus ddringo'r gorifyny o'm blaen, ac ymron cyrraedd pen y rhiw.
+Byddai raid i minnau redeg, braidd cyn dechreu'r ymddiddan, i ddal y
+cerbyd ac i neidio iddo, a rhedai'r ferlen yn chwim, a'i mwng yn yr
+awel, hyd nes y deuem at riw drachefn.
+
+Pan ddisgynasom i Solfach, unig sylw'r gyrrwr am y bobl oedd,--
+"awful radicals."  Hafan fach ddymunol sydd yma, ac y mae gwedd
+gyfoethog a llewyrchus ar bob peth.  Tra'r oedd y gyrrwr a'i ferlen
+yn goblygu i fyny'r rhiw, cefais amser i ysgwrsio a'r fforddolion
+ddigwyddent fy nghyfarfod.  Hoffwn eu Cymraeg yn fawr, yr oedd mor
+syml a melodaidd; ac yr oedd rhyw ledneisrwydd boneddigaidd ynddynt
+yn gymysg ag awydd aniwall i siarad.
+
+Ond y mae ein gwynebau ar Dyddewi o'r diwedd.  Nid oes bosibl peidio
+cofio ei hen enw wrth edrych arni,--"Gwlad yr Hud."  Y niwl teneu,
+pellder diderfyn y mor, y creigiau ysgythrog acw,--dyma deilwng
+gartref i ddefodau erchyll rhyw hen grefydd baganaidd, dyma wlad yr
+hoffai ysbryd aflonydd rhyw hen forleidr crwydrol aros am ennyd
+ynddi, ar ryw benrhyn neu ynys sydd eto'n dwyn ei enw.  Gwlad hyd a
+lledrith ydyw, wedi ei gwneyd gan Ddewi yn wlad goleuni'r efengyl.
+Ond y mae ei swyn a'i phrydferthwch fel erioed.
+
+Arhosodd y cerbyd yng nghanol Tyddewi, a disgynnais i westy cysurus
+a phrydferth.  Wedi cael tamaid,--yr oedd erbyn hyn rhwng naw a deg
+o'r gloch y boreu,--cerddais ymlaen i gyfeiriad yr eglwys gadeiriol.
+Ni welir hi nes dod i'w hymyl, oherwydd mewn pantle y mae.  Yna
+ymegyr ei hardderchowgrwydd o flaen y llygaid synedig.  Er fod ol
+adgyweirio arni, meddyliwn am anialwch mawreddog a phrydferth.  Yr
+oedd rhyw geinder a heddwch rhyfedd wedi gorffwys ar yr hen fangre
+hanesiol anwyl.  Draw heibio'r eglwys y mae palas yr esgob yn
+adfeilion.  Ond na feddylier ei fod yn hagr, er ei fod yn
+adfeiliedig.  Y mae llaw amser wedi rhoddi prydferthwch digymar
+arno.  Y ffenestr gron, y muriau hirion, y llwydni henafol, y wisg
+iorwg,--ym mha le y ceir adfeilion mor gain mewn glyn mor brydferth?
+
+Rhed aber dryloew o adfeilion y palas, neu o ryw ffynnon rinweddol
+sydd ynddynt, ac ymdroella dan furmur, fel genethig yn mynd adre o'r
+capel, drwy'r dyffryn bach tlws tua'r mor.  Nid rhosynau na blodau
+gardd sy'n tyfu yno, ond blodau gwylltion Cymru,--llysiau'r mel a
+chwilys yr eithin, blodau'r grug a hesg, eithin a rhedyn Mair.  Ac y
+mae'r dyffryn yn ddarlun o brydferthwch a sirioldeb iechyd.  A
+meddyliwn y gellid ddweyd am y blodau eiriau Iolo Goch am offeiriaid
+Dewi, -
+
+
+"Engylion nef yng nglan nant."
+
+
+Yn y pantle hwn, hwyrach, y cododd Dewi Sant ei babell pan ddaeth yn
+genhadwr i bregethu'r efengyl i baganiaid Dyfed.  Ar lan yr aber
+dlos dryloew, sy'n murmur mor ddedwydd ag erioed drwy'r adfeilion, y
+bu Dewi'n cydweddio a'i ddisgyblion am i Grist gael holl Gymru'n
+eiddo iddo.  Ac ychydig feddyliai'r sant yr adeg honno, y mae'n bur
+sicr, y doi brenhinoedd ar bererindod at ei fedd ac yr edrychid arno
+fel archesgob holl Gymru.  Bum neu chwe chan mlynedd ar ol ei farw,
+pan oedd ffarf yr eglwys Cristionogol yng Nghymru wedi newid yn
+ddirfawr, ceisiodd Gerald Gymro brofi fod Eglwys Cymru wedi bod yn
+un, ac yn anibynnol ar Eglwys Loegr, dan archesgob Tyddewi, olynydd
+Dewi Sant; a hir y brwydrodd i ailennill i Eglwys Cymru ei
+hanibyniaeth hwn.  Wedi darostwng esgobaethau Cymru dan lywodraeth
+archesgob Seisnig, ac wedi darostwng Cymru i frenin y Saeson, aeth
+Tyddewi yn anwylach i'r Cymry o hyd.  Pan gododd Glyn Dwr ei faner,
+yr oedd yn meddwl am wneyd Tyddewi yn archesgobaeth Cymru, a
+phrydferth iawn yw darluniad ei fardd Iolo Goch o'r fangre hyfryd.
+Lecyn prydferth a thawel, y mae gwyr goreu Cymru wedi bod yn
+hiraethu am yr iechyd a'r tawelwch geir ynnot.  Ynnot ti y gorwedd
+Dewi Sant a Gerald Gymro a William Morris.  A dyma finnau bererin
+wedi cael edrych ar dy degwch, ar dy draeth euraidd ar dy ffynnon
+loew, ac ar dy flodau gwylltion.
+
+
+
+NODIADAU
+
+
+
+I.
+
+Tybed fy mod wedi codi awydd ar rywun, yn y dalennau sydd yn y llyfr
+hwn, i fyned ar bererindod i rai o gartrefi Cymru; neu i grwydro
+dros fynyddodd anwyl ein gwlad?  A yw daear gwlad ein tadau ychydig
+yn fwy cysegredig i rywun ar ol darllen y peth ysgrifennais?
+
+Ein gwlad ni ydyw.  Y mae wedi ei chysegru a hanes ein cenedl.
+Ynddi hi y gorwedd ein tadau; mae eu beddau'n sancteiddio'i daear, o
+fedd Owen Gwynedd yn eglwys gadeiriol Bangor i fedd Islwyn ymysg
+bryniau hyfryd Gwent.  Mae cartrefi yma ac acw hyd-ddi, a phlant
+ynddynt, llawn o fywyd a gobaith, fel y gwroniaid fu ynddynt gynt;
+onid gwaith da yw dangos i'r plant gyfeiriad camrau y rhai
+gychwynnodd o'r cartrefi hynny o'u blaen?
+
+II.
+
+Gallu grymus fu gwladgarwch erioed, ac er daioni bob amser.  Y mae
+hunan-aberth ynddo, collir hunan mewn gwlad; y mae ymsancteiddio
+ynddo,--llosga hunanoldeb fel sofl sych a difa'r hen lid teuluol
+sy'n chwerwder bywyd barbaraidd, a dug ddyn yn nes at Dduw.  Yng
+ngrym ei wladgarwch y mae nerth pethau goreu cymeriad dyn; yn erbyn
+gwladgarwch y mae'r pethau gwaelaf yn ei gymeriad,--awydd am elw,
+cas at ei gyd-ddyn, rhagfarn.  Ai arwydd o ddiffyg gallu mewn
+gwleidyddwr yw gwladgarwch?  Os felly, condemnier Alffred Fawr, y
+brenin galluocaf fu gan y Saeson erioed?  Ai arwydd o wendid
+meddyliol ydyw?  Os felly condemnier Dante, y gwr o feddwl cawraidd
+wnaeth i syniadau'r Canol Oesoedd fyw byth.
+
+III.
+
+Cartrefi gwledig Cymru yw yr unig gofgolofnau i arwyr ein hanes ni.
+Dinod,--anadnabyddus yn aml,--yw eu beddau; nid yw eu gwlad eto wedi
+codi llawer o gofgolofnau i'w henw, oherwydd tlodi, nid oherwydd
+diffyg serch.  Ond y mae'r cartrefi'n aros.  Nid adnabyddir lle bedd
+Llywelyn na John Penri na Goronwy Owen, ond gwyddom pa le y buont yn
+chware pan yn blant.
+
+Ni bydd cyfundrefn addysg Cymru'n gyflawn heb amgueddfa
+genhedlaethol.  Nis gwn pryd y daw, ond y mae y bardd wedi ei gweled
+trwy ffydd.
+
+IV.
+
+"I'r Oriel Wen daw tyrfa lan,
+ O oes i oes, i wenu'n gu
+ A'r ddelwau gwyn y dewrion hyn, -
+ Y tad a'i fab, y fam a'i merch,
+ Y llanc a'i rian wylaidd rudd,
+ A'r gwron hen yn fyr ei gam,
+ A'i ben yn wyn gan flodau hedd,
+ A'r byd o'i ol a'r nef o'i flaen,
+ A'i wyr bach gwrol yn ei law
+ A'r byd a'i droion fyrdd i'w gwrdd, -
+'Gwel yma, blentyn, dyrfa gain,
+Gwroniaid dewr anfonodd Duw.
+I fyw a marw er ein mwyn.
+
+CARADOG hwn, yn hawlio'n hyf
+Ei serch i'w fwthyn tlawd a'i wlad
+O flaen gorseddfainc teyrn y byd.
+A llyma LLYWARCH HEN y bardd,
+Yn gwyro'n drwm ar faglau pren,
+Ag enaid arwr yn ei wedd
+Yn gwylio'r rhyd ar fedd ei fab.
+
+Ac wele drindod fu yn dwyn
+Yr enw Owen, mwyn ei sain, -
+Y cynta'n canu 'i hirlas gorn;
+Y llall a llain yn medi'n ddwys
+Ym maes Coed Eulo; 'r olaf un,
+Gwr hir y glyn, 'a gwaew o dan,
+Dyred, dangos dy darian.'
+Ab Einion draw yn gwylio'r aig
+A thelyn Harlech yn ei law.
+
+Saif yma ddau, O enwau per, -
+Llywelyn Fawr wnaeth Gymru'n un;
+A'i wyr ef, olaf lyw ein gwlad,
+Ei fywyd drosti 'n aberth roes,
+A chwyn yr awel fyth ei frad
+Ar fryniau Buallt--lleddfus don.'"
+- R. BRYAN.
+
+V
+.
+Ganwyd Ann Griffiths yn Nolwar Fach, Llanfihangel yng Ngwynfa, yn
+1776.  Claddwyd hi Awst 12, 1805.  Geneth nwyfus, hoff o ymblesera
+oedd, nes clywodd bregeth gan Benjamin Jones, Pwllheli, yn
+Llanfyllin.  Crwydrodd lawer i gymuno i'r Bala, dros y Berwyn maith
+unig.  Ac onid oes beth o fawredd dieithr y mynyddoedd yn ei chan?
+
+Llyfr bychan dyddorol iawn yw Cofiant Ann Griffiths, gan Morris
+Davies, Bangor.  Cynhwysa hefyd ei llythyrau a'i hemynnau; cyhoeddir
+ef gan Mr. Gee. Dinbych; ei bris yw dau swllt.  Dyma ddau ddyfyniad
+o hono.
+
+"Byddai golwg ddymunol iawn ar y teulu yn Nolwar yn nyddu, a'r hen
+wr yn gardio, ac yn canu carolau a hymnau.  Droion ereill, byddai
+distawrwydd difrifol megis yn teyrnasu yn eu plith.  Byddai Ann yn
+nyddu, a'i Beibl yn agored o'i blaen mewn man cyfleus, fel y gallai
+gipio adnod i fyny wrth fyned ymlaen a'i gorchwyl heb golli amser.
+Mi a'i gwelais wrth y droell mewn myfyrdod dwfn, heb sylwi ar nemawr
+ddim o'i hamgylch, a'r dagrau yn llifo dros ei gruddiau, lawer
+gwaith."
+
+"Yn Hydref, 1804, priododd Miss Ann Thomas a Mr. Thomas Griffiths,
+brawd i'r diweddar Barchedig Evan Griffiths, Ceunant, Meifod.  Yr
+oedd efe yn wr ieuanc o deulu parchus, o'r un naws grefyddol a
+hithau; yr oeddynt hefyd yn agos i'r un oedran, ac yn anwyl iawn o'u
+gilydd, fel yr oedd eu hundeb priodasol yn cael edrych arno gan eu
+cyfeillion a'u cydnabod yn un hapus iawn.  Daeth efe, ar ol eu
+priodas, i fyw ati hi i Ddolwar Fechan.
+
+"Ymhen deng mis ar ol priodi, esgorodd Mrs. Griffiths ar ferch, yr
+hon o'i genedigaeth oedd yn blentyn gwannaidd iawn, a bu farw yn
+bythefnos oed.  Ymadawodd y fam serchog ymhen pythefnos ar ol ei
+merch fechan, er galar trwm i'w phriod trallodedig, a lliaws mawr o
+berthynasau a chyfeillion crefyddol."
+
+VI.
+
+Ar ol tynnu'r darlun sydd yn y llyfr hwn, y mae'r Ty Coch, hen
+gartref Ap Fychan, wedi ei dynnu i lawr, ac y mae ty newydd ar ganol
+ei adeiladu.  Bum heibio Dan y Castell hefyd ddiwedd yr haf
+diweddaf; cefais ef ar ei draed, ond heb neb yn byw ynddo.  Y mae
+Castell Carn Dochan uwch ben mor gadarn ag erioed, a hen fro
+hanesiol Penanlliw mor ramantus.
+
+VII.
+
+Merch Hafod Lwyfog, Bedd Gelert, oedd gwraig Elis Wynn o Lasynys,--
+Lowri Llwyd wrth ei henw.  Hysbyswyd fi na chladdwyd Elis Wynn dan
+allor eglwys Llanfair.  Yr oedd set Glasynys wrth dalcen yr allor, a
+than honno y claddwyd "Bardd Cwsg."  Ond, erbyn heddyw, y mae allor
+yr eglwys newydd wedi ei hestyn dros y set a thros y bedd.
+
+VIII.
+
+Gresyn fod "Ieuan Gwynedd, ei fywyd a'i lafur, gan Robert Oliver
+Rees, Dolgellau" mor brin.  "Llyfr i bobl ieuainc" ydyw; ac y mae'n
+un o'r llyfrau mwyaf bendithiol y gall bachgen neu eneth ei ddarllen
+byth.  Y sawl a'i meddo, rhodded fawr bris arno.
+
+IX.
+
+Nis gwn ddim i sicrwydd am Ddewi Sant.  Nid wyf yn barod i ddweyd ei
+fod yn fwy na bod hanner dychmygol, fel Arthur.
+
+X.
+
+Cyflwynir y llyfr hwn i rieni Cymru, lle mae gwaith a serch yn
+gwneyd y cartref yn lan a santaidd; ac i blant Cymru, a gofiant am
+eu cartrefi anwyl byth.
+
+
+
+
+
+End of The Project Gutenberg Etext of Cartrefi Cymru, by Owen M. Edwards
+

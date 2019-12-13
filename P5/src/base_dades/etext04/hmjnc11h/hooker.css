@@ -1,0 +1,174 @@
+body { color: black;
+       background: lightyellow;
+       font-size: 11pt;
+       line-height: 14pt;
+       font-family: "Bookman Old Style", "Times New Roman", serif;
+     } 
+body.app { color: black;
+           background: lightyellow;
+           font-size: 10pt;
+           line-height: 13pt;
+           font-family: "Bookman Old Style", "Times New Roman", serif;
+         }
+ 
+p { text-align: justify; 
+    background: lightyellow;
+    color: black; 
+    font-size: 11pt;
+    line-height: 14pt;
+    font-family: "Bookman Old Style", "Times New Roman", serif;
+    text-indent: 5%; margin-top: 4pt; margin-bottom: 0%;
+  }
+p.app {  text-align: justify; 
+         color: black; 
+         background: lightyellow;
+         font-size: 10pt;
+         line-height: 13pt;
+         font-family: "Bookman Old Style", "Times New Roman", serif;
+         text-indent: 5%; margin-top: 4pt; margin-bottom: 0%;
+      }
+
+p.app1 { text-indent: 0%;
+         margin-top: 4pt;
+         font-size: 10pt;
+         line-height: 13pt;
+       }
+p.app2 { text-indent: 0%;
+         text-align: center;
+         color: black;
+         background: lightyellow;
+         font-size: 10pt;
+         line-height: 13pt;
+       }
+p.app3 { text-indent: 0;
+         text-align: justify;
+         color: black;
+         background: lightyellow;
+         font-size: 9pt;
+         line-height: 12pt;
+         font-family: "Times New Roman", serif;
+       }
+p.page { color: blue;
+         background: lightyellow;
+         font-size: 10pt;
+         text-align: center;
+         text-indent: 0%;
+       } 
+p.first { text-indent: 0%;
+          margin-top: 4pt;
+        } 
+p.intro { margin-left: 5%;
+          margin-right: 5%;
+          font-size: 9pt;
+          line-height: 12pt;
+          text-indent: 0%;
+          margin-bottom: 2pt;
+        }
+.intro1 { margin-left: 5%;
+          margin-right: 5%;
+          font-size: 9pt;
+          line-height: 12pt;
+          text-align: center;
+        }           
+p.quote { font-size: 9pt;
+          line-height: 11pt;
+          margin-top: 3pt; 
+        }         
+p.cont { font-size: 10pt;
+         line-height: 13pt;
+         text-indent: 0%; 
+       }          
+p.illus { font-size: 10pt;
+          line-height: 13pt;
+          text-indent: 0%;
+          text-align: left;
+        }
+p.fnote { color: green;
+          background: lightyellow;
+          font-size: 9pt;
+          line-height: 12pt;
+          text-indent: 0%;
+          margin-top: 3pt;
+        } 
+p.fnote1 { font-family: "Times New Roman", serif;
+           color: green;
+           background: lightyellow;
+           font-size: 8pt;
+           line-height: 12pt;
+           text-indent: 0%;
+           margin-top: 3pt;
+           text-align: center;
+         } 
+
+p.fnote2 { color: green;
+           background: lightyellow;
+           font-size: 9pt;
+           line-height: 12pt;
+           text-indent: 5%;
+           margin-top: 0pt;
+         }
+p.ref { font-size: 8pt;
+        line-height: 11pt;
+        color: blue;
+        background: lightyellow;
+        text-align: left;
+        text-indent: 0%;
+      }
+p.head { font-size: 9pt;
+         line-height: 12pt;
+         text-align: center;
+         font-family: "Times New Roman", serif;
+         text-indent: 0%;
+       } 
+p.ind { font-size: 9pt;
+        line-height: 11pt;
+        text-align: left;
+        font-family: "Bookman Old Style", "Times New Roman", serif;
+        text-indent: 0%;
+        background: lightyellow;
+      }
+
+sup { font-size: 10pt;
+      line-height: 13pt;
+    }  
+table.a { font-size: 9pt;
+          line-height: 9pt;
+          border: 0;
+          color: green;
+          background: lightyellow;
+        }
+table.b { font-size: 9pt;
+          line-height: 9pt;
+          border: 0;
+          color: black;
+          background: lightyellow;
+        }
+table.app { font-family: "Times New Roman", serif;
+            font-size: 8pt;
+            line-height: 9pt;
+            color: black;
+            background: white;
+          }
+ol.seal { list-style: decimal;
+          font-size: 9pt;
+          color: green;
+          background: lightyellow;
+          line-height: 12pt;
+        }
+ol.obs { list-style: decimal;
+         font-size: 9pt;
+         color: black;
+         background: lightyellow;
+         line-height: 12pt;
+       } 
+
+hr { color: blue;
+     background: lightyellow;
+   } 
+a:link { text-decoration: none;
+         color: purple;
+         background: lightyellow;
+       }
+a:visited {text-decoration: none; }
+
+
