@@ -52,10 +52,13 @@ rb_tree * createTree(char *pathdic,char *pathfile){
 
   node_data *n_data;//node
 
+   /* Allocate memory for tree */
+  tree = (rb_tree *) malloc(sizeof(rb_tree));
   /* Allocate memory for tree */
+  local_tree = (rb_tree *) malloc(sizeof(rb_tree));
   /* Initialize the tree */
-  //init_tree(tree);
-  //indexDict(tree,dic,dic_size);//Dictionary to tree
+  init_tree(tree);
+  indexDict(tree,dic,dic_size);//Dictionary to tree
   init_tree(local_tree);
   indexDict(local_tree,dic,dic_size);//Dictionary to tree
   filepath = createPath(DATABASE,pathfile);//path from list
