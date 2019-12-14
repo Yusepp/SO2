@@ -8,7 +8,7 @@
 
 
 rb_tree * createTree(char *pathdic,char *pathfile);//creates tree
-void thread_fn(void *par);
+void *thread_fn(void *par);
 void indexDict(rb_tree *tree,char **dic,int size);
 void indexFile(rb_tree *tree,char **file,int size);
 char * createPath(char *start,char *subpath);//creation path

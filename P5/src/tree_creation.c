@@ -4,9 +4,9 @@
 #include <ctype.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include <semaphore.h>
 #include <sys/wait.h>
 #include <sys/mman.h>
+#include <pthread.h>
 
 #include "red-black-tree.h"
 #include "read_tools.h"
@@ -20,11 +20,11 @@
 #define DICTIONARY "./diccionari/"
 #define NUM_THREAD 1
 
+rb_tree *tree;//tree
 
 struct args{
   int num_thread;
   rb_tree *local_tree;
-  rb_tree *global_tree;
   char **files;
   int files_size;
 };
@@ -39,6 +39,8 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   pthread_t ntid[NUM_THREAD];
   struct args *arg;
   FILE *files;
+
+  rb_tree *local_tree;//tree
   
   //We load a dic as a pointer.
   dic_size = 0;
@@ -47,25 +49,29 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   dic = getDictionary(filepath,dic_size);
   free(filepath);
 
-  rb_tree *tree;//tree
+
   node_data *n_data;//node
 
   /* Allocate memory for tree */
   /* Initialize the tree */
-  init_tree(tree);
-  indexDict(tree,dic,dic_size);//Dictionary to tree
+  //init_tree(tree);
+  //indexDict(tree,dic,dic_size);//Dictionary to tree
+  init_tree(local_tree);
+  indexDict(local_tree,dic,dic_size);//Dictionary to tree
   filepath = createPath(DATABASE,pathfile);//path from list
   /*Getting file names*/
   files = fopen(filepath,"r");
   list = getFiles(files,&list_size);
   fclose(files);
+  printf("Database scanned\n");
   
   for(int i = 0; i<NUM_THREAD; i++){
     arg = malloc(sizeof(struct args));
     arg->num_thread = i;
-    arg->local_tree = tree;
-    arg->files = files;
+    arg->local_tree = local_tree;
+    arg->files = list;
     arg->files_size = list_size;
+    printf("Thread %d created\n",i+1);
     pthread_create(&(ntid[i]), NULL, thread_fn, (void *) arg);
     /*Critical section*/
     
@@ -125,21 +131,22 @@ char **getFiles(FILE *fp_db,int *size){
   fgets(line, MAXCHAR, fp_db);
   *size = atoi(line);
   if (size <= 0) {
-    printf("Number of files is %d\n", size);
+    printf("Number of files is %d\n", *size);
     exit(1);
   }
+  printf("Number of files is %d\n", *size);
   
   files = malloc(sizeof(char *)*(*size));
-  for(int i = 0; i<size; i++){
+  for(int i = 0; i< *size; i++){
     files[i] = malloc(sizeof(char)*MAXCHAR);
   }
   
   /* Read database files */
-  for(int i = 0; i < size; i++) {
+  for(int i = 0; i < *size; i++) {
     fgets(files[i], MAXCHAR, fp_db);
     /* Remove '\n' from line */
-    line[strlen(line)-1] = 0;
-    printf("Processing %s\n", line);
+    files[i][strlen(files[i])-1] = 0;
+    printf("Processing %s\n", files[i]  );
   }
   return files;
 }
@@ -161,18 +168,20 @@ void process_file1(rb_tree *tree, char *fname)
   fclose(fp);
 }
 
-void thread_fn(void *par){
+void *thread_fn(void *par){
   /*Cast of arguments to our struct*/
+  printf("Accesing thread func\n");
   struct args *arg = (struct args *)par;
   /*Process files assigned to this thread*/
-  for(int j = arg->num_thread; j<arg->files_size; j+=arg->num_thread){
-    if(j < arg->num_thread){
-      printf("Thread %d : %s\n",j+1,arg->files[j]);
-      process_file1(arg->local_tree,arg->files[j]);
-    }
+  for(int j = arg->num_thread; j<arg->files_size; j+=NUM_THREAD){
+    char *pathfile = createPath(DATABASE,arg->files[j]);
+    printf("Thread %d : %s\n",arg->num_thread+1,pathfile);
+    process_file1(arg->local_tree,pathfile);
   }
+  printf("Accessing Critical Section\n");
   /*Enter to critical Section*/
-  localToGlobal(tree,arg->local_tree);
+  localToGlobal(tree,arg->local_tree);//FIX
+  printf("Leaving Critical Section\n");
   
 }
 
