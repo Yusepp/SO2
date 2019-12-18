@@ -13,14 +13,19 @@
 #include "tree_creation.h"
 #include "search_operations.h"
 #include "write_read.h"
+#include <time.h> 
 
 
 #define MAXCHAR 100
 #define DATABASE "./base_dades/"
 #define DICTIONARY "./diccionari/"
-#define NUM_THREAD 1
+#define NUM_THREAD 2
 
 rb_tree *tree;//tree
+pthread_mutex_t mutex1 = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t mutex2 = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t mutex3 = PTHREAD_MUTEX_INITIALIZER;
+int *boolean;
 
 struct args{
   int num_thread;
@@ -39,6 +44,9 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   pthread_t ntid[NUM_THREAD];
   struct args *arg;
   FILE *files;
+  clock_t t; 
+  
+    
 
   rb_tree *local_tree;//tree
   
@@ -49,6 +57,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   dic = getDictionary(filepath,dic_size);
   free(filepath);
 
+  
 
   node_data *n_data;//node
 
@@ -66,8 +75,13 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   files = fopen(filepath,"r");
   list = getFiles(files,&list_size);
   fclose(files);
-  printf("Database scanned\n");
-  
+
+  boolean = malloc(sizeof(int) * list_size);
+  for(int i = 0; i < list_size; i++){
+    boolean[i] = 0;
+  }
+
+  t = clock(); 
   for(int i = 0; i<NUM_THREAD; i++){
     arg = malloc(sizeof(struct args));
     arg->num_thread = i;
@@ -82,9 +96,12 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   
   for(int i = 0; i<NUM_THREAD; i++){
     pthread_join(ntid[i], NULL);
+    printf("Thread %d finished\n",i+1);
   }
 
-
+  t = clock() - t; 
+  double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds 
+  printf("Execution time: %f s",time_taken);
   free(filepath);
 
   return tree;
@@ -176,10 +193,19 @@ void *thread_fn(void *par){
   printf("Accesing thread func\n");
   struct args *arg = (struct args *)par;
   /*Process files assigned to this thread*/
-  for(int j = arg->num_thread; j<arg->files_size; j+=NUM_THREAD){
-    char *pathfile = createPath(DATABASE,arg->files[j]);
-    printf("Thread %d : %s\n",arg->num_thread+1,pathfile);
-    process_file1(arg->local_tree,pathfile);
+  int j = 0;
+  while(j < arg->files_size){
+    while(!boolean[j]){
+      pthread_mutex_lock(&mutex1); 
+      boolean[j] = 1;
+      pthread_mutex_unlock(&mutex1);
+      char *pathfile = createPath(DATABASE,arg->files[j]);
+      printf("Thread %d : %s\n",arg->num_thread+1,pathfile);
+      process_file1(arg->local_tree,pathfile);
+    } 
+    pthread_mutex_lock(&mutex2); 
+    j++;
+    pthread_mutex_unlock(&mutex2);
   }
   printf("Accessing Critical Section\n");
   /*Enter to critical Section*/
@@ -196,7 +222,9 @@ void localToGlobal(rb_tree *global,rb_tree *local){
 
 void copyRecursive(node *global,node *local){
  if(global != NIL && local != NIL){
+   pthread_mutex_lock(&mutex3); 
    global->data->num_times += local->data->num_times;
+   pthread_mutex_unlock(&mutex3);
    copyRecursive(global->left,local->left);
    copyRecursive(global->right,local->right);
  }
