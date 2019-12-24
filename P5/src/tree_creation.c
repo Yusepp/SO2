@@ -21,11 +21,14 @@
 #define DICTIONARY "./diccionari/"
 #define NUM_THREAD 2
 int s = 1;
+int idx = -1;
 
 rb_tree *tree;//tree
-pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t mutex1 = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t mutex2 = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t mutex3 = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
-int *boolean,err;
+int err;
 
 struct args{
   int num_thread;
@@ -80,16 +83,6 @@ rb_tree * createTree(char *pathdic,char *pathfile){
 
   list = getFiles(files,&list_size);
   fclose(files);
-
-  boolean = malloc(sizeof(int) * list_size);
-  if(boolean == NULL){
-    printf("Error allocating memory\n");
-    exit(1);
-  }
-
-  for(int i = 0; i < list_size; i++){
-    boolean[i] = 0;
-  }
 
   t = clock(); 
   for(int i = 0; i<NUM_THREAD; i++){
@@ -171,7 +164,6 @@ char **getFiles(FILE *fp_db,int *size){
     printf("Number of files is %d\n", *size);
     exit(1);
   }
-  printf("Number of files is %d\n", *size);
   
   files = malloc(sizeof(char *)*(*size));
   if(files == NULL){
@@ -188,7 +180,6 @@ char **getFiles(FILE *fp_db,int *size){
     fgets(files[i], MAXCHAR, fp_db);
     /* Remove '\n' from line */
     files[i][strlen(files[i])-1] = 0;
-    printf("Processing %s\n", files[i]  );
   }
   return files;
 }
@@ -215,26 +206,19 @@ void *thread_fn(void *par){
   printf("Accesing thread func\n");
   struct args *arg = (struct args *)par;
   /*Process files assigned to this thread*/
-  int j = 0;
-  while(j < arg->files_size){
-    while(!boolean[j]){
-      lock();
-      boolean[j] = 1;
-      unlock();
-      char *pathfile = createPath(DATABASE,arg->files[j]);
-      printf("Thread %d : %s\n",arg->num_thread+1,pathfile);
-      process_file1(arg->local_tree,pathfile);
-    } 
-    lock();
-    j++;
-    unlock();
+  while(idx < arg->files_size-1){
+    lock(mutex1);
+    idx++;
+    char *pathfile = createPath(DATABASE,arg->files[idx]);
+    printf("Thread %d : %s\n",arg->num_thread+1,pathfile);
+    unlock(mutex1);
+    process_file1(arg->local_tree,pathfile);
+
   }
   printf("Accessing Critical Section\n");
-  /*Enter to critical Section*/
-  lock();
-  localToGlobal(tree,arg->local_tree);//FIX
-  unlock();
+  localToGlobal(tree,arg->local_tree);
   printf("Leaving Critical Section\n");
+  
   
 }
 
@@ -245,8 +229,13 @@ void localToGlobal(rb_tree *global,rb_tree *local){
 }
 
 void copyRecursive(node *global,node *local){
- if(global != NIL && local != NIL){; 
+ if(global != NIL && local != NIL){
+   lock(mutex3); 
    global->data->num_times += local->data->num_times;
+   unlock(mutex3);
+   if(strcmp("the",local->data->key) == 0){
+     printf("GLOB: %d  local:  %d\n",global->data->num_times,local->data->num_times);
+   }
    copyRecursive(global->left,local->left);
    copyRecursive(global->right,local->right);
  }
@@ -294,7 +283,7 @@ void index_words_line(rb_tree *tree, char *line){
       /* Put a '\0' (end-of-word) at the end of the string*/
       paraula[j] = 0;
 
-      /* Search for the word in the tree */
+      /* Search for the word in the tree */ 
       n_data = find_node(tree, paraula);
 
       if (n_data != NULL){
@@ -311,18 +300,18 @@ void index_words_line(rb_tree *tree, char *line){
 /*
 ** SEMAPHORE IMPLEMENTATION WITH MUTEX
 */
-void lock(){
-  pthread_mutex_lock(&mutex);
+void lock(pthread_mutex_t clau){
+  pthread_mutex_lock(&clau);
   while(s == 0){
-    pthread_cond_wait(&cond,&mutex);
+    pthread_cond_wait(&cond,&clau);
   }
   s--;
-  pthread_mutex_unlock(&mutex);
+  pthread_mutex_unlock(&clau);
 }
 
-void unlock(){
-  pthread_mutex_lock(&mutex);
+void unlock(pthread_mutex_t clau){
+  pthread_mutex_lock(&clau);
   s++;
   pthread_cond_broadcast(&cond);
-  pthread_mutex_unlock(&mutex);
+  pthread_mutex_unlock(&clau);
 }
