@@ -17,3 +17,5 @@ void process_file1(rb_tree *tree, char *fname);
 void localToGlobal(rb_tree *global,rb_tree *local);
 void copyRecursive(node *global,node *local);
 void index_words_line(rb_tree *tree, char *line);
+void lock();
+void unlock();

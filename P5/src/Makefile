@@ -4,7 +4,7 @@
 FILES_C = main.c red-black-tree.c read_tools.c tree_creation.c search_operations.c  write_read.c
 
 # Exectuable to generate
-TARGET = practica5S
+TARGET = practica5
 CFLAGS = -lpthread
 
 
