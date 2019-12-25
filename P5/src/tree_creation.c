@@ -27,7 +27,6 @@ rb_tree *tree;//tree
 pthread_mutex_t mutex1 = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t mutex2 = PTHREAD_MUTEX_INITIALIZER;
 pthread_mutex_t mutex3 = PTHREAD_MUTEX_INITIALIZER;
-pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
 int err;
 
 struct args{
@@ -207,17 +206,16 @@ void *thread_fn(void *par){
   struct args *arg = (struct args *)par;
   /*Process files assigned to this thread*/
   while(idx < arg->files_size-1){
-    lock(mutex1);
+   
+    pthread_mutex_lock(&mutex1);
     idx++;
     char *pathfile = createPath(DATABASE,arg->files[idx]);
     printf("Thread %d : %s\n",arg->num_thread+1,pathfile);
-    unlock(mutex1);
-    process_file1(arg->local_tree,pathfile);
-
+    pthread_mutex_unlock(&mutex1);
+    process_file1(arg->local_tree,pathfile); 
   }
-  printf("Accessing Critical Section\n");
   localToGlobal(tree,arg->local_tree);
-  printf("Leaving Critical Section\n");
+ 
   
   
 }
@@ -229,16 +227,13 @@ void localToGlobal(rb_tree *global,rb_tree *local){
 }
 
 void copyRecursive(node *global,node *local){
- if(global != NIL && local != NIL){
-   lock(mutex3); 
-   global->data->num_times += local->data->num_times;
-   unlock(mutex3);
-   if(strcmp("the",local->data->key) == 0){
-     printf("GLOB: %d  local:  %d\n",global->data->num_times,local->data->num_times);
-   }
-   copyRecursive(global->left,local->left);
-   copyRecursive(global->right,local->right);
- }
+  if(global != NIL && local != NIL){
+    pthread_mutex_lock(&mutex2);
+    global->data->num_times = local->data->num_times;
+    pthread_mutex_unlock(&mutex2);
+    copyRecursive(global->left,local->left);
+    copyRecursive(global->right,local->right);
+  }
 }
   
 
@@ -287,7 +282,10 @@ void index_words_line(rb_tree *tree, char *line){
       n_data = find_node(tree, paraula);
 
       if (n_data != NULL){
+          pthread_mutex_lock(&mutex3);
           n_data->num_times++;
+          pthread_mutex_unlock(&mutex3);
+
       }
     }
 
@@ -295,23 +293,4 @@ void index_words_line(rb_tree *tree, char *line){
     while ((i < len_line) && (isspace(line[i]) || ((ispunct(line[i])) && (line[i] != '#')))) i++;
 
   } 
-}
-
-/*
-** SEMAPHORE IMPLEMENTATION WITH MUTEX
-*/
-void lock(pthread_mutex_t clau){
-  pthread_mutex_lock(&clau);
-  while(s == 0){
-    pthread_cond_wait(&cond,&clau);
-  }
-  s--;
-  pthread_mutex_unlock(&clau);
-}
-
-void unlock(pthread_mutex_t clau){
-  pthread_mutex_lock(&clau);
-  s++;
-  pthread_cond_broadcast(&cond);
-  pthread_mutex_unlock(&clau);
 }
