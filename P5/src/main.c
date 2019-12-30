@@ -57,7 +57,7 @@ int main(int argc, char **argv)
     char str1[MAXCHAR], str2[MAXCHAR];
     int opcio;
     FILE *fp;
-    rb_tree *tree;
+    rb_tree *tree= NULL;
     node_data *n_data;
 
     if (argc != 1)
@@ -73,7 +73,9 @@ int main(int argc, char **argv)
             case 1:
                 if(tree){//deleting old tree
                   delete_tree(tree);
-                  free(tree);
+                  //free(tree);
+                  printf("Eliminant l'ultim arbre creat\n");
+
                 }
                 printf("Fitxer de diccionari de paraules: ");
                 fgets(str1, MAXCHAR, stdin);
@@ -82,13 +84,13 @@ int main(int argc, char **argv)
                 printf("Fitxer de base de dades: ");
                 fgets(str2, MAXCHAR, stdin);
                 str2[strlen(str2)-1]=0;
-
                 tree = createTree(str1,str2);
-                
+
 
                 break;
 
             case 2:
+
                 if (!tree) {
                   printf("No hi ha cap arbre creat!\n");
                   break;
@@ -111,6 +113,7 @@ int main(int argc, char **argv)
             case 3:
 
                 if(tree){//deleting old tree
+                  printf("Eliminant l'abre que tenim a memoria\n");
                   delete_tree(tree);
                   free(tree);
                 }
@@ -137,6 +140,7 @@ int main(int argc, char **argv)
                 if(tree){
                   delete_tree(tree);
                   free(tree);
+                  printf("Eliminant l'ultim arbre creat\n" );
                 }
                 break;
 
@@ -149,6 +153,3 @@ int main(int argc, char **argv)
 
     return 0;
 }
-
-
-

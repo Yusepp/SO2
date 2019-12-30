@@ -13,7 +13,7 @@
 #include "tree_creation.h"
 #include "search_operations.h"
 #include "write_read.h"
-#include <time.h> 
+#include <time.h>
 
 
 #define MAXCHAR 100
@@ -38,56 +38,57 @@ struct args{
 
 
 rb_tree * createTree(char *pathdic,char *pathfile){
-
   int dic_size,list_size;//indexes for dictionary and list
   char **dic,**list,**file;;//contains dictionary/list/file
   char *filepath;//path from the file
   int *file_words = 0;//how many words in file
   pthread_t ntid[NUM_THREAD];
   struct args *arg;
-  FILE *files;
-  clock_t t; 
-  
-    
+  FILE *files1;
+  clock_t t;
 
-  rb_tree *local_tree;//tree
-  
+
+
+  rb_tree *local_tree1;//tree
+
   //We load a dic as a pointer.
   dic_size = 0;
   filepath = createPath(DICTIONARY,pathdic);
   dic_size = countDicWords(filepath);
   dic = getDictionary(filepath,dic_size);
+
   free(filepath);
 
-  
+
 
   node_data *n_data;//node
 
    /* Allocate memory for tree */
   tree = (rb_tree *) malloc(sizeof(rb_tree));
   /* Allocate memory for tree */
-  local_tree = (rb_tree *) malloc(sizeof(rb_tree));
+  local_tree1 = (rb_tree *) malloc(sizeof(rb_tree));
   /* Initialize the tree */
   init_tree(tree);
   indexDict(tree,dic,dic_size);//Dictionary to tree
-  init_tree(local_tree);
-  indexDict(local_tree,dic,dic_size);//Dictionary to tree
+  init_tree(local_tree1);
+  indexDict(local_tree1,dic,dic_size);//Dictionary to tree
   filepath = createPath(DATABASE,pathfile);//path from list
   /*Getting file names*/
-  files = fopen(filepath,"r");
-  if(files == NULL){
+  files1 = fopen(filepath,"r");
+  free(filepath);
+
+  if(files1 == NULL){
     printf("Error getting filenames\n");
     exit(1);
   }
 
-  list = getFiles(files,&list_size);
-  fclose(files);
-
-  t = clock(); 
+  list = getFiles(files1,&list_size);
+  fclose(files1);
+  t = clock();
   for(int i = 0; i<NUM_THREAD; i++){
     arg = malloc(sizeof(struct args));
     arg->num_thread = i;
-    arg->local_tree = local_tree;
+    arg->local_tree = local_tree1;
     arg->files = list;
     arg->files_size = list_size;
     printf("Thread %d created\n",i+1);
@@ -96,9 +97,9 @@ rb_tree * createTree(char *pathdic,char *pathfile){
       printf("Error creating thread\n");
       exit(1);
     }
-    
+
   }
-  
+
   for(int i = 0; i<NUM_THREAD; i++){
     err = pthread_join(ntid[i], NULL);
     if(err != 0){
@@ -108,9 +109,11 @@ rb_tree * createTree(char *pathdic,char *pathfile){
     printf("Thread %d finished\n",i+1);
   }
 
-  t = clock() - t; 
-  double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds 
+  t = clock() - t;
+  double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
   printf("Execution time: %f s",time_taken);
+  delete_tree(local_tree1);
+  free(arg);
   free(filepath);
 
   return tree;
@@ -131,6 +134,7 @@ void indexDict(rb_tree *tree,char **dic,int size){
     n_data->num_times = 0;
     insert_node(tree, n_data);
   }
+
   tree->size = size;
 }
 
@@ -156,14 +160,14 @@ char * createPath(char *start,char *subpath){
 char **getFiles(FILE *fp_db,int *size){
   char ** files;
   char line[MAXCHAR];
-  
+
   fgets(line, MAXCHAR, fp_db);
   *size = atoi(line);
   if (size <= 0) {
     printf("Number of files is %d\n", *size);
     exit(1);
   }
-  
+
   files = malloc(sizeof(char *)*(*size));
   if(files == NULL){
     printf("Error allocating filenames\n");
@@ -173,13 +177,14 @@ char **getFiles(FILE *fp_db,int *size){
   for(int i = 0; i< *size; i++){
     files[i] = malloc(sizeof(char)*MAXCHAR);
   }
-  
+
   /* Read database files */
   for(int i = 0; i < *size; i++) {
     fgets(files[i], MAXCHAR, fp_db);
     /* Remove '\n' from line */
     files[i][strlen(files[i])-1] = 0;
   }
+
   return files;
 }
 
@@ -206,18 +211,18 @@ void *thread_fn(void *par){
   struct args *arg = (struct args *)par;
   /*Process files assigned to this thread*/
   while(idx < arg->files_size-1){
-   
+
     pthread_mutex_lock(&mutex1);
     idx++;
     char *pathfile = createPath(DATABASE,arg->files[idx]);
     printf("Thread %d : %s\n",arg->num_thread+1,pathfile);
     pthread_mutex_unlock(&mutex1);
-    process_file1(arg->local_tree,pathfile); 
+    process_file1(arg->local_tree,pathfile);
   }
   localToGlobal(tree,arg->local_tree);
- 
-  
-  
+
+
+
 }
 
 void localToGlobal(rb_tree *global,rb_tree *local){
@@ -235,7 +240,7 @@ void copyRecursive(node *global,node *local){
     copyRecursive(global->right,local->right);
   }
 }
-  
+
 
 /**
  *
@@ -278,7 +283,7 @@ void index_words_line(rb_tree *tree, char *line){
       /* Put a '\0' (end-of-word) at the end of the string*/
       paraula[j] = 0;
 
-      /* Search for the word in the tree */ 
+      /* Search for the word in the tree */
       n_data = find_node(tree, paraula);
 
       if (n_data != NULL){
@@ -292,5 +297,5 @@ void index_words_line(rb_tree *tree, char *line){
     /* Search for the beginning of a candidate word */
     while ((i < len_line) && (isspace(line[i]) || ((ispunct(line[i])) && (line[i] != '#')))) i++;
 
-  } 
+  }
 }
