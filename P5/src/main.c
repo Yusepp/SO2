@@ -73,7 +73,7 @@ int main(int argc, char **argv)
             case 1:
                 if(tree){//deleting old tree
                   delete_tree(tree);
-                  //free(tree);
+                  free(tree);
                   printf("Eliminant l'ultim arbre creat\n");
 
                 }

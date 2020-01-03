@@ -113,6 +113,7 @@ rb_tree * createTree(char *pathdic,char *pathfile){
   double time_taken = ((double)t)/CLOCKS_PER_SEC; // in seconds
   printf("Execution time: %f s",time_taken);
   delete_tree(local_tree1);
+  free(local_tree1);
   free(arg);
   free(filepath);
 
@@ -224,6 +225,12 @@ void *thread_fn(void *par){
 
 
 }
+/*
+*
+* AUXILIARY METHOD THAT CALLS THE RECURSIVE FUNCTION TO COPY THE NODES
+* OF THE LOCAL TREE TO THE GLOBAL
+*
+*/
 
 void localToGlobal(rb_tree *global,rb_tree *local){
   if(global->root != NIL && local->root != NIL){
@@ -231,6 +238,11 @@ void localToGlobal(rb_tree *global,rb_tree *local){
   }
 }
 
+/*
+*
+* RECURSIVE METHOD THAT COPIES THE NODES OF THE LOCAL TREE TO THE GLOBAL
+*
+*/
 void copyRecursive(node *global,node *local){
   if(global != NIL && local != NIL){
     pthread_mutex_lock(&mutex2);
@@ -242,7 +254,7 @@ void copyRecursive(node *global,node *local){
 }
 
 
-/**
+/*
  *
  * GIVEN A LINE WITH WORDS, SEARCH EACH WORD IN THE TREE AND INCRESE IF IT IS FOUND
  *
